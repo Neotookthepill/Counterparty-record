@@ -27,7 +27,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install deps
-        run: pip install requests youtube-transcript-api
+        run: pip install requests youtube-transcript-api yt-dlp
 
       - name: Pull episodes
         run: |
