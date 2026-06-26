@@ -238,27 +238,166 @@ def yt_transcript(video_id):
     # rebuild into sentence tuples (start_seconds, text)
     return [(int(it["start"]), it["text"]) for it in items]
 
-def youtube_calls(limit=10):
-    cid = yt_channel_id()
-    if not cid:
-        print("  ! could not resolve YouTube channel id", file=sys.stderr); return []
+def yt_uploads(handle=YT_HANDLE, since="20260101"):
+    """All channel uploads since `since` (YYYYMMDD), newest first, via yt-dlp.
+    The RSS feed only exposes ~15 recent videos; yt-dlp reaches the full back catalogue.
+    Returns None on failure so the caller can fall back to the RSS path."""
+    import subprocess
+    url = f"https://www.youtube.com/@{handle}/videos"
+    try:
+        out = subprocess.run(
+            ["yt-dlp", "--ignore-errors", "--dateafter", since,
+             "--print", "%(id)s|%(upload_date)s|%(title)s", url],
+            capture_output=True, text=True, timeout=900).stdout
+    except Exception as e:
+        print(f"  ! yt-dlp unavailable ({e}); using RSS fallback", file=sys.stderr); return None
+    vids = []
+    for ln in out.strip().splitlines():
+        p = ln.split("|", 2)
+        if len(p) >= 2 and p[0]:
+            d = p[1]
+            vids.append({"id": p[0],
+                         "published": f"{d[:4]}-{d[4:6]}-{d[6:8]}" if len(d) >= 8 else "",
+                         "title": p[2] if len(p) > 2 else ""})
+    return vids
+
+def youtube_calls(limit=10, since=None):
+    """Timestamped lines from the YouTube captions -> tape (search) backfill.
+    Uses the full uploads list (yt-dlp) when `since` is set, else the RSS feed."""
+    vids = yt_uploads(since=since.replace("-", "")) if since else None
+    if vids is None:
+        cid = yt_channel_id()
+        if not cid:
+            print("  ! could not resolve YouTube channel id", file=sys.stderr); return []
+        vids = yt_videos(cid)[:limit]
+    else:
+        print(f"  youtube uploads since {since}: {len(vids)} videos")
     rows = []
-    for v in yt_videos(cid)[:limit]:
+    for v in vids:
+        pub = (v.get("published") or "")[:10]
+        if since and pub and pub < since:
+            continue
         try:
             sents = yt_transcript(v["id"])
         except Exception as e:
             print(f"  ! no captions for {v['id']} ({e})", file=sys.stderr); continue
         for c in extract_calls_heuristic(sents):
-            rows.append([c["tk"], c["quote"], c["ts"], "yt:"+v["id"], c["secs"],
-                         v["published"][:10]])
+            rows.append([c["tk"], c["quote"], c["ts"], "yt:" + v["id"], c["secs"], pub])
     return rows  # deep link: https://www.youtube.com/watch?v=ID&t=NNNs
 
+# ---------- Lexicon : the desk's vocabulary, taught from its own words ----------
+LEXICON_SYS = (
+ "You build a glossary for newcomers from a finance livestream's own words. "
+ "Find the recurring slang, trader jargon, and signature phrases the desk actually uses "
+ "(e.g. fullport, fade the war, never diversify, rebuy, roundtrip, exit liquidity). "
+ "Return ONLY a JSON array, no prose. Each item: "
+ '{"term": short phrase, "def": one plain-English sentence a beginner understands, '
+ '"src": a short real example of how it is used, <=80 chars}. '
+ "Aim for 10 to 16 of the most useful, genuinely recurring terms. No generic finance 101."
+)
+
+def build_lexicon(tape):
+    """LLM pass over the spoken corpus -> [[term, def, src], ...]. None to keep baked."""
+    if not ANTHROPIC_KEY or not tape:
+        return None
+    corpus = "\n".join(t[1] for t in tape if t[1])[:14000]
+    try:
+        raw = _anthropic(corpus, LEXICON_SYS, 2200)
+        raw = raw[raw.find("["): raw.rfind("]") + 1]
+        out = [[str(x.get("term","")).strip(), str(x.get("def","")).strip(), str(x.get("src","")).strip()]
+               for x in json.loads(raw) if x.get("term")]
+        return out or None
+    except Exception as e:
+        print(f"  ! lexicon pass failed ({e})", file=sys.stderr); return None
+
 # ---------- 6 : assemble ----------
+# ====================  STAGE 2 : CLASSIFY (LLM)  ====================
+# Turn raw transcript into real calls. Throws out mentions, keeps direction +
+# conviction + the verbatim line. Needs ANTHROPIC_API_KEY; falls back to heuristic.
+ANTHROPIC_KEY  = os.environ.get("ANTHROPIC_API_KEY", "")
+CLASSIFY_MODEL = "claude-sonnet-4-6"
+CLASSIFY_SYS = (
+ "You extract trading CALLS from a finance livestream transcript. "
+ "A call is an explicit directional view or a stated position on a tradeable asset "
+ "(stock, crypto, commodity, index). NOT a call: casual mentions, questions, news "
+ "recaps, jokes, or naming an asset with no view. Return ONLY a JSON array, no prose. "
+ 'Each item: {"ticker":"AMC","direction":"long"|"short","conviction":"high"|"medium"|"low",'
+ '"quote": verbatim sentence up to 160 chars,"secs": integer start seconds}. '
+ "Use standard tickers (AMC, MU, MSTR, BTC, ETH, ZEC, HYPE, NVDA, TSLA, HOOD, SPCX, CRWV). "
+ "If there are no real calls, return []."
+)
+
+def _anthropic(content, system, max_tokens=1500):
+    body = json.dumps({"model": CLASSIFY_MODEL, "max_tokens": max_tokens,
+                       "system": system, "messages": [{"role":"user","content":content}]}).encode()
+    req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body,
+        headers={"content-type":"application/json","x-api-key":ANTHROPIC_KEY,
+                 "anthropic-version":"2023-06-01"})
+    with urllib.request.urlopen(req, timeout=90) as r:
+        d = json.loads(r.read().decode())
+    return "".join(b.get("text","") for b in d.get("content",[]) if b.get("type")=="text")
+
+def classify_calls(sents):
+    """LLM pass over timestamped sentences -> clean calls. None = caller uses heuristic."""
+    if not ANTHROPIC_KEY or not sents:
+        return None
+    text = "\n".join(f"[{int(t)}s] {s}" for t, s in sents)
+    out = []
+    for i in range(0, len(text), 9000):
+        try:
+            raw = _anthropic(text[i:i+9000], CLASSIFY_SYS, 1500)
+            raw = raw[raw.find("["): raw.rfind("]")+1]
+            for c in json.loads(raw):
+                tk = str(c.get("ticker","")).upper().strip()
+                if not tk: continue
+                secs = int(c.get("secs", 0) or 0)
+                out.append({"tk": tk,
+                            "dir": "S" if str(c.get("direction","")).lower().startswith("s") else "L",
+                            "conviction": c.get("conviction","medium"),
+                            "quote": str(c.get("quote",""))[:160],
+                            "secs": secs, "ts": mmss(secs)})
+        except Exception as e:
+            print(f"  ! classify chunk failed ({e})", file=sys.stderr)
+    seen, uniq = set(), []
+    for c in out:
+        if c["tk"] in seen: continue
+        seen.add(c["tk"]); uniq.append(c)
+    return uniq
+
+# ====================  STAGE 3 : GRADE (mark to market)  ====================
+# No fake "closed". Every call carries its return since it was made, in its stated
+# direction, off real daily closes. The market grades the call, live, forever.
+_CLOSES = {}
+def _close_series(ticker):
+    if ticker in _CLOSES: return _CLOSES[ticker]
+    try:
+        raw = _coingecko(ticker, days=365) if ticker in CRYPTO else _stooq(ticker)
+        s = [(d, c) for d, o, h, l, c in raw]
+    except Exception:
+        s = []
+    _CLOSES[ticker] = s
+    return s
+
+def grade(ticker, direction, call_date_iso):
+    """Return since the call, in its stated direction. None if no price coverage."""
+    s = _close_series(ticker)
+    if not s: return None
+    entry = next((c for d, c in s if d >= call_date_iso), None)
+    if entry is None: entry = s[-1][1]
+    last = s[-1][1]
+    if not entry: return None
+    raw = (last - entry) / entry
+    ret = raw if direction == "L" else -raw
+    return {"entry_px": round(entry, 4), "last_px": round(last, 4),
+            "ret": round(ret * 100, 1), "green": ret > 0}
+
+
 def build(all_episodes=False, limit=20):
     eps = episodes()
     if not all_episodes:
         eps = eps[:limit]
     feed, tape, plans = [], [], {}
+    greens = reds = 0; ret_sum = 0.0; graded_n = 0
     for ep in eps:
         print(f"- {ep['pubDate'][:16]}  {ep['title'][:60]}")
         try:
@@ -269,20 +408,38 @@ def build(all_episodes=False, limit=20):
             tj = None
         else:
             calls, sents = extract(ep["title"], ep["desc"], tj)
-        # date label
+        # Stage 2: prefer the LLM classifier when a key is set; else keep heuristic calls
+        clf = classify_calls(sents)
+        if clf is not None:
+            calls = clf
+            print(f"  classified {len(calls)} real calls")
+        # date label + iso for grading
         try:
             dt = datetime.strptime(ep["pubDate"][:16].strip(), "%a, %d %b %Y")
-            dlabel = dt.strftime("%b %d")
+            dlabel = dt.strftime("%b %d"); call_iso = dt.strftime("%Y-%m-%d")
         except Exception:
-            dlabel = ep["pubDate"][:11]
-        # feed row in the site's shape: [tk, dir, status, pct, thesis]
+            dlabel = ep["pubDate"][:11]; call_iso = "1970-01-01"
+        # spoken levels (only where stated on air)
         for c in calls:
             lv = c.get("levels")
             if lv and lv.get("stated") and c["tk"] not in plans:
                 plans[c["tk"]] = {"entry": lv["entry"], "stop": lv["stop"],
                                   "target": lv["target"], "date": dlabel, "ep": ep["id"]}
-        rows = [[c["tk"], c.get("dir","L"), c.get("status","open"),
-                 c.get("pct",""), c.get("thesis", c.get("quote",""))[:120]] for c in calls]
+        # Stage 3: grade each call live, mark to market
+        for c in calls:
+            g = grade(c["tk"], c.get("dir","L"), call_iso)
+            if g:
+                c["status"] = "green" if g["green"] else "red"
+                c["pct"] = f"{'+' if g['ret']>=0 else ''}{g['ret']}%"
+                c["ret"] = g["ret"]
+                graded_n += 1; ret_sum += g["ret"]
+                greens += 1 if g["green"] else 0
+                reds   += 0 if g["green"] else 1
+            else:
+                c["status"] = "open"; c["pct"] = ""
+        # feed row: [tk, dir, status, pct, thesis]  (+ conviction in slot 5)
+        rows = [[c["tk"], c.get("dir","L"), c.get("status","open"), c.get("pct",""),
+                 c.get("thesis", c.get("quote",""))[:120], c.get("conviction","")] for c in calls]
         feed.append({"d": dlabel, "t": ep["title"], "g": "", "calls": rows})
         # tape receipts: [tk, quote, ts, epid, secs, date]
         for c in calls:
@@ -291,6 +448,7 @@ def build(all_episodes=False, limit=20):
                 tape.append([c["tk"], c.get("quote","")[:160], c["ts"], ep["id"], secs, dlabel])
         # 4: attach prices for studied tickers
         # for c in calls: c["prices"] = price_window(c["tk"], ep["pubDate"])
+    graded = greens + reds
     data = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source": "counterparty public podcast feed (buzzsprout) + own extraction",
@@ -298,6 +456,12 @@ def build(all_episodes=False, limit=20):
         "tape": tape,
         "plans": plans,   # entry/stop/target ONLY where spoken on air, else null
         "charts": {},   # real OHLC per studied ticker, for the Anatomy charts
+        "stats": {       # live, marked to market, recomputed each run
+            "green_now": (round(100 * greens / graded) if graded else None),
+            "avg_ret":   (round(ret_sum / graded_n, 1) if graded_n else None),
+            "graded": graded, "open": sum(len(f["calls"]) for f in feed) - graded,
+            "shows": len(feed),
+        },
         # voices / dispatch left for the editor pass (the human seat)
     }
     STUDIED = ["AMC", "ZEC", "MU", "MSTR", "HYPE", "WTI"]
@@ -308,13 +472,20 @@ def build(all_episodes=False, limit=20):
             print(f"  prices {tk}: {len(series)} candles")
     if "--youtube" in sys.argv or all_episodes:
         print("- pulling the YouTube channel as a second source")
-        yt = youtube_calls(limit=(50 if all_episodes else 10))
+        yt = youtube_calls(limit=(50 if all_episodes else 10),
+                           since=("2026-01-01" if all_episodes else None))
         if yt:
             data["tape"] = (data.get("tape") or []) + yt
             print(f"  youtube: {len(yt)} timestamped lines")
+    # Lexicon: built from the desk's own words across the whole tape
+    lex = build_lexicon(data["tape"])
+    if lex:
+        data["lexicon"] = lex
+        print(f"  lexicon: {len(lex)} terms from the corpus")
     with open(OUT, "w") as f:
         json.dump(data, f, indent=2)
-    print(f"\nwrote {OUT}: {len(feed)} shows, {len(tape)} receipts")
+    print(f"\nwrote {OUT}: {len(feed)} shows, {len(tape)} receipts"
+          + (f", {len(data.get('lexicon',[]))} lexicon terms" if data.get('lexicon') else ""))
 
 if __name__ == "__main__":
     build(all_episodes=("--all" in sys.argv))
