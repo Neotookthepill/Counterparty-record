@@ -1,2733 +1,492 @@
 {
-  "generated_at": "2026-06-27T00:06:58.399237+00:00",
+  "generated_at": "2026-06-27T00:26:45.608235+00:00",
   "source": "counterparty public podcast feed (buzzsprout) + own extraction",
   "feed": [
     {
       "d": "Jun 24",
       "t": "Anti-AI Backlash Goes Mainstream, the Explosion of Analog, and AMC Fumbling the Trade of the Year",
       "g": "",
-      "calls": [
-        [
-          "MU",
-          "L",
-          "open",
-          "",
-          "I bought Micron yesterday, 1200 or something, and on that anthropic news, and I held it up 15%, and then it started dump",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Uh, we do have a war and oil segment, except it's no longer about Iran, it's about Cuba.",
-          ""
-        ],
-        [
-          "AMC",
-          "L",
-          "open",
-          "",
-          "Immediately after concluding a $150 million dilution, they just came out again and they announced that AMC Entertainment",
-          ""
-        ],
-        [
-          "SNAP",
-          "S",
-          "open",
-          "",
-          "You know what is always a short never ask yourself the question should I short sell Snapchat the answer is yes because S",
-          ""
-        ],
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "Look at this look at this ETH has a pretty bad one but this was bad coin goes on this crazy run dump it down 50% and the",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 24",
       "t": "China's Open-Source AI Surge, the Death of Luxury, and Why Keeping Money Is Harder Than Making It - Threadguy: June 22nd, 2026",
       "g": "",
-      "calls": [
-        [
-          "ETH",
-          "L",
-          "red",
-          "+0.0%",
-          "So Jared from Subway was the most profitable MVV bot sandwich bought during really the ETH run.",
-          ""
-        ],
-        [
-          "HOOD",
-          "S",
-          "open",
-          "",
-          "I think you could, I think it's kind of similar to payment for order flow, like the Robin Hood model, where they sell yo",
-          ""
-        ],
-        [
-          "MU",
-          "L",
-          "open",
-          "",
-          "Like imagine you could imagine somebody like you sold a ton of micron and they bought it, and you could like message the",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "+0.0%",
-          "He bought one of his lowest purchases ever of Bitcoin.",
-          ""
-        ],
-        [
-          "MSTR",
-          "S",
-          "open",
-          "",
-          "So fi down five, strategy down three to looking a short.",
-          ""
-        ],
-        [
-          "STUB",
-          "L",
-          "open",
-          "",
-          "I don't know anything about Stubhub other than the fact that I thought it was a good long into the IRL thesis in the Wor",
-          ""
-        ],
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "SpaceX is a tough spot.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 21",
       "t": "The \"ADHD Era\" Of The Stock Market, The Freest Trades, IRL Is Coming Back, Jesse Livermore Corn Squeeze - Threadguy: June 19th, 2026",
       "g": "",
-      "calls": [
-        [
-          "MSTR",
-          "S",
-          "open",
-          "",
-          "I was complaining about how my trading strategy's been biting me in the ass recently, which is like I buy green candles ",
-          ""
-        ],
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "Like, okay, I entered um I bought SpaceX at here.",
-          ""
-        ],
-        [
-          "MRVL",
-          "L",
-          "open",
-          "",
-          "The Marvell type of spot, the Snapchat short, like these event you keep talking about this event-driven type of trade.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 19",
       "t": "GTA 6 Is Actually Coming, Midjourney's Medical Pivot, STRC's Death Spiral Continues, Mourning The Fable Ban - Threadguy: June 18th, 2026",
       "g": "",
-      "calls": [
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "So the stretch strategy situation is in a really, really, really tough spot.",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-1.3%",
-          "I think the real spot was Sailor sold Bitcoin.",
-          ""
-        ],
-        [
-          "SPCX",
-          "S",
-          "open",
-          "",
-          "Looks like shorts going out of SpaceX.",
-          ""
-        ],
-        [
-          "TTWO",
-          "L",
-          "open",
-          "",
-          "I'm only telling you this because I'm interested in in the take two interactive stock.",
-          ""
-        ],
-        [
-          "AMC",
-          "L",
-          "open",
-          "",
-          "AMC is now up 45% since I entered on a spot trade on my Robin Hood account for the first time since I was like 18.",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Owing long oil during the biggest energy crisis and oil shortage of all time proves I am retarded.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 19",
       "t": "The Kevin Warsh Era Begins, Saylor's STRC Death Spiral, Hyperliquid Changes Everything, Snapchat's $2,200 Glasses - Threadguy: June 17th, 2026",
       "g": "",
-      "calls": [
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "And then I also know they are buying cursor for 60 billion dollars, all shares at an average of seven trading days, as f",
-          ""
-        ],
-        [
-          "ZEC",
-          "S",
-          "green",
-          "+12.6%",
-          "Run Zcash for a six-figure trade, re-enter for no reason, give a bunch back, then short it for no reason, give a bunch b",
-          ""
-        ],
-        [
-          "MSTR",
-          "S",
-          "open",
-          "",
-          "Like, I I you know, I always say like buy high, sell higher as is my trading strategy, but I'm not sure that's my tradin",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-1.3%",
-          "You have to issue more mst, dilute shareholders more, raise more cash, and this whole time Bitcoin has to go up more to ",
-          ""
-        ],
-        [
-          "TSLA",
-          "L",
-          "open",
-          "",
-          "There's they're maybe gonna be looking to buying other companies, but I saw this really good take on the Tesla merger, w",
-          ""
-        ],
-        [
-          "AMC",
-          "L",
-          "open",
-          "",
-          "Third biggest gainer is AMC, which I hold a lot of on spot.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 17",
       "t": "Elon Musk Broke Wall Street, Everybody Hates AI, Soccer Fame Is Generational, Snapchat Glasses Suck - Threadguy: June 16th, 2026",
       "g": "",
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Wouldn't would you long oil here?",
-          ""
-        ],
-        [
-          "SNAP",
-          "L",
-          "open",
-          "",
-          "Evan Spiegel announced the long-awaited snap specs.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 17",
       "t": "SpaceX Shocked Everyone, The Anthropic Doom Loop, You Can't Ban The Internet, What The Fable Ban Means, American Glory - Threadguy: June 15th, 2026",
       "g": "",
-      "calls": [
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "I didn't really pay that much attention to markets, but I was long in the right position because you know we went into t",
-          ""
-        ],
-        [
-          "ZEC",
-          "L",
-          "red",
-          "-12.6%",
-          "And so I don't know if it I'm unironically, Zcash is probably your long here.",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "This flood tweet that reads remember by longing oil, you're longing an asset that almost every country on earth is incen",
-          ""
-        ],
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "Did anyone hold hood that emits stock?",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 13",
       "t": "SpaceX Just IPO'd, The Space Stocks Fakeout, Movies Are Back, Elon Is A Trillionaire, My Stream's Best Trades Ever - Threadguy: June 12th, 2026",
       "g": "",
-      "calls": [
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "I also am long SpaceX, pretty low conviction longs.",
-          ""
-        ],
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "Like I have a pretty clear trading strategy that I'm trying to incorporate, which is high conviction long-term spot and ",
-          ""
-        ],
-        [
-          "HYPE",
-          "L",
-          "red",
-          "-7.0%",
-          "Um I also clicked a little bit of a hype long because I don't know.",
-          ""
-        ],
-        [
-          "AMC",
-          "L",
-          "open",
-          "",
-          "And this week, I believe he spanked this AMC long.",
-          ""
-        ],
-        [
-          "STUB",
-          "S",
-          "open",
-          "",
-          "The problem is there's so many trade ideas that it gets a little bit because just because we stream so much, but it's fu",
-          ""
-        ],
-        [
-          "ETH",
-          "S",
-          "green",
-          "+7.2%",
-          "We always talk about um ETH short, XRP short.",
-          ""
-        ],
-        [
-          "MRVL",
-          "L",
-          "open",
-          "",
-          "Here's when I was long Marvell.",
-          ""
-        ],
-        [
-          "ZEC",
-          "L",
-          "red",
-          "-19.7%",
-          "Okay, so my Zcash long was on here.",
-          ""
-        ],
-        [
-          "MU",
-          "L",
-          "open",
-          "",
-          "Micron Long, which is when I entered the Micron Long and I sell sold it so soon.",
-          ""
-        ],
-        [
-          "BTC",
-          "S",
-          "green",
-          "+5.5%",
-          "And I refuse to do it because a troll on Twitter says, hey, you said never sell you Bitcoin.",
-          ""
-        ],
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "That is up 7.9%, and it is officially up after market close up 9%, but up 7% since I entered on a good amount of fucking",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 12",
       "t": "What He Learned From Interviewing The Greatest Stock Traders Ever - Jack Schwager",
       "g": "",
-      "calls": [
-        [
-          "AMZN",
-          "L",
-          "open",
-          "",
-          "Uh so um there are people that those are all kind of of one kind where it's possible to kind of come ahead if you have u",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 12",
       "t": "Stocks RIP After The Peace Deal, Everyone Wants SpaceX, Kharg Island Fakeout, The Greatest Knicks Game Ever, Jack Schwager Interview - Threadguy: June 11th, 2026",
       "g": "",
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And God, I almost I I I feel for the oil longers because I always felt like they were gonna, I always felt like their da",
-          ""
-        ],
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "And then Iran going after Elon, which is Starlink's ground stations in Israel, Qatar, Jordan, United Era, uh Arab Emirat",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 10",
       "t": "SpaceX Might Top Everything, Inflation Hit Escape Velocity, Trading SpaceX IPO, GoodAlexander Interview, Brian Johnson's Rx Platform - Threadguy: June 10th, 2026",
       "g": "",
-      "calls": [
-        [
-          "HYPE",
-          "L",
-          "green",
-          "+5.4%",
-          "It's like we're we're buying Marvell at midnight on EST hours after Jensen's in South Korea talking about Marvell's gonn",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-1.4%",
-          "I typed up the tweet and it was like something along the lines of wow, war escalation in Bitcoin is green.",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And the thing that is so annoying about this oil chart is it hangs around and it looks clean just enough for you to conv",
-          ""
-        ],
-        [
-          "AMC",
-          "L",
-          "open",
-          "",
-          "The red guy enters spot on AMC.",
-          ""
-        ],
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "And I think it was just because um Meyer Malka now bought 680 shares, $55 million of Robin Hood over the last two weeks.",
-          ""
-        ],
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "And that's and so you when you're buying into this thing, you're buying like I think there's a really top investor who I",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 10",
       "t": "How to Prepare for the SpaceX IPO - GoodAlexander Interview",
       "g": "",
-      "calls": [
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "And that's and so you when you're buying into this thing, you're buying like I think there's a really top investor who I",
-          ""
-        ],
-        [
-          "TSLA",
-          "S",
-          "open",
-          "",
-          "Tesla, I mean, like I just you know, I've I've followed Tesla my entire career, and I've just seen everyone die shorting",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "You know, this is this is like a uh I kind of stole this from Flood, but we came to the thesis on our own with longing o",
-          ""
-        ],
-        [
-          "MRVL",
-          "S",
-          "open",
-          "",
-          "And since then, we've had the Intel run, we've had Go Out and Buy Adell, we've had IBM with the quantum investment and j",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 09",
       "t": "Claude Fable Drops, Preparing For The SpaceX IPO, Dating Robots Are Here, Knicks Watchparties Are Back, The Return Of IRL Trade - Threadguy: June 9th, 2026",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-1.4%",
-          "I sold some Bitcoin today, some spot Bitcoin to put into a Robin Hood account.",
-          ""
-        ],
-        [
-          "ZEC",
-          "S",
-          "green",
-          "+2.9%",
-          "Zcash, I put in a little cheeky short on it today, and I closed it just because I'm vibe trading again and it doesn't re",
-          ""
-        ],
-        [
-          "SPCX",
-          "S",
-          "open",
-          "",
-          "Are people selling to buy SpaceX, which means it will go up?",
-          ""
-        ],
-        [
-          "STUB",
-          "L",
-          "open",
-          "",
-          "I thought about Airbnb long as a cheeky World Cup trade, but I decided on StubHub as my World Cup trade.",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Easiest oil long ever.",
-          ""
-        ],
-        [
-          "HYPE",
-          "L",
-          "green",
-          "+5.4%",
-          "As a final nail in the coffin, the hyperliquid foundation bought forth a validator vote that would officially burn 1 bil",
-          ""
-        ],
-        [
-          "AMC",
-          "L",
-          "open",
-          "",
-          "So I hold nothing right now except except AMC and StubHub.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 09",
       "t": "Apple's Useless AI, Jensen Saves The Market, Saylor's Worst Decision, The \"Ozempic Decade\", How To Save Pumpfun - Threadguy: June 9th, 2026",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-1.4%",
-          "Interesting spot on Bitcoin.",
-          ""
-        ],
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "He sort of just scared potential buyers, scared micro strategy holders, scared Bitcoin holders, and ripped the band-aid ",
-          ""
-        ],
-        [
-          "TSLA",
-          "S",
-          "open",
-          "",
-          "That's up five, AMD up five, Tesla up five, up a lot from the pit average short, Rocket Lab up three, Broadcom up three ",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Anyways war and oil war and quit your job for 3k no how long would it take you to say chill house 100,000 times thoughts",
-          ""
-        ],
-        [
-          "MRVL",
-          "L",
-          "open",
-          "",
-          "So um so market was pretty red on Friday I also bought Marvell as a Jensen long last week and it's so Jensen's been on t",
-          ""
-        ],
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "And yesterday I guess today but technically yesterday the uh Cosby South Korean index opened circuit breaker down crushe",
-          ""
-        ],
-        [
-          "STUB",
-          "L",
-          "open",
-          "",
-          "Where do you buy tickets from StubHub it's a four billion dollar stock their forward PE is like 16 it's fucking low and ",
-          ""
-        ],
-        [
-          "AMC",
-          "L",
-          "open",
-          "",
-          "Like I'm thinking of a basket here where I just put a bag into spot stocks and I buy I buy IRL like Live Nation, AMC, an",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 04",
       "t": "Tulip King on Selling Bitcoin For The First Time, ZEC's Exploit, Bitcoin & Quantum And More",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-2.1%",
-          "Like, I you go to sleep at night holding Bitcoin like a baby because you know Satoshi isn't gonna post a blog the next m",
-          ""
-        ],
-        [
-          "ZEC",
-          "L",
-          "red",
-          "-33.3%",
-          "Where I was like, I'm holding some Zcash because um either Bitcoin doesn't fix privacy, which look now based on the coin",
-          ""
-        ],
-        [
-          "ETH",
-          "L",
-          "red",
-          "-8.0%",
-          "But we saw that you can't blindly hold ETH.",
-          ""
-        ],
-        [
-          "MSTR",
-          "S",
-          "open",
-          "",
-          "I'll tell you what, if I was Michael Saylor, I would have fucking died before selling.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 04",
       "t": "I Rebranded, Saylor Is Selling Bitcoin, Jensen Huang Is Cool, Tulip King Interview, Zcash's Exploit, The War That Never Ended - Threadguy: June 3rd, 2026",
       "g": "",
-      "calls": [
-        [
-          "ZEC",
-          "L",
-          "red",
-          "-33.3%",
-          "We got a uh oil barrel in the background, and we're long Marvell, we're long Marvell and Zcash pair trade short BTC.",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-2.1%",
-          "And so I'm gonna be honest, if you believe in Bitcoin, it's probably not a terrible time to buy some spot to start nibbl",
-          ""
-        ],
-        [
-          "HYPE",
-          "S",
-          "green",
-          "+16.5%",
-          "I wanted exposure to some uh some AI, so obviously I didn't sell, but man, the hyper liquid after hours are hyperliquid ",
-          ""
-        ],
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "Is anyone long short NVIDIA right now?",
-          ""
-        ],
-        [
-          "TSLA",
-          "S",
-          "open",
-          "",
-          "I was pretty convicted in like a Tesla short, but I never took it because I don't I don't short sell.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 03",
       "t": "Stocks Are Insane, Jensen Bullposts MRVL, Pokemon Gacha Is Winning, YouTubers Run Hollywood, Bitcoin Is Cooked - Threadguy: June 2nd, 2026",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-2.1%",
-          "I know buying just Bitcoin kind of sucks, but I have absolutely no interest in allocating and paying attention to altcoi",
-          ""
-        ],
-        [
-          "AMC",
-          "L",
-          "open",
-          "",
-          "Second, who in the stream is long AMC?",
-          ""
-        ],
-        [
-          "SNAP",
-          "L",
-          "open",
-          "",
-          "And so an obvious takeaway from this is like, okay, Google gets 80 billion dollars snap call to spend on CapEx build out",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 02",
       "t": "Saylor Sold His Bitcoin, GLP-1s vs Sugar Slop, Software Melt-Up, AGI Is Already Here, Pokemon Card Bubble, Trump Stock Pump - Threadguy: June 2nd, 2026",
       "g": "",
-      "calls": [
-        [
-          "MSTR",
-          "S",
-          "open",
-          "",
-          "You know, I I genuinely am sad about Michael Saylor selling, okay?",
-          ""
-        ],
-        [
-          "BTC",
-          "S",
-          "green",
-          "+2.1%",
-          "That's been my intro for like over a year, and then he comes out, and not only does he sell, but he sells like 30 bitcoi",
-          ""
-        ],
-        [
-          "HYPE",
-          "S",
-          "green",
-          "+16.5%",
-          "The craziest part about the Michael Saylor selling Bitcoin is that hyperliquid's like $74.",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Born to long the AI bottleneck trade, forced to talk about oil in World War III.",
-          ""
-        ],
-        [
-          "NVDA",
-          "S",
-          "open",
-          "",
-          "Nvidia puts in a monster candle, sick ATH retest up six percent today.",
-          ""
-        ],
-        [
-          "AMC",
-          "L",
-          "open",
-          "",
-          "I'm buying AMC.",
-          ""
-        ],
-        [
-          "ZEC",
-          "L",
-          "red",
-          "-33.3%",
-          "Threadguy is along a little bit of Zcash, a lot of bit of VBV, and a lot of bit more of Hyper Liquid.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 30",
       "t": "Hyperliquid Is Cooking, The SAAS Rotation Is Here, Oil Bulls Are Cooked, Returning To My Zcash Trade, AI Is Getting Wild - Threadguy: May 29th, 2026",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-15.0%",
-          "There was a time, I remember, there was a time and not that long ago, when somebody came out and said they posted this c",
-          ""
-        ],
-        [
-          "ETH",
-          "L",
-          "red",
-          "-17.5%",
-          "Like, if you ever bought an ETH, I still recommend people to go not touch these because you're relying so heavily on the",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "You you LARP as an oil bull, you get the the barrel, you go long, you make some money, you follow the trend, you don't f",
-          ""
-        ],
-        [
-          "HYPE",
-          "L",
-          "red",
-          "-8.8%",
-          "Equivocable for hyperliquid, and you had a bunch of time to long.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 28",
       "t": "Crypto is Moving Past Bitcoin - Syncracry Capital Interview",
       "g": "",
-      "calls": [
-        [
-          "HYPE",
-          "L",
-          "red",
-          "-8.8%",
-          "Crypto sentiment, I feel like has been a discussion for a while, but it's and I always say like it's the lowest or it's ",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-15.0%",
-          "There's a couple spots, and then Bitcoin is just chudding along, and everybody is just rage quitting.",
-          ""
-        ],
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "I I hold Robin Hood, but I'm not I don't know.",
-          ""
-        ],
-        [
-          "ETH",
-          "L",
-          "red",
-          "-17.5%",
-          "And so speaking of holding things long term, I might be misquoting you on this, but I feel like you guys have gone easie",
-          ""
-        ],
-        [
-          "SNAP",
-          "L",
-          "open",
-          "",
-          "They bought like 3% of Snapchat.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 28",
       "t": "Robinhood's Trump Accounts, DELL Is Insane, Tesla x SpaceX Merger, Running The Saylor Entry, Series H - Threadguy: May 28th, 2026",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-15.0%",
-          "They bought a thousand bitcoin today, but I don't know enough about this to have a real take.",
-          ""
-        ],
-        [
-          "HYPE",
-          "L",
-          "red",
-          "-8.8%",
-          "And so you basically held hyperliquid, longed Zcash, or you are ready to get carried out.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 27",
       "t": "JD Vance Is Getting Cooked, Will Quantum K*LL Bitcoin, Too Many Top Signals, Crypto Is In Trouble - Threadguy: May 27th, 2026",
       "g": "",
-      "calls": [
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "Reb with Strategy is a closed-end uh fund that holds stakes in robotics companies, uh, typically private.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 27",
       "t": "How AGI Might Break Crypto Forever... - Nic Carter",
       "g": "",
-      "calls": [
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "Reblist Strategy is a closed-end uh fund that holds stakes in robotics companies, uh, typically private.",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-17.3%",
-          "The longer Bitcoin puts it off, Bitcoin hasn't made any real progress in the last six months.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 26",
       "t": "The Uber Debate, My Huge Crypto Mistake, Ferrari's New EV, Anthropic Signs The Pope, LLMs VS Reddit - Threadguy: May 26th, 2026",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-17.3%",
-          "I I uh it's gotten to the point where I have Bitcoin spot bitcoin that I never sell that I'm even like what I I'm I'm si",
-          ""
-        ],
-        [
-          "HYPE",
-          "L",
-          "green",
-          "+4.4%",
-          "I would obviously rather have it over hold it over Coinbase, but there is some hype tailwinds you gotta worry about on t",
-          ""
-        ],
-        [
-          "TSLA",
-          "S",
-          "open",
-          "",
-          "You gotta get away from Tesla shorts.",
-          ""
-        ],
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "Okay, number one, American Airlines partners with SpaceX to install Starlink Wi-Fi on 500 plus Airbus planes, which by t",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 15",
       "t": "Leopold Is About To Reveal It, Semiconductor Bloodbath, MegaETH Is The Worst Crypto Chart Ever, AP Swatch Resale Frenzy, Hyperliquid > Robinhood - Threadguy: May 15th, 2026",
       "g": "",
-      "calls": [
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "And so I once again ask, why would you hold hood in the big two six?",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-22.7%",
-          "Okay, they bought 173 Bitcoin, nothing burger, and then souls, which we've added to this for no particular reason, is th",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "It was another game of who wants to hold risk into the weekend while the Iran war is still going on, while bonds are fuc",
-          ""
-        ],
-        [
-          "MU",
-          "L",
-          "open",
-          "",
-          "But there are some late longs that need to get tested for sure, especially in some of these like micron and intels.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 15",
       "t": "An Unfiltered Conversation with Chris Camillo",
       "g": "",
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "So speaking of these longer horizon thinking, I I mean, look, I we were trading oil on the stream.",
-          ""
-        ],
-        [
-          "AMZN",
-          "L",
-          "open",
-          "",
-          "There's a war, bought more Amazon.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 15",
       "t": "An Unfiltered Conversation with Airmass",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-22.7%",
-          "Still holding every Bitcoin I bought from 1k all the way up to 120k.",
-          ""
-        ],
-        [
-          "MU",
-          "L",
-          "open",
-          "",
-          "And the day you tweeted this, I marked the chart with the air mass line on Micron, which I might be off here, but assumi",
-          ""
-        ],
-        [
-          "TSLA",
-          "L",
-          "open",
-          "",
-          "I mean you can buy a bottle of coke in the Sahara Desert for God's sakes is in every part of Africa I mean they've liter",
-          ""
-        ],
-        [
-          "ZEC",
-          "L",
-          "red",
-          "-25.8%",
-          "I as a follow-up to that, you don't have to go too long on this if you don't want, but I'm curious what you think of the",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 15",
       "t": "My AP Swatch Investment Failed, Cerebras IPO, Airmass Interview, The Secret To Trading Is Trade Less, Xi and Trump - Threadguy: May 14th, 2026",
       "g": "",
-      "calls": [
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "His name is Michael Saylor, and he has bought 9,000 Bitcoin today.",
-          ""
-        ],
-        [
-          "ZEC",
-          "L",
-          "red",
-          "-25.8%",
-          "Problem with Zcash is everyone just holds it on perps.",
-          ""
-        ],
-        [
-          "NVDA",
-          "S",
-          "open",
-          "",
-          "The two biggest announcements are one, Nvidia is selling H-100s to China, which has already been announced.",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-22.7%",
-          "Still holding every Bitcoin I bought from 1k all the way up to 120k.",
-          ""
-        ],
-        [
-          "MU",
-          "L",
-          "open",
-          "",
-          "And the day you tweeted this, I marked the chart with the air mass line on Micron, which I might be off here, but assumi",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 15",
       "t": "Trump Is In China, My AP Swatch Preorder, Chris Camillo Interview, Crypto Traders Will Dominate Stocks, AP Swatch - Threadguy: May 13th, 2026",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-22.7%",
-          "They bought 3100 BTC.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 15",
       "t": "IPO Season Is Here, eBay Says NO To Gamestop, The AP Swatch, My Courageous Trade, Trust Me Bro SPVs - Threadguy: May 12th, 2026",
       "g": "",
-      "calls": [
-        [
-          "ZEC",
-          "S",
-          "green",
-          "+25.8%",
-          "I have yet to sell a Zcash token.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 11",
       "t": "Normies BROKE The Stock Market, My ZEC Trade, Long vs Short Bitcoin, Bankless Interview, Roaring Kitty Hacked LIVE - Threadguy: May 11th, 2026",
       "g": "",
-      "calls": [
-        [
-          "MU",
-          "L",
-          "open",
-          "",
-          "401k, I don't know, I don't exactly know where it came from, but he had like 50, 60, 70k and has basically just been pun",
-          ""
-        ],
-        [
-          "HYPE",
-          "S",
-          "red",
-          "-44.2%",
-          "Back to back in five minutes, Loracle, who is up, I don't know, 200 and something million dollars all time on hyperliqui",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-23.7%",
-          "And so I click into like a really tight, a really tight BTC long, like a tight stop loss.",
-          ""
-        ],
-        [
-          "HOOD",
-          "S",
-          "open",
-          "",
-          "Local short sand disc Nebias put in a nice day up five, hood up five.",
-          ""
-        ],
-        [
-          "ZEC",
-          "S",
-          "green",
-          "+29.8%",
-          "In a way, it's been like a double-edged sword, my Zcash trade, because I hyper focused on one trade, one asset early in ",
-          ""
-        ],
-        [
-          "ETH",
-          "L",
-          "red",
-          "-29.7%",
-          "I can't write an article about the investment case for ETH because Tom because Tom Lee's buying it.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 11",
       "t": "Why He Sold His CryptoPunk For ZCash.. - David Hoffman",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "S",
-          "green",
-          "+23.7%",
-          "Uh, and I think I think when he goes and says, like, I will sell Bitcoin to fund the dividends, that's uh an example of ",
-          ""
-        ],
-        [
-          "ETH",
-          "L",
-          "red",
-          "-29.7%",
-          "I can't write an article about the investment case for ETH because Tom because Tom Lee's buying it.",
-          ""
-        ],
-        [
-          "ZEC",
-          "S",
-          "green",
-          "+29.8%",
-          "And to see like someone like you post the um the Zcash thesis is I'm like, okay, there's some of these not super trader ",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 08",
       "t": "Micron Is The Next Nvidia, Is STRC A Ponzi, Moving To NYC Is The Best Trade, My Bitcoin Thesis, Trading Is The World's Best Job - Threadguy: May 8th, 2026",
       "g": "",
-      "calls": [
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "Long MSTR, short Zek.",
-          ""
-        ],
-        [
-          "HYPE",
-          "L",
-          "green",
-          "+44.2%",
-          "Changing my lever position and hype to spot.",
-          ""
-        ],
-        [
-          "BTC",
-          "S",
-          "green",
-          "+23.7%",
-          "Like you could dump individual names, but like to meaningfully dump Bitcoin down to 50k, there has to be like a new coho",
-          ""
-        ],
-        [
-          "WTI",
-          "S",
-          "open",
-          "",
-          "We're not gonna spend much time on war and oil, but you fade it until you're forced out.",
-          ""
-        ],
-        [
-          "ETH",
-          "S",
-          "green",
-          "+29.7%",
-          "And then a 25x ETH short that he's actually up on.",
-          ""
-        ],
-        [
-          "AMZN",
-          "L",
-          "open",
-          "",
-          "10x Amazon Long is up 50k.",
-          ""
-        ],
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "10x metalong down 10, 20x NVIDIA, he is up 63k.",
-          ""
-        ],
-        [
-          "MU",
-          "S",
-          "open",
-          "",
-          "Like sell the house and buy micron type move.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 07",
       "t": "The Truth of Stock Trading, AI Bottlenecks, Hantavirus Exposed, Only 5 Coins Matter This Cycle, PNL is All That Matters - Threadguy: May 7th, 2026",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "S",
-          "green",
-          "+23.0%",
-          "I'll short this over Bitcoin.",
-          ""
-        ],
-        [
-          "HYPE",
-          "S",
-          "red",
-          "-44.4%",
-          "He's short hype against his population that's 3x the size.",
-          ""
-        ],
-        [
-          "ZEC",
-          "L",
-          "red",
-          "-25.1%",
-          "Long 25 mil of Bitcoin, long 18 mil of Zcash.",
-          ""
-        ],
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "I said I was gonna long NVIDIA over 212, but I've just gotten really distracted, and also really long coins.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 07",
       "t": "Tokenized Stocks, My Recent Trade Wins, Fake War Headlines, Robert Leshner Interview, $200M Crypto Hack - Threadguy: May 6th, 2026",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-23.0%",
-          "Bitcoin somehow still over 81, despite the number one, maybe number two, close to number one holder saying I want to sel",
-          ""
-        ],
-        [
-          "WTI",
-          "S",
-          "open",
-          "",
-          "760 million in oil shorts placed 21 minutes before the April 20 Iran announcement.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 07",
       "t": "The $200M KelpDAO Hack, DeFi's Trust Crisis & Bitcoin's Return - Robert Leshner",
       "g": "",
-      "calls": [
-        [
-          "HYPE",
-          "L",
-          "green",
-          "+44.4%",
-          "My question for you, and you could get a little bit technical on this, is like if I'm long hints on a perps position on ",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 05",
       "t": "The Only Coins You Should Buy, Fading World War 3, Korean Stocks Are Crazy, Rekt Mando on IQ, Momentum & Korean Stock Trading - Threadguy: May 4th, 2026",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-23.0%",
-          "Not buying Bitcoin.",
-          ""
-        ],
-        [
-          "ZEC",
-          "L",
-          "red",
-          "-25.1%",
-          "This looks insane, and I have gotten extraordinarily long on Zcash.",
-          ""
-        ],
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "It's Robinhood's fault I didn't 2x spot on this.",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Or you can fade every escalation announcement, you can fade every oil pump that the market has faded for the last two mo",
-          ""
-        ],
-        [
-          "MU",
-          "L",
-          "open",
-          "",
-          "In fact, I only really bought it on the memory trade when I started to see the kind of the move in Micron happen, and th",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 05",
       "t": "Explaining Korean Stocks and the AI Memory Trade - Rekt Mando",
       "g": "",
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And so, like the South Korea trade, which has been like the best trade, was the scariest long at the bottom because it w",
-          ""
-        ],
-        [
-          "MU",
-          "L",
-          "open",
-          "",
-          "In fact, I only really bought it on the memory trade when I started to see the kind of the move in Micron happen, and th",
-          ""
-        ],
-        [
-          "HYPE",
-          "L",
-          "green",
-          "+44.4%",
-          "And you think about a thing like hyperliquid, market cap relative to Robinhood and how much they buy back, and do some m",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-23.0%",
-          "I I just think these trades suddenly have just turned, and you're suddenly buying that alt, you'd like the Japanese sold",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 02",
       "t": "Spirit Airlines is GONE, Bitcoin Is Coming Back, BrokieTrades Interview, How I Started Trading, Running A Hedgefund - Threadguy: May 1st, 2026",
       "g": "",
-      "calls": [
-        [
-          "ZEC",
-          "L",
-          "green",
-          "+7.4%",
-          "But the thing I fuck with the most that I hold right now is Zcash.",
-          ""
-        ],
-        [
-          "BTC",
-          "S",
-          "green",
-          "+20.3%",
-          "I had a shower thought that I was gonna sell clip all my BTC into hyper liquid, so I got out of the shower.",
-          ""
-        ],
-        [
-          "WTI",
-          "S",
-          "open",
-          "",
-          "And so let's see, short oil daily you would have gotten like two and a half percent down, but it got to as much as wow, ",
-          ""
-        ],
-        [
-          "HYPE",
-          "S",
-          "red",
-          "-50.5%",
-          "And you can actually, and I actually think hyperliquid, this funding rate is mispriced on hyperliquid, such that you kno",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 02",
       "t": "The College Student Who Broke Polymarket - BrokieTrades",
       "g": "",
-      "calls": [
-        [
-          "HYPE",
-          "S",
-          "red",
-          "-50.5%",
-          "And you can actually, and I actually think hyperliquid, this funding rate is mispriced on hyperliquid, such that you kno",
-          ""
-        ],
-        [
-          "WTI",
-          "S",
-          "open",
-          "",
-          "And I think this is actually one of the best instruments to short oil um because of this sort of mechanic.",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-20.3%",
-          "I I know you mentioned like trying to short or to long Bitcoin.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 30",
       "t": "Roblox Crashes -20%+, Apple Earnings Call, Crypto's Future, Elon's OpenAI Lawsuit, Banks & Ansem's New Show - Threadguy: April 30th, 2026",
       "g": "",
-      "calls": [
-        [
-          "ZEC",
-          "L",
-          "green",
-          "+7.4%",
-          "I did click a Zcash long.",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-20.3%",
-          "Uh, I think stoic savage is long bitcoin, which is interesting.",
-          ""
-        ],
-        [
-          "ETH",
-          "L",
-          "red",
-          "-28.1%",
-          "What do you mean 930x ETH long?",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 29",
       "t": "Never Short Stocks, The Great Bear Trap, & Why Crypto is Weak - Tolks",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-17.9%",
-          "I longed Bitcoin, which is just like what I'm looking around, what I long.",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "I I really should have I should have longed more oil and stuff.",
-          ""
-        ],
-        [
-          "ZEC",
-          "L",
-          "green",
-          "+23.9%",
-          "I know you were long Zcash for a while.",
-          ""
-        ],
-        [
-          "HYPE",
-          "L",
-          "green",
-          "+55.0%",
-          "And like I said, like I'm I'm I'm fine, you know, ever since the initial iron strikes, like I, you know, days here and t",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 29",
       "t": "Robinhood is COOKED, Biggest Earnings Day Ever, Oil is AMAZING, Tolks: Understanding the Market, Crypto & Gold - Threadguy: April 29th, 2026",
       "g": "",
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Is anyone long oil right now?",
-          ""
-        ],
-        [
-          "ZEC",
-          "L",
-          "green",
-          "+23.9%",
-          "I think Tolks was long Zcash into this and closed it.",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-17.9%",
-          "They bought 142 BTC today, which is nice.",
-          ""
-        ],
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "Five is the Serenity name that I tried along two days ago on Robinhood, but they don't fucking have it.",
-          ""
-        ],
-        [
-          "UBER",
-          "L",
-          "open",
-          "",
-          "They hold a lot of Chipotle, they've hold a lot of meta, Amazon, Brookfield, Uber, QSR, Hilton.",
-          ""
-        ],
-        [
-          "HYPE",
-          "L",
-          "green",
-          "+55.0%",
-          "I mean, I don't really have much spot exposure outside of BTC hype and Zach.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 29",
       "t": "SpaceX is a RUGPULL!?, OpenAI Headline Panic, Bubble Boi's HUGE Intel Trade, Semiconductors, The Market is WRONG - Threadguy: April 29th, 2026",
       "g": "",
-      "calls": [
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "I longed NVIDIA on the breakout, close at a loss, small loss, but I longed on the breakout is a decent trade and close a",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-17.9%",
-          "Uh, Bitcoin just ugh weak 76.4, ETH under 2300 and holding on this line for dear life.",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "I think short-term bearish oil, long-term deep uncertainty in the oil markets as to uh like hierarchy is gonna be shaken",
-          ""
-        ],
-        [
-          "TSLA",
-          "S",
-          "open",
-          "",
-          "But the structure also puts more pressure on the biggest question on Musk is how much attention Tesla actually gets.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 29",
       "t": "Intel $1T Trade Thesis, Semiconductors & the AI Bubble - Bubble Boi",
       "g": "",
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "But again, on what on what uh sand disk was one sand disk at the beginning of the year, um when Iran happened was very, ",
-          ""
-        ],
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "If there really was a bottleneck, um, NVIDIA would have bought them or bribed them to expand their capacity.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 27",
       "t": "OpenAI Might K*LL Apple, Big Tech Destroys Crypto, Sleep Score = IQ, Hallucination Yield Meta - Threadguy: April 27th, 2026",
       "g": "",
-      "calls": [
-        [
-          "ETH",
-          "L",
-          "red",
-          "-27.2%",
-          "Is anyone long ETH?",
-          ""
-        ],
-        [
-          "SNAP",
-          "L",
-          "open",
-          "",
-          "And Snap is just like the biggest diluter ever, and they've never I don't I don't I think Evan Spiegel's never bought ba",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-17.9%",
-          "My lighter take is that in most instances, highing buying high beta for the sake somebody came in here and said they wer",
-          ""
-        ],
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "The lighter takeaway is that buying high beta just because it's beta is never really a winning strategy, it's just not i",
-          ""
-        ],
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "I asked it, um NVIDIA just broke ATH, what do I long?",
-          ""
-        ],
-        [
-          "MU",
-          "L",
-          "open",
-          "",
-          "And so it told me to long Micron, and so I longed it NVIDIA, but I it's uh I don't know, it was like my first reaction w",
-          ""
-        ],
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "So Coca-Cola, Spotify is a big one, Visa is a big one, Bloom Energy is huge, Robinhood is huge.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 25",
       "t": "EasyEats - $30 HOOD Call, Polymarket Edge & Peptides",
       "g": "",
-      "calls": [
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "I'm like a massive Robin Hood holder.",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-19.1%",
-          "But I longed Bitcoin instead of like long yeah, it didn't even dump.",
-          ""
-        ],
-        [
-          "HYPE",
-          "L",
-          "green",
-          "+51.1%",
-          "I have calls, shares, and long hyperliquid.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 24",
       "t": "Stocks > Crypto, Meeting Hans Niemann IRL, Stock Market ATH, Bessent Bullposts AI, EasyEats Interview, Is Apple Going To Win? - Threadguy: April 24th, 2026",
       "g": "",
-      "calls": [
-        [
-          "SNAP",
-          "L",
-          "open",
-          "",
-          "Okay, it's like bag holding snap.",
-          ""
-        ],
-        [
-          "HYPE",
-          "L",
-          "green",
-          "+51.1%",
-          "A newly created wallet sold 75 ETH on hyperliquid and open of 5x long on a million dollars of ape.",
-          ""
-        ],
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "I'm like a massive Robin Hood holder.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 24",
       "t": "GoodAlexander & David Choi - USDAI, the Upcoming IPO Bubble & Cheap Chinese AI",
       "g": "",
-      "calls": [
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "And when Nvidia started talking about this whole sovereign AI thing, um, you know, what what you might just at a very hi",
-          ""
-        ],
-        [
-          "MSTR",
-          "S",
-          "open",
-          "",
-          "Like in the near term, that's great because it means Sailor is gonna keep issuing STRC, selling 11% yields to 75-year-ol",
-          ""
-        ],
-        [
-          "SPCX",
-          "S",
-          "open",
-          "",
-          "So, so I think the thing that's like is exciting to someone like me is like, okay, like you're gonna monetize a lot of t",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-19.1%",
-          "And now we all know how this ended on Solana, but there's a difference where our majors are, you know, BTC and and and C",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 23",
       "t": "The FAKE Iran War Headline, AI Shrinkflation, China K*LLED Claude AI, GoodAlexander & David Choi, Exit Liquidity - Threadguy: April 23rd, 2026",
       "g": "",
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And so when the United States starts talking about we're gonna put a price cap on oil, I'm getting long risk.",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-19.1%",
-          "And so I'm I'm in a little BTC long baby though, baby, baby, baby.",
-          ""
-        ],
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "And when Nvidia started talking about this whole sovereign AI thing, um, you know, what what you might just at a very hi",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 22",
       "t": "TSLA Earnings Call, CAR's Short Squeeze is OVER, Oil And Stocks Are Ripping, Stocks Trade Like Crypto Now, Cobie Crypto Mindset - Threadguy: April 22nd, 2026",
       "g": "",
-      "calls": [
-        [
-          "ETH",
-          "S",
-          "green",
-          "+28.1%",
-          "But ever I mean, every person on crypto Twitter came out to publicly post the ETH short.",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "He posted a mobile screenshot on his phone up $15 million on crude longs.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 21",
       "t": "Amazon K*LLS Hims, The Cobie Interview, Peptides & Clavicular, USA vs Iran Ceasefire..?, Trump is UNPREDICTABLE - Threadguy: April 21st, 2026",
       "g": "",
-      "calls": [
-        [
-          "AMZN",
-          "L",
-          "open",
-          "",
-          "Amazon dropped a hymns killer, hymns dropped an Amazon killer, cities long hymns, everyone's going back and forth, back ",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Are you willing to along oil now?",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 21",
       "t": "Cobie - The Future of Crypto, Capitalism & Society",
       "g": "",
-      "calls": [
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "Then you have all these companies staying private as long as humanly possible, SpaceX goes public at 1.5 trillion.",
-          ""
-        ],
-        [
-          "WTI",
-          "S",
-          "open",
-          "",
-          "Like we saw how oil moved during this war, but we really saw how silver and how gold traded a couple months ago, and the",
-          ""
-        ],
-        [
-          "HYPE",
-          "S",
-          "red",
-          "-53.1%",
-          "Um and then occasionally you get one like hyperliquid, where people are actually bullish on it and then they don't want ",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 20",
       "t": "Inside the $300M Crypto Hack - Tom Kysar",
       "g": "",
-      "calls": [
-        [
-          "HYPE",
-          "L",
-          "green",
-          "+53.1%",
-          "As of April 26, the hyperliquid bridge holds approximately 4.7 billion in TVO.",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-17.4%",
-          "That's like, yeah, it's like this is like this is like like the second or third generation of most people is like you co",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 20",
       "t": "The US vs IRAN War Gets WORSE, the $300M LayerZero Hack, Oil Trade, Tim Cook Retires, AI Stocks - Threadguy: April 20th, 2026",
       "g": "",
-      "calls": [
-        [
-          "ETH",
-          "S",
-          "green",
-          "+28.1%",
-          "I don't really know how, but it does 76.2, ETH 2330, despite every person on the planet Earth shorting.",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And so if you're long oil, short equities, this is obviously huge escalation announcement.",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-17.4%",
-          "I don't have any long-term bias, except for Bitcoin.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 17",
       "t": "An Unfiltered Conversation with Hans Niemann",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-16.6%",
-          "You hold like Bitcoin and shit?",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 17",
       "t": "My Huge HIMS Trade, Hans Niemann Interview, The Market is Ripping, AI Slop, Chess is in Trouble, Trading Advice - Threadguy: April 17th, 2026",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-16.6%",
-          "I wanted to slam Bitcoin longs so bad.",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And so what the long tail effects are the supply shock and oil is still relatively unclear to me.",
-          ""
-        ],
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "Is anyone long MSTR is a thing I would not touch, but it looks fucking electric.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 16",
       "t": "The HIMS Thesis, Peptides, Mamdani vs Ken Griffin, Opus 4.7, SpaceX Is Buying Cybertrucks!? - Threadguy: April 16th, 2026",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "S",
-          "green",
-          "+16.6%",
-          "I had to sell some Bitcoin, I had to move some stuff.",
-          ""
-        ],
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "SpaceX was buying a ton of cyber trucks.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 15",
       "t": "Allbirds Is An AI COMPANY!? Taxes Are Killing Me, Pokemon Cards Are Cooked, HIMS Is Cooking, Amit Kukreja Interview - Threadguy: April 15th, 2026",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-16.6%",
-          "You may know them, they're the guys who have been buying up a lot of Bitcoin.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 15",
       "t": "Amit Kukreja - Palantir, Trading Crypto & Investing Advice",
       "g": "",
-      "calls": [
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "I've bought NVIDIA at 90, but a lot of people bought NVIDIA at 90 during the MC, right?",
-          ""
-        ],
-        [
-          "HYPE",
-          "L",
-          "green",
-          "+41.6%",
-          "Hyperliquid solved this one by making a billion dollars a year and putting all of their revenue back into buying the coi",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 14",
       "t": "The 25 Year Old Trader That BEAT Wall Street, Watch Shopping, Gamblification of Everything, Market Close Analysis, The Saylor Method - Threadguy: April 14th, 2026",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-16.6%",
-          "Yesterday he bought 550 million dollars of Bitcoin in one day.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 13",
       "t": "Trump's WEIRD Doordash Ad, Hims Conspiracy Theory, Art of the Deal, Stock Market is Bored of War, WLFI Drama - Threadguy: April 13th, 2026",
       "g": "",
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Definitely not the guy who was long, multi-six figures of oil, and then let himself get stopped out right before a fucki",
-          ""
-        ],
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "I mean, look, the only profitable trading strategy in 2026 is just buying whatever Trump says to buy.",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-11.4%",
-          "According to the stretch dashboard, Sailor is on track to have bought five hundred and fifty million dollars worth of bi",
-          ""
-        ],
-        [
-          "TSLA",
-          "L",
-          "open",
-          "",
-          "I swear on everything that I had a nightmare last night that I lost money longing Tesla.",
-          ""
-        ],
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "Remember I bought Robin Hood calls with like the $50 in my Robin Hood account on uh they expired, bro.",
-          ""
-        ],
-        [
-          "SNAP",
-          "L",
-          "open",
-          "",
-          "Um, but remember, this uh you could have bought this snap the day that that article was released.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 10",
       "t": "The Iran War is Resumed, Rory Johnston Interview, Oil Crisis is INSANE, Trump is going CRAZY? - Threadguy: April 9th, 2026",
       "g": "",
-      "calls": [
-        [
-          "ZEC",
-          "L",
-          "green",
-          "+15.2%",
-          "Donald Trump is promoting steak, and Zcash just put in one of the craziest candles I've seen in a long time.",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Because Iran has been talking about a $2 million per dollar per ship toll, which sounds very steep, but is much more rea",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 10",
       "t": "Rory Johnston on the Iran War, Strait of Hormuz & Oil Crisis [FULL INTERVIEW]",
       "g": "",
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Because Iran has been talking about a $2 million per dollar per ship toll, uh, which sounds very steep, but is much more",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 08",
       "t": "Peter Schiff on Gold's Future, Bitcoin Crashing, & Iran War [FULL INTERVIEW]",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-11.9%",
-          "And I have to admit that your interview in October and the trade it came up with was short Bitcoin, long gold, I think l",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 08",
       "t": "Trump's Fake Ceasefire, Market Recap, Anthropics New AI Model, Iran Loves Bitcoin, Steriods Will Revive Sports - Threadguy: April 8th, 2026",
       "g": "",
-      "calls": [
-        [
-          "ZEC",
-          "L",
-          "green",
-          "+28.6%",
-          "I was long Zcash, I was excited about my longs, and I had to fucking close them today.",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-11.9%",
-          "And they bought 2,000 Bitcoin today, which is times 71.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 07",
       "t": "Trump's Biggest Threat Yet, Ceasefire, Market Manipulation EXPOSED, Peter Schiff Interivew, Why Gold is Up - Threadguy: April 7th, 2026",
       "g": "",
-      "calls": [
-        [
-          "ZEC",
-          "L",
-          "green",
-          "+28.6%",
-          "I as much as I would love to talk about crypto and how good my Zcash long looks, we have more important stuff to talk ab",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And then tomorrow we actually have a sneaker guest, Rory Johnston, who, if you know who this is, doesn't follow me, but ",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-11.9%",
-          "And I have to admit that your interview in October and the trade it came up with was short Bitcoin, long gold, I think l",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 06",
       "t": "Market Recap, Crypto is Coming BACK, Trump is Going Crazy, Citrini's New Article, Fashion is RUINED - Threadguy: April 6th, 2026",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-11.9%",
-          "Peter Schiff, short Bitcoin, long gold.",
-          ""
-        ],
-        [
-          "TSLA",
-          "S",
-          "open",
-          "",
-          "I think it was up three at one point, and then um Intel percent is test thread is Tesla's short megachurch alpha.",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "I actually law quickly longed oil but then closed it almost right away because I felt like we dumped way too aggressivel",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 03",
       "t": "Peptides Are The New Pronouns, Drones & Planes In The US vs Iran War, Strait of Hormuz, Nike is COLLAPSING - Threadguy: April 3rd, 2026",
       "g": "",
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "It's drone warfare and this is what it would look like bro yeah it's like uh we do a sir WDF what they want to get the p",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 02",
       "t": "TBPN Acquired By OpenAI ($100M+), XPL's Disasterous Downfall, Critical Market Analysis, Trump's Speech Exposed The Truth, SpaceX IPO - Threadguy: April 2nd, 2026",
       "g": "",
-      "calls": [
-        [
-          "ZEC",
-          "S",
-          "red",
-          "-66.0%",
-          "By the way, this isn't a shot, but on the whole mega church thing, you probably could have started shorting Solana when ",
-          ""
-        ],
-        [
-          "TSLA",
-          "L",
-          "open",
-          "",
-          "You want to go along Elon, it's the only way to do it is to buy Tesla, and so you're down to pay some ridiculous premium",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 01",
       "t": "The $200M+ Crypto Heist, April Fools Sucks, They're Trying To Save Snapchat, Worshipping the Market gods, Artemis II Rocket Launch - Threadguy: April 1st, 2026",
       "g": "",
-      "calls": [
-        [
-          "ETH",
-          "S",
-          "green",
-          "+20.9%",
-          "Whether it's like every time we we enter a position, we go short like a dollar of ETH on leverage, just to like say we s",
-          ""
-        ],
-        [
-          "SNAP",
-          "L",
-          "open",
-          "",
-          "Irenic or we manages $2.5 billion, and we have become a substantial shareholder in Snap.",
-          ""
-        ],
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "And I have $124 on Robinhood, and so I bought options with low expiry.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 31",
       "t": "Andrew Yang Interview - Businessman, Lobbyist, 2020 Presidential Candidate",
       "g": "",
-      "calls": [
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "And I think some examples of this are like, you know, one, every company staying private until as long as humanly possib",
-          ""
-        ],
-        [
-          "WTI",
-          "S",
-          "open",
-          "",
-          "Basically, like you know, you can manipulate oil price in the market, but eventually there's a shortage, there's a fucki",
-          ""
-        ],
-        [
-          "AMZN",
-          "S",
-          "open",
-          "",
-          "I don't know, talking about how AI will never replace the film writers and they'll never film is too precious, and then ",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 26",
       "t": "How To Trade In A Trump Market, Bitcoin Front-Ran The Market Crash, The Diminishing Law of TACOs, The Future of Tao (ft. Mark Jeffrey) - Threadguy: March 26th, 2026",
       "g": "",
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And as bad as I want a long oil, and as as many times as I've been in this trade and made money from it, it's just it's ",
-          ""
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-5.5%",
-          "And the more I gained conviction on that, and having seen, you know, having bought my first Bitcoin on Mount Gox, you kn",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 25",
       "t": "The First Time I Made a $100k Trade, War Updates, AI Bubble is OVER!?, Why Sora Shut Down, Taxes Are K*lling Me - Threadguy: March 25th, 2026",
       "g": "",
-      "calls": [
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "In the last two months, I've longed Bitcoin, closed it, longed Tesla on the SpaceX IPO, closed it, longed Palantir becau",
-          ""
-        ],
-        [
-          "UBER",
-          "S",
-          "open",
-          "",
-          "Cal Uber, and you don't sell a company and you don't be employee number like four move to say it doesn't hate you, first",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 24",
       "t": "Why TAO is Pumping, TAO Founder Interview, Ceasefire News, How The Iran War Will End - Threadguy: March 24th, 2026",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-11.6%",
-          "It's like so Bitcoin's idea is like, hey, after 104 years, that's how long they're thinking, right?",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "This is why we stopped longing oil.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 23",
       "t": "The US vs Iran Memewar, Don't Bet Against Trump, Why I'm Long $TAO, BTC, AI Labs Are Getting Desperate - Threadguy: March 23rd, 2026",
       "g": "",
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "I'm a little bit tilted on these crude oil longs.",
-          ""
-        ],
-        [
-          "BTC",
-          "S",
-          "green",
-          "+11.6%",
-          "Tesla goes up one, Bitcoin goes up five, Tesla goes down one, Bitcoin goes down five, and right now the market is going ",
-          ""
-        ],
-        [
-          "ZEC",
-          "L",
-          "green",
-          "+82.4%",
-          "Zcash was a long hold.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 20",
       "t": "Why Everything's Dumping, Should You Short Oil, the Problem with 4D Chess, Why I Dropped Out - Threadguy: March 20th, 2026",
       "g": "",
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And you guys know I'm I'm pretty I I have been on and off long crude, and I will not let that happen.",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 19",
       "t": "When Will The Iran War End, How To Be A Good Trader, My Accountant Loves Me? - Threadguy: March 19th, 2026",
       "g": "",
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "It's just like just the like okay, similar to how when I was closing the oil long, because I'm like, there's just so man",
-          ""
-        ],
-        [
-          "ZEC",
-          "L",
-          "green",
-          "+77.3%",
-          "You could really make up for a lot because you get handed opportunities like the Zcash, you get handed spots, and that's",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 18",
       "t": "My NEW Oil Trade, How to Trade WW3, Trump is in Trouble, Oil's CRAZY Price Action, The Greatest Trade in History - Threadguy: March 18th, 2026",
       "g": "",
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And maybe I have a little bit too much confidence after this oil long, but like I'm starting to feel pretty good about m",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 17",
       "t": "Trump Admin Resignations, Vanity Fair Covers Crypto, Stablecoins Will Save US Bonds, Citrini Was Right Again - Threadguy: March 17th, 2026",
       "g": "",
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-10.3%",
-          "All roads lead to crypto stablecoin issuers whopping long dated bonds to keep rates down, stimulate the United States ec",
-          ""
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And so, are you like are you long oil at at here?",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 16",
       "t": "Beating the Oil Market, Hyperliquid at $40, Iran War Update, Pok\u00e9mon Go is an AI Company? - Threadguy: March 16th, 2026",
       "g": "",
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "This is an oil long, which is an essential resource to the United States of America, who is actively pushing the narrati",
-          ""
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jan 15",
@@ -2978,2166 +737,6 @@
   ],
   "tape": [
     [
-      "MU",
-      "I bought Micron yesterday, 1200 or something, and on that anthropic news, and I held it up 15%, and then it started dumping, and I just put a stop loss in my en",
-      "1:15",
-      "19394874",
-      75,
-      "Jun 24"
-    ],
-    [
-      "WTI",
-      "Uh, we do have a war and oil segment, except it's no longer about Iran, it's about Cuba.",
-      "1:54",
-      "19394874",
-      114,
-      "Jun 24"
-    ],
-    [
-      "AMC",
-      "Immediately after concluding a $150 million dilution, they just came out again and they announced that AMC Entertainment Holdings announces pricing of $200 mill",
-      "14:40",
-      "19394874",
-      880,
-      "Jun 24"
-    ],
-    [
-      "SNAP",
-      "You know what is always a short never ask yourself the question should I short sell Snapchat the answer is yes because Snapchat on the announcement is down an a",
-      "23:25",
-      "19394874",
-      1405,
-      "Jun 24"
-    ],
-    [
-      "MSTR",
-      "Look at this look at this ETH has a pretty bad one but this was bad coin goes on this crazy run dump it down 50% and then it makes a new all-time high by like a",
-      "34:59",
-      "19394874",
-      2099,
-      "Jun 24"
-    ],
-    [
-      "ETH",
-      "So Jared from Subway was the most profitable MVV bot sandwich bought during really the ETH run.",
-      "26:53",
-      "19392113",
-      1613,
-      "Jun 24"
-    ],
-    [
-      "HOOD",
-      "I think you could, I think it's kind of similar to payment for order flow, like the Robin Hood model, where they sell your order flow to Citadel, and Citadel gi",
-      "28:04",
-      "19392113",
-      1684,
-      "Jun 24"
-    ],
-    [
-      "MU",
-      "Like imagine you could imagine somebody like you sold a ton of micron and they bought it, and you could like message their Robin Hood account, like, hey, you fu",
-      "31:54",
-      "19392113",
-      1914,
-      "Jun 24"
-    ],
-    [
-      "BTC",
-      "He bought one of his lowest purchases ever of Bitcoin.",
-      "34:43",
-      "19392113",
-      2083,
-      "Jun 24"
-    ],
-    [
-      "MSTR",
-      "So fi down five, strategy down three to looking a short.",
-      "46:15",
-      "19392113",
-      2775,
-      "Jun 24"
-    ],
-    [
-      "STUB",
-      "I don't know anything about Stubhub other than the fact that I thought it was a good long into the IRL thesis in the World Cup, also the NBA finals, but they go",
-      "47:57",
-      "19392113",
-      2877,
-      "Jun 24"
-    ],
-    [
-      "SPCX",
-      "SpaceX is a tough spot.",
-      "59:33",
-      "19392113",
-      3573,
-      "Jun 24"
-    ],
-    [
-      "MSTR",
-      "I was complaining about how my trading strategy's been biting me in the ass recently, which is like I buy green candles and I sell red candles.",
-      "3:08",
-      "19379140",
-      188,
-      "Jun 21"
-    ],
-    [
-      "SPCX",
-      "Like, okay, I entered um I bought SpaceX at here.",
-      "8:07",
-      "19379140",
-      487,
-      "Jun 21"
-    ],
-    [
-      "MRVL",
-      "The Marvell type of spot, the Snapchat short, like these event you keep talking about this event-driven type of trade.",
-      "12:48",
-      "19379140",
-      768,
-      "Jun 21"
-    ],
-    [
-      "MSTR",
-      "So the stretch strategy situation is in a really, really, really tough spot.",
-      "2:13",
-      "19371212",
-      133,
-      "Jun 19"
-    ],
-    [
-      "BTC",
-      "I think the real spot was Sailor sold Bitcoin.",
-      "7:02",
-      "19371212",
-      422,
-      "Jun 19"
-    ],
-    [
-      "SPCX",
-      "Looks like shorts going out of SpaceX.",
-      "13:46",
-      "19371212",
-      826,
-      "Jun 19"
-    ],
-    [
-      "TTWO",
-      "I'm only telling you this because I'm interested in in the take two interactive stock.",
-      "15:10",
-      "19371212",
-      910,
-      "Jun 19"
-    ],
-    [
-      "AMC",
-      "AMC is now up 45% since I entered on a spot trade on my Robin Hood account for the first time since I was like 18.",
-      "35:36",
-      "19371212",
-      2136,
-      "Jun 19"
-    ],
-    [
-      "WTI",
-      "Owing long oil during the biggest energy crisis and oil shortage of all time proves I am retarded.",
-      "46:26",
-      "19371212",
-      2786,
-      "Jun 19"
-    ],
-    [
-      "SPCX",
-      "And then I also know they are buying cursor for 60 billion dollars, all shares at an average of seven trading days, as from when they acquired SpaceX.",
-      "10:28",
-      "19371203",
-      628,
-      "Jun 19"
-    ],
-    [
-      "ZEC",
-      "Run Zcash for a six-figure trade, re-enter for no reason, give a bunch back, then short it for no reason, give a bunch back.",
-      "11:16",
-      "19371203",
-      676,
-      "Jun 19"
-    ],
-    [
-      "MSTR",
-      "Like, I I you know, I always say like buy high, sell higher as is my trading strategy, but I'm not sure that's my trading strategy.",
-      "12:14",
-      "19371203",
-      734,
-      "Jun 19"
-    ],
-    [
-      "BTC",
-      "You have to issue more mst, dilute shareholders more, raise more cash, and this whole time Bitcoin has to go up more to justify MNAV.",
-      "14:05",
-      "19371203",
-      845,
-      "Jun 19"
-    ],
-    [
-      "TSLA",
-      "There's they're maybe gonna be looking to buying other companies, but I saw this really good take on the Tesla merger, which is if I put on Elon's financial thi",
-      "14:48",
-      "19371203",
-      888,
-      "Jun 19"
-    ],
-    [
-      "AMC",
-      "Third biggest gainer is AMC, which I hold a lot of on spot.",
-      "32:48",
-      "19371203",
-      1968,
-      "Jun 19"
-    ],
-    [
-      "WTI",
-      "Wouldn't would you long oil here?",
-      "44:41",
-      "19364398",
-      2681,
-      "Jun 17"
-    ],
-    [
-      "SNAP",
-      "Evan Spiegel announced the long-awaited snap specs.",
-      "48:30",
-      "19364398",
-      2910,
-      "Jun 17"
-    ],
-    [
-      "SPCX",
-      "I didn't really pay that much attention to markets, but I was long in the right position because you know we went into the weekend with that SpaceX position, wh",
-      "0:28",
-      "19362550",
-      28,
-      "Jun 17"
-    ],
-    [
-      "ZEC",
-      "And so I don't know if it I'm unironically, Zcash is probably your long here.",
-      "10:53",
-      "19362550",
-      653,
-      "Jun 17"
-    ],
-    [
-      "WTI",
-      "This flood tweet that reads remember by longing oil, you're longing an asset that almost every country on earth is incentivized to see trade lower.",
-      "21:10",
-      "19362550",
-      1270,
-      "Jun 17"
-    ],
-    [
-      "HOOD",
-      "Did anyone hold hood that emits stock?",
-      "33:06",
-      "19362550",
-      1986,
-      "Jun 17"
-    ],
-    [
-      "SPCX",
-      "I also am long SpaceX, pretty low conviction longs.",
-      "1:09",
-      "19341238",
-      69,
-      "Jun 13"
-    ],
-    [
-      "MSTR",
-      "Like I have a pretty clear trading strategy that I'm trying to incorporate, which is high conviction long-term spot and then short-term special situations.",
-      "1:25",
-      "19341238",
-      85,
-      "Jun 13"
-    ],
-    [
-      "HYPE",
-      "Um I also clicked a little bit of a hype long because I don't know.",
-      "1:41",
-      "19341238",
-      101,
-      "Jun 13"
-    ],
-    [
-      "AMC",
-      "And this week, I believe he spanked this AMC long.",
-      "6:34",
-      "19341238",
-      394,
-      "Jun 13"
-    ],
-    [
-      "STUB",
-      "The problem is there's so many trade ideas that it gets a little bit because just because we stream so much, but it's funny, like yesterday, Jack Schwager is so",
-      "7:24",
-      "19341238",
-      444,
-      "Jun 13"
-    ],
-    [
-      "ETH",
-      "We always talk about um ETH short, XRP short.",
-      "7:48",
-      "19341238",
-      468,
-      "Jun 13"
-    ],
-    [
-      "MRVL",
-      "Here's when I was long Marvell.",
-      "7:59",
-      "19341238",
-      479,
-      "Jun 13"
-    ],
-    [
-      "ZEC",
-      "Okay, so my Zcash long was on here.",
-      "8:07",
-      "19341238",
-      487,
-      "Jun 13"
-    ],
-    [
-      "MU",
-      "Micron Long, which is when I entered the Micron Long and I sell sold it so soon.",
-      "8:14",
-      "19341238",
-      494,
-      "Jun 13"
-    ],
-    [
-      "BTC",
-      "And I refuse to do it because a troll on Twitter says, hey, you said never sell you Bitcoin.",
-      "11:58",
-      "19341238",
-      718,
-      "Jun 13"
-    ],
-    [
-      "HOOD",
-      "That is up 7.9%, and it is officially up after market close up 9%, but up 7% since I entered on a good amount of fucking spot on Robinhood.",
-      "23:52",
-      "19341238",
-      1432,
-      "Jun 13"
-    ],
-    [
-      "AMZN",
-      "Uh so um there are people that those are all kind of of one kind where it's possible to kind of come ahead if you have uh enough of an expertise as opposed to s",
-      "66:03",
-      "19335008",
-      3963,
-      "Jun 12"
-    ],
-    [
-      "WTI",
-      "And God, I almost I I I feel for the oil longers because I always felt like they were gonna, I always felt like their day was gonna come and it's looking less a",
-      "1:05",
-      "19335007",
-      65,
-      "Jun 12"
-    ],
-    [
-      "SPCX",
-      "And then Iran going after Elon, which is Starlink's ground stations in Israel, Qatar, Jordan, United Era, uh Arab Emirates and Oman, alongside SpaceX shareholde",
-      "25:04",
-      "19335007",
-      1504,
-      "Jun 12"
-    ],
-    [
-      "HYPE",
-      "It's like we're we're buying Marvell at midnight on EST hours after Jensen's in South Korea talking about Marvell's gonna go to a trillion dollars, and there's ",
-      "5:26",
-      "19328959",
-      326,
-      "Jun 10"
-    ],
-    [
-      "BTC",
-      "I typed up the tweet and it was like something along the lines of wow, war escalation in Bitcoin is green.",
-      "15:37",
-      "19328959",
-      937,
-      "Jun 10"
-    ],
-    [
-      "WTI",
-      "And the thing that is so annoying about this oil chart is it hangs around and it looks clean just enough for you to convince yourself that you could long it bef",
-      "19:20",
-      "19328959",
-      1160,
-      "Jun 10"
-    ],
-    [
-      "AMC",
-      "The red guy enters spot on AMC.",
-      "23:45",
-      "19328959",
-      1425,
-      "Jun 10"
-    ],
-    [
-      "HOOD",
-      "And I think it was just because um Meyer Malka now bought 680 shares, $55 million of Robin Hood over the last two weeks.",
-      "24:18",
-      "19328959",
-      1458,
-      "Jun 10"
-    ],
-    [
-      "SPCX",
-      "And that's and so you when you're buying into this thing, you're buying like I think there's a really top investor who I won't name, but you know, he told me he",
-      "39:22",
-      "19328959",
-      2362,
-      "Jun 10"
-    ],
-    [
-      "SPCX",
-      "And that's and so you when you're buying into this thing, you're buying like I think there's a really top investor who I won't name, but you know, he told me he",
-      "6:22",
-      "19328953",
-      382,
-      "Jun 10"
-    ],
-    [
-      "TSLA",
-      "Tesla, I mean, like I just you know, I've I've followed Tesla my entire career, and I've just seen everyone die shorting this thing, right?",
-      "14:00",
-      "19328953",
-      840,
-      "Jun 10"
-    ],
-    [
-      "WTI",
-      "You know, this is this is like a uh I kind of stole this from Flood, but we came to the thesis on our own with longing oil.",
-      "19:12",
-      "19328953",
-      1152,
-      "Jun 10"
-    ],
-    [
-      "MRVL",
-      "And since then, we've had the Intel run, we've had Go Out and Buy Adell, we've had IBM with the quantum investment and just general like pumping of IBM, we've h",
-      "42:57",
-      "19328953",
-      2577,
-      "Jun 10"
-    ],
-    [
-      "BTC",
-      "I sold some Bitcoin today, some spot Bitcoin to put into a Robin Hood account.",
-      "9:16",
-      "19323458",
-      556,
-      "Jun 09"
-    ],
-    [
-      "ZEC",
-      "Zcash, I put in a little cheeky short on it today, and I closed it just because I'm vibe trading again and it doesn't really end well.",
-      "9:52",
-      "19323458",
-      592,
-      "Jun 09"
-    ],
-    [
-      "SPCX",
-      "Are people selling to buy SpaceX, which means it will go up?",
-      "15:49",
-      "19323458",
-      949,
-      "Jun 09"
-    ],
-    [
-      "STUB",
-      "I thought about Airbnb long as a cheeky World Cup trade, but I decided on StubHub as my World Cup trade.",
-      "16:55",
-      "19323458",
-      1015,
-      "Jun 09"
-    ],
-    [
-      "WTI",
-      "Easiest oil long ever.",
-      "27:15",
-      "19323458",
-      1635,
-      "Jun 09"
-    ],
-    [
-      "HYPE",
-      "As a final nail in the coffin, the hyperliquid foundation bought forth a validator vote that would officially burn 1 billion in hype tokens held in the assistan",
-      "42:43",
-      "19323458",
-      2563,
-      "Jun 09"
-    ],
-    [
-      "AMC",
-      "So I hold nothing right now except except AMC and StubHub.",
-      "43:46",
-      "19323458",
-      2626,
-      "Jun 09"
-    ],
-    [
-      "BTC",
-      "Interesting spot on Bitcoin.",
-      "10:08",
-      "19319177",
-      608,
-      "Jun 09"
-    ],
-    [
-      "MSTR",
-      "He sort of just scared potential buyers, scared micro strategy holders, scared Bitcoin holders, and ripped the band-aid without actually putting in the wound.",
-      "10:26",
-      "19319177",
-      626,
-      "Jun 09"
-    ],
-    [
-      "TSLA",
-      "That's up five, AMD up five, Tesla up five, up a lot from the pit average short, Rocket Lab up three, Broadcom up three after almost destroying the fucking mark",
-      "17:31",
-      "19319177",
-      1051,
-      "Jun 09"
-    ],
-    [
-      "WTI",
-      "Anyways war and oil war and quit your job for 3k no how long would it take you to say chill house 100,000 times thoughts on chill house thoughts on chill house ",
-      "23:01",
-      "19319177",
-      1381,
-      "Jun 09"
-    ],
-    [
-      "MRVL",
-      "So um so market was pretty red on Friday I also bought Marvell as a Jensen long last week and it's so Jensen's been on this Asia tour and he's in South Korea ri",
-      "25:41",
-      "19319177",
-      1541,
-      "Jun 09"
-    ],
-    [
-      "NVDA",
-      "And yesterday I guess today but technically yesterday the uh Cosby South Korean index opened circuit breaker down crushed and it's been looking toppy and people",
-      "25:55",
-      "19319177",
-      1555,
-      "Jun 09"
-    ],
-    [
-      "STUB",
-      "Where do you buy tickets from StubHub it's a four billion dollar stock their forward PE is like 16 it's fucking low and I buy all of my tickets on on Stub Hub e",
-      "43:37",
-      "19319177",
-      2617,
-      "Jun 09"
-    ],
-    [
-      "AMC",
-      "Like I'm thinking of a basket here where I just put a bag into spot stocks and I buy I buy IRL like Live Nation, AMC, and this, which I didn't even know was a s",
-      "46:49",
-      "19319177",
-      2809,
-      "Jun 09"
-    ],
-    [
-      "BTC",
-      "Like, I you go to sleep at night holding Bitcoin like a baby because you know Satoshi isn't gonna post a blog the next morning saying, Hey, I froze all your fun",
-      "9:16",
-      "19292421",
-      556,
-      "Jun 04"
-    ],
-    [
-      "ZEC",
-      "Where I was like, I'm holding some Zcash because um either Bitcoin doesn't fix privacy, which look now based on the coin audit, I'm not even sure if Bitcoin sho",
-      "12:18",
-      "19292421",
-      738,
-      "Jun 04"
-    ],
-    [
-      "ETH",
-      "But we saw that you can't blindly hold ETH.",
-      "14:27",
-      "19292421",
-      867,
-      "Jun 04"
-    ],
-    [
-      "MSTR",
-      "I'll tell you what, if I was Michael Saylor, I would have fucking died before selling.",
-      "23:07",
-      "19292421",
-      1387,
-      "Jun 04"
-    ],
-    [
-      "ZEC",
-      "We got a uh oil barrel in the background, and we're long Marvell, we're long Marvell and Zcash pair trade short BTC.",
-      "3:05",
-      "19292412",
-      185,
-      "Jun 04"
-    ],
-    [
-      "BTC",
-      "And so I'm gonna be honest, if you believe in Bitcoin, it's probably not a terrible time to buy some spot to start nibbling at some spot to buy lower.",
-      "10:00",
-      "19292412",
-      600,
-      "Jun 04"
-    ],
-    [
-      "HYPE",
-      "I wanted exposure to some uh some AI, so obviously I didn't sell, but man, the hyper liquid after hours are hyperliquid like after hours traders just retarded.",
-      "20:01",
-      "19292412",
-      1201,
-      "Jun 04"
-    ],
-    [
-      "NVDA",
-      "Is anyone long short NVIDIA right now?",
-      "22:16",
-      "19292412",
-      1336,
-      "Jun 04"
-    ],
-    [
-      "TSLA",
-      "I was pretty convicted in like a Tesla short, but I never took it because I don't I don't short sell.",
-      "38:22",
-      "19292412",
-      2302,
-      "Jun 04"
-    ],
-    [
-      "BTC",
-      "I know buying just Bitcoin kind of sucks, but I have absolutely no interest in allocating and paying attention to altcoins and what's hot and what the new narra",
-      "5:45",
-      "19290047",
-      345,
-      "Jun 03"
-    ],
-    [
-      "AMC",
-      "Second, who in the stream is long AMC?",
-      "33:34",
-      "19290047",
-      2014,
-      "Jun 03"
-    ],
-    [
-      "SNAP",
-      "And so an obvious takeaway from this is like, okay, Google gets 80 billion dollars snap call to spend on CapEx build out, and you could think about like longing",
-      "40:15",
-      "19290047",
-      2415,
-      "Jun 03"
-    ],
-    [
-      "MSTR",
-      "You know, I I genuinely am sad about Michael Saylor selling, okay?",
-      "0:38",
-      "19279810",
-      38,
-      "Jun 02"
-    ],
-    [
-      "BTC",
-      "That's been my intro for like over a year, and then he comes out, and not only does he sell, but he sells like 30 bitcoin.",
-      "1:12",
-      "19279810",
-      72,
-      "Jun 02"
-    ],
-    [
-      "HYPE",
-      "The craziest part about the Michael Saylor selling Bitcoin is that hyperliquid's like $74.",
-      "1:33",
-      "19279810",
-      93,
-      "Jun 02"
-    ],
-    [
-      "WTI",
-      "Born to long the AI bottleneck trade, forced to talk about oil in World War III.",
-      "13:26",
-      "19279810",
-      806,
-      "Jun 02"
-    ],
-    [
-      "NVDA",
-      "Nvidia puts in a monster candle, sick ATH retest up six percent today.",
-      "15:54",
-      "19279810",
-      954,
-      "Jun 02"
-    ],
-    [
-      "AMC",
-      "I'm buying AMC.",
-      "19:36",
-      "19279810",
-      1176,
-      "Jun 02"
-    ],
-    [
-      "ZEC",
-      "Threadguy is along a little bit of Zcash, a lot of bit of VBV, and a lot of bit more of Hyper Liquid.",
-      "20:25",
-      "19279810",
-      1225,
-      "Jun 02"
-    ],
-    [
-      "BTC",
-      "There was a time, I remember, there was a time and not that long ago, when somebody came out and said they posted this chart and they said the reason Bitcoin is",
-      "6:34",
-      "19265999",
-      394,
-      "May 30"
-    ],
-    [
-      "ETH",
-      "Like, if you ever bought an ETH, I still recommend people to go not touch these because you're relying so heavily on the allocator in charge, and you could like",
-      "9:30",
-      "19265999",
-      570,
-      "May 30"
-    ],
-    [
-      "WTI",
-      "You you LARP as an oil bull, you get the the barrel, you go long, you make some money, you follow the trend, you don't fight it.",
-      "15:01",
-      "19265999",
-      901,
-      "May 30"
-    ],
-    [
-      "HYPE",
-      "Equivocable for hyperliquid, and you had a bunch of time to long.",
-      "22:00",
-      "19265999",
-      1320,
-      "May 30"
-    ],
-    [
-      "HYPE",
-      "Crypto sentiment, I feel like has been a discussion for a while, but it's and I always say like it's the lowest or it's the weirdest, but it's in a particularly",
-      "0:49",
-      "19257124",
-      49,
-      "May 28"
-    ],
-    [
-      "BTC",
-      "There's a couple spots, and then Bitcoin is just chudding along, and everybody is just rage quitting.",
-      "1:16",
-      "19257124",
-      76,
-      "May 28"
-    ],
-    [
-      "HOOD",
-      "I I hold Robin Hood, but I'm not I don't know.",
-      "13:13",
-      "19257124",
-      793,
-      "May 28"
-    ],
-    [
-      "ETH",
-      "And so speaking of holding things long term, I might be misquoting you on this, but I feel like you guys have gone easier on ETH than most.",
-      "22:21",
-      "19257124",
-      1341,
-      "May 28"
-    ],
-    [
-      "SNAP",
-      "They bought like 3% of Snapchat.",
-      "55:50",
-      "19257124",
-      3350,
-      "May 28"
-    ],
-    [
-      "BTC",
-      "They bought a thousand bitcoin today, but I don't know enough about this to have a real take.",
-      "11:55",
-      "19257121",
-      715,
-      "May 28"
-    ],
-    [
-      "HYPE",
-      "And so you basically held hyperliquid, longed Zcash, or you are ready to get carried out.",
-      "30:44",
-      "19257121",
-      1844,
-      "May 28"
-    ],
-    [
-      "MSTR",
-      "Reb with Strategy is a closed-end uh fund that holds stakes in robotics companies, uh, typically private.",
-      "27:44",
-      "19251632",
-      1664,
-      "May 27"
-    ],
-    [
-      "MSTR",
-      "Reblist Strategy is a closed-end uh fund that holds stakes in robotics companies, uh, typically private.",
-      "1:44",
-      "19251604",
-      104,
-      "May 27"
-    ],
-    [
-      "BTC",
-      "The longer Bitcoin puts it off, Bitcoin hasn't made any real progress in the last six months.",
-      "50:01",
-      "19251604",
-      3001,
-      "May 27"
-    ],
-    [
-      "BTC",
-      "I I uh it's gotten to the point where I have Bitcoin spot bitcoin that I never sell that I'm even like what I I'm I'm sitting here like, why isn't my spot Bitco",
-      "11:14",
-      "19246160",
-      674,
-      "May 26"
-    ],
-    [
-      "HYPE",
-      "I would obviously rather have it over hold it over Coinbase, but there is some hype tailwinds you gotta worry about on the regulatory side for sure.",
-      "12:46",
-      "19246160",
-      766,
-      "May 26"
-    ],
-    [
-      "TSLA",
-      "You gotta get away from Tesla shorts.",
-      "30:56",
-      "19246160",
-      1856,
-      "May 26"
-    ],
-    [
-      "SPCX",
-      "Okay, number one, American Airlines partners with SpaceX to install Starlink Wi-Fi on 500 plus Airbus planes, which by the way, this I cannot believe this has t",
-      "42:05",
-      "19246160",
-      2525,
-      "May 26"
-    ],
-    [
-      "HOOD",
-      "And so I once again ask, why would you hold hood in the big two six?",
-      "10:50",
-      "19186229",
-      650,
-      "May 15"
-    ],
-    [
-      "BTC",
-      "Okay, they bought 173 Bitcoin, nothing burger, and then souls, which we've added to this for no particular reason, is the Ansom Chill.",
-      "13:19",
-      "19186229",
-      799,
-      "May 15"
-    ],
-    [
-      "WTI",
-      "It was another game of who wants to hold risk into the weekend while the Iran war is still going on, while bonds are fucking turbo ripping and while oil continu",
-      "17:35",
-      "19186229",
-      1055,
-      "May 15"
-    ],
-    [
-      "MU",
-      "But there are some late longs that need to get tested for sure, especially in some of these like micron and intels.",
-      "18:07",
-      "19186229",
-      1087,
-      "May 15"
-    ],
-    [
-      "WTI",
-      "So speaking of these longer horizon thinking, I I mean, look, I we were trading oil on the stream.",
-      "43:53",
-      "19186193",
-      2633,
-      "May 15"
-    ],
-    [
-      "AMZN",
-      "There's a war, bought more Amazon.",
-      "44:28",
-      "19186193",
-      2668,
-      "May 15"
-    ],
-    [
-      "BTC",
-      "Still holding every Bitcoin I bought from 1k all the way up to 120k.",
-      "2:26",
-      "19186178",
-      146,
-      "May 15"
-    ],
-    [
-      "MU",
-      "And the day you tweeted this, I marked the chart with the air mass line on Micron, which I might be off here, but assuming you bought right when you tweeted, wh",
-      "2:37",
-      "19186178",
-      157,
-      "May 15"
-    ],
-    [
-      "TSLA",
-      "I mean you can buy a bottle of coke in the Sahara Desert for God's sakes is in every part of Africa I mean they've literally saturated the world with coke like ",
-      "27:15",
-      "19186178",
-      1635,
-      "May 15"
-    ],
-    [
-      "ZEC",
-      "I as a follow-up to that, you don't have to go too long on this if you don't want, but I'm curious what you think of the privacy coins Zcash, Monero, anything e",
-      "61:42",
-      "19186178",
-      3702,
-      "May 15"
-    ],
-    [
-      "MSTR",
-      "His name is Michael Saylor, and he has bought 9,000 Bitcoin today.",
-      "7:03",
-      "19186169",
-      423,
-      "May 15"
-    ],
-    [
-      "ZEC",
-      "Problem with Zcash is everyone just holds it on perps.",
-      "7:30",
-      "19186169",
-      450,
-      "May 15"
-    ],
-    [
-      "NVDA",
-      "The two biggest announcements are one, Nvidia is selling H-100s to China, which has already been announced.",
-      "14:48",
-      "19186169",
-      888,
-      "May 15"
-    ],
-    [
-      "BTC",
-      "Still holding every Bitcoin I bought from 1k all the way up to 120k.",
-      "25:26",
-      "19186169",
-      1526,
-      "May 15"
-    ],
-    [
-      "MU",
-      "And the day you tweeted this, I marked the chart with the air mass line on Micron, which I might be off here, but assuming you bought right when you tweeted, wh",
-      "25:37",
-      "19186169",
-      1537,
-      "May 15"
-    ],
-    [
-      "BTC",
-      "They bought 3100 BTC.",
-      "7:13",
-      "19186165",
-      433,
-      "May 15"
-    ],
-    [
-      "ZEC",
-      "I have yet to sell a Zcash token.",
-      "13:43",
-      "19186161",
-      823,
-      "May 15"
-    ],
-    [
-      "MU",
-      "401k, I don't know, I don't exactly know where it came from, but he had like 50, 60, 70k and has basically just been punting options on memory, micron, all the ",
-      "4:07",
-      "19161384",
-      247,
-      "May 11"
-    ],
-    [
-      "HYPE",
-      "Back to back in five minutes, Loracle, who is up, I don't know, 200 and something million dollars all time on hyperliquid, opens an 11 million dollar BTC short.",
-      "9:03",
-      "19161384",
-      543,
-      "May 11"
-    ],
-    [
-      "BTC",
-      "And so I click into like a really tight, a really tight BTC long, like a tight stop loss.",
-      "9:50",
-      "19161384",
-      590,
-      "May 11"
-    ],
-    [
-      "HOOD",
-      "Local short sand disc Nebias put in a nice day up five, hood up five.",
-      "18:55",
-      "19161384",
-      1135,
-      "May 11"
-    ],
-    [
-      "ZEC",
-      "In a way, it's been like a double-edged sword, my Zcash trade, because I hyper focused on one trade, one asset early in this, like you know, early three weeks a",
-      "24:54",
-      "19161384",
-      1494,
-      "May 11"
-    ],
-    [
-      "ETH",
-      "I can't write an article about the investment case for ETH because Tom because Tom Lee's buying it.",
-      "31:36",
-      "19161384",
-      1896,
-      "May 11"
-    ],
-    [
-      "BTC",
-      "Uh, and I think I think when he goes and says, like, I will sell Bitcoin to fund the dividends, that's uh an example of him commitment uh committing to appropri",
-      "3:04",
-      "19161339",
-      184,
-      "May 11"
-    ],
-    [
-      "ETH",
-      "I can't write an article about the investment case for ETH because Tom because Tom Lee's buying it.",
-      "5:59",
-      "19161339",
-      359,
-      "May 11"
-    ],
-    [
-      "ZEC",
-      "And to see like someone like you post the um the Zcash thesis is I'm like, okay, there's some of these not super trader short time frame like thinkers in crypto",
-      "12:37",
-      "19161339",
-      757,
-      "May 11"
-    ],
-    [
-      "MSTR",
-      "Long MSTR, short Zek.",
-      "8:42",
-      "19148492",
-      522,
-      "May 08"
-    ],
-    [
-      "HYPE",
-      "Changing my lever position and hype to spot.",
-      "8:58",
-      "19148492",
-      538,
-      "May 08"
-    ],
-    [
-      "BTC",
-      "Like you could dump individual names, but like to meaningfully dump Bitcoin down to 50k, there has to be like a new cohort of marginal sellers that I don't know",
-      "12:31",
-      "19148492",
-      751,
-      "May 08"
-    ],
-    [
-      "WTI",
-      "We're not gonna spend much time on war and oil, but you fade it until you're forced out.",
-      "25:15",
-      "19148492",
-      1515,
-      "May 08"
-    ],
-    [
-      "ETH",
-      "And then a 25x ETH short that he's actually up on.",
-      "36:34",
-      "19148492",
-      2194,
-      "May 08"
-    ],
-    [
-      "AMZN",
-      "10x Amazon Long is up 50k.",
-      "37:18",
-      "19148492",
-      2238,
-      "May 08"
-    ],
-    [
-      "NVDA",
-      "10x metalong down 10, 20x NVIDIA, he is up 63k.",
-      "37:20",
-      "19148492",
-      2240,
-      "May 08"
-    ],
-    [
-      "MU",
-      "Like sell the house and buy micron type move.",
-      "39:46",
-      "19148492",
-      2386,
-      "May 08"
-    ],
-    [
-      "BTC",
-      "I'll short this over Bitcoin.",
-      "5:23",
-      "19144036",
-      323,
-      "May 07"
-    ],
-    [
-      "HYPE",
-      "He's short hype against his population that's 3x the size.",
-      "6:12",
-      "19144036",
-      372,
-      "May 07"
-    ],
-    [
-      "ZEC",
-      "Long 25 mil of Bitcoin, long 18 mil of Zcash.",
-      "6:32",
-      "19144036",
-      392,
-      "May 07"
-    ],
-    [
-      "NVDA",
-      "I said I was gonna long NVIDIA over 212, but I've just gotten really distracted, and also really long coins.",
-      "7:41",
-      "19144036",
-      461,
-      "May 07"
-    ],
-    [
-      "BTC",
-      "Bitcoin somehow still over 81, despite the number one, maybe number two, close to number one holder saying I want to sell.",
-      "0:19",
-      "19139903",
-      19,
-      "May 07"
-    ],
-    [
-      "WTI",
-      "760 million in oil shorts placed 21 minutes before the April 20 Iran announcement.",
-      "15:49",
-      "19139903",
-      949,
-      "May 07"
-    ],
-    [
-      "HYPE",
-      "My question for you, and you could get a little bit technical on this, is like if I'm long hints on a perps position on hyperliquid, what am I actually trading ",
-      "16:14",
-      "19139898",
-      974,
-      "May 07"
-    ],
-    [
-      "BTC",
-      "Not buying Bitcoin.",
-      "4:20",
-      "19126900",
-      260,
-      "May 05"
-    ],
-    [
-      "ZEC",
-      "This looks insane, and I have gotten extraordinarily long on Zcash.",
-      "8:25",
-      "19126900",
-      505,
-      "May 05"
-    ],
-    [
-      "HOOD",
-      "It's Robinhood's fault I didn't 2x spot on this.",
-      "10:22",
-      "19126900",
-      622,
-      "May 05"
-    ],
-    [
-      "WTI",
-      "Or you can fade every escalation announcement, you can fade every oil pump that the market has faded for the last two months, and you could just stay long or st",
-      "23:05",
-      "19126900",
-      1385,
-      "May 05"
-    ],
-    [
-      "MU",
-      "In fact, I only really bought it on the memory trade when I started to see the kind of the move in Micron happen, and then I was like, well, this this this coul",
-      "41:34",
-      "19126900",
-      2494,
-      "May 05"
-    ],
-    [
-      "WTI",
-      "And so, like the South Korea trade, which has been like the best trade, was the scariest long at the bottom because it was getting it's so reliant on energy, sh",
-      "16:48",
-      "19126895",
-      1008,
-      "May 05"
-    ],
-    [
-      "MU",
-      "In fact, I only really bought it on the memory trade when I started to see the kind of the move in Micron happen, and then I was like, well, this this could sti",
-      "17:50",
-      "19126895",
-      1070,
-      "May 05"
-    ],
-    [
-      "HYPE",
-      "And you think about a thing like hyperliquid, market cap relative to Robinhood and how much they buy back, and do some math annualized on like what they would b",
-      "40:41",
-      "19126895",
-      2441,
-      "May 05"
-    ],
-    [
-      "BTC",
-      "I I just think these trades suddenly have just turned, and you're suddenly buying that alt, you'd like the Japanese soldier buying that that altcoin that just l",
-      "41:57",
-      "19126895",
-      2517,
-      "May 05"
-    ],
-    [
-      "ZEC",
-      "But the thing I fuck with the most that I hold right now is Zcash.",
-      "1:18",
-      "19112373",
-      78,
-      "May 02"
-    ],
-    [
-      "BTC",
-      "I had a shower thought that I was gonna sell clip all my BTC into hyper liquid, so I got out of the shower.",
-      "11:34",
-      "19112373",
-      694,
-      "May 02"
-    ],
-    [
-      "WTI",
-      "And so let's see, short oil daily you would have gotten like two and a half percent down, but it got to as much as wow, it got to as much as six and a half, but",
-      "12:36",
-      "19112373",
-      756,
-      "May 02"
-    ],
-    [
-      "HYPE",
-      "And you can actually, and I actually think hyperliquid, this funding rate is mispriced on hyperliquid, such that you know, if you open a short position for the ",
-      "26:04",
-      "19112373",
-      1564,
-      "May 02"
-    ],
-    [
-      "HYPE",
-      "And you can actually, and I actually think hyperliquid, this funding rate is mispriced on hyperliquid, such that you know, if you open a short position for the ",
-      "9:24",
-      "19112366",
-      564,
-      "May 02"
-    ],
-    [
-      "WTI",
-      "And I think this is actually one of the best instruments to short oil um because of this sort of mechanic.",
-      "9:34",
-      "19112366",
-      574,
-      "May 02"
-    ],
-    [
-      "BTC",
-      "I I know you mentioned like trying to short or to long Bitcoin.",
-      "10:04",
-      "19112366",
-      604,
-      "May 02"
-    ],
-    [
-      "ZEC",
-      "I did click a Zcash long.",
-      "10:39",
-      "19106394",
-      639,
-      "Apr 30"
-    ],
-    [
-      "BTC",
-      "Uh, I think stoic savage is long bitcoin, which is interesting.",
-      "11:16",
-      "19106394",
-      676,
-      "Apr 30"
-    ],
-    [
-      "ETH",
-      "What do you mean 930x ETH long?",
-      "23:32",
-      "19106394",
-      1412,
-      "Apr 30"
-    ],
-    [
-      "BTC",
-      "I longed Bitcoin, which is just like what I'm looking around, what I long.",
-      "6:28",
-      "19101546",
-      388,
-      "Apr 29"
-    ],
-    [
-      "WTI",
-      "I I really should have I should have longed more oil and stuff.",
-      "17:38",
-      "19101546",
-      1058,
-      "Apr 29"
-    ],
-    [
-      "ZEC",
-      "I know you were long Zcash for a while.",
-      "19:39",
-      "19101546",
-      1179,
-      "Apr 29"
-    ],
-    [
-      "HYPE",
-      "And like I said, like I'm I'm I'm fine, you know, ever since the initial iron strikes, like I, you know, days here and there, like I buy some BTC, I buy some Ze",
-      "28:04",
-      "19101546",
-      1684,
-      "Apr 29"
-    ],
-    [
-      "WTI",
-      "Is anyone long oil right now?",
-      "7:11",
-      "19100297",
-      431,
-      "Apr 29"
-    ],
-    [
-      "ZEC",
-      "I think Tolks was long Zcash into this and closed it.",
-      "8:39",
-      "19100297",
-      519,
-      "Apr 29"
-    ],
-    [
-      "BTC",
-      "They bought 142 BTC today, which is nice.",
-      "10:01",
-      "19100297",
-      601,
-      "Apr 29"
-    ],
-    [
-      "HOOD",
-      "Five is the Serenity name that I tried along two days ago on Robinhood, but they don't fucking have it.",
-      "11:21",
-      "19100297",
-      681,
-      "Apr 29"
-    ],
-    [
-      "UBER",
-      "They hold a lot of Chipotle, they've hold a lot of meta, Amazon, Brookfield, Uber, QSR, Hilton.",
-      "20:03",
-      "19100297",
-      1203,
-      "Apr 29"
-    ],
-    [
-      "HYPE",
-      "I mean, I don't really have much spot exposure outside of BTC hype and Zach.",
-      "29:26",
-      "19100297",
-      1766,
-      "Apr 29"
-    ],
-    [
-      "NVDA",
-      "I longed NVIDIA on the breakout, close at a loss, small loss, but I longed on the breakout is a decent trade and close at a loss just because I'll talk about wh",
-      "4:36",
-      "19095885",
-      276,
-      "Apr 29"
-    ],
-    [
-      "BTC",
-      "Uh, Bitcoin just ugh weak 76.4, ETH under 2300 and holding on this line for dear life.",
-      "11:08",
-      "19095885",
-      668,
-      "Apr 29"
-    ],
-    [
-      "WTI",
-      "I think short-term bearish oil, long-term deep uncertainty in the oil markets as to uh like hierarchy is gonna be shaken up.",
-      "12:28",
-      "19095885",
-      748,
-      "Apr 29"
-    ],
-    [
-      "TSLA",
-      "But the structure also puts more pressure on the biggest question on Musk is how much attention Tesla actually gets.",
-      "14:57",
-      "19095885",
-      897,
-      "Apr 29"
-    ],
-    [
-      "WTI",
-      "But again, on what on what uh sand disk was one sand disk at the beginning of the year, um when Iran happened was very, very full port, long oil, fertilizer, ga",
-      "21:23",
-      "19095882",
-      1283,
-      "Apr 29"
-    ],
-    [
-      "NVDA",
-      "If there really was a bottleneck, um, NVIDIA would have bought them or bribed them to expand their capacity.",
-      "29:03",
-      "19095882",
-      1743,
-      "Apr 29"
-    ],
-    [
-      "ETH",
-      "Is anyone long ETH?",
-      "11:53",
-      "19087483",
-      713,
-      "Apr 27"
-    ],
-    [
-      "SNAP",
-      "And Snap is just like the biggest diluter ever, and they've never I don't I don't I think Evan Spiegel's never bought back a share of Snap ever.",
-      "16:13",
-      "19087483",
-      973,
-      "Apr 27"
-    ],
-    [
-      "BTC",
-      "My lighter take is that in most instances, highing buying high beta for the sake somebody came in here and said they were buying uh ETH because Bitcoin was too ",
-      "24:22",
-      "19087483",
-      1462,
-      "Apr 27"
-    ],
-    [
-      "MSTR",
-      "The lighter takeaway is that buying high beta just because it's beta is never really a winning strategy, it's just not it like the number one so outperforms by ",
-      "24:32",
-      "19087483",
-      1472,
-      "Apr 27"
-    ],
-    [
-      "NVDA",
-      "I asked it, um NVIDIA just broke ATH, what do I long?",
-      "29:36",
-      "19087483",
-      1776,
-      "Apr 27"
-    ],
-    [
-      "MU",
-      "And so it told me to long Micron, and so I longed it NVIDIA, but I it's uh I don't know, it was like my first reaction was insta response, like ask it, but it d",
-      "30:00",
-      "19087483",
-      1800,
-      "Apr 27"
-    ],
-    [
-      "HOOD",
-      "So Coca-Cola, Spotify is a big one, Visa is a big one, Bloom Energy is huge, Robinhood is huge.",
-      "31:40",
-      "19087483",
-      1900,
-      "Apr 27"
-    ],
-    [
-      "HOOD",
-      "I'm like a massive Robin Hood holder.",
-      "0:19",
-      "19074079",
-      19,
-      "Apr 25"
-    ],
-    [
-      "BTC",
-      "But I longed Bitcoin instead of like long yeah, it didn't even dump.",
-      "16:17",
-      "19074079",
-      977,
-      "Apr 25"
-    ],
-    [
-      "HYPE",
-      "I have calls, shares, and long hyperliquid.",
-      "39:32",
-      "19074079",
-      2372,
-      "Apr 25"
-    ],
-    [
-      "SNAP",
-      "Okay, it's like bag holding snap.",
-      "3:16",
-      "19073414",
-      196,
-      "Apr 24"
-    ],
-    [
-      "HYPE",
-      "A newly created wallet sold 75 ETH on hyperliquid and open of 5x long on a million dollars of ape.",
-      "9:35",
-      "19073414",
-      575,
-      "Apr 24"
-    ],
-    [
-      "HOOD",
-      "I'm like a massive Robin Hood holder.",
-      "18:59",
-      "19073414",
-      1139,
-      "Apr 24"
-    ],
-    [
-      "NVDA",
-      "And when Nvidia started talking about this whole sovereign AI thing, um, you know, what what you might just at a very high level realize is that uh the holders ",
-      "6:24",
-      "19069787",
-      384,
-      "Apr 24"
-    ],
-    [
-      "MSTR",
-      "Like in the near term, that's great because it means Sailor is gonna keep issuing STRC, selling 11% yields to 75-year-olds and getting billions of dollars to ju",
-      "37:36",
-      "19069787",
-      2256,
-      "Apr 24"
-    ],
-    [
-      "SPCX",
-      "So, so I think the thing that's like is exciting to someone like me is like, okay, like you're gonna monetize a lot of the insanity until the SpaceX IPO and the",
-      "42:34",
-      "19069787",
-      2554,
-      "Apr 24"
-    ],
-    [
-      "BTC",
-      "And now we all know how this ended on Solana, but there's a difference where our majors are, you know, BTC and and and Chud ETH versus the SP that has, like you",
-      "45:14",
-      "19069787",
-      2714,
-      "Apr 24"
-    ],
-    [
-      "WTI",
-      "And so when the United States starts talking about we're gonna put a price cap on oil, I'm getting long risk.",
-      "5:36",
-      "19069179",
-      336,
-      "Apr 23"
-    ],
-    [
-      "BTC",
-      "And so I'm I'm in a little BTC long baby though, baby, baby, baby.",
-      "13:04",
-      "19069179",
-      784,
-      "Apr 23"
-    ],
-    [
-      "NVDA",
-      "And when Nvidia started talking about this whole sovereign AI thing, um, you know, what what you might just at a very high level realize is that the holders of ",
-      "33:25",
-      "19069179",
-      2005,
-      "Apr 23"
-    ],
-    [
-      "ETH",
-      "But ever I mean, every person on crypto Twitter came out to publicly post the ETH short.",
-      "12:41",
-      "19062558",
-      761,
-      "Apr 22"
-    ],
-    [
-      "WTI",
-      "He posted a mobile screenshot on his phone up $15 million on crude longs.",
-      "21:36",
-      "19062558",
-      1296,
-      "Apr 22"
-    ],
-    [
-      "AMZN",
-      "Amazon dropped a hymns killer, hymns dropped an Amazon killer, cities long hymns, everyone's going back and forth, back and forth, back and forth.",
-      "2:11",
-      "19056597",
-      131,
-      "Apr 21"
-    ],
-    [
-      "WTI",
-      "Are you willing to along oil now?",
-      "13:08",
-      "19056597",
-      788,
-      "Apr 21"
-    ],
-    [
-      "SPCX",
-      "Then you have all these companies staying private as long as humanly possible, SpaceX goes public at 1.5 trillion.",
-      "37:20",
-      "19056583",
-      2240,
-      "Apr 21"
-    ],
-    [
-      "WTI",
-      "Like we saw how oil moved during this war, but we really saw how silver and how gold traded a couple months ago, and then you're also seeing this the way like T",
-      "41:33",
-      "19056583",
-      2493,
-      "Apr 21"
-    ],
-    [
-      "HYPE",
-      "Um and then occasionally you get one like hyperliquid, where people are actually bullish on it and then they don't want to sell when they get their tokens.",
-      "51:28",
-      "19056583",
-      3088,
-      "Apr 21"
-    ],
-    [
-      "HYPE",
-      "As of April 26, the hyperliquid bridge holds approximately 4.7 billion in TVO.",
-      "31:58",
-      "19049866",
-      1918,
-      "Apr 20"
-    ],
-    [
-      "BTC",
-      "That's like, yeah, it's like this is like this is like like the second or third generation of most people is like you come to that conclusion, and it's kind of ",
-      "55:56",
-      "19049866",
-      3356,
-      "Apr 20"
-    ],
-    [
-      "ETH",
-      "I don't really know how, but it does 76.2, ETH 2330, despite every person on the planet Earth shorting.",
-      "10:01",
-      "19049741",
-      601,
-      "Apr 20"
-    ],
-    [
-      "WTI",
-      "And so if you're long oil, short equities, this is obviously huge escalation announcement.",
-      "20:21",
-      "19049741",
-      1221,
-      "Apr 20"
-    ],
-    [
-      "BTC",
-      "I don't have any long-term bias, except for Bitcoin.",
-      "22:18",
-      "19049741",
-      1338,
-      "Apr 20"
-    ],
-    [
-      "BTC",
-      "You hold like Bitcoin and shit?",
-      "69:51",
-      "19034665",
-      4191,
-      "Apr 17"
-    ],
-    [
-      "BTC",
-      "I wanted to slam Bitcoin longs so bad.",
-      "2:32",
-      "19034664",
-      152,
-      "Apr 17"
-    ],
-    [
-      "WTI",
-      "And so what the long tail effects are the supply shock and oil is still relatively unclear to me.",
-      "8:39",
-      "19034664",
-      519,
-      "Apr 17"
-    ],
-    [
-      "MSTR",
-      "Is anyone long MSTR is a thing I would not touch, but it looks fucking electric.",
-      "13:51",
-      "19034664",
-      831,
-      "Apr 17"
-    ],
-    [
-      "BTC",
-      "I had to sell some Bitcoin, I had to move some stuff.",
-      "1:53",
-      "19029548",
-      113,
-      "Apr 16"
-    ],
-    [
-      "SPCX",
-      "SpaceX was buying a ton of cyber trucks.",
-      "9:33",
-      "19029548",
-      573,
-      "Apr 16"
-    ],
-    [
-      "BTC",
-      "You may know them, they're the guys who have been buying up a lot of Bitcoin.",
-      "15:44",
-      "19024789",
-      944,
-      "Apr 15"
-    ],
-    [
-      "NVDA",
-      "I've bought NVIDIA at 90, but a lot of people bought NVIDIA at 90 during the MC, right?",
-      "8:10",
-      "19024788",
-      490,
-      "Apr 15"
-    ],
-    [
-      "HYPE",
-      "Hyperliquid solved this one by making a billion dollars a year and putting all of their revenue back into buying the coin.",
-      "38:44",
-      "19024788",
-      2324,
-      "Apr 15"
-    ],
-    [
-      "BTC",
-      "Yesterday he bought 550 million dollars of Bitcoin in one day.",
-      "13:12",
-      "19018762",
-      792,
-      "Apr 14"
-    ],
-    [
-      "WTI",
-      "Definitely not the guy who was long, multi-six figures of oil, and then let himself get stopped out right before a fucking candle.",
-      "1:12",
-      "19011646",
-      72,
-      "Apr 13"
-    ],
-    [
-      "MSTR",
-      "I mean, look, the only profitable trading strategy in 2026 is just buying whatever Trump says to buy.",
-      "9:10",
-      "19011646",
-      550,
-      "Apr 13"
-    ],
-    [
-      "BTC",
-      "According to the stretch dashboard, Sailor is on track to have bought five hundred and fifty million dollars worth of bitcoin today from stretch alone, half a b",
-      "11:41",
-      "19011646",
-      701,
-      "Apr 13"
-    ],
-    [
-      "TSLA",
-      "I swear on everything that I had a nightmare last night that I lost money longing Tesla.",
-      "13:09",
-      "19011646",
-      789,
-      "Apr 13"
-    ],
-    [
-      "HOOD",
-      "Remember I bought Robin Hood calls with like the $50 in my Robin Hood account on uh they expired, bro.",
-      "15:44",
-      "19011646",
-      944,
-      "Apr 13"
-    ],
-    [
-      "SNAP",
-      "Um, but remember, this uh you could have bought this snap the day that that article was released.",
-      "15:52",
-      "19011646",
-      952,
-      "Apr 13"
-    ],
-    [
-      "ZEC",
-      "Donald Trump is promoting steak, and Zcash just put in one of the craziest candles I've seen in a long time.",
-      "1:10",
-      "18996663",
-      70,
-      "Apr 10"
-    ],
-    [
-      "WTI",
-      "Because Iran has been talking about a $2 million per dollar per ship toll, which sounds very steep, but is much more reasonable when you like apply it to say th",
-      "25:13",
-      "18996663",
-      1513,
-      "Apr 10"
-    ],
-    [
-      "WTI",
-      "Because Iran has been talking about a $2 million per dollar per ship toll, uh, which sounds very steep, but is much more reasonable when you like apply it to sa",
-      "19:31",
-      "18996657",
-      1171,
-      "Apr 10"
-    ],
-    [
-      "BTC",
-      "And I have to admit that your interview in October and the trade it came up with was short Bitcoin, long gold, I think like October 20th, is in fact the single ",
-      "1:22",
-      "18986035",
-      82,
-      "Apr 08"
-    ],
-    [
-      "ZEC",
-      "I was long Zcash, I was excited about my longs, and I had to fucking close them today.",
-      "1:28",
-      "18986026",
-      88,
-      "Apr 08"
-    ],
-    [
-      "BTC",
-      "And they bought 2,000 Bitcoin today, which is times 71.",
-      "9:58",
-      "18986026",
-      598,
-      "Apr 08"
-    ],
-    [
-      "ZEC",
-      "I as much as I would love to talk about crypto and how good my Zcash long looks, we have more important stuff to talk about.",
-      "0:41",
-      "18980417",
-      41,
-      "Apr 07"
-    ],
-    [
-      "WTI",
-      "And then tomorrow we actually have a sneaker guest, Rory Johnston, who, if you know who this is, doesn't follow me, but he's like a lifelong oil researcher and ",
-      "1:08",
-      "18980417",
-      68,
-      "Apr 07"
-    ],
-    [
-      "BTC",
-      "And I have to admit that your interview in October and the trade it came up with was short Bitcoin, long gold, I think like October 20th, is in fact the single ",
-      "9:26",
-      "18980417",
-      566,
-      "Apr 07"
-    ],
-    [
-      "BTC",
-      "Peter Schiff, short Bitcoin, long gold.",
-      "4:05",
-      "18972893",
-      245,
-      "Apr 06"
-    ],
-    [
-      "TSLA",
-      "I think it was up three at one point, and then um Intel percent is test thread is Tesla's short megachurch alpha.",
-      "18:49",
-      "18972893",
-      1129,
-      "Apr 06"
-    ],
-    [
-      "WTI",
-      "I actually law quickly longed oil but then closed it almost right away because I felt like we dumped way too aggressively last night on that on that that news.",
-      "28:33",
-      "18972893",
-      1713,
-      "Apr 06"
-    ],
-    [
-      "WTI",
-      "It's drone warfare and this is what it would look like bro yeah it's like uh we do a sir WDF what they want to get the push up what we do hasn't just changed up",
-      "26:12",
-      "18960229",
-      1572,
-      "Apr 03"
-    ],
-    [
-      "ZEC",
-      "By the way, this isn't a shot, but on the whole mega church thing, you probably could have started shorting Solana when everybody from Solana Foundation started",
-      "11:36",
-      "18956168",
-      696,
-      "Apr 02"
-    ],
-    [
-      "TSLA",
-      "You want to go along Elon, it's the only way to do it is to buy Tesla, and so you're down to pay some ridiculous premium over what you know it its revenue is be",
-      "28:33",
-      "18956168",
-      1713,
-      "Apr 02"
-    ],
-    [
-      "ETH",
-      "Whether it's like every time we we enter a position, we go short like a dollar of ETH on leverage, just to like say we stand with you wanting this thing to go d",
-      "6:24",
-      "18948023",
-      384,
-      "Apr 01"
-    ],
-    [
-      "SNAP",
-      "Irenic or we manages $2.5 billion, and we have become a substantial shareholder in Snap.",
-      "27:06",
-      "18948023",
-      1626,
-      "Apr 01"
-    ],
-    [
-      "HOOD",
-      "And I have $124 on Robinhood, and so I bought options with low expiry.",
-      "33:49",
-      "18948023",
-      2029,
-      "Apr 01"
-    ],
-    [
-      "SPCX",
-      "And I think some examples of this are like, you know, one, every company staying private until as long as humanly possible, extract every venture dollar, go pub",
-      "45:35",
-      "18936276",
-      2735,
-      "Mar 31"
-    ],
-    [
-      "WTI",
-      "Basically, like you know, you can manipulate oil price in the market, but eventually there's a shortage, there's a fucking shortage, you can't print atoms.",
-      "54:41",
-      "18936276",
-      3281,
-      "Mar 31"
-    ],
-    [
-      "AMZN",
-      "I don't know, talking about how AI will never replace the film writers and they'll never film is too precious, and then three months later sells an AI film comp",
-      "71:57",
-      "18936276",
-      4317,
-      "Mar 31"
-    ],
-    [
-      "WTI",
-      "And as bad as I want a long oil, and as as many times as I've been in this trade and made money from it, it's just it's one of the you can't be too early, you c",
-      "14:57",
-      "18915505",
-      897,
-      "Mar 26"
-    ],
-    [
-      "BTC",
-      "And the more I gained conviction on that, and having seen, you know, having bought my first Bitcoin on Mount Gox, you know, for 250 bucks back in the day, uh, a",
-      "22:46",
-      "18915505",
-      1366,
-      "Mar 26"
-    ],
-    [
-      "SPCX",
-      "In the last two months, I've longed Bitcoin, closed it, longed Tesla on the SpaceX IPO, closed it, longed Palantir because we were going to war, closed it, long",
-      "2:04",
-      "18909608",
-      124,
-      "Mar 25"
-    ],
-    [
-      "UBER",
-      "Cal Uber, and you don't sell a company and you don't be employee number like four move to say it doesn't hate you, first time chatter, and you don't like get eq",
-      "5:38",
-      "18909608",
-      338,
-      "Mar 25"
-    ],
-    [
-      "BTC",
-      "It's like so Bitcoin's idea is like, hey, after 104 years, that's how long they're thinking, right?",
-      "33:24",
-      "18903787",
-      2004,
-      "Mar 24"
-    ],
-    [
-      "WTI",
-      "This is why we stopped longing oil.",
-      "64:10",
-      "18903787",
-      3850,
-      "Mar 24"
-    ],
-    [
-      "WTI",
-      "I'm a little bit tilted on these crude oil longs.",
-      "1:02",
-      "18897364",
-      62,
-      "Mar 23"
-    ],
-    [
-      "BTC",
-      "Tesla goes up one, Bitcoin goes up five, Tesla goes down one, Bitcoin goes down five, and right now the market is going risk off, dollars pumping, people are se",
-      "6:24",
-      "18897364",
-      384,
-      "Mar 23"
-    ],
-    [
-      "ZEC",
-      "Zcash was a long hold.",
-      "23:31",
-      "18897364",
-      1411,
-      "Mar 23"
-    ],
-    [
-      "WTI",
-      "And you guys know I'm I'm pretty I I have been on and off long crude, and I will not let that happen.",
-      "5:36",
-      "18882463",
-      336,
-      "Mar 20"
-    ],
-    [
-      "WTI",
-      "It's just like just the like okay, similar to how when I was closing the oil long, because I'm like, there's just so many like fragile aspects at play here that",
-      "6:12",
-      "18877671",
-      372,
-      "Mar 19"
-    ],
-    [
-      "ZEC",
-      "You could really make up for a lot because you get handed opportunities like the Zcash, you get handed spots, and that's why I think like with the stream, there",
-      "32:55",
-      "18877671",
-      1975,
-      "Mar 19"
-    ],
-    [
-      "WTI",
-      "And maybe I have a little bit too much confidence after this oil long, but like I'm starting to feel pretty good about myself.",
-      "4:17",
-      "18872258",
-      257,
-      "Mar 18"
-    ],
-    [
-      "BTC",
-      "All roads lead to crypto stablecoin issuers whopping long dated bonds to keep rates down, stimulate the United States economy, and send Bitcoin to many, many, m",
-      "28:05",
-      "18865949",
-      1685,
-      "Mar 17"
-    ],
-    [
-      "WTI",
-      "And so, are you like are you long oil at at here?",
-      "39:17",
-      "18865949",
-      2357,
-      "Mar 17"
-    ],
-    [
-      "WTI",
-      "This is an oil long, which is an essential resource to the United States of America, who is actively pushing the narrative that we're winning this war.",
-      "3:02",
-      "18859081",
-      182,
-      "Mar 16"
-    ],
-    [
       "BTC",
       "In this in-depth conversation, ThreadGuy sits down with Murad to break down the future of crypto, meme coins, Bitcoin, market structure, cultural shifts, wealth",
       "0:00",
@@ -5154,43 +753,7 @@
       "Oct 22"
     ]
   ],
-  "plans": {
-    "WTI": {
-      "entry": 736.0,
-      "stop": null,
-      "target": null,
-      "date": "Jun 24",
-      "ep": "19394874"
-    },
-    "SPCX": {
-      "entry": null,
-      "stop": 11.0,
-      "target": null,
-      "date": "Jun 13",
-      "ep": "19341238"
-    },
-    "HYPE": {
-      "entry": 7.0,
-      "stop": null,
-      "target": null,
-      "date": "Jun 09",
-      "ep": "19323458"
-    },
-    "NVDA": {
-      "entry": null,
-      "stop": 300.0,
-      "target": null,
-      "date": "Apr 15",
-      "ep": "19024788"
-    },
-    "MSTR": {
-      "entry": null,
-      "stop": null,
-      "target": 8.0,
-      "date": "Apr 13",
-      "ep": "19011646"
-    }
-  },
+  "plans": {},
   "charts": {
     "ZEC": [
       [
@@ -5508,13 +1071,330 @@
         412.25,
         415.98
       ]
+    ],
+    "HYPE": [
+      [
+        0,
+        24.38,
+        26.32,
+        24.38,
+        25.7
+      ],
+      [
+        1,
+        25.74,
+        26.51,
+        23.95,
+        24.54
+      ],
+      [
+        2,
+        24.56,
+        28.23,
+        24.34,
+        28.23
+      ],
+      [
+        3,
+        28.24,
+        28.25,
+        23.91,
+        24.03
+      ],
+      [
+        4,
+        24.02,
+        26.83,
+        23.32,
+        25.92
+      ],
+      [
+        5,
+        25.96,
+        26.07,
+        24.41,
+        24.63
+      ],
+      [
+        6,
+        24.57,
+        24.57,
+        20.52,
+        21.38
+      ],
+      [
+        7,
+        21.43,
+        25.17,
+        20.86,
+        24.88
+      ],
+      [
+        8,
+        24.91,
+        34.62,
+        24.91,
+        30.55
+      ],
+      [
+        9,
+        30.58,
+        38.14,
+        27.91,
+        32.58
+      ],
+      [
+        10,
+        32.6,
+        36.54,
+        31.07,
+        31.39
+      ],
+      [
+        11,
+        31.44,
+        33.4,
+        28.45,
+        29.33
+      ],
+      [
+        12,
+        29.35,
+        32.24,
+        29.35,
+        30.63
+      ],
+      [
+        13,
+        30.66,
+        31.26,
+        27.83,
+        29.05
+      ],
+      [
+        14,
+        29.04,
+        30.52,
+        25.89,
+        26.26
+      ],
+      [
+        15,
+        26.31,
+        29.81,
+        25.78,
+        27.27
+      ],
+      [
+        16,
+        27.31,
+        33.52,
+        26.22,
+        31.35
+      ],
+      [
+        17,
+        31.3,
+        33.12,
+        29.54,
+        30.29
+      ],
+      [
+        18,
+        30.3,
+        36.83,
+        29.77,
+        36.25
+      ],
+      [
+        19,
+        36.24,
+        38.55,
+        35.89,
+        37.28
+      ],
+      [
+        20,
+        37.27,
+        43.58,
+        37.27,
+        39.16
+      ],
+      [
+        21,
+        39.24,
+        40.54,
+        36.83,
+        37.2
+      ],
+      [
+        22,
+        37.27,
+        41.47,
+        37.27,
+        38.59
+      ],
+      [
+        23,
+        38.64,
+        40.17,
+        35.71,
+        36.55
+      ],
+      [
+        24,
+        36.6,
+        37.69,
+        34.5,
+        36.47
+      ],
+      [
+        25,
+        36.49,
+        39.75,
+        35.2,
+        38.74
+      ],
+      [
+        26,
+        38.75,
+        43.03,
+        38.23,
+        40.84
+      ],
+      [
+        27,
+        40.87,
+        45.67,
+        40.87,
+        43.87
+      ],
+      [
+        28,
+        43.84,
+        45.46,
+        40.59,
+        40.59
+      ],
+      [
+        29,
+        40.73,
+        41.77,
+        38.95,
+        41.13
+      ],
+      [
+        30,
+        41.14,
+        43.51,
+        39.5,
+        40.1
+      ],
+      [
+        31,
+        40.16,
+        42.31,
+        38.8,
+        41.29
+      ],
+      [
+        32,
+        41.27,
+        44.66,
+        40.7,
+        43.02
+      ],
+      [
+        33,
+        43.08,
+        44.3,
+        41.91,
+        43.09
+      ],
+      [
+        34,
+        42.98,
+        44.71,
+        38.27,
+        44.12
+      ],
+      [
+        35,
+        44.15,
+        47.57,
+        40.54,
+        47.49
+      ],
+      [
+        36,
+        47.59,
+        62.14,
+        46.98,
+        55.08
+      ],
+      [
+        37,
+        54.75,
+        64.38,
+        54.3,
+        59.5
+      ],
+      [
+        38,
+        59.48,
+        68.37,
+        56.43,
+        68.15
+      ],
+      [
+        39,
+        68.21,
+        75.46,
+        67.56,
+        74.39
+      ],
+      [
+        40,
+        74.54,
+        75.09,
+        55.66,
+        59.49
+      ],
+      [
+        41,
+        59.58,
+        65.57,
+        52.75,
+        58.96
+      ],
+      [
+        42,
+        58.92,
+        68.41,
+        56.95,
+        66.84
+      ],
+      [
+        43,
+        66.89,
+        76.7,
+        65.72,
+        69.81
+      ],
+      [
+        44,
+        70.01,
+        71.31,
+        61.77,
+        62.14
+      ]
     ]
   },
   "stats": {
-    "green_now": 37,
-    "avg_ret": -2.0,
-    "graded": 115,
-    "open": 157,
+    "green_now": 50,
+    "avg_ret": 7.3,
+    "graded": 2,
+    "open": 0,
     "shows": 119
   }
 }
