@@ -30,6 +30,8 @@ jobs:
         run: pip install requests youtube-transcript-api yt-dlp
 
       - name: Pull episodes
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           if [ "${{ github.event.inputs.full }}" = "true" ]; then
             echo "Full archive backfill"
