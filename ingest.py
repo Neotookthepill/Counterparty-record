@@ -29,7 +29,7 @@ Run nightly:  python ingest.py            (Netlify scheduled fn / GitHub Action 
 Backfill all: python ingest.py --all
 """
 
-import json, re, sys, os, urllib.request, xml.etree.ElementTree as ET
+import json, re, sys, os, time, urllib.request, urllib.error, xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
 SHOW_ID = "2535072"
@@ -330,19 +330,28 @@ CLASSIFY_SYS = (
 def _anthropic(content, system, max_tokens=1500):
     body = json.dumps({"model": CLASSIFY_MODEL, "max_tokens": max_tokens,
                        "system": system, "messages": [{"role":"user","content":content}]}).encode()
-    req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body,
-        headers={"content-type":"application/json","x-api-key":ANTHROPIC_KEY,
-                 "anthropic-version":"2023-06-01"})
-    with urllib.request.urlopen(req, timeout=90) as r:
-        d = json.loads(r.read().decode())
-    return "".join(b.get("text","") for b in d.get("content",[]) if b.get("type")=="text")
+    last = ""
+    for attempt in range(5):
+        req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body,
+            headers={"content-type":"application/json","x-api-key":ANTHROPIC_KEY,
+                     "anthropic-version":"2023-06-01"})
+        try:
+            with urllib.request.urlopen(req, timeout=90) as r:
+                d = json.loads(r.read().decode())
+            return "".join(b.get("text","") for b in d.get("content",[]) if b.get("type")=="text")
+        except urllib.error.HTTPError as e:
+            last = f"anthropic {e.code}: {e.read().decode('utf-8','replace')[:200]}"
+            if e.code in (429, 529, 500, 503):      # rate limit / overloaded -> back off
+                time.sleep(2 ** attempt * 3); continue
+            raise RuntimeError(last)                 # 400/401/404 -> real error, stop
+    raise RuntimeError(last or "anthropic: retries exhausted")
 
 def classify_calls(sents):
     """LLM pass over timestamped sentences -> clean calls. None = caller uses heuristic."""
     if not ANTHROPIC_KEY or not sents:
         return None
     text = "\n".join(f"[{int(t)}s] {s}" for t, s in sents)
-    out = []
+    out = []; ok = False
     for i in range(0, len(text), 9000):
         try:
             raw = _anthropic(text[i:i+9000], CLASSIFY_SYS, 1500)
@@ -356,8 +365,11 @@ def classify_calls(sents):
                             "conviction": c.get("conviction","medium"),
                             "quote": str(c.get("quote",""))[:160],
                             "secs": secs, "ts": mmss(secs)})
+            ok = True
         except Exception as e:
             print(f"  ! classify chunk failed ({e})", file=sys.stderr)
+    if not ok:
+        return None   # every chunk failed -> fall back to heuristic, do not wipe
     seen, uniq = set(), []
     for c in out:
         if c["tk"] in seen: continue
@@ -408,25 +420,28 @@ def build(all_episodes=False, limit=20):
             tj = None
         else:
             calls, sents = extract(ep["title"], ep["desc"], tj)
-        # Stage 2: prefer the LLM classifier when a key is set; else keep heuristic calls
+        # Heuristic calls = the broad, searchable layer (drives the TAPE / search).
+        raw_calls = calls
+        # Stage 2: clean calls for the FEED / scoreboard. Falls back to heuristic
+        # if no key or the pass fails (never wipes the broad layer).
         clf = classify_calls(sents)
-        if clf is not None:
-            calls = clf
-            print(f"  classified {len(calls)} real calls")
+        feed_calls = clf if clf else raw_calls
+        if clf:
+            print(f"  classified {len(clf)} real calls")
         # date label + iso for grading
         try:
             dt = datetime.strptime(ep["pubDate"][:16].strip(), "%a, %d %b %Y")
             dlabel = dt.strftime("%b %d"); call_iso = dt.strftime("%Y-%m-%d")
         except Exception:
             dlabel = ep["pubDate"][:11]; call_iso = "1970-01-01"
-        # spoken levels (only where stated on air)
-        for c in calls:
+        # spoken levels (only where stated on air) come from the heuristic extract
+        for c in raw_calls:
             lv = c.get("levels")
             if lv and lv.get("stated") and c["tk"] not in plans:
                 plans[c["tk"]] = {"entry": lv["entry"], "stop": lv["stop"],
                                   "target": lv["target"], "date": dlabel, "ep": ep["id"]}
-        # Stage 3: grade each call live, mark to market
-        for c in calls:
+        # Stage 3: grade each FEED call live, mark to market
+        for c in feed_calls:
             g = grade(c["tk"], c.get("dir","L"), call_iso)
             if g:
                 c["status"] = "green" if g["green"] else "red"
@@ -437,12 +452,12 @@ def build(all_episodes=False, limit=20):
                 reds   += 0 if g["green"] else 1
             else:
                 c["status"] = "open"; c["pct"] = ""
-        # feed row: [tk, dir, status, pct, thesis]  (+ conviction in slot 5)
+        # feed row: [tk, dir, status, pct, thesis, conviction]
         rows = [[c["tk"], c.get("dir","L"), c.get("status","open"), c.get("pct",""),
-                 c.get("thesis", c.get("quote",""))[:120], c.get("conviction","")] for c in calls]
+                 c.get("thesis", c.get("quote",""))[:120], c.get("conviction","")] for c in feed_calls]
         feed.append({"d": dlabel, "t": ep["title"], "g": "", "calls": rows})
-        # tape receipts: [tk, quote, ts, epid, secs, date]
-        for c in calls:
+        # tape receipts (broad, searchable): [tk, quote, ts, epid, secs, date]
+        for c in raw_calls:
             if c.get("ts"):
                 secs = int(c.get("secs", 0))
                 tape.append([c["tk"], c.get("quote","")[:160], c["ts"], ep["id"], secs, dlabel])
