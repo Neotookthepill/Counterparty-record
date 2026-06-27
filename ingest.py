@@ -50,6 +50,46 @@ TICKERS = {
 LONG_WORDS  = ("long","bought","buying","i'm in","i am in","accumulate","holding","hold","spot")
 SHORT_WORDS = ("short","shorting","fade","fading","sell","selling","puts")
 
+# Spoken names said in full on air -> ticker. Reuses the curated map and extends it.
+NAME2SYM = dict(TICKERS)
+NAME2SYM.update({
+    "palantir":"PLTR","sofi":"SOFI","rocket lab":"RKLB","coinbase":"COIN",
+    "microstrategy":"MSTR","micro strategy":"MSTR","solana":"SOL",
+    "google":"GOOGL","alphabet":"GOOGL","apple":"AAPL","meta":"META","facebook":"META",
+    "microsoft":"MSFT","netflix":"NFLX","intel":"INTC","palo alto":"PANW",
+    "gamestop":"GME","live nation":"LYV","disney":"DIS","sandisk":"SNDK",
+    "broadcom":"AVGO","super micro":"SMCI","supermicro":"SMCI","circle":"CRCL",
+})
+# All-caps tokens that look like tickers but are not. Guards against the obvious noise.
+NOT_TICKER = {
+ "I","A","AI","OK","CEO","CFO","COO","CTO","IPO","USA","US","UK","EU","FED","CPI","GDP","PPI",
+ "ETF","ETFS","EV","EVS","DD","AH","PM","AM","EST","PST","GMT","ET","Q1","Q2","Q3","Q4","FY",
+ "YTD","ATH","ATL","FOMO","YOLO","NGMI","WAGMI","GG","LOL","IMO","TBH","TV","PC","OS","II","III",
+ "NFT","DEX","CEX","APR","APY","TVL","KOL","OG","ATM","CME","SEC","IRS","FBI","CIA","NASA","CNBC",
+ "IRL","DM","PR","NYSE","TLDR","FAQ","WTF","USD","EUR","GBP","JPY","DXY","VIX","ID","AKA","ASAP",
+ "FYI","RSI","MACD","NO","YES","THE","AND","BUT","SO","GO","UP","IT","WE","HE","ME","MY","BY","OR",
+}
+TICKER_RE = re.compile(r"\$([A-Za-z]{1,5})\b|(?<![A-Za-z])([A-Z]{2,5})(?![A-Za-z])")
+
+def detect_tickers(sent):
+    """Likely tickers in a sentence: spoken name map, then $TAG, then bare caps,
+    filtered by a stopword guard. No fixed shortlist required."""
+    found, low = [], sent.lower()
+    for name, sym in NAME2SYM.items():
+        if re.search(rf"(?<![a-z]){re.escape(name)}(?![a-z])", low):
+            found.append(sym)
+    for m in TICKER_RE.finditer(sent):
+        if m.group(1):                                   # $TAG, strong signal
+            found.append(m.group(1).upper())
+        else:
+            tag = m.group(2).upper()
+            if tag not in NOT_TICKER:                    # bare caps, guarded
+                found.append(tag)
+    seen, out = set(), []
+    for t in found:
+        if t not in seen: seen.add(t); out.append(t)
+    return out
+
 def get(url, asjson=False):
     req = urllib.request.Request(url, headers=UA)
     with urllib.request.urlopen(req, timeout=30) as r:
@@ -129,17 +169,15 @@ def extract_levels(sents, name):
     return out
 
 def extract_calls_heuristic(sents):
-    """No-LLM fallback: find ticker + direction in a sentence, keep it as a receipt."""
+    """No-LLM fallback: find ticker (by pattern) + direction in a sentence, keep as a receipt."""
     sym2name = {sym: name for name, sym in TICKERS.items()}
     calls = []
     for t, sent in sents:
         low = " " + sent.lower() + " "
-        tk = None
-        for name, sym in TICKERS.items():
-            if re.search(rf"(?<![a-z]){re.escape(name)}(?![a-z])", low):
-                tk = sym; break
-        if not tk:
+        tickers = detect_tickers(sent)
+        if not tickers:
             continue
+        tk = tickers[0]
         d = "L" if any(k in low for k in LONG_WORDS) else ("S" if any(k in low for k in SHORT_WORDS) else None)
         if not d:
             continue
@@ -456,11 +494,13 @@ def build(all_episodes=False, limit=20):
         rows = [[c["tk"], c.get("dir","L"), c.get("status","open"), c.get("pct",""),
                  c.get("thesis", c.get("quote",""))[:120], c.get("conviction","")] for c in feed_calls]
         feed.append({"d": dlabel, "t": ep["title"], "g": "", "calls": rows})
-        # tape receipts (broad, searchable): [tk, quote, ts, epid, secs, date]
-        for c in raw_calls:
-            if c.get("ts"):
-                secs = int(c.get("secs", 0))
-                tape.append([c["tk"], c.get("quote","")[:160], c["ts"], ep["id"], secs, dlabel])
+        # full-text tape: every substantive line is searchable, ticker tagged when found
+        # [tk_or_blank, sentence, ts, epid, secs, date]
+        for t, sent in sents:
+            if len(sent) < 45:
+                continue
+            tks = detect_tickers(sent)
+            tape.append([(tks[0] if tks else ""), sent[:200], mmss(int(t)), ep["id"], int(t), dlabel])
         # 4: attach prices for studied tickers
         # for c in calls: c["prices"] = price_window(c["tk"], ep["pubDate"])
     graded = greens + reds
