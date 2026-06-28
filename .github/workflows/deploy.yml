@@ -1,0 +1,25 @@
+name: Deploy site
+
+# Pushes the repo to Netlify as-is, without re-running the data pipeline.
+# Use this to publish an index.html change. It never touches the_record_data.json,
+# so the full archive is preserved. Runs automatically when index.html changes,
+# and can be run by hand from the Actions tab.
+
+on:
+  push:
+    paths:
+      - "index.html"
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy to Netlify
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          npm install -g netlify-cli
+          netlify deploy --prod --dir=. --site="$NETLIFY_SITE_ID" --auth="$NETLIFY_AUTH_TOKEN"
