@@ -378,14 +378,14 @@ body.locked{overflow:hidden;height:100vh}
     <div class="hero">
       <img class="mk" data-k="j" alt="" src="" alt="">
       <h1><span class="hl">The show is live once.</span><span class="hl">The Record keeps it forever.</span></h1>
-      <p class="lede">Every call from the show, written down and scored. See how it actually played out, catch the daily recap, and learn to read the setups yourself.</p>
+      <p class="lede">Every call from the show, written down and kept to the second. Read the recap, search every word, and learn to read the setups yourself.</p>
       <div class="live"><span class="d"></span>Live<span class="sep">&middot;</span>Mon-Fri<span class="sep">&middot;</span>3:30 EST</div>
     </div>
 
     <div class="proof">
-      <div class="c"><div class="n g num" id="h-wr"></div><div class="l">In the green right now</div></div>
-      <div class="c"><div class="n num" id="h-tot"></div><div class="l">Calls tracked on the show</div></div>
-      <div class="c"><div class="n num" id="h-grade">A&minus;</div><div class="l">The desk's grade</div></div>
+      <div class="c"><div class="n g num" id="h-wr"></div><div class="l">Shows kept</div></div>
+      <div class="c"><div class="n num" id="h-tot"></div><div class="l">Lines on the record</div></div>
+      <div class="c"><div class="n num" id="h-grade"></div><div class="l">Calls logged</div></div>
     </div>
 
     <div class="doors">
@@ -401,7 +401,7 @@ body.locked{overflow:hidden;height:100vh}
       </div>
       <div class="door" data-go="record">
         <div class="idx num">03</div>
-        <div class="mid"><div class="dk">Trust it &middot; the scoreboard</div><h3>The Ledger</h3><p>Every call the show makes, scored and kept. Wins and losses, nothing hidden. Who called it, and how it actually did.</p></div>
+        <div class="mid"><div class="dk">Trust it &middot; the record</div><h3>The Ledger</h3><p>Every call the show makes, written down and kept to the second. Searchable forever, so nothing gets memory-holed.</p></div>
         <div class="go">See the ledger<span class="ar">&rarr;</span></div>
       </div>
     </div>
@@ -492,28 +492,26 @@ body.locked{overflow:hidden;height:100vh}
 
   <!-- RECORD -->
   <section class="view" id="view-record"><div class="wrap">
-    <div class="opener"><img class="mk" data-k="j" alt="" src="" alt=""><span class="kick">Trust it</span><h2>The Ledger</h2><p>Every call the show makes, scored and kept. Accountability as content. Wins and losses, nothing hidden, nothing rounded up.</p><div class="rule-c"></div></div>
+    <div class="opener"><img class="mk" data-k="j" alt="" src="" alt=""><span class="kick">Trust it</span><h2>The Ledger</h2><p>Every call the show makes, written down and kept to the second. Not a scoreboard, the receipts. The money P&amp;L lives on paste.trade. This is the permanent, searchable record of who said what.</p><div class="rule-c"></div></div>
 
     <div class="idx-hero">
-      <div class="idx-big"><div class="v num g" id="r-wr"></div><div class="l">In the green right now, marked to market</div></div>
-      <div class="idx-note">Every call is logged off the daily stream, then priced at today's close: this is what it would be worth if you had taken it the day it was made, in the direction the desk called. Nothing is closed for them or rounded up. paste.trade runs the live trade by trade P&L. The Record adds the written, taught, and searchable layer on top.</div>
+      <div class="idx-big"><div class="v num g" id="r-wr"></div><div class="l">on the record, every call kept to the second</div></div>
+      <div class="idx-note">We log the call, not the exit, so The Record does not score a P&amp;L. That is on purpose. The money lives on paste.trade, where the real round trips are tracked. What The Record does that nothing else does: it writes every call down, timestamps it to the second, and makes the whole archive searchable. The accountability is that it is on the record and cannot be memory-holed. The chart in the Classroom shows what the asset did next, as a lesson, not a verdict.</div>
     </div>
     <div class="rec-stats" id="rec-stats"></div>
 
-    <div class="opener" style="padding:54px 0 22px"><span class="kick">Accountability as a sport</span><h2 style="font-size:clamp(30px,4.4vw,48px)">The Standings</h2><p>Every voice on the show, ranked by the calls they actually made. A reason to come back and perform.</p></div>
+    <div class="opener" style="padding:54px 0 22px"><span class="kick">Who's on the show</span><h2 style="font-size:clamp(30px,4.4vw,48px)">The Standings</h2><p>Every voice on the show and the call they are known for. Who said what, on the record.</p></div>
     <table class="tbl">
-      <thead><tr><th>#</th><th>Voice</th><th>Signature call</th><th class="r">Verdict</th></tr></thead>
+      <thead><tr><th>#</th><th>Voice</th><th>Signature call</th><th class="r">Known for</th></tr></thead>
       <tbody id="standings-body"></tbody>
     </table>
 
-    <div class="opener" style="padding:54px 0 22px"><span class="kick">The full log</span><h2 style="font-size:clamp(30px,4.4vw,48px)">Every Call</h2><p>By show, with what it was and how it did. The archive that video cannot keep.</p></div>
+    <div class="opener" style="padding:54px 0 22px"><span class="kick">The full log</span><h2 style="font-size:clamp(30px,4.4vw,48px)">Every Call</h2><p>By show: the ticker, the direction, and the line he said. The archive that video cannot keep.</p></div>
     <div class="rec-tools" id="rec-tools">
       <span class="lab">Filter</span>
       <button class="chip" data-f="all" aria-pressed="true">All</button>
       <button class="chip" data-f="L">Longs</button>
       <button class="chip" data-f="S">Shorts</button>
-      <button class="chip" data-f="win">In the green</button>
-      <button class="chip" data-f="loss">In the red</button>
       <input id="rec-filter" class="rec-filter" placeholder="Filter by ticker, e.g. MU" spellcheck="false">
     </div>
     <div id="record-body"></div>
@@ -620,10 +618,9 @@ function ranked(){return VOICES.map(function(v){return {nm:v[0],ro:v[1],bio:v[2]
 
 /* ---------- HOME ---------- */
 function renderHome(){
-  var s=stats();
-  document.getElementById('h-wr').innerHTML=(s.wr==null?'Live':s.wr+'<span class="pct">%</span>');
-  document.getElementById('h-tot').textContent=s.tot;
-  document.getElementById('h-grade').textContent=(DISPATCH&&DISPATCH[0]&&DISPATCH[0].grade)?DISPATCH[0].grade:INDEX.grade;
+  document.getElementById('h-wr').textContent=FEED.length;
+  document.getElementById('h-tot').textContent=TAPE.length.toLocaleString();
+  document.getElementById('h-grade').textContent=allCalls().length;
 }
 
 /* ---------- TODAY / dispatch ---------- */
@@ -708,29 +705,23 @@ function tapeSearch(q){
 
 /* ---------- RECORD ---------- */
 function callRow(c){
-  var tk=c[0],dir=c[1],status=c[2],pct=c[3],th=c[4];
-  var right, cls;
-  if(pct){ right=pct; cls=(pct.indexOf('-')===0)?'down':'up'; }
-  else if(status==='win'||status==='green'){ right='In the green'; cls='up'; }
-  else if(status==='loss'||status==='red'){ right='In the red'; cls='down'; }
-  else if(status==='flat'){ right='Flat'; cls='flat'; }
-  else { right='Tracking'; cls='open'; }
-  return '<div class="call" data-d="'+dir+'" data-s="'+status+'"><span class="tk">'+tk+'</span>'+dirPill(dir)+'<span class="th">'+th+'</span><span class="pnl num '+cls+'">'+right+'</span></div>';
+  var tk=c[0],dir=c[1],th=c[4];
+  return '<div class="call" data-d="'+dir+'"><span class="tk">'+tk+'</span>'+dirPill(dir)+'<span class="th">'+th+'</span></div>';
 }
 function renderRecord(){
-  var s=stats();
-  document.getElementById('r-wr').innerHTML=(s.wr==null?'Live':s.wr+'<span class="pct">%</span>');
+  var calls=allCalls().length;
+  var span=FEED.length?(FEED[FEED.length-1].d+' \u2192 '+FEED[0].d):'\u2014';
+  document.getElementById('r-wr').innerHTML=FEED.length+'<span class="pct"> shows</span>';
   document.getElementById('rec-stats').innerHTML=
-    '<div class="c"><div class="n num">'+s.tot+'</div><div class="l">Calls tracked</div></div>'+
-    '<div class="c"><div class="n g num">'+(s.wr==null?'\u2014':s.wr+'%')+'</div><div class="l">In the green right now</div></div>'+
-    '<div class="c"><div class="n num '+(s.avg!=null&&s.avg<0?'down':'g')+'">'+avgTxt(s)+'</div><div class="l">Avg return since the call</div></div>'+
-    '<div class="c"><div class="n num">'+FEED.length+'</div><div class="l">Shows logged</div></div>';
-  var vcls={Paid:'up',Working:'up',Open:'open',Mixed:'flat','Gave back':'down'};
+    '<div class="c"><div class="n num">'+calls+'</div><div class="l">Calls logged</div></div>'+
+    '<div class="c"><div class="n g num">'+TAPE.length.toLocaleString()+'</div><div class="l">Lines you can search</div></div>'+
+    '<div class="c"><div class="n num">'+span+'</div><div class="l">Span kept</div></div>'+
+    '<div class="c"><div class="n num">Every word</div><div class="l">Timestamped to the second</div></div>';
   document.getElementById('standings-body').innerHTML=ranked().map(function(r,i){
     return '<tr><td class="pl num">'+(i+1)+'</td>'+
       '<td><div class="nm">'+r.nm+'</div><div class="ro">'+r.ro+'</div></td>'+
       '<td class="sig"><b>'+r.tk+' '+(r.dir==='L'?'long':'short')+'</b><br>'+r.bio+'</td>'+
-      '<td class="r"><span class="verdict '+(vcls[r.verdict]||'open')+'">'+r.verdict+'</span><div class="vn">'+r.note+'</div></td></tr>';
+      '<td class="r"><div class="vn">'+r.note+'</div></td></tr>';
   }).join('');
   renderLog();
 }
@@ -753,9 +744,6 @@ function renderLog(){
 function applyFilter(f){
   document.querySelectorAll('#record-body .call').forEach(function(el){var show=true;
     if(f==='L'||f==='S')show=el.dataset.d===f;
-    else if(f==='win')show=(el.dataset.s==='green'||el.dataset.s==='win');
-    else if(f==='loss')show=(el.dataset.s==='red'||el.dataset.s==='loss');
-    else if(f==='open')show=el.dataset.s==='open';
     el.style.display=show?'':'none';});
   document.querySelectorAll('#record-body .show').forEach(function(sh){
     var any=Array.prototype.some.call(sh.querySelectorAll('.call'),function(c){return c.style.display!=='none';});
