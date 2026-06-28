@@ -512,7 +512,7 @@ body.locked{overflow:hidden;height:100vh}
       <button class="chip" data-f="all" aria-pressed="true">All</button>
       <button class="chip" data-f="L">Longs</button>
       <button class="chip" data-f="S">Shorts</button>
-      <input id="rec-filter" class="rec-filter" placeholder="Filter by ticker, e.g. MU" spellcheck="false">
+      <input id="rec-filter" class="rec-filter" placeholder="Filter by name or ticker, e.g. bitcoin" spellcheck="false">
     </div>
     <div id="record-body"></div>
   </div></section>
@@ -726,10 +726,15 @@ function renderRecord(){
   renderLog();
 }
 var REC_ALL=false, REC_CAP=10;
+var NAME2SYM={BITCOIN:'BTC',ETHEREUM:'ETH',ETHER:'ETH',SOLANA:'SOL',MICRON:'MU',MICROSTRATEGY:'MSTR',STRATEGY:'MSTR',ZCASH:'ZEC',HYPERLIQUID:'HYPE',PALANTIR:'PLTR',COINBASE:'COIN',NVIDIA:'NVDA',TESLA:'TSLA',AMAZON:'AMZN',ROBINHOOD:'HOOD',SPACEX:'SPCX',COREWEAVE:'CRWV',APPLE:'AAPL',GOOGLE:'GOOGL',ALPHABET:'GOOGL',OIL:'WTI',GOLD:'GC',SILVER:'SI',GAMESTOP:'GME',CIRCLE:'CRCL',SOFI:'SOFI'};
 function renderLog(){
   var f=document.getElementById('rec-filter'); var q=(f&&f.value||'').trim().toUpperCase();
   var list=FEED;
-  if(q) list=FEED.map(function(s){var cc=(s.calls||[]).filter(function(c){return c[0].indexOf(q)>-1;});return cc.length?{d:s.d,t:s.t,g:s.g,calls:cc}:null;}).filter(Boolean);
+  if(q){ var sym=NAME2SYM[q]||q;
+    list=FEED.map(function(s){var cc=(s.calls||[]).filter(function(c){
+      return c[0].indexOf(sym)>-1 || c[0].indexOf(q)>-1 || (c[4]||'').toUpperCase().indexOf(q)>-1;
+    });return cc.length?{d:s.d,t:s.t,g:s.g,calls:cc}:null;}).filter(Boolean);
+  }
   var shown=(REC_ALL||q)?list:list.slice(0,REC_CAP);
   var body=shown.map(function(s){
     var rows=(s.calls||[]).map(callRow).join('');
