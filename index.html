@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Counterparty . The Record</title><meta name="description" content="The permanent home of Counterparty. The written layer, the school, and the honest scoreboard of the home of entertainment finance."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600;1,700&family=Newsreader:ital,opsz,wght@0,18,400;0,18,500;0,18,600;1,18,400;1,18,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"><style>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>The Record &mdash; every call from Counterparty, kept.</title><meta name="description" content="The show is live once. The Record keeps it forever: every call written down, timestamped, and searchable to the second. The written layer Counterparty never had."><meta property="og:type" content="website"><meta property="og:url" content="https://counterparty.netlify.app/"><meta property="og:title" content="The Record &mdash; Counterparty, kept"><meta property="og:description" content="The show is live once. The Record keeps it forever. Every call written down, timestamped, and searchable to the second. The thing video cannot do."><meta property="og:image" content="https://counterparty.netlify.app/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="The Record &mdash; Counterparty, kept"><meta name="twitter:description" content="Every call from the show, written down, timestamped, and searchable forever. The thing video cannot do."><meta name="twitter:image" content="https://counterparty.netlify.app/og.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600;1,700&family=Newsreader:ital,opsz,wght@0,18,400;0,18,500;0,18,600;1,18,400;1,18,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"><style>
 :root{
   --navy:#0c1336; --navy-2:#101a44; --navy-3:#16224f; --navy-4:#1d2b5e;
   --cream:#efe9da; --cream-2:#bdb6a3; --cream-3:#857f6c;
@@ -273,11 +273,66 @@ a{color:inherit}
 .signup .sb:hover{filter:brightness(1.06)}
 .signup .sb-2{background:transparent;border:1px solid var(--ln);color:var(--cream);margin-left:10px}
 .signup .sb-2:hover{border-color:var(--brass)}
+.desk-note{font-family:"Newsreader",serif;font-style:italic;color:var(--cream-3);font-size:15px;line-height:1.6;max-width:760px;margin:0 0 36px;border-left:2px solid var(--brass);padding-left:18px}
+.desk-by{display:block;margin-top:8px;font-family:"IBM Plex Mono",monospace;font-style:normal;font-size:11px;letter-spacing:.12em;color:var(--brass);text-transform:uppercase}
+.dk{border:1px solid var(--ln);border-radius:8px;padding:26px 28px;margin-bottom:20px;background:linear-gradient(180deg,rgba(255,255,255,.012),transparent)}
+.dk-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;padding-bottom:18px;border-bottom:1px solid var(--ln);margin-bottom:20px}
+.dk-id{display:flex;flex-direction:column;gap:3px}
+.dk-tk{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:22px;letter-spacing:.04em;color:var(--brass)}
+.dk-nm{font-family:"Cormorant Garamond",serif;font-size:26px;color:var(--cream);line-height:1}
+.dk-sec{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.08em;color:var(--cream-3);text-transform:uppercase;margin-top:3px}
+.dk-meta{display:flex;flex-direction:column;align-items:flex-end;gap:7px;flex-shrink:0}
+.dk-conv{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.08em;color:var(--cream-3);text-transform:uppercase;text-align:right}
+.dk-grid{display:grid;grid-template-columns:1fr 330px;gap:30px;align-items:start}
+.dk-th{font-family:"Newsreader",serif;font-size:16px;line-height:1.62;color:var(--cream-2,#d9d2bf);margin:0 0 16px}
+.dk-levels{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.dl{display:flex;flex-direction:column;gap:2px;padding:7px 11px;border:1px solid var(--ln);border-radius:5px;min-width:78px}
+.dl-k{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--cream-3)}
+.dl-v{font-family:"IBM Plex Mono",monospace;font-size:15px;font-weight:600;color:var(--cream)}
+.dl.target{border-color:rgba(202,173,108,.45)} .dl.target .dl-v{color:var(--brass)}
+.dl.invalidation{border-color:rgba(217,83,79,.4)} .dl.invalidation .dl-v{color:#e08079;font-size:12px}
+.dl.entry .dl-v{color:var(--cream)}
+.dk-pend{font-family:"Newsreader",serif;font-style:italic;font-size:13.5px;color:#e0b87a;margin-bottom:14px}
+.dk-cat,.dk-teach{font-family:"Newsreader",serif;font-size:14px;line-height:1.55;color:var(--cream-3);margin-top:10px}
+.dk-cl,.dk-tl{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--brass);margin-right:7px}
+.dk-right{position:sticky;top:90px}
+.lmap{width:100%;height:auto;display:block}
+.lmap .ll{stroke-width:1}
+.lmap .ll.invalidation{stroke:#d9534f;stroke-dasharray:4 3;opacity:.75}
+.lmap .ll.target{stroke:var(--brass);opacity:.8}
+.lmap .ll.entry{stroke:var(--cream-3);stroke-dasharray:2 2;opacity:.6}
+.lmap .lz{fill:rgba(202,173,108,.06)}
+.lmap .lt{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.04em;fill:var(--cream-3);text-transform:uppercase}
+.lmap .lt.invalidation{fill:#d9534f} .lmap .lt.target{fill:var(--brass)}
+.lmap .lv{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;fill:var(--cream)}
+.lmap .lv.invalidation{fill:#e08079} .lmap .lv.target{fill:var(--brass)}
+.bsk{display:flex;flex-direction:column;gap:9px}
+.bk{display:grid;grid-template-columns:96px 1fr 42px;align-items:center;gap:9px}
+.bn{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--cream-3);text-align:right;letter-spacing:.03em}
+.bb{height:9px;background:rgba(255,255,255,.05);border-radius:5px;overflow:hidden}
+.bf{display:block;height:100%;background:linear-gradient(90deg,var(--brass),#9d8246);border-radius:5px}
+.bp{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--cream)}
+.prox{border:1px solid var(--ln);border-radius:6px;padding:20px;text-align:center}
+.prox-row{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap}
+.prox-a,.prox-b{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:18px;color:var(--brass)}
+.prox-b{color:#f0a93a}
+.prox-arrow{font-family:"Newsreader",serif;font-style:italic;font-size:13px;color:var(--cream-3)}
+.prox-mnav{display:inline-flex;align-items:center;gap:8px;margin-top:14px;padding:6px 12px;border:1px solid rgba(217,83,79,.4);border-radius:5px}
+.prox-ml{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--cream-3)}
+.prox-mv{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;color:#e08079}
+.prox-note{font-family:"Newsreader",serif;font-style:italic;font-size:13.5px;color:var(--cream-3);margin-top:12px;line-height:1.5}
+@media(max-width:760px){ .dk-grid{grid-template-columns:1fr;gap:22px} .dk-right{position:static} .lmap{max-height:200px} }
 @media(max-width:640px){
   .ts-row{flex-wrap:wrap;gap:7px}
   .ts-q{flex-basis:100%;order:5;min-width:0;white-space:normal;word-break:break-word}
   .signup .sb-2{margin-left:0;margin-top:10px}
   .kick,.lab,.idx-note-lab,.l{font-size:11px !important;letter-spacing:.1em}
+  .dk{padding:20px 16px}
+  .dk-head{flex-wrap:wrap}
+  .dk-id{min-width:0}
+  .dk-meta{align-items:flex-start;flex-direction:row;gap:10px;width:100%}
+  .dk-conv{text-align:left}
+  .bk{grid-template-columns:62px 1fr 38px;gap:7px}
 }
 .signup .sb:hover{background:#d8bd80}
 .signup .ok{font-family:"Newsreader",serif;font-style:italic;color:var(--brass)}
@@ -379,6 +434,7 @@ body.locked{overflow:hidden;height:100vh}
     <button data-view="today">Today</button>
     <button data-view="class">The Classroom</button>
     <button data-view="record">The Ledger</button>
+    <button data-view="desk">The Desk</button>
     <span class="live"><span class="d"></span>Live 3:30 EST</span>
   </nav>
 </div></header>
@@ -390,7 +446,7 @@ body.locked{overflow:hidden;height:100vh}
     <div class="hero">
       <img class="mk" data-k="j" alt="" src="" alt="">
       <h1><span class="hl">The show is live once.</span><span class="hl">The Record keeps it forever.</span></h1>
-      <p class="lede">Every call from the show, written down and kept to the second. Read the recap, search every word, and learn to read the setups yourself.</p>
+      <p class="lede">Every call from the show, kept to the second and searchable forever. Read the recap, study the setups, and find any word he said in seconds.</p>
       <div class="live"><span class="d"></span>Live<span class="sep">&middot;</span>Mon-Fri<span class="sep">&middot;</span>3:30 EST</div>
     </div>
 
@@ -487,7 +543,7 @@ body.locked{overflow:hidden;height:100vh}
       <div class="tape-search">
         <div class="ts-box"><input id="tape-q" type="text" placeholder="try AMC, fullport, Zcash, never diversify..." aria-label="search the tape"></div>
         <div class="ts-res" id="tape-res"></div>
-        <div class="ts-note">A live sample, drawn from Counterparty's own published transcripts and chapter markers. Every result links to the moment in the show.</div>
+        <div class="ts-note">The whole archive. Every word of every show, searchable to the second. Each result jumps straight to the moment he said it.</div>
       </div>
     </div>
 
@@ -529,6 +585,12 @@ body.locked{overflow:hidden;height:100vh}
     <div id="record-body"></div>
   </div></section>
 
+  <section class="view" id="view-desk"><div class="wrap">
+    <div class="opener"><img class="mk" data-k="j" alt="" src="" alt=""><span class="kick">The analysis</span><h2>The Desk</h2><p>The show keeps a live trade book. The Desk is a standing one. Six names I am long, each with the thesis, the level that proves me wrong, and what the setup teaches. My read, not advice.</p><div class="rule-c"></div></div>
+    <div class="desk-note">I hold every name on this page. These are my own reads, written to be argued with, not investment advice. The level that invalidates each thesis is stated up front, because a call without an exit is just a vibe. <span class="desk-by">Kenny &middot; @KtheQuant</span></div>
+    <div id="desk-body"></div>
+  </div></section>
+
   <div class="wrap"><div class="foot">
     <img class="fw" data-k="wc" src="" alt="Counterparty">
     <div class="fl">The Record &middot; the permanent home of Counterparty<br>The home of entertainment finance &middot; Live M-F 3:30 EST &middot; twitch.tv/threadguy &middot; @counterpartytv<br><span class="rp" id="replay">&#9655; Replay the intro</span></div>
@@ -542,6 +604,74 @@ var EPB="https://www.buzzsprout.com/2535072/episodes/";
 function tapeLink(ep,secs){ if((''+ep).indexOf('yt:')===0){return 'https://www.youtube.com/watch?v='+ep.slice(3)+(secs?('&t='+secs+'s'):'');} return EPB+ep+(secs?('?t='+secs):'');}
 function pnl(v){return (v>=0?'+':'')+v.toFixed(2)+'%';}
 function dirPill(d){return '<span class="dir '+d+'">'+(d==='L'?'LONG':'SHORT')+'</span>';}
+var DESK=[
+{tk:'BB',name:'BlackBerry',sector:'QNX \u00b7 physical AI \u00b7 software-defined vehicles',bias:'LONG',conviction:'High conviction',type:'levels',
+ thesis:'Not a phone company. QNX is the real-time OS in 275M+ cars, with a royalty backlog near $950M already contracted. Alloy Kore moves them up the stack at 2.5 to 5x the license price, and QNX is the deterministic layer NVIDIA leans on for physical AI in robots and vehicles. A real turnaround underneath it: profitable, net cash, Rule of 40. I sold most of my crypto bag for this.',
+ levels:[{k:'target',label:'Target',val:'17.5'},{k:'target',label:'Target',val:'13.5'},{k:'entry',label:'Breakout',val:'10'},{k:'invalidation',label:'Invalidation, weekly close',val:'8'}],
+ catalyst:'Q1 FY27 earnings landed June 25, a clean beat and raise. Next: Alloy Kore general release this year, QNX guided around 15% growth.',
+ teaches:'How a multi-year base breaks, and why the invalidation is a weekly close below 8, not an intraday wick. Close required, not touch.'},
+{tk:'MU',name:'Micron',sector:'HBM4 memory \u00b7 the only US maker',bias:'LONG',conviction:'Maximum conviction \u00b7 core',type:'levels',
+ thesis:'The cheapest way to own the AI memory bottleneck. HBM4 is sold out, the PEG sits near 0.08, a forward PE around 6 against a market at 20. NVIDIA prioritizes their HBM4, the CHIPS Act backs the fabs, and SOCAMM lifts capacity per rack by an order of magnitude. This is the socle of my book.',
+ levels:[{k:'target',label:'Bull',val:'1000'},{k:'target',label:'Base',val:'800'},{k:'entry',label:'Reload zone',val:'625'}],
+ catalyst:'Earnings July 1, 2026. The read: a beat is near-certain on HBM4 demand.',
+ teaches:'Why a low PEG beats a low price: cheapness plus growth, not cheapness alone. And why you reload into a dip at support instead of chasing the rip.'},
+{tk:'AAOI',name:'Applied Optoelectronics',sector:'1.6T transceivers \u00b7 internal lasers, Texas',bias:'LONG',conviction:'Speculative \u00b7 smallest size',type:'levels',
+ thesis:'The only US maker of 1.6T optical transceivers with its own lasers, built in Texas. Microsoft over $200M and Oracle $53M in confirmed orders. But it is my riskiest name and I size it that way: Citron is short with an $85 target, 81.9% of revenue sits in two customers, and a $500M ATM means dilution can land any quarter.',
+ levels:[{k:'target',label:'Clean beat',val:'220'},{k:'entry',label:'Zone',val:'160'},{k:'invalidation',label:'Dilution print',val:'120'},{k:'invalidation',label:'Citron PT',val:'85'}],
+ catalyst:'Every earnings is a binary. A clean beat with no new dilution runs it toward 220; a dilution print sends it to 120.',
+ teaches:'Position sizing is the strategy. A high-reward name with a live short case and dilution risk gets the smallest ticket, not conviction size. Risk first, upside second.'},
+{tk:'HIMS',name:'Hims & Hers',sector:'DTC pharmacy \u00b7 FDA peptides \u00b7 short squeeze',bias:'LONG',conviction:'Medium \u00b7 momentum',type:'levels',
+ thesis:'2.5M subscribers, revenue up 33%, and the FDA peptide path formalized. The kicker is a 34% short float into accelerating growth, the textbook setup for a squeeze. I run it with a hard stop, because squeeze theses fail fast when they fail.',
+ levels:[{k:'target',label:'Squeeze',val:'48'},{k:'entry',label:'Zone',val:'30'},{k:'invalidation',label:'Stop',val:'28.5'}],
+ catalyst:'Earnings and any FDA peptide headline. A short float that size is fuel in both directions.',
+ teaches:'What a short squeeze actually is, and why you trade it with a stop. A high short float is a reason to be long and a reason to respect the exit.'},
+{tk:'DRAM',name:'Roundhill Memory ETF',sector:'The whole memory complex, one ticker',bias:'LONG',conviction:'Core \u00b7 thematic',type:'basket',
+ thesis:'The clean way to own the entire memory shortage without buying foreign stocks one by one. One ticker holds Micron, Samsung, SK Hynix, SanDisk, Kioxia and the rest. With the shortage deepening, TSMC just pulled Winbond into its DRAM chain, I would rather own the whole complex than guess the single winner.',
+ holdings:[{n:'Micron',p:24.6},{n:'Samsung',p:24.1},{n:'SK Hynix',p:23.1},{n:'SanDisk',p:4.9},{n:'Kioxia',p:4.9},{n:'Western Digital',p:4.8},{n:'Nanya',p:3.9},{n:'Winbond',p:2.4}],
+ invalidation:'The shortage resolves and oversupply returns.',
+ catalyst:'The same memory cycle that drives MU, spread across every maker.',
+ teaches:'When you are sure about a theme but not the single winner, an ETF buys the basket. You trade a little upside for not being wrong on the one name.'},
+{tk:'MSTR',name:'MicroStrategy',sector:'Bitcoin treasury \u00b7 leveraged BTC proxy',bias:'LONG',conviction:'Long \u00b7 BTC beta',type:'proxy',
+ thesis:'The largest corporate Bitcoin treasury, so MSTR is leveraged exposure to BTC through its mNAV. The setup right now: it slipped to a discount to its own Bitcoin, mNAV under 1, and on June 29 Saylor answered with a Digital Credit Capital Framework, $1B common plus $1B preferred buybacks, a USD reserve covering roughly 26 months of dividends, and a shift to active capital management. You are buying the Bitcoin stack at a discount, with management now defending it. Honest note: the show has framed MSTR as a short before. This is my own, separate view.',
+ invalidation:'Bitcoin breaks structure, or the discount to NAV persists despite the buybacks.',
+ catalyst:'June 29: the new capital framework, $2B of buybacks, STRC dividend lifted to 12%, BTC monetization capped at $1.25B. Driven by Bitcoin and mNAV, not the software.',
+ teaches:'mNAV: market cap against the value of the Bitcoin it holds. Above 1 is a premium, below 1 a discount. Knowing which tells you whether you are overpaying for the stack or buying it cheap.'},
+];
+function levelMap(levels){
+  var nums=levels.map(function(l){return parseFloat(l.val);});
+  var mn=Math.min.apply(null,nums),mx=Math.max.apply(null,nums);
+  var pad=(mx-mn)*0.22||1; mn-=pad; mx+=pad;
+  var W=320,H=232,L=12,R=W-12,T=18,B=H-16;
+  function y(v){return (B-(parseFloat(v)-mn)/(mx-mn)*(B-T)).toFixed(1);}
+  var s='<svg viewBox="0 0 '+W+' '+H+'" class="lmap" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">';
+  var entry=null,tg=[]; levels.forEach(function(l){if(l.k==='entry')entry=l; if(l.k==='target')tg.push(parseFloat(l.val));});
+  if(entry&&tg.length){var topT=Math.max.apply(null,tg); s+='<rect x="'+L+'" y="'+y(topT)+'" width="'+(R-L)+'" height="'+(y(entry.val)-y(topT))+'" class="lz"/>';}
+  levels.forEach(function(l){var yy=y(l.val);
+    s+='<line x1="'+L+'" y1="'+yy+'" x2="'+R+'" y2="'+yy+'" class="ll '+l.k+'"/>';
+    s+='<text x="'+L+'" y="'+(yy-5)+'" class="lt '+l.k+'">'+l.label+'</text>';
+    s+='<text x="'+R+'" y="'+(yy-5)+'" text-anchor="end" class="lv '+l.k+'">'+l.val+'</text>';});
+  return s+'</svg>';
+}
+function basket(hold){var mx=Math.max.apply(null,hold.map(function(h){return h.p;}));
+  return '<div class="bsk">'+hold.map(function(h){return '<div class="bk"><span class="bn">'+h.n+'</span><span class="bb"><span class="bf" style="width:'+(h.p/mx*100).toFixed(0)+'%"></span></span><span class="bp">'+h.p+'%</span></div>';}).join('')+'</div>';
+}
+function proxyPanel(d){return '<div class="prox"><div class="prox-row"><span class="prox-a">MSTR</span><span class="prox-arrow">tracks, with leverage</span><span class="prox-b">BTC</span></div><div class="prox-mnav"><span class="prox-ml">mNAV</span><span class="prox-mv">under 1 \u00b7 discount</span></div><div class="prox-note">Trading below the value of its own Bitcoin. The June 29 framework is built to close that discount.</div></div>';}
+function renderDesk(){
+  document.getElementById('desk-body').innerHTML=DESK.map(function(d){
+    var vis=d.type==='basket'?basket(d.holdings):d.type==='proxy'?proxyPanel(d):levelMap(d.levels);
+    var strip='';
+    if(d.levels){strip='<div class="dk-levels">'+d.levels.map(function(l){return '<div class="dl '+l.k+'"><span class="dl-k">'+l.label+'</span><span class="dl-v">'+l.val+'</span></div>';}).join('')+'</div>';}
+    else if(d.invalidation){strip='<div class="dk-levels"><div class="dl invalidation"><span class="dl-k">Invalidation</span><span class="dl-v">'+d.invalidation+'</span></div></div>';}
+    var pend=d.pending?'<div class="dk-pend">Levels: my own entry and invalidation here are still to set.</div>':'';
+    return '<article class="dk">'+
+      '<div class="dk-head"><div class="dk-id"><span class="dk-tk">'+d.tk+'</span><span class="dk-nm">'+d.name+'</span><div class="dk-sec">'+d.sector+'</div></div>'+
+      '<div class="dk-meta"><span class="dir L">'+d.bias+'</span><span class="dk-conv">'+d.conviction+'</span></div></div>'+
+      '<div class="dk-grid"><div class="dk-left"><p class="dk-th">'+d.thesis+'</p>'+strip+pend+
+      '<div class="dk-cat"><span class="dk-cl">Catalyst</span> '+d.catalyst+'</div>'+
+      '<div class="dk-teach"><span class="dk-tl">What it teaches</span> '+d.teaches+'</div></div>'+
+      '<div class="dk-right">'+vis+'</div></div></article>';
+  }).join('');
+}
 function fmtP(p){ if(p>=100) return p.toFixed(0); if(p>=10) return p.toFixed(1); if(p>=1) return p.toFixed(2); return p.toFixed(3); }
 
 /* ---------- annotated chart (SVG) ---------- */
@@ -633,6 +763,17 @@ function renderHome(){
   document.getElementById('h-wr').textContent=FEED.length;
   document.getElementById('h-tot').textContent=TAPE.length.toLocaleString();
   document.getElementById('h-grade').textContent=allCalls().length;
+}
+function countUp(el,target,dur){
+  if(!el)return; dur=dur||1100; var t0=null;
+  function step(ts){ if(!t0)t0=ts; var p=Math.min((ts-t0)/dur,1); var e=1-Math.pow(1-p,3);
+    el.textContent=Math.round(target*e).toLocaleString(); if(p<1)requestAnimationFrame(step); else el.textContent=target.toLocaleString(); }
+  requestAnimationFrame(step);
+}
+function countHome(){
+  countUp(document.getElementById('h-wr'), FEED.length);
+  countUp(document.getElementById('h-tot'), TAPE.length);
+  countUp(document.getElementById('h-grade'), allCalls().length);
 }
 
 /* ---------- TODAY / dispatch ---------- */
@@ -803,6 +944,7 @@ function enterDesk(){
   intro.classList.add('gone');                    /* intro scales up, blurs, fades out */
   document.body.classList.remove('locked');
   setTimeout(function(){ intro.style.display='none'; },860);
+  setTimeout(countHome, 480);
 }
 function replayIntro(){
   leaving=false;
@@ -816,7 +958,7 @@ intro.addEventListener('click',enterDesk);
 intro.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '||e.key==='Escape')enterDesk();});
 document.getElementById('replay').addEventListener('click',replayIntro);
 
-function boot(){renderHome();renderToday();renderClass();renderRecord();show('home');}
+function boot(){renderHome();renderToday();renderClass();renderRecord();renderDesk();show('home');}
 /* live data ready: if deployed next to the_record_data.json (from ingest.py), use it.
    As a single file with no server, the fetch fails and we fall back to the baked data. */
 try{
