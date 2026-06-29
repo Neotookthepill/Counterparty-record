@@ -244,6 +244,9 @@ a{color:inherit}
 .grp{font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass);margin:16px 0 2px}
 .call{display:flex;align-items:center;gap:14px;padding:11px 0;border-top:1px solid var(--ln-2);transition:background .14s,padding-left .14s,border-color .14s;margin:0 -10px;padding-left:10px;padding-right:10px;border-radius:4px}
 .call:hover{background:rgba(202,173,108,.05);padding-left:16px;border-color:transparent}
+.call-link{cursor:pointer;text-decoration:none;color:inherit}
+.call-go{margin-left:auto;color:var(--cream-3);font-size:13px;opacity:0;transition:.14s}
+.call-link:hover .call-go{opacity:1;color:var(--brass)}
 .call .tk{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:14.5px;color:var(--cream);min-width:58px}
 .call .th{font-family:"Newsreader",serif;font-size:14.5px;color:var(--cream-2);flex:1;line-height:1.4}
 .call .pnl{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:13px;text-align:right;min-width:70px}
@@ -266,7 +269,16 @@ a{color:inherit}
 .signup .f{display:flex;gap:9px;flex-wrap:wrap}
 .signup input{font-family:"IBM Plex Mono",monospace;font-size:12px;padding:13px 15px;border:1px solid var(--ln);background:rgba(239,233,218,.05);color:var(--cream);border-radius:4px;min-width:210px}
 .signup input::placeholder{color:var(--cream-3)}
-.signup .sb{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;background:var(--brass);color:var(--navy);padding:13px 22px;border-radius:4px;font-weight:600;transition:.15s}
+.signup .sb{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;background:var(--brass);color:var(--navy);padding:13px 22px;border-radius:4px;font-weight:600;transition:.15s;text-decoration:none;display:inline-block}
+.signup .sb:hover{filter:brightness(1.06)}
+.signup .sb-2{background:transparent;border:1px solid var(--ln);color:var(--cream);margin-left:10px}
+.signup .sb-2:hover{border-color:var(--brass)}
+@media(max-width:640px){
+  .ts-row{flex-wrap:wrap;gap:7px}
+  .ts-q{flex-basis:100%;order:5;min-width:0;white-space:normal;word-break:break-word}
+  .signup .sb-2{margin-left:0;margin-top:10px}
+  .kick,.lab,.idx-note-lab,.l{font-size:11px !important;letter-spacing:.1em}
+}
 .signup .sb:hover{background:#d8bd80}
 .signup .ok{font-family:"Newsreader",serif;font-style:italic;color:var(--brass)}
 
@@ -407,8 +419,8 @@ body.locked{overflow:hidden;height:100vh}
     </div>
 
     <div class="signup">
-      <div class="l"><h3>The Dispatch, in your inbox.</h3><p>Three minutes the next morning, and you never miss a call. Free.</p></div>
-      <div class="f" id="signup-f"><input type="email" id="su-email" placeholder="you@email.com" aria-label="email"><button class="sb" id="su-btn">Subscribe</button></div>
+      <div class="l"><h3>Catch it live, then read it here.</h3><p>The show runs Mon to Fri, 3:30 EST. Every call lands on The Record the next morning.</p></div>
+      <div class="f"><a class="sb" href="https://twitch.tv/threadguy" target="_blank" rel="noopener">Watch the show</a><a class="sb sb-2" href="https://x.com/notthreadguy" target="_blank" rel="noopener">Follow @notthreadguy</a></div>
     </div>
   </div></section>
 
@@ -500,9 +512,9 @@ body.locked{overflow:hidden;height:100vh}
     </div>
     <div class="rec-stats" id="rec-stats"></div>
 
-    <div class="opener" style="padding:54px 0 22px"><span class="kick">Who's on the show</span><h2 style="font-size:clamp(30px,4.4vw,48px)">The Standings</h2><p>Every voice on the show and the call they are known for. Who said what, on the record.</p></div>
+    <div class="opener" style="padding:54px 0 22px"><span class="kick">Who's been on</span><h2 style="font-size:clamp(30px,4.4vw,48px)">The Guest List</h2><p>The voices who have come on Counterparty. Real names, real affiliations, on the record.</p></div>
     <table class="tbl">
-      <thead><tr><th>#</th><th>Voice</th><th>Signature call</th><th class="r">Known for</th></tr></thead>
+      <thead><tr><th>Voice</th><th class="r">Affiliation</th></tr></thead>
       <tbody id="standings-body"></tbody>
     </table>
 
@@ -705,8 +717,10 @@ function tapeSearch(q){
 
 /* ---------- RECORD ---------- */
 function callRow(c){
-  var tk=c[0],dir=c[1],th=c[4];
-  return '<div class="call" data-d="'+dir+'"><span class="tk">'+tk+'</span>'+dirPill(dir)+'<span class="th">'+th+'</span></div>';
+  var tk=c[0],dir=c[1],th=c[4],secs=c[6],epid=c[7];
+  var inner='<span class="tk">'+tk+'</span>'+dirPill(dir)+'<span class="th">'+th+'</span>';
+  if(epid){ return '<a class="call call-link" data-d="'+dir+'" href="'+tapeLink(epid,secs)+'" target="_blank" rel="noopener">'+inner+'<span class="call-go">&#8599;</span></a>'; }
+  return '<div class="call" data-d="'+dir+'">'+inner+'</div>';
 }
 function renderRecord(){
   var calls=allCalls().length;
@@ -717,11 +731,9 @@ function renderRecord(){
     '<div class="c"><div class="n g num">'+TAPE.length.toLocaleString()+'</div><div class="l">Lines you can search</div></div>'+
     '<div class="c"><div class="n num">'+span+'</div><div class="l">Span kept</div></div>'+
     '<div class="c"><div class="n num">Every word</div><div class="l">Timestamped to the second</div></div>';
-  document.getElementById('standings-body').innerHTML=ranked().map(function(r,i){
-    return '<tr><td class="pl num">'+(i+1)+'</td>'+
-      '<td><div class="nm">'+r.nm+'</div><div class="ro">'+r.ro+'</div></td>'+
-      '<td class="sig"><b>'+r.tk+' '+(r.dir==='L'?'long':'short')+'</b><br>'+r.bio+'</td>'+
-      '<td class="r"><div class="vn">'+r.note+'</div></td></tr>';
+  document.getElementById('standings-body').innerHTML=ranked().map(function(r){
+    return '<tr><td><div class="nm">'+r.nm+'</div></td>'+
+      '<td class="r"><div class="ro">'+r.ro+'</div></td></tr>';
   }).join('');
   renderLog();
 }
@@ -778,9 +790,6 @@ document.body.addEventListener('click',function(e){
 document.body.addEventListener('input',function(e){
   if(e.target&&e.target.id==='rec-filter'){REC_ALL=true;renderLog();}
 });
-document.getElementById('su-btn').addEventListener('click',function(){var em=document.getElementById('su-email').value.trim();
-  if(em&&em.indexOf('@')>0){document.getElementById('signup-f').innerHTML='<span class="ok">You are on the list. The next Dispatch lands the morning after the next show.</span>';}
-  else{document.getElementById('su-email').focus();}});
 document.getElementById('tape-q').addEventListener('input',function(){tapeSearch(this.value);});
 
 /* intro . crafted hand-off transition */
