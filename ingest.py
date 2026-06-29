@@ -490,9 +490,10 @@ def build(all_episodes=False, limit=20):
                 reds   += 0 if g["green"] else 1
             else:
                 c["status"] = "open"; c["pct"] = ""
-        # feed row: [tk, dir, status, pct, thesis, conviction]
+        # feed row: [tk, dir, status, pct, thesis, conviction, secs, epid]
         rows = [[c["tk"], c.get("dir","L"), c.get("status","open"), c.get("pct",""),
-                 c.get("thesis", c.get("quote",""))[:120], c.get("conviction","")] for c in feed_calls]
+                 c.get("thesis", c.get("quote",""))[:120], c.get("conviction",""),
+                 int(c.get("secs",0) or 0), ep["id"]] for c in feed_calls]
         feed.append({"d": dlabel, "t": ep["title"], "g": "", "calls": rows})
         # full-text tape: every substantive line is searchable, ticker tagged when found
         # [tk_or_blank, sentence, ts, epid, secs, date]
