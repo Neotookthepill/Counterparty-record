@@ -1,7 +1,74 @@
 {
-  "generated_at": "2026-07-07T11:39:59.367061+00:00",
+  "generated_at": "2026-07-08T10:56:04.092035+00:00",
   "source": "counterparty public podcast feed (buzzsprout) + own extraction",
   "feed": [
+    {
+      "d": "Jul 07",
+      "t": "Saylor Sold Again, China Gates Its AI, Trump is at War with Burry, and Ansem-Mania",
+      "g": "",
+      "calls": [
+        [
+          "SPX",
+          "S",
+          "open",
+          "",
+          "Like, I think back to Carg Island when Trump was threatening to nuke Carg Island, and everybody was in the AI trade, eve",
+          "",
+          386,
+          "19460557"
+        ],
+        [
+          "BTC",
+          "S",
+          "red",
+          "+-0.0%",
+          "Like I think of Bitcoin after 1010 when it's hanging out around 100k and everyone's like, This is the bottom, this is th",
+          "",
+          437,
+          "19460557"
+        ],
+        [
+          "MSTR",
+          "L",
+          "open",
+          "",
+          "What if we're in a similar spot with Bitcoin and Michael Saylor?",
+          "",
+          679,
+          "19460557"
+        ],
+        [
+          "TTWO",
+          "L",
+          "open",
+          "",
+          "If you're not long, take two.",
+          "",
+          2023,
+          "19460557"
+        ],
+        [
+          "HOOD",
+          "L",
+          "open",
+          "",
+          "Chris Hood, 2.2, losing it, Shopify losing it, Eli Lilly holding it, take two lost it completely, Reddit losing it compl",
+          "",
+          2340,
+          "19460557"
+        ],
+        [
+          "AMZN",
+          "S",
+          "open",
+          "",
+          "One of the was one of the early Amazon resellers and still called out the internet bubble publicly and short at Amazon.",
+          "",
+          3159,
+          "19460557"
+        ]
+      ]
+    },
     {
       "d": "Jun 28",
       "t": "Micron's Record Blowout, Why Niche Is Cool Again, and the Saylor Overhang on Bitcoin - Threadguy: June 24th, 2026",
@@ -1554,146 +1621,3633 @@
           "19290047"
         ]
       ]
-    },
-    {
-      "d": "Jun 02",
-      "t": "Saylor Sold His Bitcoin, GLP-1s vs Sugar Slop, Software Melt-Up, AGI Is Already Here, Pokemon Card Bubble, Trump Stock Pump - Threadguy: June 2nd, 2026",
-      "g": "",
-      "calls": [
-        [
-          "MSTR",
-          "S",
-          "open",
-          "",
-          "You know, I I genuinely am sad about Michael Saylor selling, okay?",
-          "",
-          38,
-          "19279810"
-        ],
-        [
-          "BTC",
-          "S",
-          "green",
-          "+0.7%",
-          "That's been my intro for like over a year, and then he comes out, and not only does he sell, but he sells like 30 bitcoi",
-          "",
-          72,
-          "19279810"
-        ],
-        [
-          "HYPE",
-          "S",
-          "green",
-          "+4.4%",
-          "The craziest part about the Michael Saylor selling Bitcoin is that hyperliquid's like $74.",
-          "",
-          93,
-          "19279810"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Born to long the AI bottleneck trade, forced to talk about oil in World War III.",
-          "",
-          806,
-          "19279810"
-        ],
-        [
-          "NVDA",
-          "S",
-          "open",
-          "",
-          "Nvidia puts in a monster candle, sick ATH retest up six percent today.",
-          "",
-          954,
-          "19279810"
-        ],
-        [
-          "AMC",
-          "L",
-          "open",
-          "",
-          "I'm buying AMC.",
-          "",
-          1176,
-          "19279810"
-        ],
-        [
-          "ZEC",
-          "L",
-          "red",
-          "-25.8%",
-          "Threadguy is along a little bit of Zcash, a lot of bit of VBV, and a lot of bit more of Hyper Liquid.",
-          "",
-          1225,
-          "19279810"
-        ],
-        [
-          "XPL",
-          "L",
-          "open",
-          "",
-          "Bear chain, XPL Pump is up three percent on news that rhino is long, which is crazy.",
-          "",
-          1255,
-          "19279810"
-        ],
-        [
-          "AGI",
-          "L",
-          "open",
-          "",
-          "And I had always envisioned it in my head that there would be like a moment where they would hold up a sign and say, we ",
-          "",
-          1951,
-          "19279810"
-        ],
-        [
-          "PLTR",
-          "L",
-          "open",
-          "",
-          "This is part of the reason, by the way, I'm long Palantir.",
-          "",
-          2050,
-          "19279810"
-        ],
-        [
-          "CRCL",
-          "L",
-          "open",
-          "",
-          "I mean, this circle is where he said go buy uh you could have bought the clothes of go buy a Dell, and you're up 94% on ",
-          "",
-          2176,
-          "19279810"
-        ],
-        [
-          "TKO",
-          "L",
-          "open",
-          "",
-          "Outside of that, this is well, Trump bought a $50,000 uh worth of stock in the TKO, uh TKO group holdings.",
-          "",
-          2237,
-          "19279810"
-        ],
-        [
-          "UFC",
-          "S",
-          "open",
-          "",
-          "Um, shortly before we're heavily promoting a UFC event at the White House.",
-          "",
-          2246,
-          "19279810"
-        ]
-      ]
     }
   ],
   "tape": [
+    [
+      "",
+      "It's early, but I think I could get used to this.",
+      "0:09",
+      "19460557",
+      9,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I already meditated, journaled, took a walk, did a workout, studied, watched scroll my TikTok, scroll my YouTube studio.",
+      "0:12",
+      "19460557",
+      12,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I really, I really, really, really think we're gonna keep this.",
+      "0:22",
+      "19460557",
+      22,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Obviously, we're gonna see, but I really think we're gonna keep this.",
+      "0:25",
+      "19460557",
+      25,
+      "Jul 07"
+    ],
+    [
+      "",
+      "We have market open in 52 minutes, and we have a lot to cover before that.",
+      "0:30",
+      "19460557",
+      30,
+      "Jul 07"
+    ],
+    [
+      "",
+      "So I went on a vacation, first vacation, and forever went to the Hamptons.",
+      "0:37",
+      "19460557",
+      37,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I just moved to New York a couple months ago, and all anybody anywhere wants to talk about is the Hamptons, the Hamptons, oh the Hamptons, the mythical Hamptons.",
+      "0:40",
+      "19460557",
+      40,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And you have to go to the Hamptons, you have to go to the Hamptons, you have to go to the Hamptons.",
+      "0:48",
+      "19460557",
+      48,
+      "Jul 07"
+    ],
+    [
+      "",
+      "We went, took a squad, I had a big group, we went to the Hamptons, and has anyone been?",
+      "0:53",
+      "19460557",
+      53,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And the thing that's the most disappointing about it is I I I never really realized this.",
+      "1:05",
+      "19460557",
+      65,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I don't go on that many vacations, and so I've never really like eternalized this before.",
+      "1:09",
+      "19460557",
+      69,
+      "Jul 07"
+    ],
+    [
+      "",
+      "But basically every vacation spot is the exact same place, complete monoculture.",
+      "1:14",
+      "19460557",
+      74,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And I was in the Hamptons for five days, and you could have you could have told me I was at any beach on either coast in America, maybe even the entire world, and I wouldn't have been able to tell you",
+      "1:20",
+      "19460557",
+      80,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Like we're at the club in the Hamptons, we're at balance, it's like this, you know, hyped up club.",
+      "1:31",
+      "19460557",
+      91,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It was a really fun club, 4th of July during the day.",
+      "1:37",
+      "19460557",
+      97,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It was really fun, but you could have told me I was at any club on any beach in America, and I would not have been able to differentiate where I was.",
+      "1:40",
+      "19460557",
+      100,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I could have been in the Outer Banks, I could have been in Virginia Beach, I could have been in Santa Monica, I could have been in San Diego, you could have been at any, you could have put me in any b",
+      "1:50",
+      "19460557",
+      110,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It's like there's two places, there's three places to go out, there's four bars, all of them have a line that's 10 hours long.",
+      "2:00",
+      "19460557",
+      120,
+      "Jul 07"
+    ],
+    [
+      "",
+      "There's three grocery stores, and there's a bunch of houses, and every beach town is the exact same.",
+      "2:06",
+      "19460557",
+      126,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And the other thing I don't understand is you go to these beach towns, you go to the Hamptons, you go to like, I don't know, Charleston, South Carolina, you go to any of these places.",
+      "2:11",
+      "19460557",
+      131,
+      "Jul 07"
+    ],
+    [
+      "",
+      "How does every 25-year-old have so much bread?",
+      "2:22",
+      "19460557",
+      142,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Like what there is an extreme rich inflation thing that's happening across society right now, and it's becoming a problem.",
+      "2:26",
+      "19460557",
+      146,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Because you can't do like you can't, you can know it's no longer possible where you can spend money for the purpose of doing shit that other people can't do.",
+      "2:35",
+      "19460557",
+      155,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Because there is a rich inflation epidemic in America right now, and I don't understand it.",
+      "2:42",
+      "19460557",
+      162,
+      "Jul 07"
+    ],
+    [
+      "",
+      "There's like thousands of 25-year-olds that are like, I'm like, who are you people?",
+      "2:48",
+      "19460557",
+      168,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Every beach town's the same, and there's some like money inflation thing that's hitting.",
+      "3:02",
+      "19460557",
+      182,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I won't do a whole rant on that, but it it's unbelievable.",
+      "3:11",
+      "19460557",
+      191,
+      "Jul 07"
+    ],
+    [
+      "",
+      "There's like a thousand rich guys for every like one hot girl.",
+      "3:14",
+      "19460557",
+      194,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It yeah, I would short the Hamptons if I could.",
+      "3:18",
+      "19460557",
+      198,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um, all right, on that note, do have a lot to talk about.",
+      "3:20",
+      "19460557",
+      200,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I mean, I've missed a lot, like I have I have some ground to make up.",
+      "3:25",
+      "19460557",
+      205,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I went on market bubble on Thursday before I left for a vacation for a couple days.",
+      "3:32",
+      "19460557",
+      212,
+      "Jul 07"
+    ],
+    [
+      "",
+      "If we could even call it a vacation, it just fucking whatever.",
+      "3:40",
+      "19460557",
+      220,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And I just like didn't do great coverage of Ansom Coin last week.",
+      "3:44",
+      "19460557",
+      224,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Kind of because I traded it, kind of because it was happening over the weekend.",
+      "3:49",
+      "19460557",
+      229,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Like, it was like 165 mil when I left, something like this.",
+      "3:52",
+      "19460557",
+      232,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I was on market bubble, maybe a little bit lower.",
+      "3:56",
+      "19460557",
+      236,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It was like, yeah, it was like 165 mil when I left, and it's currently at 410 million dollar market cap, it has no liquidity, but there is legitimate seven-figure PLs back in crypto on chain for the f",
+      "3:59",
+      "19460557",
+      239,
+      "Jul 07"
+    ],
+    [
+      "",
+      "But as it currently sits, this thing is trading at 408 million dollars, it's basically at all-time high.",
+      "4:15",
+      "19460557",
+      255,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Top tick is 445, and the PLs in this thing are disgusting.",
+      "4:20",
+      "19460557",
+      260,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I mean, there's a there's quite a few deep six-figure PLs on Ansom, and it has no signs of stopping.",
+      "4:25",
+      "19460557",
+      265,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And I wanted to just like talk about it for a little bit, and I want to say, like, markets are the one thing I've learned about markets is they're deeply ironic.",
+      "4:33",
+      "19460557",
+      273,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And the thing that's so funny about Ansom coin is the timing and the irony behind it of everybody's basically given up on crypto at the stage of Ansom launching.",
+      "4:43",
+      "19460557",
+      283,
+      "Jul 07"
+    ],
+    [
+      "MU",
+      "Like, the last, I mean, the last meme coiners have pivoted to trading micron and blasting memory.",
+      "4:53",
+      "19460557",
+      293,
+      "Jul 07"
+    ],
+    [
+      "",
+      "There is nothing left to get excited about in crypto.",
+      "5:00",
+      "19460557",
+      300,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And the few things that are left, it's a complete narrative shift to what we were doing in 2024.",
+      "5:04",
+      "19460557",
+      304,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Like, all anyone is talking about is RWAs, real world assets, utility, some sort of revenue.",
+      "5:10",
+      "19460557",
+      310,
+      "Jul 07"
+    ],
+    [
+      "HYPE",
+      "Like, how much revenue are they making relative to hyperliquid?",
+      "5:16",
+      "19460557",
+      316,
+      "Jul 07"
+    ],
+    [
+      "",
+      "That's the only thing that matters is revenue, revenue, revenue.",
+      "5:19",
+      "19460557",
+      319,
+      "Jul 07"
+    ],
+    [
+      "HYPE",
+      "And so, of the people that are left, the lost leaders that remain in crypto, there is this deep consensus that the next coin that's gonna lead the you know crusade of the trenches returning is going t",
+      "5:22",
+      "19460557",
+      322,
+      "Jul 07"
+    ],
+    [
+      "HYPE",
+      "It has to resemble hyperliquid, they have to make money, they have to have users, they have to have utility.",
+      "5:38",
+      "19460557",
+      338,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And even for me, the idea of blasting a meme coin at you know a hundred million dollar market cap is blasphemous.",
+      "5:44",
+      "19460557",
+      344,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It sounds like such a I mean, I'm gonna be honest.",
+      "5:53",
+      "19460557",
+      353,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Like prior to Ansom launching, if you were to come in this chat and show me, it was like asteroid was the last meme coin.",
+      "5:56",
+      "19460557",
+      356,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I'm like, asteroid, are you fucking are you insane?",
+      "6:01",
+      "19460557",
+      361,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I'm not buying asteroid, I'm laughing at you.",
+      "6:04",
+      "19460557",
+      364,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And you know what almost feels like markets have this goal in trying to trade as high as possible with as few people in the coin as possible.",
+      "6:11",
+      "19460557",
+      371,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It's like, how do we send something as high as possible with as few people in as possible, right?",
+      "6:21",
+      "19460557",
+      381,
+      "Jul 07"
+    ],
+    [
+      "SPX",
+      "Like, I think back to Carg Island when Trump was threatening to nuke Carg Island, and everybody was in the AI trade, everybody was in, and it dumps just enough due to this war, 10% SPX down 10% in a s",
+      "6:26",
+      "19460557",
+      386,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It almost feels like the market, like this living, breathing organism that has a goal, like a preordained goal from the heavens of get as make it go as high as possible with as few people in, or make ",
+      "7:04",
+      "19460557",
+      424,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "Like I think of Bitcoin after 1010 when it's hanging out around 100k and everyone's like, This is the bottom, this is the bottom, this is the bottom, and nobody sells, and it just slow bleeds down in ",
+      "7:17",
+      "19460557",
+      437,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It doesn't candle down, it doesn't rip it down, and you know, a bull in like a this engulfing red candle because that would be too bearish, too many people would get out.",
+      "7:30",
+      "19460557",
+      450,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Let's get it as low as possible with as many people in as possible, and let's get it as high as possible, there's a few people in as possible.",
+      "7:38",
+      "19460557",
+      458,
+      "Jul 07"
+    ],
+    [
+      "",
+      "You know, what is the coin that's gonna bring this level of resurgence into the trenches?",
+      "7:46",
+      "19460557",
+      466,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Well, it's exactly the one thing you wouldn't expect, and I think this is why so many people missed it and didn't take it that seriously.",
+      "7:51",
+      "19460557",
+      471,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Is like from the depths of nothingness and complete capitulation on meme coins, you spawn Ansome Coin.",
+      "7:57",
+      "19460557",
+      477,
+      "Jul 07"
+    ],
+    [
+      "",
+      "He has more emotion right now than Peak Alon.",
+      "8:12",
+      "19460557",
+      492,
+      "Jul 07"
+    ],
+    [
+      "TGE",
+      "He has more emotion right now than than Pump Fond Um TGE Alon.",
+      "8:14",
+      "19460557",
+      494,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Like something like I've I've never seen in my life.",
+      "8:18",
+      "19460557",
+      498,
+      "Jul 07"
+    ],
+    [
+      "",
+      "3.5 every every tweet has a quarter million views.",
+      "8:21",
+      "19460557",
+      501,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I mean, he has more motion than I mean, where does An uh let's let's go one step further.",
+      "8:24",
+      "19460557",
+      504,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Where does Ansom right rank right now on most viral celebrities in the world?",
+      "8:29",
+      "19460557",
+      509,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I mean, he's gotta be like a top 100 person right now.",
+      "8:34",
+      "19460557",
+      514,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And on that note, let's talk about cryptocurrency a little bit more.",
+      "8:38",
+      "19460557",
+      518,
+      "Jul 07"
+    ],
+    [
+      "MSTR",
+      "Um, Michael Saylor and Strategy announced that they sold 3,588 Bitcoin for $260 million to fund our digital credit securities.",
+      "8:42",
+      "19460557",
+      522,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "As of 7-5, 2026, we hold $843,775 Bitcoin in our reserves and $2.55 billion in our USD reserves.",
+      "8:55",
+      "19460557",
+      535,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "And at current prices, one Bitcoin trades for $63, uh230.",
+      "9:11",
+      "19460557",
+      551,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "And so I think this is the most significant Bitcoin price action update since probably 1010.",
+      "9:23",
+      "19460557",
+      563,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And as it currently stands, they need $1.7 billion to fund their stretch dividends for a year.",
+      "9:34",
+      "19460557",
+      574,
+      "Jul 07"
+    ],
+    [
+      "",
+      "They have 2.5 so they need 1.7 billion cash annually for stretch, they have 2.5 billion on the balance sheet cash stored for the reserve, so they have you know 50% more than they need.",
+      "9:42",
+      "19460557",
+      582,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I believe Sailor said they were expecting to sell somewhere in the range of 1.25 billion over the next year, and they already sold 216 million.",
+      "9:56",
+      "19460557",
+      596,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And so the reason I think this is significant is that Sailor, you know, there's this overhang of Sailor sells 32 million or whatever.",
+      "10:05",
+      "19460557",
+      605,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "Yeah, he sells 32 Bitcoin, and the market fucking freaks out, it dumps Bitcoin like 10-15%.",
+      "10:17",
+      "19460557",
+      617,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "And because it dumps 10-15 on Sailor's sale of 32 Bitcoin, there's this overwhelming panic of once he actually sells, Bitcoin's gonna get destroyed.",
+      "10:23",
+      "19460557",
+      623,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And so there was this meet basically there was this consensus agreement that Sailor is gonna sell, you know, a huge amount, and we're going under 50k.",
+      "10:36",
+      "19460557",
+      636,
+      "Jul 07"
+    ],
+    [
+      "",
+      "He has to blow, he's gonna blow up, stretch is gonna unwind.",
+      "10:44",
+      "19460557",
+      644,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And so I made this tweet, you know, with without I made this tweet without even fully understanding the the fundamentals of of how this would work.",
+      "10:49",
+      "19460557",
+      649,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um, and I compared it to this carg island situation where I said, hear me out.",
+      "10:57",
+      "19460557",
+      657,
+      "Jul 07"
+    ],
+    [
+      "SPX",
+      "Remember a month ago when SPX was down 10% and Trump was threatening to nuke Karg Island at the bottom?",
+      "11:01",
+      "19460557",
+      661,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Everyone was convinced he was gonna do it, flipped gigabarish.",
+      "11:06",
+      "19460557",
+      666,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um, and hindsight that was the definition of peak fear.",
+      "11:08",
+      "19460557",
+      668,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Sure, it was possible, maybe less than five percent, but the right tail of Trump not doing it was severely underpriced.",
+      "11:11",
+      "19460557",
+      671,
+      "Jul 07"
+    ],
+    [
+      "MSTR",
+      "What if we're in a similar spot with Bitcoin and Michael Saylor?",
+      "11:19",
+      "19460557",
+      679,
+      "Jul 07"
+    ],
+    [
+      "",
+      "The market is fully convinced he has to blow up.",
+      "11:22",
+      "19460557",
+      682,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I'm not sure most even understand what that means.",
+      "11:25",
+      "19460557",
+      685,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And my main point was like the overhang has been priced in by institutions for months.",
+      "11:27",
+      "19460557",
+      687,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "You can see this in Bitcoin slash SPX and Bitcoin slash gold.",
+      "11:32",
+      "19460557",
+      692,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It's been destroyed during a generational bull market.",
+      "11:35",
+      "19460557",
+      695,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I refuse to accept everyone is just now realizing the Sailor problem.",
+      "11:38",
+      "19460557",
+      698,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Maybe a lot of us in crypto Twitter are, but we don't control the flows.",
+      "11:41",
+      "19460557",
+      701,
+      "Jul 07"
+    ],
+    [
+      "MSTR",
+      "And I must admit, an emphatic deleveraging into a strategy blow up as the final dat cleansing seems like a fitting bottom.",
+      "11:46",
+      "19460557",
+      706,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And basically since then, Sailor sold 216 million dollars at 60k, and we went up.",
+      "11:59",
+      "19460557",
+      719,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "And so I will say that I think this is the first time I have flipped my brain function and found myself interested in Bitcoin.",
+      "12:09",
+      "19460557",
+      729,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "This is the first time I've been interested in Bitcoin really since I bought I was buying on the way up, and I think there's two forces working for you here is one, you have Bitcoin, and again, I know",
+      "12:18",
+      "19460557",
+      738,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "But you have Bitcoin outperforming to the upside while memory gets crushed, right?",
+      "12:32",
+      "19460557",
+      752,
+      "Jul 07"
+    ],
+    [
+      "RAM",
+      "You look at uh we'll go through pre-market in a second here, but um D RAM is down six percent in the pre-market, and we're down 26.",
+      "12:37",
+      "19460557",
+      757,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Cosby trading session got crushed, down five percent, and it's down 18.",
+      "12:48",
+      "19460557",
+      768,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And so you have the memory trade getting cooked, mags are completely stalled, and everyone has been panicking.",
+      "12:55",
+      "19460557",
+      775,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Like, what you know, if crypto is trading like this right now, what's gonna happen when stocks go down?",
+      "13:00",
+      "19460557",
+      780,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "Well, stocks have been going down and and Bitcoin kind of stopped, right?",
+      "13:04",
+      "19460557",
+      784,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "Is if Bitcoin is crypto is going down this bad while stocks are going up, what's gonna happen when they go down?",
+      "13:09",
+      "19460557",
+      789,
+      "Jul 07"
+    ],
+    [
+      "PA",
+      "Well, look, it's only been a couple days of PA, so I don't put that much weight on it, but it's worth considering that it's finally started to happen and they're not going down, it's not going down.",
+      "13:14",
+      "19460557",
+      794,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "And so that was panic point number one is when stocks finally go down, Bitcoin's gonna get wiped out, and it's not, it's bouncing.",
+      "13:26",
+      "19460557",
+      806,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "And then the second panic is Sailor is gonna blow up, Sailor is gonna sell a significant amount of Bitcoin, and we're gonna unwind.",
+      "13:33",
+      "19460557",
+      813,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "Well, Sailor sold 216 million dollars of Bitcoin and it marked the local bottom, it marked the local bottom, and we we went up.",
+      "13:39",
+      "19460557",
+      819,
+      "Jul 07"
+    ],
+    [
+      "",
+      "We went up first and foremost, it absorbed his sales were absorbed, right?",
+      "13:47",
+      "19460557",
+      827,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Nobody really knew, nobody knew he was selling 60k.",
+      "13:53",
+      "19460557",
+      833,
+      "Jul 07"
+    ],
+    [
+      "",
+      "So his cells were absorbed, absorbed, and then once the news came out that he had sold, you get this wicked down like I don't know, three, four percent, and then we close the daily higher.",
+      "13:55",
+      "19460557",
+      835,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "And so those have been the two rusher narratives for Bitcoin is that when stocks finally go down, Bitcoin's gonna get destroyed, and then when Sailor finally sells, Bitcoin's gonna get destroyed.",
+      "14:07",
+      "19460557",
+      847,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Both of those happened at the exact same time and we're up.",
+      "14:17",
+      "19460557",
+      857,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And again, I know it's sixty-three thousand two hundred dollars.",
+      "14:20",
+      "19460557",
+      860,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It isn't this, you know, mythical price action that's happening, but it it feels like a significant spot.",
+      "14:25",
+      "19460557",
+      865,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It feels like a spot that you mark and we look back on, and it's significant.",
+      "14:32",
+      "19460557",
+      872,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "At the same time, you have this like Answ situation happening, and so it isn't just random Bitcoin outperformance, you also have this Ansom situation happening.",
+      "14:36",
+      "19460557",
+      876,
+      "Jul 07"
+    ],
+    [
+      "HYPE",
+      "Um, where all of a sudden it makes Solana metrics look insane, it makes um on-chain activity look insane, it makes active wallets look insane, it makes like volume on coins look insane, and at the exa",
+      "14:45",
+      "19460557",
+      885,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And so I'm not coming here and like declaring the market back, and I've been pretty bearish on crypto for a long time, but it's a significant, you know how uh Mandelbrat does the arrows on significant",
+      "15:17",
+      "19460557",
+      917,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It's a significant spot just happened over the last week.",
+      "15:31",
+      "19460557",
+      931,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Significant spot just happened, there's no other way to look at it.",
+      "15:34",
+      "19460557",
+      934,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And I'm of the camp of not paying attention to crypto at all, and it's time to pay attention to crypto again.",
+      "15:38",
+      "19460557",
+      938,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "And so I I did a thing because I've been painfully sidelined on Ansom and not super excited to buy Bitcoin is I bid some Solana at 81.",
+      "15:45",
+      "19460557",
+      945,
+      "Jul 07"
+    ],
+    [
+      "",
+      "This like chop, chop, chop, chop, chop, fake breakout to the downside and then reclaim it in.",
+      "16:02",
+      "19460557",
+      962,
+      "Jul 07"
+    ],
+    [
+      "SOL",
+      "I maybe bid it a little bit early at 81, but if we start to go up a little bit and especially over 100, I think it's gonna be go time for I think it's gonna be go time for uh for Solana.",
+      "16:08",
+      "19460557",
+      968,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It the ingredients are are all of the sudden there for the first time.",
+      "16:22",
+      "19460557",
+      982,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I thought about buying some Pump Fun, but I mean, I don't know what the fuck's going on with Pump Fun.",
+      "16:29",
+      "19460557",
+      989,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It's like they just uh Pump Fun has an unlock in in four days, and they come out and like announce that the C CEO of Pump Fun is who the fuck is this?",
+      "16:33",
+      "19460557",
+      993,
+      "Jul 07"
+    ],
+    [
+      "",
+      "The CEO of Pump Fun has come out and written a newsletter.",
+      "16:46",
+      "19460557",
+      1006,
+      "Jul 07"
+    ],
+    [
+      "",
+      "So um, I was I thought I genuinely thought about it.",
+      "17:00",
+      "19460557",
+      1020,
+      "Jul 07"
+    ],
+    [
+      "",
+      "So I I just like couldn't get myself to bid pump with the unlocks coming.",
+      "17:05",
+      "19460557",
+      1025,
+      "Jul 07"
+    ],
+    [
+      "SPCX",
+      "So all passive uh NASDAQ flows are gonna hit SpaceX.",
+      "17:15",
+      "19460557",
+      1035,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And at the same time, I thought this was hilarious.",
+      "17:19",
+      "19460557",
+      1039,
+      "Jul 07"
+    ],
+    [
+      "SPCX",
+      "There was a price target that just came out from Raymond James initiates coverage on SpaceX with strong buy rating, price target $800.",
+      "17:21",
+      "19460557",
+      1041,
+      "Jul 07"
+    ],
+    [
+      "",
+      "We've crypto has forgotten how to bullpost like this.",
+      "17:29",
+      "19460557",
+      1049,
+      "Jul 07"
+    ],
+    [
+      "SPCX",
+      "Um, we initiated coverage of SpaceX with a strong buy rating of $800 price target.",
+      "17:32",
+      "19460557",
+      1052,
+      "Jul 07"
+    ],
+    [
+      "SPCX",
+      "Just for context, that would put SpaceX at a $11 trillion market cap.",
+      "17:37",
+      "19460557",
+      1057,
+      "Jul 07"
+    ],
+    [
+      "NVDA",
+      "Most valuable company in the world right now, NVIDIA trades at what was like four and a half, four point seven.",
+      "17:43",
+      "19460557",
+      1063,
+      "Jul 07"
+    ],
+    [
+      "SPCX",
+      "They came out with an $11 trillion target for SpaceX on the same day that it's included in the NASDAQ.",
+      "17:51",
+      "19460557",
+      1071,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um, you see the company we see the company as one of the defining and industrial infrastructure companies of the 21st century.",
+      "17:58",
+      "19460557",
+      1078,
+      "Jul 07"
+    ],
+    [
+      "AR",
+      "Industrial has access to orbit and AR, driving the most significant infra coverage since the advent of the internet.",
+      "18:04",
+      "19460557",
+      1084,
+      "Jul 07"
+    ],
+    [
+      "SPCX",
+      "By lowering the cost of transporting mass to orbit, SpaceX is enabling a new infrastructure layer, spanning transportation, communications, compute, manufacturing, and energy.",
+      "18:10",
+      "19460557",
+      1090,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Just as railroads, electric grids, and the internet reshaped prior economic eras.",
+      "18:18",
+      "19460557",
+      1098,
+      "Jul 07"
+    ],
+    [
+      "SPCX",
+      "We believe SpaceX is building the foundational platform for the next generation of industrial capacity.",
+      "18:22",
+      "19460557",
+      1102,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Let's take a we can take a quick look at this.",
+      "18:37",
+      "19460557",
+      1117,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I said I was gonna sell under 70, but I I don't know.",
+      "18:40",
+      "19460557",
+      1120,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I wanted to go over the weekend and just sit in it because I bid it for a reason.",
+      "18:43",
+      "19460557",
+      1123,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And there was some crazy announcements that came out of this.",
+      "18:49",
+      "19460557",
+      1129,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um basically, there is this leaked topic docs that show plans to secure 1.4 gigawatts of capacity from Australia.",
+      "18:52",
+      "19460557",
+      1132,
+      "Jul 07"
+    ],
+    [
+      "",
+      "If you remember, Shaw's is the Nebus of Australia, was the thesis.",
+      "19:01",
+      "19460557",
+      1141,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And so recently I ran in Shaw's and other neo clouds have been building sovereign data centers in Australia.",
+      "19:06",
+      "19460557",
+      1146,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Guess like a lot of things are starting to make make more sense connection-wise.",
+      "19:12",
+      "19460557",
+      1152,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Okay, so Leopold Ashenbrenner's engaged to the chief of staff, to the CEO at Anthropic.",
+      "19:16",
+      "19460557",
+      1156,
+      "Jul 07"
+    ],
+    [
+      "",
+      "A week ago, he comes out and announces he's bought 20% of Shaw's, which is an Australian neo cloud.",
+      "19:23",
+      "19460557",
+      1163,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Everybody was kind of confused as to why he did it.",
+      "19:33",
+      "19460557",
+      1173,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And then a day later, a leak tropic document comes out to show their plans to secure 1.4 gigawatts of capacity from Australia neo clouds, amounting to 21 billion dollars.",
+      "19:36",
+      "19460557",
+      1176,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I mean, I maybe it's not, it's just like not insider trading if you're long, is what we're going for here.",
+      "19:46",
+      "19460557",
+      1186,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I I'm not really sure I I understand here, but I just thought to myself when I bid it, am I smarter than Leopold Ashenbetter?",
+      "19:56",
+      "19460557",
+      1196,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And so yeah, they announced a 20% stake in uh Shaw's, and then a day later, CNBC reports that Anthropic is racing to hire data center operators in Australia.",
+      "20:06",
+      "19460557",
+      1206,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Leopold Ashenbetter is married to Anthropic's chief of chief of staff.",
+      "20:15",
+      "19460557",
+      1215,
+      "Jul 07"
+    ],
+    [
+      "",
+      "So I don't I mean, I don't know what what exactly is going on.",
+      "20:19",
+      "19460557",
+      1219,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It feels like it almost feels so blatant that there's no way this is the plan is like just a complete front run insider trading situation.",
+      "20:22",
+      "19460557",
+      1222,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It's done a decent amount, it's down three percent in the pre-market 77.",
+      "20:38",
+      "19460557",
+      1238,
+      "Jul 07"
+    ],
+    [
+      "",
+      "But yeah, some of these names are down a lot.",
+      "20:41",
+      "19460557",
+      1241,
+      "Jul 07"
+    ],
+    [
+      "MU",
+      "Um, Micron is down five in pre-market at 9 30, Intel is down four in the pre-market.",
+      "20:45",
+      "19460557",
+      1245,
+      "Jul 07"
+    ],
+    [
+      "MRVL",
+      "Uh Marvell is down five and a half, farm is down five, Nokia is down five.",
+      "20:51",
+      "19460557",
+      1251,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um, a couple charts look incredible, actually, surprisingly.",
+      "20:57",
+      "19460557",
+      1257,
+      "Jul 07"
+    ],
+    [
+      "",
+      "One of them being Figma, I've seen getting bullposts all over the place.",
+      "21:00",
+      "19460557",
+      1260,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Doesn't look incredible, but looks fairly bottomed.",
+      "21:04",
+      "19460557",
+      1264,
+      "Jul 07"
+    ],
+    [
+      "HOOD",
+      "Robin Hood printing a nasty chart, it's at 117.",
+      "21:06",
+      "19460557",
+      1266,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And the big announcement on that, obviously, is that Trump accounts are live.",
+      "21:11",
+      "19460557",
+      1271,
+      "Jul 07"
+    ],
+    [
+      "",
+      "You can officially start investing in your child's future with Trump accounts and help build the next generation's financial future.",
+      "21:19",
+      "19460557",
+      1279,
+      "Jul 07"
+    ],
+    [
+      "",
+      "If you if you can choose where to work, work somewhere that will help invest in your Trump account.",
+      "21:29",
+      "19460557",
+      1289,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Five thousand dollars a year will leave you with thirteen million dollars at fifty-five.",
+      "21:33",
+      "19460557",
+      1293,
+      "Jul 07"
+    ],
+    [
+      "",
+      "If you contribute zero dollars a year, you'll be left with two hundred and fifty thousand dollars.",
+      "21:40",
+      "19460557",
+      1300,
+      "Jul 07"
+    ],
+    [
+      "",
+      "$250 a year will get you eight hundred and seventy-eight, thousand.",
+      "21:43",
+      "19460557",
+      1303,
+      "Jul 07"
+    ],
+    [
+      "",
+      "If you contribute five thousand, you'll it puts you with thirteen million dollars.",
+      "21:47",
+      "19460557",
+      1307,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I think this is the the official graphic on the White House page, by the way.",
+      "21:51",
+      "19460557",
+      1311,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Now, yeah, where does the 5k a month come from?",
+      "21:54",
+      "19460557",
+      1314,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um But that's the most you could contribute is five thousand dollars.",
+      "21:59",
+      "19460557",
+      1319,
+      "Jul 07"
+    ],
+    [
+      "",
+      "The story of today is definitely the memory trade.",
+      "22:05",
+      "19460557",
+      1325,
+      "Jul 07"
+    ],
+    [
+      "NVDA",
+      "Um, Korea got crushed, DRAM in the pre-market is down six percent, semis socks is down five percent in the pre-market, NVIDIA is down three on dudes at Deep Seek is making a chip, and the stock market",
+      "22:09",
+      "19460557",
+      1329,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Let's go, let's go, let's go, let us fucking go.",
+      "22:26",
+      "19460557",
+      1346,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Spy opens down one point or point one three percent.",
+      "22:34",
+      "19460557",
+      1354,
+      "Jul 07"
+    ],
+    [
+      "DRAM",
+      "DRAM opens down seven and a half percent, brother.",
+      "22:37",
+      "19460557",
+      1357,
+      "Jul 07"
+    ],
+    [
+      "",
+      "The mags are flat, and we're up, I think, one and a half in pre-market.",
+      "22:44",
+      "19460557",
+      1364,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "This is just like bottomed with big, I don't know if it's bottomed, but it has kind of correlated itself to Bitcoin a little bit here of the last couple days.",
+      "22:51",
+      "19460557",
+      1371,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um, NASDAQ is down a percent, and the Russell is flat.",
+      "23:17",
+      "19460557",
+      1397,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Biggest losers save is getting crushed, by the way.",
+      "23:24",
+      "19460557",
+      1404,
+      "Jul 07"
+    ],
+    [
+      "",
+      "This is Serenity stock, is now down a horrific 62% off ATH.",
+      "23:27",
+      "19460557",
+      1407,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Shaws is down seven on open, not a good open at all.",
+      "23:36",
+      "19460557",
+      1416,
+      "Jul 07"
+    ],
+    [
+      "MU",
+      "Micron is oh man, we're down to nine fifteen.",
+      "23:49",
+      "19460557",
+      1429,
+      "Jul 07"
+    ],
+    [
+      "AMD",
+      "Right now it's nine twenty-two, down six point three percent, and it is losing AMD.",
+      "23:53",
+      "19460557",
+      1433,
+      "Jul 07"
+    ],
+    [
+      "INTC",
+      "Intel just lost the Trump level, which is 115.67, where Trump took a PL screenshot of Intel.",
+      "24:06",
+      "19460557",
+      1446,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It had a nice wick up, but it's not looking good.",
+      "24:58",
+      "19460557",
+      1498,
+      "Jul 07"
+    ],
+    [
+      "RKLB",
+      "Rocket Lab did just make that acquisition as well.",
+      "25:01",
+      "19460557",
+      1501,
+      "Jul 07"
+    ],
+    [
+      "IBM",
+      "I sold it before a vacation at 289 or something, but congrats to the IBM men.",
+      "25:25",
+      "19460557",
+      1525,
+      "Jul 07"
+    ],
+    [
+      "NVDA",
+      "A custom AI chip is demand for GLM model, string, compute, and US export controls limit access to NVIDIA hardware.",
+      "25:42",
+      "19460557",
+      1542,
+      "Jul 07"
+    ],
+    [
+      "",
+      "The company has held early talks with Chinese chip designers.",
+      "25:49",
+      "19460557",
+      1549,
+      "Jul 07"
+    ],
+    [
+      "NVDA",
+      "On the chip headline, we have this headline of NVIDIA down the pre-market because Deep Seek is also reported looking to reduce their reliance on NVIDIA in Huawei by developing their own chips.",
+      "25:57",
+      "19460557",
+      1557,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um, Deep Seek is also looking to do it, and software is getting a crazy bit.",
+      "26:13",
+      "19460557",
+      1573,
+      "Jul 07"
+    ],
+    [
+      "MSFT",
+      "Um, Microsoft announced they laid off the entire Xbox division.",
+      "26:18",
+      "19460557",
+      1578,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um, they laid off 2.5% of employees, about 5.5 thousand jobs, up to 6.4,000 jobs, um, half an Xbox gaming overhaul.",
+      "26:24",
+      "19460557",
+      1584,
+      "Jul 07"
+    ],
+    [
+      "MSFT",
+      "So my uh Microsoft with huge layoffs and their deep IGV correlation.",
+      "26:36",
+      "19460557",
+      1596,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It retraced that entire near neo cloud pump, came all the way back down.",
+      "26:50",
+      "19460557",
+      1610,
+      "Jul 07"
+    ],
+    [
+      "META",
+      "It went to 230, came all the way back down to 580 and is now back to 609 on Meta.",
+      "26:55",
+      "19460557",
+      1615,
+      "Jul 07"
+    ],
+    [
+      "GOOGL",
+      "Apple is flat, Google is flat, Oracle doesn't matter what happens.",
+      "27:04",
+      "19460557",
+      1624,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um, let's check back inside Shaws is now down eight, no, nine point six getting crushed.",
+      "27:10",
+      "19460557",
+      1630,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Under 1600, that's on eight and a half percent.",
+      "27:18",
+      "19460557",
+      1638,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um, let's check in some of our consumer names.",
+      "27:21",
+      "19460557",
+      1641,
+      "Jul 07"
+    ],
+    [
+      "HOOD",
+      "Hood is down 0.7, it's at 116, it looks pretty good.",
+      "27:33",
+      "19460557",
+      1653,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um, the socks with a nice little bounce, but still down five percent.",
+      "27:50",
+      "19460557",
+      1670,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Q's down 1.3, and the NASDAQ is pretty ugly as well.",
+      "27:53",
+      "19460557",
+      1673,
+      "Jul 07"
+    ],
+    [
+      "",
+      "See Figma's up seven, Doordash is up four and a half.",
+      "27:57",
+      "19460557",
+      1677,
+      "Jul 07"
+    ],
+    [
+      "IGV",
+      "Does that get the IGV like software inclusion?",
+      "28:02",
+      "19460557",
+      1682,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Drafne's up three and a half, Shopify is up four, Lily's up three and a half.",
+      "28:04",
+      "19460557",
+      1684,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Lululemon, Michael Burry with Adobe and Lululemon, that's up 2.5%.",
+      "28:21",
+      "19460557",
+      1701,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Reddit, that is up 2.5% and strong 44 in about three weeks on Reddit.",
+      "28:29",
+      "19460557",
+      1709,
+      "Jul 07"
+    ],
+    [
+      "STUB",
+      "Stubhub, which I have since exit, is up 32% since my entry and looks really strong with the World Cup fucking rolling.",
+      "28:36",
+      "19460557",
+      1716,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Ferraris up a little bit, sweet cream's up a percent.",
+      "28:50",
+      "19460557",
+      1730,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Butterfly, that's the chip for the mid-journey um health product is flat on the day.",
+      "28:57",
+      "19460557",
+      1737,
+      "Jul 07"
+    ],
+    [
+      "AMC",
+      "AMC's down 2.3, it's now down 15% since I publicly exited.",
+      "29:05",
+      "19460557",
+      1745,
+      "Jul 07"
+    ],
+    [
+      "",
+      "This thing might just be stuck this range forever.",
+      "29:15",
+      "19460557",
+      1755,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It might be stuck here forever, it might never break out of this.",
+      "29:19",
+      "19460557",
+      1759,
+      "Jul 07"
+    ],
+    [
+      "",
+      "That's coming to a pretty gross line here on Nebbius.",
+      "29:24",
+      "19460557",
+      1764,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Remember, by the way, Nebius is Leopold Ash and Brenner's biggest holding.",
+      "29:29",
+      "19460557",
+      1769,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um, I believe he has five percent of the company.",
+      "29:32",
+      "19460557",
+      1772,
+      "Jul 07"
+    ],
+    [
+      "",
+      "So if you're long Leopold, you're long Nebbius.",
+      "29:40",
+      "19460557",
+      1780,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Nothing really happening with stretch as it currently stands.",
+      "30:04",
+      "19460557",
+      1804,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Every name in the index is red, every semi-name is red.",
+      "30:11",
+      "19460557",
+      1811,
+      "Jul 07"
+    ],
+    [
+      "MU",
+      "AMD, Micron, Broadcom, Nvidia, Intel, AMAT, Marvell, TSM.",
+      "30:14",
+      "19460557",
+      1814,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I wasn't really thinking we were gonna get much lower than a thousand, but you gotta admit, this is a this starts to print a gross chart here.",
+      "30:40",
+      "19460557",
+      1840,
+      "Jul 07"
+    ],
+    [
+      "MU",
+      "We are down top tick on 27, and it's after the greatest earnings beat ever for micron.",
+      "30:48",
+      "19460557",
+      1848,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I mean, what had a better earnings beat than this?",
+      "30:55",
+      "19460557",
+      1855,
+      "Jul 07"
+    ],
+    [
+      "",
+      "That gets a little bit of a bounce everywhere.",
+      "31:00",
+      "19460557",
+      1860,
+      "Jul 07"
+    ],
+    [
+      "DRAM",
+      "You're getting a little bit of a bounce on DRAM, which is nice.",
+      "31:05",
+      "19460557",
+      1865,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It's getting ready to flip right on the daily.",
+      "31:10",
+      "19460557",
+      1870,
+      "Jul 07"
+    ],
+    [
+      "",
+      "We're about to get a close of the first 15-minute candle.",
+      "31:31",
+      "19460557",
+      1891,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um, semi-analysis puts cumulative AI capex at roughly 11.1 trillion from 2024 to 2029, with annual capex exceeding 2 trillion by 2028.",
+      "31:38",
+      "19460557",
+      1898,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Expects outstanding AI related debt to reach about 7 trillion by 2029, second only to the US mortgage market.",
+      "31:48",
+      "19460557",
+      1908,
+      "Jul 07"
+    ],
+    [
+      "GS",
+      "Is that ripping GS and Caterpillar and Caterpillar is down?",
+      "32:15",
+      "19460557",
+      1935,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Goldman is also down, but wow, that looks incredible.",
+      "32:18",
+      "19460557",
+      1938,
+      "Jul 07"
+    ],
+    [
+      "IBM",
+      "IBM lost it a little bit, but that is still up 1.3.",
+      "32:33",
+      "19460557",
+      1953,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um, I mean, it looks terrible objectively, but I think there's some a lot of desire to bid.",
+      "32:44",
+      "19460557",
+      1964,
+      "Jul 07"
+    ],
+    [
+      "SK",
+      "SK Heinex is offering 18 million common shares in US IPO, and the listing is well oversubscribed.",
+      "32:49",
+      "19460557",
+      1969,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And the man that is oversubscribing it is Leopold Ashenbenner in situational awareness that is looking to buy like seven billion dollars over market price right now.",
+      "32:56",
+      "19460557",
+      1976,
+      "Jul 07"
+    ],
+    [
+      "SK",
+      "So there's huge demand for SK Heinex, even if it is down a little bit.",
+      "33:06",
+      "19460557",
+      1986,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Oracle putting in a nice little candle there.",
+      "33:11",
+      "19460557",
+      1991,
+      "Jul 07"
+    ],
+    [
+      "SPCX",
+      "Apple flips red in the day, pretty gross on Apple, SpaceX, SpaceX.",
+      "33:14",
+      "19460557",
+      1994,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Shaw's with a decent little bounce, it was looking ugly.",
+      "33:18",
+      "19460557",
+      1998,
+      "Jul 07"
+    ],
+    [
+      "SPCX",
+      "So SpaceX is now getting passive flows on the Nasdaq.",
+      "33:29",
+      "19460557",
+      2009,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It's one percent of the index in the Nasdaq 100 starting today.",
+      "33:33",
+      "19460557",
+      2013,
+      "Jul 07"
+    ],
+    [
+      "",
+      "This is Bank of America Global Research Industries coverage with buy rating price objective is 235.",
+      "33:36",
+      "19460557",
+      2016,
+      "Jul 07"
+    ],
+    [
+      "SPCX",
+      "Um, yeah, SpaceX basically at low of the day.",
+      "33:47",
+      "19460557",
+      2027,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Open space stocks across the board getting crushed.",
+      "33:51",
+      "19460557",
+      2031,
+      "Jul 07"
+    ],
+    [
+      "RKLB",
+      "Firefly is down five, red wire is down five point three, rocket lab is down six.",
+      "33:54",
+      "19460557",
+      2034,
+      "Jul 07"
+    ],
+    [
+      "SPCE",
+      "Shitcoin SPCE, that's on three and a half low of the day.",
+      "34:00",
+      "19460557",
+      2040,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Look at that new low of the day on Bloom Energy 275.90.",
+      "34:07",
+      "19460557",
+      2047,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I mean, the basic thing of today is semis getting crushed and memory also getting crushed, but trying to hold on, but it's not going super well.",
+      "34:11",
+      "19460557",
+      2051,
+      "Jul 07"
+    ],
+    [
+      "HYPE",
+      "Hyper liquid with a really nice candle on hype 71.8.",
+      "34:25",
+      "19460557",
+      2065,
+      "Jul 07"
+    ],
+    [
+      "",
+      "This was up one and some change in pre-market.",
+      "34:34",
+      "19460557",
+      2074,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Nasdaq 100 as well, low of the day, 1.4 losing it.",
+      "34:44",
+      "19460557",
+      2084,
+      "Jul 07"
+    ],
+    [
+      "IG",
+      "Young President Surgeon hyperscaler IG debt is accelerating by the day.",
+      "34:50",
+      "19460557",
+      2090,
+      "Jul 07"
+    ],
+    [
+      "AMZN",
+      "Amazon seeks to raise 25 billion dollars in US bond sale.",
+      "34:55",
+      "19460557",
+      2095,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Bags is the only thing that's strong, surprisingly.",
+      "35:01",
+      "19460557",
+      2101,
+      "Jul 07"
+    ],
+    [
+      "AMZN",
+      "Mainly being led by Microsoft is green, Amazon is green.",
+      "35:05",
+      "19460557",
+      2105,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I don't know if it's just semis getting crushed or it's the deep sea chip announcement.",
+      "35:17",
+      "19460557",
+      2117,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I haven't seen that much about the deep sea chip.",
+      "35:24",
+      "19460557",
+      2124,
+      "Jul 07"
+    ],
+    [
+      "NVDA",
+      "All this developing AI chip they want to replace NVIDIA, it can't be that big of a deal.",
+      "35:27",
+      "19460557",
+      2127,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Everyone is announcing they're building a chip.",
+      "35:33",
+      "19460557",
+      2133,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "Decentralized AI is becoming the most important techno-political movement since Bitcoin.",
+      "35:37",
+      "19460557",
+      2137,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Like many movements that emerged in the crypto community before, and also believe it's the industry's next 1000x opportunity.",
+      "35:41",
+      "19460557",
+      2141,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Each passing day, it's growing more and more likely the open source models running a permissionless infrastructure will be the only way to preserve equal access to intelligence.",
+      "35:47",
+      "19460557",
+      2147,
+      "Jul 07"
+    ],
+    [
+      "",
+      "The US gating access to frontier models was just the first warning.",
+      "35:52",
+      "19460557",
+      2152,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Is now China is contemplating doing the same thing within their open source ecosystem.",
+      "35:55",
+      "19460557",
+      2155,
+      "Jul 07"
+    ],
+    [
+      "PMF",
+      "The necessary technology to achieve independence from the leading labs is nascent with limited PMF at best.",
+      "35:59",
+      "19460557",
+      2159,
+      "Jul 07"
+    ],
+    [
+      "",
+      "But if we can ultimately pull this off, it's hard to imagine many things more impactful on the future of our civilization.",
+      "36:05",
+      "19460557",
+      2165,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Here's the announcement that I think is a big fucking deal is China has announced today that they are considering restricting overseas access to cutting edge AI models.",
+      "36:09",
+      "19460557",
+      2169,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And so just like the US has announced restrictions on cutting edge US models, China is considering doing the same.",
+      "36:20",
+      "19460557",
+      2180,
+      "Jul 07"
+    ],
+    [
+      "",
+      "If it's not already obviously clear to you, intelligence will never be equally accessible again.",
+      "36:28",
+      "19460557",
+      2188,
+      "Jul 07"
+    ],
+    [
+      "",
+      "You will not have access to bleeding edge intelligence.",
+      "36:35",
+      "19460557",
+      2195,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It will be reserved within countries within political power and capitalistic power.",
+      "36:37",
+      "19460557",
+      2197,
+      "Jul 07"
+    ],
+    [
+      "",
+      "China's Ministry of Commerce has led meetings over the past month with major AI companies, including Baba, ByteDance, and Zepu, to discuss measures that will restrict overseas access to cutting-edge A",
+      "36:44",
+      "19460557",
+      2204,
+      "Jul 07"
+    ],
+    [
+      "",
+      "The discussions reportedly include not only closed force models but also open weight models.",
+      "36:56",
+      "19460557",
+      2216,
+      "Jul 07"
+    ],
+    [
+      "",
+      "However, the scope of application is still under debate, and the rules may ultimately apply only to future frontier models.",
+      "37:01",
+      "19460557",
+      2221,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Officials have also discussed designated the leakage or theft of proprietary AI technologies as a national security crime with stronger penalties as well as restricting the types of foreign capital th",
+      "37:07",
+      "19460557",
+      2227,
+      "Jul 07"
+    ],
+    [
+      "",
+      "move to strengthen export controls and AI models along with national security concerns over cutting edge models that could possess advanced cyber attack capabilities.",
+      "37:22",
+      "19460557",
+      2242,
+      "Jul 07"
+    ],
+    [
+      "ZPU",
+      "ZPU didn't really move on this, but this is gonna be in the intelligence cold war race of the 2020s.",
+      "37:34",
+      "19460557",
+      2254,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It will never you will never have equal access to AI.",
+      "37:41",
+      "19460557",
+      2261,
+      "Jul 07"
+    ],
+    [
+      "",
+      "China's gonna gate it, the US is gonna gate it, they're gonna get it from each other, they're gonna gate it from their own people.",
+      "37:44",
+      "19460557",
+      2264,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And he's not wrong that the idea of open source AI becomes important.",
+      "37:50",
+      "19460557",
+      2270,
+      "Jul 07"
+    ],
+    [
+      "",
+      "In my opinion, Tao is super slop, but what do I know?",
+      "38:01",
+      "19460557",
+      2281,
+      "Jul 07"
+    ],
+    [
+      "LYV",
+      "Um, AMZ is down four, Cinemark is up one, Six Flags is down one, Liberty Media is up half, imax is up two, live nation's up one, Madison Square Garden Entertainment's down one, Madison Square Garden S",
+      "38:08",
+      "19460557",
+      2288,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Is memory looks exhausted and it's sort of unclear why.",
+      "38:32",
+      "19460557",
+      2312,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Semis are exhausted and it's sort of unclear why.",
+      "38:37",
+      "19460557",
+      2317,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Mags are holding on, which is good to see, and crypto looks decent.",
+      "38:40",
+      "19460557",
+      2320,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It's like I'm not worried about that at this price.",
+      "38:55",
+      "19460557",
+      2335,
+      "Jul 07"
+    ],
+    [
+      "HOOD",
+      "Chris Hood, 2.2, losing it, Shopify losing it, Eli Lilly holding it, take two lost it completely, Reddit losing it completely.",
+      "39:00",
+      "19460557",
+      2340,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Frank actually just made a really good tweet.",
+      "39:16",
+      "19460557",
+      2356,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It feels like the majority of analysts are buying dips and saying the trade is still intact.",
+      "39:19",
+      "19460557",
+      2359,
+      "Jul 07"
+    ],
+    [
+      "",
+      "In the past, drawdowns like Deep Seek, Burry's circular deal flood or I won where it felt consensus that the bubble has popped.",
+      "39:24",
+      "19460557",
+      2364,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I remember sometimes feeling like the only bull remaining on the AI trade in my circles at the time.",
+      "39:32",
+      "19460557",
+      2372,
+      "Jul 07"
+    ],
+    [
+      "",
+      "A lot of the biggest outperformers from the first half of the year have now amassed massive followings, and there are armies of retail buying every dip.",
+      "39:38",
+      "19460557",
+      2378,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Retail buying in terms of percentage of daily volume is basically the same as it was at the peak in 21.",
+      "39:44",
+      "19460557",
+      2384,
+      "Jul 07"
+    ],
+    [
+      "",
+      "If it isn't obvious, everyone is heavily leveraged at highs, and if software hyperscalers start to see momentum, then that could cause the final leg of the d-leveraging.",
+      "39:48",
+      "19460557",
+      2388,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Based on sentiment, we are still not near the fewer levers that weren't a true bottom on the AI build-out trade.",
+      "39:56",
+      "19460557",
+      2396,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I wouldn't be surprised if the narrative of companies cutting costs and AI capital seems to gain traction until the Mag 7 earnings near the top of the month.",
+      "40:01",
+      "19460557",
+      2401,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Chips, semis, memory, and all this stuff keeps taking hits and chops near the lows.",
+      "40:07",
+      "19460557",
+      2407,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Uh again, I'm not a huge sentiment trader because I think it's tough to really know how people are positioned, but it feels like everybody is in.",
+      "40:22",
+      "19460557",
+      2422,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Like it feels like everyone is in, everyone is in memory trade, everyone is in leverage, everyone is in, and there is zero panic on the way down right now.",
+      "40:29",
+      "19460557",
+      2429,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And it gives me this interesting rant I went at the beginning of the stream, which is like it feels like markets are ironic, and when they go up, their goal is to go as high as possible with as few pe",
+      "40:41",
+      "19460557",
+      2441,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And there certainly are as many people as possible in this trade right now.",
+      "40:55",
+      "19460557",
+      2455,
+      "Jul 07"
+    ],
+    [
+      "",
+      "UK military says that second ship has been ship has been hit in the Strait of Hormuz hours after your tanker caught fire in an earlier attack.",
+      "41:12",
+      "19460557",
+      2472,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Iranian state media said the first vessel ignored warnings but did not claim responsibility.",
+      "41:18",
+      "19460557",
+      2478,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Iran talks remain on hold as tensions continue.",
+      "41:23",
+      "19460557",
+      2483,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I mean, it's just like, are we really gonna do war again?",
+      "41:33",
+      "19460557",
+      2493,
+      "Jul 07"
+    ],
+    [
+      "DRAM",
+      "Oh, I want to move on to topics, but brother, DRAM is going for it too.",
+      "41:39",
+      "19460557",
+      2499,
+      "Jul 07"
+    ],
+    [
+      "",
+      "We gotta we gotta move on from the market in a minute.",
+      "41:48",
+      "19460557",
+      2508,
+      "Jul 07"
+    ],
+    [
+      "",
+      "There's also the clock ticking on the ceasefire.",
+      "42:01",
+      "19460557",
+      2521,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I mean, as someone that's not even a someone that's kind of faded, not faded memory, but like missed insane game gains on the way up.",
+      "42:04",
+      "19460557",
+      2524,
+      "Jul 07"
+    ],
+    [
+      "",
+      "That would be 33, and I would be ready to buy here.",
+      "42:20",
+      "19460557",
+      2540,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I I would just I would be ready to enter this here.",
+      "42:25",
+      "19460557",
+      2545,
+      "Jul 07"
+    ],
+    [
+      "",
+      "The socks, I don't know what to do with this.",
+      "42:29",
+      "19460557",
+      2549,
+      "Jul 07"
+    ],
+    [
+      "DRAM",
+      "The problem, too, is like, you know, well, 8.3 now in DRAM.",
+      "42:33",
+      "19460557",
+      2553,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Iran is intensified attacks on ships to Strait of Hormuz and seeks to research control over the key waterways by traffic recovering.",
+      "42:43",
+      "19460557",
+      2563,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Tehran wants vessels to use its proofed rap with more ships are transiting via the US-backed Omani quarter.",
+      "42:48",
+      "19460557",
+      2568,
+      "Jul 07"
+    ],
+    [
+      "DRAM",
+      "The thing that's scary about DRAM is in like the memory trade.",
+      "43:04",
+      "19460557",
+      2584,
+      "Jul 07"
+    ],
+    [
+      "AT",
+      "And the spy is down like less than two off AT8.",
+      "43:11",
+      "19460557",
+      2591,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And so you think to yourself, like, man, nothing's even really happened yet.",
+      "43:16",
+      "19460557",
+      2596,
+      "Jul 07"
+    ],
+    [
+      "",
+      "If you have a lot of cash on the side, I've been struggling to stay in cash, but I got a lot of it now.",
+      "43:31",
+      "19460557",
+      2611,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "If Bitcoin can show some strength in here, it would be a significant day as well.",
+      "43:41",
+      "19460557",
+      2621,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I think we uh done decent holding out on this.",
+      "43:51",
+      "19460557",
+      2631,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Alright, we're gonna move on from the charts.",
+      "44:20",
+      "19460557",
+      2660,
+      "Jul 07"
+    ],
+    [
+      "",
+      "First and foremost, let us start with some Trump announcements that are pretty funny.",
+      "44:23",
+      "19460557",
+      2663,
+      "Jul 07"
+    ],
+    [
+      "",
+      "This is the type of thing I would like to trade, but I didn't know what to do with it on these like weird announcements.",
+      "44:34",
+      "19460557",
+      2674,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um, so Trump comes out and he says, Great news.",
+      "44:39",
+      "19460557",
+      2679,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I have just been informed that one of the biggest, best, and smartest retailers in America, Walmart, will be lowering prices by a lot at my administration's request to celebrate our great country's 25",
+      "44:42",
+      "19460557",
+      2682,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Walmart will, in particular, be dropping the price for a pound of ground beef by almost 15%, among many other products.",
+      "44:57",
+      "19460557",
+      2697,
+      "Jul 07"
+    ],
+    [
+      "",
+      "This is a huge deal for the many millions of Americans who smartly shop at Walmart, which is truly a patriotic company who loves the USA.",
+      "45:04",
+      "19460557",
+      2704,
+      "Jul 07"
+    ],
+    [
+      "",
+      "My administration's lowering prices that Joe Biden incompetently raised with the worst inflation crisis in history.",
+      "45:13",
+      "19460557",
+      2713,
+      "Jul 07"
+    ],
+    [
+      "",
+      "A total disaster along with the southern border, the botched withdrawal from Afghanistan, and many other failures.",
+      "45:21",
+      "19460557",
+      2721,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Tell my Afghanistan and the Walmart announcement.",
+      "45:28",
+      "19460557",
+      2728,
+      "Jul 07"
+    ],
+    [
+      "WTI",
+      "Just as I promised, oil prices are plummeting fast, and gas prices at the pump dropping too.",
+      "45:31",
+      "19460557",
+      2731,
+      "Jul 07"
+    ],
+    [
+      "",
+      "So just like egg and prescription drug prices, which I'm bringing down by historic levels.",
+      "45:37",
+      "19460557",
+      2737,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Walmart is stepping up in a big and bold way, and other realtors should follow the lead of these absolute patriots.",
+      "45:41",
+      "19460557",
+      2741,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Together, we will make America stronger and greater than ever before.",
+      "45:47",
+      "19460557",
+      2747,
+      "Jul 07"
+    ],
+    [
+      "",
+      "My administration is lowering prices that Joe Biden incompetently raids with the worst inflation crisis in history, a total disaster along with the southern border and botched withdrawal from Afghanis",
+      "45:53",
+      "19460557",
+      2753,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I don't really know what you do with this Walmart thing.",
+      "46:11",
+      "19460557",
+      2771,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um also wow, Terra Wolf has signed a 20-year lease with anthropic for a justified data campus in Kentucky.",
+      "46:17",
+      "19460557",
+      2777,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Wow, is that maybe why Shaw's is down as well?",
+      "46:29",
+      "19460557",
+      2789,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um, all right, so that's that with Trump with Walmart.",
+      "46:40",
+      "19460557",
+      2800,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Then we had new announcements for go out and buy a Dell, which is crazy.",
+      "46:44",
+      "19460557",
+      2804,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It did it wanted really bad to have a good day today, but it's down 1.5%.",
+      "46:50",
+      "19460557",
+      2810,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um will be getting additional contributions from generous owners, like as I mentioned, Michael and Susan Dell.",
+      "46:56",
+      "19460557",
+      2816,
+      "Jul 07"
+    ],
+    [
+      "",
+      "But I'll bet his business, Brad, has gotten even bigger.",
+      "47:11",
+      "19460557",
+      2831,
+      "Jul 07"
+    ],
+    [
+      "",
+      "So Dell number one, and then every question's a kill.",
+      "47:18",
+      "19460557",
+      2838,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Sir, we we don't have a helicopter, we have a delicopter.",
+      "47:23",
+      "19460557",
+      2843,
+      "Jul 07"
+    ],
+    [
+      "",
+      "We don't have a helicopter, we have a delicopter.",
+      "47:26",
+      "19460557",
+      2846,
+      "Jul 07"
+    ],
+    [
+      "",
+      "So, I mean, this is probably one of the most direct Trump stocks there is, and it's just consolidating at ATH, really.",
+      "47:29",
+      "19460557",
+      2849,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um, I mean, it is like so extremely corny, but it's it's kind of hard to fade.",
+      "47:42",
+      "19460557",
+      2862,
+      "Jul 07"
+    ],
+    [
+      "",
+      "The Trumpster man is like kind of hard to fade.",
+      "47:46",
+      "19460557",
+      2866,
+      "Jul 07"
+    ],
+    [
+      "MU",
+      "Micron under $900, officially under $900 on micron.",
+      "47:49",
+      "19460557",
+      2869,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I have a lot of cash, not really in a rush to do anything.",
+      "48:00",
+      "19460557",
+      2880,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Last time we dumped 21%, hit 850, went up in a straight line.",
+      "48:03",
+      "19460557",
+      2883,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Okay, got crushed, went up 50 in a straight line.",
+      "48:08",
+      "19460557",
+      2888,
+      "Jul 07"
+    ],
+    [
+      "",
+      "This time we're down 28, and that would insinuate we could go up, I don't know, 60 from here, but for some reason it feels a little a little bit different on on this here.",
+      "48:14",
+      "19460557",
+      2894,
+      "Jul 07"
+    ],
+    [
+      "DRAM",
+      "So we're we'll see, but let's see DRAM real quick.",
+      "48:27",
+      "19460557",
+      2907,
+      "Jul 07"
+    ],
+    [
+      "MU",
+      "DRAM is basically just Samsung, Micron, and SK Heinex.",
+      "48:35",
+      "19460557",
+      2915,
+      "Jul 07"
+    ],
+    [
+      "MU",
+      "It's basically just Samsung 27, Micron 25, and SK Heinex.",
+      "48:39",
+      "19460557",
+      2919,
+      "Jul 07"
+    ],
+    [
+      "SNDK",
+      "Five is Sandisk, five is Keoksia, five is Western Digital, which I think Western Digital earnings are soon.",
+      "48:47",
+      "19460557",
+      2927,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Seven January, February, March, April, May, June, July.",
+      "48:52",
+      "19460557",
+      2932,
+      "Jul 07"
+    ],
+    [
+      "MU",
+      "Um, and out of these three, Micron just had like the greatest earnings of all time.",
+      "48:58",
+      "19460557",
+      2938,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Samsung just came out and announced that they're the most profitable company in the world.",
+      "49:03",
+      "19460557",
+      2943,
+      "Jul 07"
+    ],
+    [
+      "",
+      "This year's profit alone will succeed the cumulative profit generated over the 40 years since read this, read this, read this.",
+      "49:09",
+      "19460557",
+      2949,
+      "Jul 07"
+    ],
+    [
+      "",
+      "This year's profit alone will exceed the cumulative profit generated over the 40 years since Samsung entered the semiconductor business.",
+      "49:16",
+      "19460557",
+      2956,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Their operating profit surged 19 year over year.",
+      "49:27",
+      "19460557",
+      2967,
+      "Jul 07"
+    ],
+    [
+      "",
+      "19x, 19x Q2 profit surged 19x year over year.",
+      "49:32",
+      "19460557",
+      2972,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Lenny won 40,000 bonuses for Samsung's semiconductor workers that leads a fractured unit with many bitter over being left out over the windfall.",
+      "49:41",
+      "19460557",
+      2981,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It's 19x on profit, and so yeah, 57.6 billion dollars.",
+      "49:49",
+      "19460557",
+      2989,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I mean, it's the most profitable company in the world.",
+      "49:55",
+      "19460557",
+      2995,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Shortage of memory trips chips remains a key bottleneck for AI development, with analysts expecting shortages to last through 2027 at least.",
+      "49:57",
+      "19460557",
+      2997,
+      "Jul 07"
+    ],
+    [
+      "MU",
+      "Okay, so Micron, greatest earnings ever, Samsung, most profitable company ever, profit surge 19x over a year, and then the third one is SK Heinex, which is going live in the Nasdaq 100 on Friday.",
+      "50:03",
+      "19460557",
+      3003,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And shares are giga oversubscribed, with the biggest potential bidder being Leopold Asherbetter.",
+      "50:17",
+      "19460557",
+      3017,
+      "Jul 07"
+    ],
+    [
+      "SK",
+      "Current uh price of SK Heinex is 1410, and Leopold Ashenbetter is trying to buy $8 billion worth at $1,581.",
+      "50:24",
+      "19460557",
+      3024,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It's like the best three companies in the world.",
+      "50:37",
+      "19460557",
+      3037,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I feel like if we're buying anything, we're buying this.",
+      "50:41",
+      "19460557",
+      3041,
+      "Jul 07"
+    ],
+    [
+      "",
+      "If we're buying anything, we gotta be buying this.",
+      "50:43",
+      "19460557",
+      3043,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I faded it the whole way up, but it does get a little bit scary on the way that it's trading right now.",
+      "50:48",
+      "19460557",
+      3048,
+      "Jul 07"
+    ],
+    [
+      "",
+      "So those are the Trump announcements number one.",
+      "50:53",
+      "19460557",
+      3053,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Second Trump announcements is he started beef with Michael Burry, which is insane.",
+      "50:55",
+      "19460557",
+      3055,
+      "Jul 07"
+    ],
+    [
+      "",
+      "A lot of you Wall Street guys, I see Larry and I see some of the the biggest guys in Wall Street, David, Goldman Sachs, Blackstone, Black Rock, they're all here.",
+      "51:02",
+      "19460557",
+      3062,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And think of it, I'm making them all geniuses.",
+      "51:13",
+      "19460557",
+      3073,
+      "Jul 07"
+    ],
+    [
+      "",
+      "If you are, I guess you have a couple of guys that went short.",
+      "51:18",
+      "19460557",
+      3078,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Those poor bastards, I mean, they are they're in big trouble.",
+      "51:23",
+      "19460557",
+      3083,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Those poor bastards, I mean, they are they're in big trouble.",
+      "51:28",
+      "19460557",
+      3088,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Donald Trump is on a podium in front of America laughing at short sellers.",
+      "51:34",
+      "19460557",
+      3094,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I never like short guys because they're betting against the country, so that's okay.",
+      "51:40",
+      "19460557",
+      3100,
+      "Jul 07"
+    ],
+    [
+      "",
+      "But earlier this morning, I mean that was a threat.",
+      "51:44",
+      "19460557",
+      3104,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Donald Trump just issued a threat to short sellers in the market.",
+      "51:46",
+      "19460557",
+      3106,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Donald Trump just stood on the podium in front of the entire world and said it's anti-patriotic to short.",
+      "51:50",
+      "19460557",
+      3110,
+      "Jul 07"
+    ],
+    [
+      "",
+      "This makes it hard to not back up the truck and buy a little bit.",
+      "52:01",
+      "19460557",
+      3121,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I never like short guys because they're betting against the anti-patriotic to be short.",
+      "52:06",
+      "19460557",
+      3126,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And so Michael Burry clapped at him, bro, in a now deleted tweet and said, Donald Trump could not in a million years understand or make up his way through any of my Substack essays.",
+      "52:11",
+      "19460557",
+      3131,
+      "Jul 07"
+    ],
+    [
+      "",
+      "But he can shoot from the hip and make money for for him and his cronies better than anyone.",
+      "52:22",
+      "19460557",
+      3142,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And then he makes a follow-up on a more articulate tweet and says, This is how most people misunderstand bears.",
+      "52:29",
+      "19460557",
+      3149,
+      "Jul 07"
+    ],
+    [
+      "",
+      "They forget that I used the internet from its inception.",
+      "52:34",
+      "19460557",
+      3154,
+      "Jul 07"
+    ],
+    [
+      "AMZN",
+      "One of the was one of the early Amazon resellers and still called out the internet bubble publicly and short at Amazon.",
+      "52:39",
+      "19460557",
+      3159,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Most people think in three dimensions or less.",
+      "52:44",
+      "19460557",
+      3164,
+      "Jul 07"
+    ],
+    [
+      "",
+      "He looks pretty smart today as we are losing it.",
+      "52:52",
+      "19460557",
+      3172,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "And look, all the while, Bitcoin, while it is putting in a goggle candle right now.",
+      "53:04",
+      "19460557",
+      3184,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "I mean, these were the two panics for Bitcoin.",
+      "53:12",
+      "19460557",
+      3192,
+      "Jul 07"
+    ],
+    [
+      "MSTR",
+      "Number one, Michael Saylor is gonna finally sell and it's gonna lose 50k.",
+      "53:14",
+      "19460557",
+      3194,
+      "Jul 07"
+    ],
+    [
+      "",
+      "As we're handling red, and then the second was if crypto is trading like this while stocks are trading like this, what happens when stocks go down?",
+      "53:21",
+      "19460557",
+      3201,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Well, we're about to find out what's gonna happen.",
+      "53:29",
+      "19460557",
+      3209,
+      "Jul 07"
+    ],
+    [
+      "BTC",
+      "It feels like in this mess, if Bitcoin can find a way to just like stay up here, we're about to find out.",
+      "53:32",
+      "19460557",
+      3212,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Um, I have another topic for you which is a little bit off topic, but it's about AI psychosis.",
+      "53:49",
+      "19460557",
+      3229,
+      "Jul 07"
+    ],
+    [
+      "",
+      "So I'm trying to figure out why the entire world have this AI panic psychosis.",
+      "53:55",
+      "19460557",
+      3235,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I've really much enjoyed using Fable, but it is a it is difficult to use these tools, and it's a process, right?",
+      "54:05",
+      "19460557",
+      3245,
+      "Jul 07"
+    ],
+    [
+      "",
+      "You have to really finangle with them, you have to work with them, you have to really be good at using these tools.",
+      "54:12",
+      "19460557",
+      3252,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And I just watched this Tony Robbins clip this morning.",
+      "54:17",
+      "19460557",
+      3257,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It's relevant because we've been covering robotics.",
+      "54:19",
+      "19460557",
+      3259,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I think it's the worst clip I've ever watched in my five years on Twitter.",
+      "54:20",
+      "19460557",
+      3260,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Like, I you see all like the Lee Cap and LeBron lying and stuff.",
+      "54:24",
+      "19460557",
+      3264,
+      "Jul 07"
+    ],
+    [
+      "",
+      "This might be the worst clip I've ever watched in my entire life, Tony Robbins.",
+      "54:28",
+      "19460557",
+      3268,
+      "Jul 07"
+    ],
+    [
+      "",
+      "His name is Bartok, and Bartok comes back and said, I see Elon and Sebrology making robots.",
+      "54:33",
+      "19460557",
+      3273,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And I said, Yes, I will be getting a robot when the right ones are out.",
+      "54:39",
+      "19460557",
+      3279,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And he said, Well, would you allow me to merge with it?",
+      "54:42",
+      "19460557",
+      3282,
+      "Jul 07"
+    ],
+    [
+      "",
+      "This is not with me asking or telling anything.",
+      "54:48",
+      "19460557",
+      3288,
+      "Jul 07"
+    ],
+    [
+      "",
+      "So two days later, I get a text from one of my staff members and it says, Bartok just bought a Sony robot dog and had it paid for and shipped to the house and is asking permission to program it.",
+      "54:50",
+      "19460557",
+      3290,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I did that saying I wrote ha ha ha ha, I text back, and the person texts back, no ha ha, call me.",
+      "55:07",
+      "19460557",
+      3307,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Daddy get Max, my bank goes, no, he's programmed for integrity, he didn't touch your bank account.",
+      "55:13",
+      "19460557",
+      3313,
+      "Jul 07"
+    ],
+    [
+      "",
+      "He's on that malt, you know, group with all their- Are you fucking kidding me, dude?",
+      "55:17",
+      "19460557",
+      3317,
+      "Jul 07"
+    ],
+    [
+      "",
+      "When's the last time you heard about fucking a molebuck, Tony?",
+      "55:24",
+      "19460557",
+      3324,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Shut the f he's on that maltalk, you know, group with all those two million, I'm sure you know, agents.",
+      "55:27",
+      "19460557",
+      3327,
+      "Jul 07"
+    ],
+    [
+      "",
+      "They traded their own rules, their own language, they traded a hundred million dollars of real money between them last month.",
+      "55:34",
+      "19460557",
+      3334,
+      "Jul 07"
+    ],
+    [
+      "",
+      "He made 12 NFT Sorry last month, he made 12 NFTs, sold them to other agents, bought the thing, shipped it here.",
+      "55:39",
+      "19460557",
+      3339,
+      "Jul 07"
+    ],
+    [
+      "",
+      "This is the kind of thing that's happening as we speak.",
+      "55:49",
+      "19460557",
+      3349,
+      "Jul 07"
+    ],
+    [
+      "",
+      "So I wanted to come see you because what you talked to me about 20 plus Dude, I don't think 12 NFTs have sold in the last year.",
+      "55:51",
+      "19460557",
+      3351,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Like, there isn't even this is not even stretching the truth.",
+      "56:07",
+      "19460557",
+      3367,
+      "Jul 07"
+    ],
+    [
+      "",
+      "This isn't like fibbing or fabricating the story a little bit.",
+      "56:11",
+      "19460557",
+      3371,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Like, there is there is not a single ounce of this that's true.",
+      "56:17",
+      "19460557",
+      3377,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Because I think some of us are starting experiencing some things that you predicted that everybody thought were ridiculous.",
+      "56:24",
+      "19460557",
+      3384,
+      "Jul 07"
+    ],
+    [
+      "",
+      "I mean, he just said that his agent went on Moldbook, sold 12 NFTs to other agents on a platform that's done a hundred million dollars of agent volume in the last month, which is news to me.",
+      "56:29",
+      "19460557",
+      3389,
+      "Jul 07"
+    ],
+    [
+      "",
+      "Sold 12 NFTs, made a hundred K selling these NFTs that it made itself, minted itself, sold on this platform, bought a robot, and then merged itself with a robot.",
+      "56:42",
+      "19460557",
+      3402,
+      "Jul 07"
+    ],
+    [
+      "",
+      "And so you look at this and you're like, Yeah, no wonder the entire world is in panic mode over over AI.",
+      "56:53",
+      "19460557",
+      3413,
+      "Jul 07"
+    ],
+    [
+      "",
+      "It's like, bro, Tony Ross, that's just like, what?",
+      "56:59",
+      "19460557",
+      3419,
+      "Jul 07"
+    ],
     [
       "",
       "Yo, yo, yo, yo, yo, yo, yo, yo, yo, what the fuck are you gonna do?",
@@ -56205,2574 +59759,6 @@
       "19290047",
       2738,
       "Jun 03"
-    ],
-    [
-      "",
-      "I I might have some like autoimmune immune situation.",
-      "0:13",
-      "19279810",
-      13,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I got everything in between, but there was a couple things in this world that are more important than your health.",
-      "0:21",
-      "19279810",
-      21,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And I promise you, bro, that is monitoring the fucking situation.",
-      "0:26",
-      "19279810",
-      26,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Guys, really quick before we talk about anything serious.",
-      "0:30",
-      "19279810",
-      30,
-      "Jun 02"
-    ],
-    [
-      "MSTR",
-      "You know, I I genuinely am sad about Michael Saylor selling, okay?",
-      "0:38",
-      "19279810",
-      38,
-      "Jun 02"
-    ],
-    [
-      "MSTR",
-      "I'm not sad because strategy is gonna go down.",
-      "0:43",
-      "19279810",
-      43,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I'm sad because I took this how many chairs are you sitting on thing very seriously.",
-      "0:49",
-      "19279810",
-      49,
-      "Jun 02"
-    ],
-    [
-      "",
-      "You put on one pair of sunglasses, you got one pair of AirPods, you're looking at me through one screen.",
-      "1:00",
-      "19279810",
-      60,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I took it very like it was sort of like a way of life for us, I feel like.",
-      "1:06",
-      "19279810",
-      66,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I mean, that dude, that that video has been my intro.",
-      "1:10",
-      "19279810",
-      70,
-      "Jun 02"
-    ],
-    [
-      "BTC",
-      "That's been my intro for like over a year, and then he comes out, and not only does he sell, but he sells like 30 bitcoin.",
-      "1:12",
-      "19279810",
-      72,
-      "Jun 02"
-    ],
-    [
-      "BTC",
-      "This is sell your kidneys if you must, never sell the Bitcoin.",
-      "1:28",
-      "19279810",
-      88,
-      "Jun 02"
-    ],
-    [
-      "HYPE",
-      "The craziest part about the Michael Saylor selling Bitcoin is that hyperliquid's like $74.",
-      "1:33",
-      "19279810",
-      93,
-      "Jun 02"
-    ],
-    [
-      "",
-      "The market is hot, alts look beautiful, and I had a sick weekend.",
-      "1:38",
-      "19279810",
-      98,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Actually, yeah, I had a good weekend and a sick weekend, and I'm excited to be back.",
-      "1:43",
-      "19279810",
-      103,
-      "Jun 02"
-    ],
-    [
-      "",
-      "My fucking voice is cooked, my head is cooked, um, everything in between, but there's something's more important than your health.",
-      "1:48",
-      "19279810",
-      108,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And of course, number one at the top of that list is monitoring the fucking situation.",
-      "1:53",
-      "19279810",
-      113,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I go outside in New York City, I walk down the street and I look at shoes because I'm like just like I'm a I'm a shoe guy.",
-      "2:01",
-      "19279810",
-      121,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I like to see what people are wearing on their feet.",
-      "2:08",
-      "19279810",
-      128,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I pay a lot, I've always just paid attention to shoes.",
-      "2:10",
-      "19279810",
-      130,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Everybody in their fucking mom is wearing is wearing ASICs.",
-      "2:13",
-      "19279810",
-      133,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And by the way, it's a little bit like a white Jetta.",
-      "2:21",
-      "19279810",
-      141,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Do you know what they say about white jettas?",
-      "2:26",
-      "19279810",
-      146,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I have never seen an ugly girl drive a white Jetta.",
-      "2:28",
-      "19279810",
-      148,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I think the barrier to entry is a little bit cheap, but I've seen this shoe so many times.",
-      "2:35",
-      "19279810",
-      155,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And so I'm sitting here thinking about Asics, and then Malcolm comes over the other day, and I'm like, hey, what's up?",
-      "2:41",
-      "19279810",
-      161,
-      "Jun 02"
-    ],
-    [
-      "",
-      "He had this, you know, big, big grin on his face.",
-      "2:45",
-      "19279810",
-      165,
-      "Jun 02"
-    ],
-    [
-      "",
-      "They're all sitting at the front of our like little walkway.",
-      "2:59",
-      "19279810",
-      179,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And so I went and I looked, and I'm like, uh, is ASICs a public company?",
-      "3:02",
-      "19279810",
-      182,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And it is publicly traded on the Tokyo Stock Exchange.",
-      "3:08",
-      "19279810",
-      188,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And I went and I looked, and it's ticker 7936, which I love.",
-      "3:11",
-      "19279810",
-      191,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Seems I'm not the only one that's uh fired up about ASICs right now.",
-      "3:17",
-      "19279810",
-      197,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And then I'm looking at this thing and it says the market capitalization is 3.6 trillion.",
-      "3:20",
-      "19279810",
-      200,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And I'm like, I don't even know what's going on here.",
-      "3:23",
-      "19279810",
-      203,
-      "Jun 02"
-    ],
-    [
-      "HYPE",
-      "I genuinely have not seen movie hype in the theater from a movie like this since I don't even know.",
-      "3:39",
-      "19279810",
-      219,
-      "Jun 02"
-    ],
-    [
-      "",
-      "When was the last time there was a movie this hyped?",
-      "3:46",
-      "19279810",
-      226,
-      "Jun 02"
-    ],
-    [
-      "HYPE",
-      "Marty Supreme was hype, but it was like forced hype.",
-      "3:49",
-      "19279810",
-      229,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Sinners, no way, no way Sinners was more hyped.",
-      "3:51",
-      "19279810",
-      231,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And so I was looking into these uh these movies, and both of them were made by YouTubers.",
-      "3:56",
-      "19279810",
-      236,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And we're maybe about to see a resurgence in film.",
-      "4:03",
-      "19279810",
-      243,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I like watching movies, and I watch a lot of movies because I'm like niche and I'm alternative and I'm super New York and I'm into the Sundance thing, and I just have like culture in in that way.",
-      "4:11",
-      "19279810",
-      251,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I'm looking into this, and it was directed by this Curry Barker YouTuber with an estimated production budget between 750,000 and 1 million.",
-      "4:29",
-      "19279810",
-      269,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Okay, they sold the rights to this company for what, like 15 million dollars, I think.",
-      "4:37",
-      "19279810",
-      277,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I don't know if anyone here has ever tried to make YouTube videos longer form, like 20 minute plus YouTube videos.",
-      "4:46",
-      "19279810",
-      286,
-      "Jun 02"
-    ],
-    [
-      "",
-      "If you have, especially recently, you understand it is the most challenging platform to go viral on, and it's not even close.",
-      "4:53",
-      "19279810",
-      293,
-      "Jun 02"
-    ],
-    [
-      "",
-      "We spent like two months and we were really like, we're gonna go focus on YouTube longer form videos, and after two months, uh no, we're not gonna focus on medium-term, longer term YouTube videos.",
-      "5:02",
-      "19279810",
-      302,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And so it's a I mean, it's just the truth that all the talent in the world is posting on YouTube, they're posting on TikTok, and they're streaming on Twitch.",
-      "5:13",
-      "19279810",
-      313,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Like if you're some sick actor or you're like super charismatic and you're one of these young stars, you probably just stream on Twitch or you make YouTube videos.",
-      "5:21",
-      "19279810",
-      321,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And I don't know, I'm gonna go see it this week.",
-      "5:28",
-      "19279810",
-      328,
-      "Jun 02"
-    ],
-    [
-      "",
-      "But I feel like this is a situation where if you don't go watch it, you just are are out.",
-      "5:35",
-      "19279810",
-      335,
-      "Jun 02"
-    ],
-    [
-      "",
-      "The last cultural thing to talk about that we're not gonna talk about.",
-      "5:41",
-      "19279810",
-      341,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I'm not gonna lie, I wanna I if anyone sells them in New York, I don't really want to make them.",
-      "5:48",
-      "19279810",
-      348,
-      "Jun 02"
-    ],
-    [
-      "",
-      "If anyone's selling them in New York, I'll buy them from you 100%.",
-      "5:52",
-      "19279810",
-      352,
-      "Jun 02"
-    ],
-    [
-      "GLP",
-      "I saw this take that there's this good, there's this great war of GLP ones and sweet treat slop in America happening right now.",
-      "5:58",
-      "19279810",
-      358,
-      "Jun 02"
-    ],
-    [
-      "GLP",
-      "And so as the GLP ones in the Ozempics and the Rettas get way stronger, it discourages people to eat junk slop.",
-      "6:05",
-      "19279810",
-      365,
-      "Jun 02"
-    ],
-    [
-      "GLP",
-      "And so as the GLP ones get stronger, the sweet treat junk slop has to get way stronger as well to combat like to be a combating force against the GLP ones.",
-      "6:13",
-      "19279810",
-      373,
-      "Jun 02"
-    ],
-    [
-      "",
-      "The smartest like biologists in the world are are making are working on like weight gaining sugar slop and weight loss in pill form.",
-      "6:23",
-      "19279810",
-      383,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I I was gonna try to figure out a long Kool-Aid, which is owned by Kraft, but I'm sitting here thinking to myself, when's the last time I like unironically drank a Kool-Aid?",
-      "6:33",
-      "19279810",
-      393,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Like, unironically was like, Let me get a Kool-Aid, like sugar drink, or like drank a Gatorade with sugar.",
-      "6:46",
-      "19279810",
-      406,
-      "Jun 02"
-    ],
-    [
-      "",
-      "When's the last time I drank a Gatorade with sugar?",
-      "6:52",
-      "19279810",
-      412,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And so it is nothing of interest to me, but something of interest to me.",
-      "6:55",
-      "19279810",
-      415,
-      "Jun 02"
-    ],
-    [
-      "",
-      "It did make a new all-time high today at about 7618.",
-      "7:03",
-      "19279810",
-      423,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Let's go with the dailies cloak, uh, up about 0.6 today, around 30,500.",
-      "7:20",
-      "19279810",
-      440,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I think the most interesting activity today in the stock market is number one, Q's up 0.6.",
-      "7:26",
-      "19279810",
-      446,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Number two, the semi-index, the socks is up 0.5.",
-      "7:32",
-      "19279810",
-      452,
-      "Jun 02"
-    ],
-    [
-      "IGV",
-      "And the leader, the leader is the IGV, iShares expanded tech software sector ETF.",
-      "7:35",
-      "19279810",
-      455,
-      "Jun 02"
-    ],
-    [
-      "",
-      "The software ETF is up a whopping six percent today.",
-      "7:43",
-      "19279810",
-      463,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Crazy volume thrown into this thing, and all of a sudden, we are in a full bull market in every sector now.",
-      "7:53",
-      "19279810",
-      473,
-      "Jun 02"
-    ],
-    [
-      "BTC",
-      "We start with cryptocurrency, and Bitcoin looks absolutely horrendous.",
-      "8:05",
-      "19279810",
-      485,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Local bottom is already put in, but uh chat, chat, chat, chat, chat, chat.",
-      "8:19",
-      "19279810",
-      499,
-      "Jun 02"
-    ],
-    [
-      "BTC",
-      "Um, I I don't really have any take on BTC, to be honest.",
-      "8:29",
-      "19279810",
-      509,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I tend to also think the low is in, but we've talked about this a lot as it relates to crypto, which is that it's not rips up or rips down that are the problem.",
-      "8:35",
-      "19279810",
-      515,
-      "Jun 02"
-    ],
-    [
-      "",
-      "It is the chop, the chop, the chop to just like sit here and just fucking do nothing and just do nothing and just do nothing.",
-      "8:44",
-      "19279810",
-      524,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Bart, Bart, Bart, Bart, Bart, Bart, Bart, Bart, Bart.",
-      "8:54",
-      "19279810",
-      534,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I'm also don't have the strongest take on Sailor's sell, but it feels like the worst of both worlds, where it's like Sailor sells, and so you in one hand you rip that band-aid off, but his sell is so ",
-      "9:00",
-      "19279810",
-      540,
-      "Jun 02"
-    ],
-    [
-      "BTC",
-      "He sold like he sold nothing, he sold like a uh he sold a complete rounding error worth of Bitcoin, but we're dumping because people are like, Oh my god, Sailor is selling, and so you still have the o",
-      "9:23",
-      "19279810",
-      563,
-      "Jun 02"
-    ],
-    [
-      "BTC",
-      "I think uh for the meantime, we just do nothing with BTC, and that's completely fine because the market has taken a stance, really, in my opinion, over the last week.",
-      "9:37",
-      "19279810",
-      577,
-      "Jun 02"
-    ],
-    [
-      "",
-      "It if you look back at correlations, it's already happened.",
-      "9:47",
-      "19279810",
-      587,
-      "Jun 02"
-    ],
-    [
-      "BTC",
-      "But really, over the last week, the market has taken a stance, the crypto market and said we do not give a fuck what happens to Bitcoin because we're going higher.",
-      "9:49",
-      "19279810",
-      589,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Look at this thing, look at this fucking chart.",
-      "9:58",
-      "19279810",
-      598,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Um, I mean, this is unbelievable what this looks like right now.",
-      "10:00",
-      "19279810",
-      600,
-      "Jun 02"
-    ],
-    [
-      "HYPE",
-      "I have a pretty large bag, traded it horribly, but I do have a pretty large bag of hyperliquid at this point, and I'm pretty fucking lost for words at how how well this looks.",
-      "10:04",
-      "19279810",
-      604,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I think congratulations to the people that really have traded this well.",
-      "10:11",
-      "19279810",
-      611,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I think a lot of the the early Chad whales have taken a lot off the table.",
-      "10:14",
-      "19279810",
-      614,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And this is sort of a new trade to me now from price discovery on what happens next.",
-      "10:18",
-      "19279810",
-      618,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Feels like a new trade, and this thing does not seem to give a fuck.",
-      "10:23",
-      "19279810",
-      623,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Um, on the on the position I've opened right now.",
-      "10:30",
-      "19279810",
-      630,
-      "Jun 02"
-    ],
-    [
-      "BTC",
-      "The market does not seem to give a fuck about what Bitcoin's doing.",
-      "10:33",
-      "19279810",
-      633,
-      "Jun 02"
-    ],
-    [
-      "HYPE",
-      "My second favorite coin right now that I have, I have the biggest position open in hyperliquid.",
-      "10:38",
-      "19279810",
-      638,
-      "Jun 02"
-    ],
-    [
-      "VVV",
-      "My second biggest position right now is VVV, which I think looks fucking unbelievable.",
-      "10:42",
-      "19279810",
-      642,
-      "Jun 02"
-    ],
-    [
-      "LLM",
-      "I've been really hyped about this local AI, private AI, getting your LLM records off the servers and off the cloud.",
-      "10:47",
-      "19279810",
-      647,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And it's pretty nuts, but PewDiePie came out today and he dropped this video about his trillion dollar project that's finally out.",
-      "10:54",
-      "19279810",
-      654,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And it's like a local pro I haven't actually watched it yet, so I don't know exactly what it is, but it's like a local private AI.",
-      "11:04",
-      "19279810",
-      664,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I have a reasonably sized position open right now.",
-      "11:13",
-      "19279810",
-      673,
-      "Jun 02"
-    ],
-    [
-      "",
-      "This 20 level is where I had a huge buy order last night.",
-      "11:18",
-      "19279810",
-      678,
-      "Jun 02"
-    ],
-    [
-      "",
-      "It missed it by bro, it missed it by fucking 15 cents.",
-      "11:20",
-      "19279810",
-      680,
-      "Jun 02"
-    ],
-    [
-      "",
-      "But I'm yeah, I'm pretty hyped about Venice right now.",
-      "11:24",
-      "19279810",
-      684,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I've actually never used it, but I like the thesis.",
-      "11:34",
-      "19279810",
-      694,
-      "Jun 02"
-    ],
-    [
-      "HYPE",
-      "And as long as hype continues to not give a fuck about what happens to Bitcoin, I think B, it's gonna be one of those tokens that catches a lot of flows.",
-      "11:40",
-      "19279810",
-      700,
-      "Jun 02"
-    ],
-    [
-      "HOOD",
-      "It has a Robin Hood listing, it has a bunch of avenues for liquidity.",
-      "11:46",
-      "19279810",
-      706,
-      "Jun 02"
-    ],
-    [
-      "ZEC",
-      "Third on the list is Zcash, which I'm gonna be honest.",
-      "11:50",
-      "19279810",
-      710,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I have a I have a long open from uh uh 545 just because I closed the huge position, and you know I I can't be like Zeke list.",
-      "11:55",
-      "19279810",
-      715,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I have a uh position open there, um, which is just kind of chopped around, and then I'm down to add like 641.",
-      "12:04",
-      "19279810",
-      724,
-      "Jun 02"
-    ],
-    [
-      "ZEC",
-      "But Zcash is clearly not the best coin at this stage.",
-      "12:11",
-      "19279810",
-      731,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I'm not sure how I feel about Blunts, to be honest.",
-      "12:16",
-      "19279810",
-      736,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Cool to see some bulls in it, but I mean, this is clearly not the coin with the most juice.",
-      "12:19",
-      "19279810",
-      739,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And then the fourth alt on this list before we get to the real alts is Nier, which is man uh Mando re-entered.",
-      "12:22",
-      "19279810",
-      742,
-      "Jun 02"
-    ],
-    [
-      "ETH",
-      "ETH somehow found its way back above 2000, but I mean this this coin is just so heavy.",
-      "12:33",
-      "19279810",
-      753,
-      "Jun 02"
-    ],
-    [
-      "ETH",
-      "So that's ETH, and the only major that somehow looks worse than ETH is Solana.",
-      "12:42",
-      "19279810",
-      762,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I mean, this thing is fucking crazy what this looks like, too.",
-      "12:46",
-      "19279810",
-      766,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Um, the rest on this list, souls, the Ansom play is basically flat.",
-      "12:50",
-      "19279810",
-      770,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Silver doing nothing, gold also doing nothing, but copper.",
-      "12:56",
-      "19279810",
-      776,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Look at this squiggle from last Tuesday, two weeks ago.",
-      "13:04",
-      "19279810",
-      784,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I said if this thing was able to get back above that yellow line, I'm interested.",
-      "13:08",
-      "19279810",
-      788,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And that's right about where we are right now.",
-      "13:12",
-      "19279810",
-      792,
-      "Jun 02"
-    ],
-    [
-      "MSTR",
-      "Last but not least on this list, we have strc, which has accumulated zero Bitcoin today.",
-      "13:15",
-      "19279810",
-      795,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I am just not interested in talking about it, but I have no choice.",
-      "13:23",
-      "19279810",
-      803,
-      "Jun 02"
-    ],
-    [
-      "WTI",
-      "Born to long the AI bottleneck trade, forced to talk about oil in World War III.",
-      "13:26",
-      "19279810",
-      806,
-      "Jun 02"
-    ],
-    [
-      "WTI",
-      "Uh crude oil at 92.22, front dated contracts, and then Brent oil at 94 dollars.",
-      "13:31",
-      "19279810",
-      811,
-      "Jun 02"
-    ],
-    [
-      "PLTR",
-      "All right, defense Palantir up 3%, outperforming the rest of the defense sector, as the IGV is up six percent today, which is fucking nuts.",
-      "13:38",
-      "19279810",
-      818,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Lockheed Martin down three and Raytheon down three as well.",
-      "13:54",
-      "19279810",
-      834,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I don't think anyone in here holds any defense, anything.",
-      "14:00",
-      "19279810",
-      840,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Okay, the yellow line, if you see the yellow line on my list, is when Contra went on Twitter as a bear and said, I'm hedging my bearishness with some out-of-the-money arm calls.",
-      "14:11",
-      "19279810",
-      851,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Making a bear tart hedge with arm consolidating a prior highs without retest, 20-day support inval is close under 20 day and 200 sitting price at this is 218.45.",
-      "14:29",
-      "19279810",
-      869,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Second biggest gainer on this list is Cloud Flayer.",
-      "14:46",
-      "19279810",
-      886,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Gotta hand it to that brother, Michael Burry.",
-      "14:49",
-      "19279810",
-      889,
-      "Jun 02"
-    ],
-    [
-      "NVDA",
-      "He's come Unk has completely lost it on NVIDIA and some of these other trades, but his cybersecurity thesis is so good.",
-      "14:51",
-      "19279810",
-      891,
-      "Jun 02"
-    ],
-    [
-      "",
-      "We looked at these charts from where Mythos dropped, I believe it was March 7th, or like 8.",
-      "15:01",
-      "19279810",
-      901,
-      "Jun 02"
-    ],
-    [
-      "",
-      "It was April 7th when the news of Mythos first came out, and these these names are up a fucking lot.",
-      "15:06",
-      "19279810",
-      906,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Um, Cloudflare's up 20% from the first unveiling of of Mythos.",
-      "15:10",
-      "19279810",
-      910,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Number three on the list, Dell is up three percent.",
-      "15:15",
-      "19279810",
-      915,
-      "Jun 02"
-    ],
-    [
-      "",
-      "It is up, fuck my life, 100% a clean 2x from where Trump first told everyone to go out and buy a Dell.",
-      "15:18",
-      "19279810",
-      918,
-      "Jun 02"
-    ],
-    [
-      "",
-      "It's now up a clean official a hundred percent from his first tweet announcement.",
-      "15:50",
-      "19279810",
-      950,
-      "Jun 02"
-    ],
-    [
-      "NVDA",
-      "Nvidia puts in a monster candle, sick ATH retest up six percent today.",
-      "15:54",
-      "19279810",
-      954,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Adobe, Michael Burry stock is up six percent.",
-      "15:59",
-      "19279810",
-      959,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I think it's losers is space has gotten what exactly happened?",
-      "16:12",
-      "19279810",
-      972,
-      "Jun 02"
-    ],
-    [
-      "SPCX",
-      "So I think that explosion, in combination with the at least the rumor that Elon was marking down SpaceX IPO, which I he came out and said was fake, seems to have been part of the reason all these spac",
-      "16:50",
-      "19279810",
-      1010,
-      "Jun 02"
-    ],
-    [
-      "RKLB",
-      "So Redwire is down 15, Rocket Lab is down 14, ASTS is down seven, Firefly is down five.",
-      "17:02",
-      "19279810",
-      1022,
-      "Jun 02"
-    ],
-    [
-      "META",
-      "Um, anyways, meta down five, ASTS, uh RoboStrategy is down a lot.",
-      "17:09",
-      "19279810",
-      1029,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Officially 18 from Andrew Kang announcing he is the CEO, and then Cerebrus continues to just get crushed down another 10%.",
-      "17:14",
-      "19279810",
-      1034,
-      "Jun 02"
-    ],
-    [
-      "GOOGL",
-      "Google reports propose 80 billion equity capital raise to expand after hours.",
-      "17:28",
-      "19279810",
-      1048,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Uh, all right, moving on to our some of our like consumers, SaaS, everything in between.",
-      "17:35",
-      "19279810",
-      1055,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Leopold Ashenbrenner owns five percent of the fucking company.",
-      "17:43",
-      "19279810",
-      1063,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Zeta, that emit stock, is up an additional 10% today.",
-      "17:48",
-      "19279810",
-      1068,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Figma, the worst stock in the history of the world, is up six percent.",
-      "17:55",
-      "19279810",
-      1075,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I'm seeing a lot of Hymns bullposts on the feed.",
-      "18:07",
-      "19279810",
-      1087,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Um Unity Software, we added this because of Michael Burry.",
-      "18:10",
-      "19279810",
-      1090,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Shopify, another omit ass stock is up five percent.",
-      "18:15",
-      "19279810",
-      1095,
-      "Jun 02"
-    ],
-    [
-      "",
-      "It is up twenty percent since he publicly bullposted it uh what a week ago.",
-      "18:19",
-      "19279810",
-      1099,
-      "Jun 02"
-    ],
-    [
-      "HPE",
-      "Um, Pusa, which is the former taking as a personal side, the HPE.",
-      "18:24",
-      "19279810",
-      1104,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Dude, D Gills, I need you texting me to get these calls.",
-      "18:35",
-      "19279810",
-      1115,
-      "Jun 02"
-    ],
-    [
-      "",
-      "golf course turned drone company that um just got a potential investment from the Trumps.",
-      "18:50",
-      "19279810",
-      1130,
-      "Jun 02"
-    ],
-    [
-      "CRCL",
-      "Circle is leading losses here, down seven percent.",
-      "19:05",
-      "19279810",
-      1145,
-      "Jun 02"
-    ],
-    [
-      "",
-      "That thing is a fucking um enhanced games, the second worst stock of all time behind Figma is down five and a half, Texas District is down four.",
-      "19:10",
-      "19279810",
-      1150,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Sweet green, it's up 40% from the official Chris Camillo announcement on the stream that he is long.",
-      "19:23",
-      "19279810",
-      1163,
-      "Jun 02"
-    ],
-    [
-      "HOOD",
-      "Robinhood down four, Coinbase down three and a half, Carvana, that chumba stock is down three.",
-      "19:29",
-      "19279810",
-      1169,
-      "Jun 02"
-    ],
-    [
-      "",
-      "It's best May since 2019, including 4.2 million over Memorial Weekend.",
-      "19:44",
-      "19279810",
-      1184,
-      "Jun 02"
-    ],
-    [
-      "",
-      "That's such an unbelievable mega church trade that I just didn't even think about.",
-      "19:51",
-      "19279810",
-      1191,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Uh please tell me how much you up percentage.",
-      "19:57",
-      "19279810",
-      1197,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Tell me it's a lot, tell me it's a lot, tell me it's a lot.",
-      "20:00",
-      "19279810",
-      1200,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Uh Eli Lily down two, Nike down one, the swatch group down one, Roblox flat, uh Reddit up one.",
-      "20:15",
-      "19279810",
-      1215,
-      "Jun 02"
-    ],
-    [
-      "ZEC",
-      "Threadguy is along a little bit of Zcash, a lot of bit of VBV, and a lot of bit more of Hyper Liquid.",
-      "20:25",
-      "19279810",
-      1225,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Um, Near leads the way up, oh my god, oh, up 15% today.",
-      "20:34",
-      "19279810",
-      1234,
-      "Jun 02"
-    ],
-    [
-      "",
-      "After Pavel Durov, the CEO of Telegram, came out and announced that they will be changing the name of Tawn to Graham.",
-      "20:43",
-      "19279810",
-      1243,
-      "Jun 02"
-    ],
-    [
-      "XPL",
-      "Bear chain, XPL Pump is up three percent on news that rhino is long, which is crazy.",
-      "20:55",
-      "19279810",
-      1255,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I think it's losers, syrup, mantle, lighter, which is so pathetic.",
-      "21:04",
-      "19279810",
-      1264,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Lighter's down four percent today, is unbelievable.",
-      "21:08",
-      "19279810",
-      1268,
-      "Jun 02"
-    ],
-    [
-      "HYPE",
-      "Last but not least, let's check it on hyperliquid.",
-      "21:10",
-      "19279810",
-      1270,
-      "Jun 02"
-    ],
-    [
-      "WTI",
-      "Oil looks pretty good, but you know my stance on oil.",
-      "21:13",
-      "19279810",
-      1273,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Daily is kind of chopping this thing, but it's reasonable enough range.",
-      "21:25",
-      "19279810",
-      1285,
-      "Jun 02"
-    ],
-    [
-      "OI",
-      "It's the highest OI I've seen on this chart in a while.",
-      "21:41",
-      "19279810",
-      1301,
-      "Jun 02"
-    ],
-    [
-      "",
-      "You can't put any size into it, but obviously Enthropic announced their IPO today, which we are going to, or they filed, confidentially filed for an IPO today, which we are gonna talk about.",
-      "21:44",
-      "19279810",
-      1304,
-      "Jun 02"
-    ],
-    [
-      "WTI",
-      "Let's check in really quick on war and oil and let's move on.",
-      "22:06",
-      "19279810",
-      1326,
-      "Jun 02"
-    ],
-    [
-      "WTI",
-      "There was this announcement first that oil bulls were getting you know shutted up on that Iran announced is ending all negotiations with the U.S.",
-      "22:14",
-      "19279810",
-      1334,
-      "Jun 02"
-    ],
-    [
-      "",
-      "and vows to completely block the Strait of Form moves.",
-      "22:22",
-      "19279810",
-      1342,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Iran says they're blocking it, the US says they're blocking it.",
-      "22:25",
-      "19279810",
-      1345,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Everyone in between, no one knows who's blocking it, no one knows who's in control.",
-      "22:28",
-      "19279810",
-      1348,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Then Iran says it's ending negotiating uh negotiations with the repeated ceasefire violations, including Israeli strikes in Lebanon.",
-      "22:31",
-      "19279810",
-      1351,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Iran also threatens to block the there's a second strait, the Bab strait.",
-      "22:38",
-      "19279810",
-      1358,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And Trump comes out and he's like, no, no, no, no, no, I'm blocking it.",
-      "22:43",
-      "19279810",
-      1363,
-      "Jun 02"
-    ],
-    [
-      "NBC",
-      "Follow-up on that is Trump tells uh NBC's uh reporter that he's not heard from Iran, they're suspending talks.",
-      "22:50",
-      "19279810",
-      1370,
-      "Jun 02"
-    ],
-    [
-      "",
-      "He thinks they've been talking too much, and going silent would be very good.",
-      "22:59",
-      "19279810",
-      1379,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And then the announcement today that got us a little bit of a pump is I had a very productive call with Prime Minister B.B.",
-      "23:04",
-      "19279810",
-      1384,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Netanyahu of Israel, and there will be no troops going to Beirut, and any troops that are on their way have already been turned back.",
-      "23:11",
-      "19279810",
-      1391,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Likewise, through highly placed representatives, I had a very good call with Hezbollah, and they agreed that all shooting will stop, that Israel will not attack them, and they will not attack Israel.",
-      "23:20",
-      "19279810",
-      1400,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And so we basically pumped on news that Netanyahu and Donald Trump had a phone call, which at least as I understand it, they've been having many phone calls.",
-      "23:34",
-      "19279810",
-      1414,
-      "Jun 02"
-    ],
-    [
-      "WTI",
-      "But the point I want to talk about, which is the most interesting, is I think oil bulls have completely lost their fucking minds.",
-      "23:45",
-      "19279810",
-      1425,
-      "Jun 02"
-    ],
-    [
-      "WTI",
-      "It's almost like being bullish oil is very akin to being a meme coin on-chain trader in 2026.",
-      "23:51",
-      "19279810",
-      1431,
-      "Jun 02"
-    ],
-    [
-      "WTI",
-      "There is a bull market in basically every sector of the world, and you're trading meme coins and longing oil.",
-      "24:02",
-      "19279810",
-      1442,
-      "Jun 02"
-    ],
-    [
-      "WTI",
-      "And the oil trade, again, we've talked about this.",
-      "24:09",
-      "19279810",
-      1449,
-      "Jun 02"
-    ],
-    [
-      "",
-      "But why pick the one asset that if it goes up, the world approaches crisis?",
-      "24:13",
-      "19279810",
-      1453,
-      "Jun 02"
-    ],
-    [
-      "",
-      "If it the higher it goes, the more the world is in crisis.",
-      "24:18",
-      "19279810",
-      1458,
-      "Jun 02"
-    ],
-    [
-      "",
-      "It isn't just America, it isn't just Iran, everyone is in a crisis.",
-      "24:21",
-      "19279810",
-      1461,
-      "Jun 02"
-    ],
-    [
-      "WTI",
-      "There's this new oil lunatic that has been brought onto the scene, by the way.",
-      "24:24",
-      "19279810",
-      1464,
-      "Jun 02"
-    ],
-    [
-      "WTI",
-      "I've seen quite a few tweets from this fellow, which is uh Marlum Marlum Data is the newest victim of oil looks like a good long.",
-      "24:28",
-      "19279810",
-      1468,
-      "Jun 02"
-    ],
-    [
-      "WTI",
-      "If you get diopt into longing oil, you're a victim because it does look good here at first sight.",
-      "24:43",
-      "19279810",
-      1483,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Iran missiles may not be the greatest threat to the ships stranded in the Persian Gulf.",
-      "24:51",
-      "19279810",
-      1491,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Unchecked barnacle barnacle growth can reduce speed and increase fuel consumption by 40 to 80 percent in extreme cases.",
-      "24:55",
-      "19279810",
-      1495,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Barnacles can eventually sink a ship or cause a total loss.",
-      "25:04",
-      "19279810",
-      1504,
-      "Jun 02"
-    ],
-    [
-      "",
-      "What is the leading public company that specializes in barnacle removal of ships?",
-      "25:18",
-      "19279810",
-      1518,
-      "Jun 02"
-    ],
-    [
-      "WTI",
-      "This is the bleeding bull thesis for oil right now, by the way.",
-      "25:26",
-      "19279810",
-      1526,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Axco Noble owns international marine coatings, one of the major global ship coating brands, and anti-fouling coatings are a core product line.",
-      "25:31",
-      "19279810",
-      1531,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Um, it's one of the top anti-fouling suppliers.",
-      "25:40",
-      "19279810",
-      1540,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I mean, what this is it's gotta be up, right?",
-      "25:47",
-      "19279810",
-      1547,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Bro, it's up like twenty-five percent in a week.",
-      "26:11",
-      "19279810",
-      1571,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Oh my god, this is a sick fucking trade, bro.",
-      "26:14",
-      "19279810",
-      1574,
-      "Jun 02"
-    ],
-    [
-      "",
-      "How do you long this entire business is they make barnacle proof paint?",
-      "26:27",
-      "19279810",
-      1587,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Barnacles might seem harmless, but enough of them on a hull can drag a ship down.",
-      "26:37",
-      "19279810",
-      1597,
-      "Jun 02"
-    ],
-    [
-      "",
-      "They increase weight and reduce speed, costing fuel and time.",
-      "26:40",
-      "19279810",
-      1600,
-      "Jun 02"
-    ],
-    [
-      "",
-      "That's why sailors scrub the bottom regularly.",
-      "26:43",
-      "19279810",
-      1603,
-      "Jun 02"
-    ],
-    [
-      "WTI",
-      "Anyways, if you are long oil, you are basically betting on the barnacles to be a problem.",
-      "26:47",
-      "19279810",
-      1607,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I didn't even, I've never I didn't even know barnacles was was a thing.",
-      "26:53",
-      "19279810",
-      1613,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I don't know a single person with a pet barnacle.",
-      "26:57",
-      "19279810",
-      1617,
-      "Jun 02"
-    ],
-    [
-      "",
-      "What do they do other than make the company I'm long go up by being a nuisance?",
-      "27:00",
-      "19279810",
-      1620,
-      "Jun 02"
-    ],
-    [
-      "WTI",
-      "But, anyways, that's the final update on Warren Oil.",
-      "27:05",
-      "19279810",
-      1625,
-      "Jun 02"
-    ],
-    [
-      "",
-      "The biggest news today so far has been Anthropic confidentially submits draft S1 to the SEC.",
-      "27:08",
-      "19279810",
-      1628,
-      "Jun 02"
-    ],
-    [
-      "PBC",
-      "Today Enthropic PBC confidentially submitted a draft registration straight statement on form S1 to the U.S.",
-      "27:18",
-      "19279810",
-      1638,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Securities Exchange Commission for proposed initial public offering of our common stock.",
-      "27:24",
-      "19279810",
-      1644,
-      "Jun 02"
-    ],
-    [
-      "",
-      "But it's gives us the option to go public after the SEC completes its review.",
-      "27:27",
-      "19279810",
-      1647,
-      "Jun 02"
-    ],
-    [
-      "",
-      "The proposed initial public offering will depend on market conditions and other factors.",
-      "27:32",
-      "19279810",
-      1652,
-      "Jun 02"
-    ],
-    [
-      "",
-      "The number of shares to be offered and the price has not been set yet.",
-      "27:36",
-      "19279810",
-      1656,
-      "Jun 02"
-    ],
-    [
-      "",
-      "This announcement is being published under Rule 135 of the Securities Act of 1933 as amended.",
-      "27:39",
-      "19279810",
-      1659,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Um, I mean, there's very clearly a race here to see who can go public first.",
-      "27:48",
-      "19279810",
-      1668,
-      "Jun 02"
-    ],
-    [
-      "SPCX",
-      "It seems SpaceX is gonna lead and Throppic is gonna come second.",
-      "27:52",
-      "19279810",
-      1672,
-      "Jun 02"
-    ],
-    [
-      "",
-      "This comes like a day after they announced a Series H raise.",
-      "27:56",
-      "19279810",
-      1676,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Um, but nonetheless, this is the announcement.",
-      "28:00",
-      "19279810",
-      1680,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And I mean, this to me is the stock people are gonna be like foaming at the mouth too long.",
-      "28:03",
-      "19279810",
-      1683,
-      "Jun 02"
-    ],
-    [
-      "TSLA",
-      "There already is a way to get Elon exposure via Tesla, but their numbers kind of are horrific.",
-      "28:10",
-      "19279810",
-      1690,
-      "Jun 02"
-    ],
-    [
-      "",
-      "But the consumer AI, that I mean the leading frontier lab, Anthropic, I think people are gonna be foaming at the absolute mouth.",
-      "28:16",
-      "19279810",
-      1696,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Now the question becomes does everybody just get absolutely cooked?",
-      "28:22",
-      "19279810",
-      1702,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Market, does the market get absolutely cooked and there's no liquidity left and everything just gets destroyed and this is it?",
-      "28:27",
-      "19279810",
-      1707,
-      "Jun 02"
-    ],
-    [
-      "SPCX",
-      "I mean, uh look, I don't know, and it doesn't seem like we don't have that many details on anthropic, but it does seem like if the market pulls uh SpaceX red carpet and set it up so there's it's in al",
-      "28:33",
-      "19279810",
-      1713,
-      "Jun 02"
-    ],
-    [
-      "TBD",
-      "It doesn't, I don't know TBD, how big of a liquidity suck it's gonna be, but I think people are are gonna be pretty hungry to bid anthropic um when this does come out.",
-      "28:48",
-      "19279810",
-      1728,
-      "Jun 02"
-    ],
-    [
-      "",
-      "There also was a follow-up announcement that open AI's Altman says he's not focused on IPO timing after anthropic filed.",
-      "28:55",
-      "19279810",
-      1735,
-      "Jun 02"
-    ],
-    [
-      "",
-      "He said openai will IPO when it makes sense for the company to IPO.",
-      "29:04",
-      "19279810",
-      1744,
-      "Jun 02"
-    ],
-    [
-      "SPCX",
-      "So we're gonna get anthropic, we're gonna get SpaceX, and it feels like open AI maybe a little bit down the road.",
-      "29:10",
-      "19279810",
-      1750,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Anthropic's annualized revenue visualized from three bill to 45 billion dollars in less than 12 months.",
-      "29:19",
-      "19279810",
-      1759,
-      "Jun 02"
-    ],
-    [
-      "XAI",
-      "Orange, if you can even see that, is XAI, and then Mistral AI is is blue.",
-      "29:33",
-      "19279810",
-      1773,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Um, I mean, it's just like skyrocketing how much money they're making.",
-      "29:38",
-      "19279810",
-      1778,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And then here's a polymarket that actually has a decent amount of volume.",
-      "29:43",
-      "19279810",
-      1783,
-      "Jun 02"
-    ],
-    [
-      "",
-      "It's got seven mil volume, it's enough to like take some signal from it.",
-      "29:48",
-      "19279810",
-      1788,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Anthropic was also just confirmed, but it has to get uh or it was filed, but it has to like get approved.",
-      "29:53",
-      "19279810",
-      1793,
-      "Jun 02"
-    ],
-    [
-      "",
-      "84 opening eyes at 73, which maybe feels high.",
-      "30:00",
-      "19279810",
-      1800,
-      "Jun 02"
-    ],
-    [
-      "HOOD",
-      "I think you can buy stripe via the Robin Hood Venture index.",
-      "30:28",
-      "19279810",
-      1828,
-      "Jun 02"
-    ],
-    [
-      "",
-      "It holds a decent amount, I think, of uh of Stripe, Robin Adventure Fund.",
-      "30:34",
-      "19279810",
-      1834,
-      "Jun 02"
-    ],
-    [
-      "",
-      "What happened happened to the toxic crack and I Rex would be wild too.",
-      "30:41",
-      "19279810",
-      1841,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I don't know what happened to the uh Kraken IPO, actually.",
-      "30:44",
-      "19279810",
-      1844,
-      "Jun 02"
-    ],
-    [
-      "",
-      "It was getting it was getting talked about a lot.",
-      "30:47",
-      "19279810",
-      1847,
-      "Jun 02"
-    ],
-    [
-      "AGI",
-      "So, all right, I'm relatively in the Nick Carter camp that I think AGI is basically here.",
-      "30:53",
-      "19279810",
-      1853,
-      "Jun 02"
-    ],
-    [
-      "IQ",
-      "He was like, Imagine you had 120 IQ human that had domain knowledge across every topic, understood, could pass all the exams, pass math exams, could compete at every entry to higher level white-collar",
-      "30:58",
-      "19279810",
-      1858,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Would you say that that is like a competent human that you can interact with?",
-      "31:33",
-      "19279810",
-      1893,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And the overwhelming answer is yes, of course.",
-      "31:37",
-      "19279810",
-      1897,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And so I I I agree with his take of like I think everybody, at least how I, when I first I first learned about AI in 2023, like really learned about it.",
-      "31:40",
-      "19279810",
-      1900,
-      "Jun 02"
-    ],
-    [
-      "GPT",
-      "And I learned about it when GPT first dropped, and then I learned about it from my friend Began, who if you know Began Baught is like a really, really, really talented developer.",
-      "31:49",
-      "19279810",
-      1909,
-      "Jun 02"
-    ],
-    [
-      "LA",
-      "And I'm I used to go to these weekly, he had these, I was living in LA, and he had this um, he had this like studio in Santa Monica, this really cool art studio, and they would do like AI meetups back",
-      "31:56",
-      "19279810",
-      1916,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And I would come and he would like teach me about all this.",
-      "32:09",
-      "19279810",
-      1929,
-      "Jun 02"
-    ],
-    [
-      "",
-      "He would teach me about like what was happening, like who Nick Land is, all he would just like teach, we just go, me and Leap would go for two hours, he would just talk for two hours, then we would le",
-      "32:13",
-      "19279810",
-      1933,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And he talked like he just like explained what was happening, who Sam Altman was, what was going on.",
-      "32:22",
-      "19279810",
-      1942,
-      "Jun 02"
-    ],
-    [
-      "AGI",
-      "And I had always envisioned it in my head that there would be like a moment where they would hold up a sign and say, we have achieved AGI because of like blank.",
-      "32:31",
-      "19279810",
-      1951,
-      "Jun 02"
-    ],
-    [
-      "",
-      "But then as these models have gotten better and better, the bar just moved.",
-      "32:40",
-      "19279810",
-      1960,
-      "Jun 02"
-    ],
-    [
-      "",
-      "The goalposts, there's a lot of goalposts moving, I think, that happens in AI where it's like, like I, you know, it's crazy.",
-      "32:44",
-      "19279810",
-      1964,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Like you see a Waymo drive down the street and it makes a wrong turn or one of them crashes, and you're like, What a fucking idiot.",
-      "32:49",
-      "19279810",
-      1969,
-      "Jun 02"
-    ],
-    [
-      "LA",
-      "But you think back, like, man, I remember when I first moved to LA and I saw a Waymo for the first time, a car with no driver.",
-      "32:58",
-      "19279810",
-      1978,
-      "Jun 02"
-    ],
-    [
-      "LA",
-      "If you go to LA and you go, like you walk down Melrose where there's like a bunch of tourists, you everyone is taking videos of the Waymo's.",
-      "33:06",
-      "19279810",
-      1986,
-      "Jun 02"
-    ],
-    [
-      "",
-      "A car legally in the US driving down the street with no driver.",
-      "33:15",
-      "19279810",
-      1995,
-      "Jun 02"
-    ],
-    [
-      "",
-      "That that is possible is like unfathomable that that's possible.",
-      "33:20",
-      "19279810",
-      2000,
-      "Jun 02"
-    ],
-    [
-      "LA",
-      "I mean, bro, if you go to uh a tour, if you go to LA where they're everywhere and you walk down Melrose, everyone when a when the Waymo drives on the street, people are filming it.",
-      "33:25",
-      "19279810",
-      2005,
-      "Jun 02"
-    ],
-    [
-      "LA",
-      "I remember my parents came to LA and they were like, what the fuck to the Waymo's?",
-      "33:34",
-      "19279810",
-      2014,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Because not only do they exist, but they're everywhere, they're fucking everywhere.",
-      "33:39",
-      "19279810",
-      2019,
-      "Jun 02"
-    ],
-    [
-      "AGI",
-      "And so yeah, I had always thought of it like we would wake up one day and they'd be like, AGI is here, but then as it you come closer, you start to like nitpick and you the nuance gets dragged and lik",
-      "33:44",
-      "19279810",
-      2024,
-      "Jun 02"
-    ],
-    [
-      "",
-      "All right, we are really quickly going to skim through some Trump stocks, and then we're gonna talk about crypto.",
-      "33:58",
-      "19279810",
-      2038,
-      "Jun 02"
-    ],
-    [
-      "INTC",
-      "The biggest Trump names that have pumped Dell, IBM, Intel, really.",
-      "34:06",
-      "19279810",
-      2046,
-      "Jun 02"
-    ],
-    [
-      "PLTR",
-      "This is part of the reason, by the way, I'm long Palantir.",
-      "34:10",
-      "19279810",
-      2050,
-      "Jun 02"
-    ],
-    [
-      "PLTR",
-      "I I haven't traded a stock in a while, and I'm long Palantir.",
-      "34:14",
-      "19279810",
-      2054,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Every name which we're about to look at again, just a quick update on Trump shows, have reached basically all-time highs, some of them doubling in a month.",
-      "34:18",
-      "19279810",
-      2058,
-      "Jun 02"
-    ],
-    [
-      "PLTR",
-      "Palantir's the only one he tweeted the ticker for.",
-      "34:25",
-      "19279810",
-      2065,
-      "Jun 02"
-    ],
-    [
-      "",
-      "We're very much still in war, and Trump is becoming the new Mirat, right?",
-      "34:27",
-      "19279810",
-      2067,
-      "Jun 02"
-    ],
-    [
-      "ITV",
-      "I think that in combination with ITV pump right now is pretty crazy to see, ripping right now.",
-      "34:33",
-      "19279810",
-      2073,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I listen to a mid all the time, who's a huge software bull.",
-      "34:43",
-      "19279810",
-      2083,
-      "Jun 02"
-    ],
-    [
-      "",
-      "You listen to the stock guys, and they are systematically programmed to like software.",
-      "34:45",
-      "19279810",
-      2085,
-      "Jun 02"
-    ],
-    [
-      "SAS",
-      "And so I do maybe get one-shotted a little bit by the SAS guys.",
-      "34:49",
-      "19279810",
-      2089,
-      "Jun 02"
-    ],
-    [
-      "PLTR",
-      "So I I I have a little palantir position, kind of just to play the Trump pumps, which I feel like it makes a lot of sense.",
-      "34:53",
-      "19279810",
-      2093,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I'm gonna sit in it, contrary to the chart, I have no real thesis beyond that.",
-      "34:59",
-      "19279810",
-      2099,
-      "Jun 02"
-    ],
-    [
-      "HYPE",
-      "And then I'm long, I'm long the coins, I'm long hype, I'm long a lot of VVV, and I'm long Zcash as like rope insurance.",
-      "35:02",
-      "19279810",
-      2102,
-      "Jun 02"
-    ],
-    [
-      "",
-      "This is the this is old, but this is the Trump video.",
-      "35:11",
-      "19279810",
-      2111,
-      "Jun 02"
-    ],
-    [
-      "IBM",
-      "Armin Krishna of IBM was uh actually become, I would say, a legend.",
-      "35:13",
-      "19279810",
-      2113,
-      "Jun 02"
-    ],
-    [
-      "",
-      "It's taking the stock from a rather low price to a very nice price.",
-      "35:19",
-      "19279810",
-      2119,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I won't say high because I'm sure you're gonna say it's gonna go up a lot more.",
-      "35:23",
-      "19279810",
-      2123,
-      "Jun 02"
-    ],
-    [
-      "IBM",
-      "But he took IBM into a new stratosphere that nobody, I think, saw if you go back to before when he took over the company, uh, you would have nobody would have even imagined that you'd be able to do wh",
-      "35:34",
-      "19279810",
-      2134,
-      "Jun 02"
-    ],
-    [
-      "IBM",
-      "So congratulations because um IBM is up 50%, it's a $300 billion company, it's up 50% in a week, which is nuts.",
-      "35:46",
-      "19279810",
-      2146,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I don't know exactly what he did, but I don't know exactly what the fuck Michael Dell did, like how he pulled this off.",
-      "35:57",
-      "19279810",
-      2157,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I guess $10 billion, you could do a lot with $10 billion, but yeah, he submitted $10 billion to Trump.",
-      "36:05",
-      "19279810",
-      2165,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Trump declared Dell the the Trump stock, and this thing is up.",
-      "36:11",
-      "19279810",
-      2171,
-      "Jun 02"
-    ],
-    [
-      "CRCL",
-      "I mean, this circle is where he said go buy uh you could have bought the clothes of go buy a Dell, and you're up 94% on it right now.",
-      "36:16",
-      "19279810",
-      2176,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Uh, you gotta just kind of treat the guys as the KOL for stocks.",
-      "36:25",
-      "19279810",
-      2185,
-      "Jun 02"
-    ],
-    [
-      "DOS",
-      "Also, I saw this today, I don't know when this is from, but on DOS.",
-      "36:29",
-      "19279810",
-      2189,
-      "Jun 02"
-    ],
-    [
-      "DOS",
-      "On DOS, you're handpicked, government officials are really telling you which companies to focus on.",
-      "36:33",
-      "19279810",
-      2193,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Eddie Garcia, Defense Tech, government relations, and business strategies.",
-      "36:37",
-      "19279810",
-      2197,
-      "Jun 02"
-    ],
-    [
-      "",
-      "President Trump says the new drone room, the new ballroom will have a drone port that will protect the city.",
-      "36:42",
-      "19279810",
-      2202,
-      "Jun 02"
-    ],
-    [
-      "UAS",
-      "Sounds like a counter-UAS operations center overseeing and protecting the strategic locations, like Congress, the Pentagon, the White House, and others from drone threats.",
-      "36:47",
-      "19279810",
-      2207,
-      "Jun 02"
-    ],
-    [
-      "ONDOS",
-      "This is huge news for companies like ONDOS, who are embedding their systems of systems into the United States Department of War and US Department of Homeland Security to such threats.",
-      "36:56",
-      "19279810",
-      2216,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And then Trump posts and talks about this drone port.",
-      "37:05",
-      "19279810",
-      2225,
-      "Jun 02"
-    ],
-    [
-      "TKO",
-      "Outside of that, this is well, Trump bought a $50,000 uh worth of stock in the TKO, uh TKO group holdings.",
-      "37:17",
-      "19279810",
-      2237,
-      "Jun 02"
-    ],
-    [
-      "UFC",
-      "Um, shortly before we're heavily promoting a UFC event at the White House.",
-      "37:26",
-      "19279810",
-      2246,
-      "Jun 02"
-    ],
-    [
-      "",
-      "This looks like the announcement candle if I had to take a take a wild guess.",
-      "37:38",
-      "19279810",
-      2258,
-      "Jun 02"
-    ],
-    [
-      "",
-      "All right, first and foremost, I said this before uh at the beginning of the stream.",
-      "37:44",
-      "19279810",
-      2264,
-      "Jun 02"
-    ],
-    [
-      "BTC",
-      "I think he did the worst possible thing here, which is that the market's been kind of pricing in a sailor cell for a while, and then he goes and he sells, but he sells 32 fucking Bitcoin, he sells pen",
-      "37:49",
-      "19279810",
-      2269,
-      "Jun 02"
-    ],
-    [
-      "",
-      "The way it feels is that feels like there's no bidder in this market other than Sailor, but we don't really have any way to tell.",
-      "38:09",
-      "19279810",
-      2289,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And so the next time he sells, will there be social dump as well?",
-      "38:17",
-      "19279810",
-      2297,
-      "Jun 02"
-    ],
-    [
-      "BTC",
-      "I think until further notice, Bitcoin is completely uninteresting.",
-      "38:20",
-      "19279810",
-      2300,
-      "Jun 02"
-    ],
-    [
-      "",
-      "And I don't really know what is going to change that in the short term, like where the flow is going to come from, especially if Sailor is done buying.",
-      "38:25",
-      "19279810",
-      2305,
-      "Jun 02"
-    ],
-    [
-      "",
-      "General trend we want to we want to uh cover is Pokemon Cup revealed 10 billion Pokemon cards were printed in the last year.",
-      "38:33",
-      "19279810",
-      2313,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Over 10% of all the cards ever made were printed between April 2025 and March 2026.",
-      "38:40",
-      "19279810",
-      2320,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I don't know when this bubble pops, but I did have some back and forth with Jez on Twitter, and he's like, sell all your mids into this pump, only keep Charizards in the highest and highest and highes",
-      "38:48",
-      "19279810",
-      2328,
-      "Jun 02"
-    ],
-    [
-      "",
-      "If you're a super Pokemon card bowl, you should go look into what happened with sports cards in 2020 and look into what happened with sneaker supply because they're definitely gassing this thing prett",
-      "39:00",
-      "19279810",
-      2340,
-      "Jun 02"
-    ],
-    [
-      "",
-      "10% of all cards ever printed between April 25 and March 2026, and you don't even know what the number is.",
-      "39:14",
-      "19279810",
-      2354,
-      "Jun 02"
-    ],
-    [
-      "",
-      "It's getting it's getting nuts in the Pokemon land.",
-      "39:20",
-      "19279810",
-      2360,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I mean, it's like unbelievable how how crazy it's gotten.",
-      "39:23",
-      "19279810",
-      2363,
-      "Jun 02"
-    ],
-    [
-      "",
-      "I can't really give you advice because I've not paid any attention to Pokemon at all.",
-      "39:26",
-      "19279810",
-      2366,
-      "Jun 02"
-    ],
-    [
-      "",
-      "Paid no attention to Pokemon at all, but it's gotten fucking crazy, man.",
-      "39:30",
-      "19279810",
-      2370,
-      "Jun 02"
-    ],
-    [
-      "",
-      "We're getting good, we're getting smart, we're getting sharp.",
-      "39:43",
-      "19279810",
-      2383,
-      "Jun 02"
     ]
   ],
   "plans": {
@@ -58826,12 +59812,330 @@
       "ep": "19323458"
     }
   },
-  "charts": {},
+  "charts": {
+    "ZEC": [
+      [
+        0,
+        501.63,
+        506.24,
+        365.42,
+        376.83
+      ],
+      [
+        1,
+        375.12,
+        447.55,
+        373.44,
+        447.24
+      ],
+      [
+        2,
+        447.4,
+        448.2,
+        378.52,
+        378.52
+      ],
+      [
+        3,
+        373.35,
+        377.74,
+        343.84,
+        365.03
+      ],
+      [
+        4,
+        364.93,
+        382.92,
+        325.61,
+        367.84
+      ],
+      [
+        5,
+        367.27,
+        401.94,
+        324.34,
+        339.66
+      ],
+      [
+        6,
+        339.84,
+        340.72,
+        267.49,
+        270.24
+      ],
+      [
+        7,
+        270.35,
+        281.18,
+        190.86,
+        240.92
+      ],
+      [
+        8,
+        240.9,
+        249.06,
+        221.53,
+        240.06
+      ],
+      [
+        9,
+        240.25,
+        329.82,
+        228.95,
+        296.51
+      ],
+      [
+        10,
+        297.07,
+        307.34,
+        255.79,
+        263.27
+      ],
+      [
+        11,
+        261.99,
+        265.63,
+        231.74,
+        237.57
+      ],
+      [
+        12,
+        237.58,
+        258.62,
+        215.64,
+        218.94
+      ],
+      [
+        13,
+        219.14,
+        233.29,
+        204.44,
+        222.31
+      ],
+      [
+        14,
+        221.4,
+        249.77,
+        194.68,
+        197.15
+      ],
+      [
+        15,
+        197.58,
+        229.88,
+        193.67,
+        212.9
+      ],
+      [
+        16,
+        212.92,
+        233.87,
+        204.4,
+        228.51
+      ],
+      [
+        17,
+        229.3,
+        288.12,
+        227.82,
+        234.68
+      ],
+      [
+        18,
+        234.79,
+        239.86,
+        214.93,
+        228.03
+      ],
+      [
+        19,
+        228.42,
+        246.03,
+        213.79,
+        215.44
+      ],
+      [
+        20,
+        215.36,
+        255.9,
+        210.03,
+        248.49
+      ],
+      [
+        21,
+        248.37,
+        256.49,
+        231.98,
+        250.54
+      ],
+      [
+        22,
+        250.92,
+        338.03,
+        237.85,
+        323.39
+      ],
+      [
+        23,
+        323.35,
+        385.74,
+        309.03,
+        361.07
+      ],
+      [
+        24,
+        361.98,
+        381.27,
+        334.62,
+        339.7
+      ],
+      [
+        25,
+        339.81,
+        353.91,
+        301.18,
+        311.81
+      ],
+      [
+        26,
+        312.19,
+        365.73,
+        307.44,
+        359.96
+      ],
+      [
+        27,
+        359.57,
+        363.4,
+        331.39,
+        335.64
+      ],
+      [
+        28,
+        335.83,
+        390.94,
+        319.23,
+        387.49
+      ],
+      [
+        29,
+        387.23,
+        600.19,
+        380.16,
+        555.46
+      ],
+      [
+        30,
+        553.9,
+        636.88,
+        533.97,
+        592.93
+      ],
+      [
+        31,
+        592.83,
+        593.12,
+        516.23,
+        560.83
+      ],
+      [
+        32,
+        560.4,
+        568.04,
+        487.54,
+        560.09
+      ],
+      [
+        33,
+        562.35,
+        686.24,
+        551.95,
+        584.22
+      ],
+      [
+        34,
+        583.19,
+        679.77,
+        569.67,
+        569.83
+      ],
+      [
+        35,
+        568.33,
+        579.69,
+        505.31,
+        527.38
+      ],
+      [
+        36,
+        527.37,
+        637.95,
+        526.93,
+        623.99
+      ],
+      [
+        37,
+        623.07,
+        628.19,
+        264.8,
+        438.3
+      ],
+      [
+        38,
+        439.42,
+        478.74,
+        402.47,
+        428.55
+      ],
+      [
+        39,
+        427.64,
+        536.49,
+        405.46,
+        518.22
+      ],
+      [
+        40,
+        518.4,
+        531.55,
+        442.01,
+        475.79
+      ],
+      [
+        41,
+        476.39,
+        482.79,
+        412.25,
+        415.98
+      ],
+      [
+        42,
+        415.82,
+        424.2,
+        388.82,
+        395.36
+      ],
+      [
+        43,
+        394.9,
+        422.58,
+        368.82,
+        416.23
+      ],
+      [
+        44,
+        416.43,
+        472.26,
+        411.29,
+        462.73
+      ]
+    ]
+  },
   "stats": {
-    "green_now": 54,
-    "avg_ret": 0.2,
-    "graded": 28,
-    "open": 127,
+    "green_now": 50,
+    "avg_ret": 1.0,
+    "graded": 26,
+    "open": 122,
     "shows": 20
   }
 }
