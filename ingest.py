@@ -442,6 +442,50 @@ def grade(ticker, direction, call_date_iso):
             "ret": round(ret * 100, 1), "green": ret > 0}
 
 
+def load_existing():
+    """Previous the_record_data.json, if any. The archive on disk is the source of truth."""
+    try:
+        with open(OUT) as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+def merge_archives(old, new):
+    """Union of the old archive and the fresh pull. New entries win on collision,
+    old entries are NEVER dropped. Keys: feed by (date,title), tape by (ep,secs,quote)."""
+    if not old:
+        return new
+    def kf(e): return (e.get("d",""), e.get("t",""))
+    seen_f = {kf(e) for e in new.get("feed",[])}
+    new["feed"] = new.get("feed",[]) + [e for e in old.get("feed",[]) if kf(e) not in seen_f]
+    def kt(r): return (str(r[3]), int(r[4] or 0), r[1])
+    seen_t = {kt(r) for r in new.get("tape",[])}
+    new["tape"] = new.get("tape",[]) + [r for r in old.get("tape",[]) if kt(r) not in seen_t]
+    # plans / charts: union, fresh values win
+    for key in ("plans","charts"):
+        merged = dict(old.get(key) or {}); merged.update(new.get(key) or {})
+        new[key] = merged
+    # lexicon / voices / dispatch: keep whichever side is richer, merge dispatch by (date,head)
+    for key in ("lexicon","voices"):
+        if not new.get(key) and old.get(key): new[key] = old[key]
+        elif new.get(key) and old.get(key) and len(old[key]) > len(new[key]): new[key] = old[key]
+    if old.get("dispatch"):
+        kd = lambda e: (e.get("date",""), e.get("head",""))
+        seen_d = {kd(e) for e in new.get("dispatch",[])}
+        new["dispatch"] = (new.get("dispatch") or []) + [e for e in old["dispatch"] if kd(e) not in seen_d]
+    # stats: recount on the merged feed; keep avg_ret from the fresh graded pass
+    fs = new["feed"]
+    greens = sum(1 for f0 in fs for c in f0.get("calls",[]) if len(c)>2 and c[2]=="win")
+    reds   = sum(1 for f0 in fs for c in f0.get("calls",[]) if len(c)>2 and c[2]=="loss")
+    graded = greens + reds
+    st = new.get("stats") or {}
+    st.update({"green_now": (round(100*greens/graded) if graded else None),
+               "graded": graded,
+               "open": sum(len(f0.get("calls",[])) for f0 in fs) - graded,
+               "shows": len(fs)})
+    new["stats"] = st
+    return new
+
 def build(all_episodes=False, limit=20):
     eps = episodes()
     if not all_episodes:
@@ -538,9 +582,12 @@ def build(all_episodes=False, limit=20):
     if lex:
         data["lexicon"] = lex
         print(f"  lexicon: {len(lex)} terms from the corpus")
+    # --- MERGE with the existing archive: The Record never memory-holes itself. ---
+    # Scheduled runs only see the latest episodes; everything already on disk is kept.
+    data = merge_archives(load_existing(), data)
     with open(OUT, "w") as f:
         json.dump(data, f, indent=2)
-    print(f"\nwrote {OUT}: {len(feed)} shows, {len(tape)} receipts"
+    print(f"\nwrote {OUT}: {len(data['feed'])} shows, {len(data['tape'])} receipts"
           + (f", {len(data.get('lexicon',[]))} lexicon terms" if data.get('lexicon') else ""))
 
 if __name__ == "__main__":

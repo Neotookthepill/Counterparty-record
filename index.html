@@ -415,7 +415,7 @@ body.locked{overflow:hidden;height:100vh}
 </style></head><body>
 <div id="intro" role="button" tabindex="0" aria-label="Enter The Record">
   <div class="i-eyebrow">The Record</div>
-  <div class="hero-mark"><img class="relief-hero" data-k="j" alt="" src="" alt="Counterparty"></div>
+  <div class="hero-mark"><img class="relief-hero" data-k="j" src="" alt="Counterparty"></div>
   <img class="intro-word" data-k="wc" src="" alt="Counterparty">
   <div class="intro-rule"></div>
   <div class="intro-tag">The home of entertainment finance.</div>
@@ -426,13 +426,14 @@ body.locked{overflow:hidden;height:100vh}
 
 <header class="top"><div class="head-in">
   <div class="brand" id="brand">
-    <img class="j" data-k="j" alt="" src="" alt="">
+    <img class="j" data-k="j" src="" alt="" role="presentation">
     <div class="stk"><img class="w" data-k="wc" src="" alt="Counterparty"><span class="sub">The Record</span></div>
   </div>
   <nav class="nav" id="nav">
     <button data-view="home" aria-current="true">Home</button>
     <button data-view="today">Today</button>
     <button data-view="class">The Classroom</button>
+    <button data-view="tape">The Tape</button>
     <button data-view="record">The Ledger</button>
     <button data-view="desk">The Desk</button>
     <span class="live"><span class="d"></span>Live 3:30 EST</span>
@@ -444,16 +445,16 @@ body.locked{overflow:hidden;height:100vh}
   <!-- HOME -->
   <section class="view on" id="view-home"><div class="wrap">
     <div class="hero">
-      <img class="mk" data-k="j" alt="" src="" alt="">
+      <img class="mk" data-k="j" src="" alt="" role="presentation">
       <h1><span class="hl">The show is live once.</span><span class="hl">The Record keeps it forever.</span></h1>
-      <p class="lede">Every call from the show, kept to the second and searchable forever. Read the recap, study the setups, and find any word he said in seconds.</p>
+      <p class="lede">Every call from the show, kept to the second and searchable forever. Read the recap, study the setups, and find any word said on the show in seconds.</p>
       <div class="live"><span class="d"></span>Live<span class="sep">&middot;</span>Mon-Fri<span class="sep">&middot;</span>3:30 EST</div>
     </div>
 
     <div class="proof">
-      <div class="c"><div class="n g num" id="h-wr"></div><div class="l">Shows kept</div></div>
-      <div class="c"><div class="n num" id="h-tot"></div><div class="l">Lines on the record</div></div>
-      <div class="c"><div class="n num" id="h-grade"></div><div class="l">Calls logged</div></div>
+      <div class="c"><div class="n g num" id="h-wr">119</div><div class="l">Shows kept</div></div>
+      <div class="c"><div class="n num" id="h-tot">29,463</div><div class="l">Lines on the record</div></div>
+      <div class="c"><div class="n num" id="h-grade">474</div><div class="l">Calls logged</div></div>
     </div>
 
     <div class="doors">
@@ -469,8 +470,13 @@ body.locked{overflow:hidden;height:100vh}
       </div>
       <div class="door" data-go="record">
         <div class="idx num">03</div>
-        <div class="mid"><div class="dk">Trust it &middot; the record</div><h3>The Ledger</h3><p>Every call the show makes, written down and kept to the second. Searchable forever, so nothing gets memory-holed.</p></div>
+        <div class="mid"><div class="dk">Trust it &middot; the record</div><h3>The Ledger</h3><p>Every call the show makes, on the record with a timestamp. The receipts live here; the money lives on paste.trade.</p></div>
         <div class="go">See the ledger<span class="ar">&rarr;</span></div>
+      </div>
+      <div class="door" data-go="desk">
+        <div class="idx num">04</div>
+        <div class="mid"><div class="dk">Argue with it &middot; the analyst</div><h3>The Desk</h3><p>Six standing calls of my own, each with the thesis, the level that proves me wrong, and what the setup teaches.</p></div>
+        <div class="go">Open the Desk<span class="ar">&rarr;</span></div>
       </div>
     </div>
 
@@ -482,7 +488,7 @@ body.locked{overflow:hidden;height:100vh}
 
   <!-- TODAY -->
   <section class="view" id="view-today"><div class="wrap">
-    <div class="opener"><img class="mk" data-k="j" alt="" src="" alt=""><span class="kick">Read it</span><h2>Today</h2><p>The Daily Dispatch. Every show written down and graded, while the calls still matter.</p><div class="rule-c"></div></div>
+    <div class="opener"><img class="mk" data-k="j" src="" alt="" role="presentation"><span class="kick">Read it</span><h2>Today</h2><p>The Daily Dispatch. Every show written down and graded, while the calls still matter.</p><div class="rule-c"></div></div>
     <div class="disp-wrap">
       <article class="pcard edition" id="ed-main"></article>
       <aside class="disp-rail">
@@ -494,7 +500,7 @@ body.locked{overflow:hidden;height:100vh}
 
   <!-- CLASSROOM -->
   <section class="view" id="view-class"><div class="wrap">
-    <div class="opener"><img class="mk" data-k="j" alt="" src="" alt=""><span class="kick">Learn it</span><h2>The Classroom</h2><p>The education built from the show's own calls. Take a real trade, read the chart the way the desk read it, then measure the plan against what actually happened.</p><div class="rule-c"></div></div>
+    <div class="opener"><img class="mk" data-k="j" src="" alt="" role="presentation"><span class="kick">Learn it</span><h2>The Classroom</h2><p>The education built from the show's own calls. Take a real trade, read the chart the way the desk read it, then measure the plan against what actually happened.</p><div class="rule-c"></div></div>
 
     <div class="cl-tabs" id="cl-tabs">
       <button data-pane="anatomy" aria-current="true">Anatomy of a call</button>
@@ -560,7 +566,7 @@ body.locked{overflow:hidden;height:100vh}
 
   <!-- RECORD -->
   <section class="view" id="view-record"><div class="wrap">
-    <div class="opener"><img class="mk" data-k="j" alt="" src="" alt=""><span class="kick">Trust it</span><h2>The Ledger</h2><p>Every call the show makes, written down and kept to the second. Not a scoreboard, the receipts. The money P&amp;L lives on paste.trade. This is the permanent, searchable record of who said what.</p><div class="rule-c"></div></div>
+    <div class="opener"><img class="mk" data-k="j" src="" alt="" role="presentation"><span class="kick">Trust it</span><h2>The Ledger</h2><p>Every call the show makes, written down and kept to the second. Not a scoreboard, the receipts. The money P&amp;L lives on paste.trade. This is the permanent, searchable record of who said what.</p><div class="rule-c"></div></div>
 
     <div class="idx-hero">
       <div class="idx-big"><div class="v num g" id="r-wr"></div><div class="l">on the record, every call kept to the second</div></div>
@@ -586,7 +592,7 @@ body.locked{overflow:hidden;height:100vh}
   </div></section>
 
   <section class="view" id="view-desk"><div class="wrap">
-    <div class="opener"><img class="mk" data-k="j" alt="" src="" alt=""><span class="kick">The analysis</span><h2>The Desk</h2><p>The show keeps a live trade book. The Desk is a standing one. Six names I am long, each with the thesis, the level that proves me wrong, and what the setup teaches. My read, not advice.</p><div class="rule-c"></div></div>
+    <div class="opener"><img class="mk" data-k="j" src="" alt="" role="presentation"><span class="kick">The analysis</span><h2>The Desk</h2><p>The show keeps a live trade book. The Desk is a standing one. Six names I am long, each with the thesis, the level that proves me wrong, and what the setup teaches. My read, not advice.</p><div class="rule-c"></div></div>
     <div class="desk-note">I hold every name on this page. These are my own reads, written to be argued with, not investment advice. The level that invalidates each thesis is stated up front, because a call without an exit is just a vibe. <span class="desk-by">Kenny &middot; @KtheQuant</span></div>
     <div id="desk-body"></div>
   </div></section>
@@ -612,8 +618,8 @@ var DESK=[
  teaches:'How a multi-year base breaks, and why the invalidation is a weekly close below 8, not an intraday wick. Close required, not touch.'},
 {tk:'MU',name:'Micron',sector:'HBM4 memory \u00b7 the only US maker',bias:'LONG',conviction:'Maximum conviction \u00b7 core',type:'levels',
  thesis:'The cheapest way to own the AI memory bottleneck. HBM4 is sold out, the PEG sits near 0.08, a forward PE around 6 against a market at 20. NVIDIA prioritizes their HBM4, the CHIPS Act backs the fabs, and SOCAMM lifts capacity per rack by an order of magnitude. This is the socle of my book.',
- levels:[{k:'target',label:'Bull',val:'1000'},{k:'target',label:'Base',val:'800'},{k:'entry',label:'Reload zone',val:'625'}],
- catalyst:'Earnings July 1, 2026. The read: a beat is near-certain on HBM4 demand.',
+ levels:[{k:'target',label:'ATH reclaim',val:'1213'},{k:'entry',label:'Reload zone',val:'950'},{k:'invalidation',label:'Invalidation, weekly close',val:'850'}],
+ catalyst:'Earnings landed July 1. The next markers: the post-print weekly close, and HBM4 supply headlines into the July cycle.',
  teaches:'Why a low PEG beats a low price: cheapness plus growth, not cheapness alone. And why you reload into a dip at support instead of chasing the rip.'},
 {tk:'AAOI',name:'Applied Optoelectronics',sector:'1.6T transceivers \u00b7 internal lasers, Texas',bias:'LONG',conviction:'Speculative \u00b7 smallest size',type:'levels',
  thesis:'The only US maker of 1.6T optical transceivers with its own lasers, built in Texas. Microsoft over $200M and Oracle $53M in confirmed orders. But it is my riskiest name and I size it that way: Citron is short with an $85 target, 81.9% of revenue sits in two customers, and a $500M ATM means dilution can land any quarter.',
@@ -910,8 +916,13 @@ function applyFilter(f){
 
 /* ---------- router ---------- */
 function show(v){
+  var view=(v==='tape')?'class':v;
   document.querySelectorAll('#nav button').forEach(function(b){b.setAttribute('aria-current',b.dataset.view===v?'true':'false');});
-  document.querySelectorAll('.view').forEach(function(s){s.classList.toggle('on',s.id==='view-'+v);});
+  document.querySelectorAll('.view').forEach(function(s){s.classList.toggle('on',s.id==='view-'+view);});
+  if(v==='tape'){
+    document.querySelectorAll('#cl-tabs button').forEach(function(b){b.setAttribute('aria-current',b.getAttribute('data-pane')==='search'?'true':'false');});
+    document.querySelectorAll('.cl-pane').forEach(function(p){p.classList.toggle('on',p.id==='cl-search');});
+  }
   window.scrollTo({top:0,behavior:'smooth'});
 }
 document.getElementById('nav').addEventListener('click',function(e){var b=e.target.closest('button');if(b)show(b.dataset.view);});
@@ -940,6 +951,7 @@ var intro=document.getElementById('intro');
 var leaving=false;
 function enterDesk(){
   if(leaving)return; leaving=true;
+  try{sessionStorage.setItem('cp_entered','1');}catch(e){}
   document.body.classList.remove('pre-enter');   /* interface settles from scale 1.035 -> 1, fades in */
   intro.classList.add('gone');                    /* intro scales up, blurs, fades out */
   document.body.classList.remove('locked');
@@ -957,18 +969,24 @@ document.getElementById('enter').addEventListener('click',function(e){e.stopProp
 intro.addEventListener('click',enterDesk);
 intro.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '||e.key==='Escape')enterDesk();});
 document.getElementById('replay').addEventListener('click',replayIntro);
+/* skip the intro on repeat visits within the session; Replay still works */
+try{ if(sessionStorage.getItem('cp_entered')==='1'){ leaving=true; document.body.classList.remove('pre-enter'); document.body.classList.remove('locked'); intro.style.display='none'; setTimeout(countHome,300); } }catch(e){}
 
 function boot(){renderHome();renderToday();renderClass();renderRecord();renderDesk();show('home');}
-/* live data ready: if deployed next to the_record_data.json (from ingest.py), use it.
-   As a single file with no server, the fetch fails and we fall back to the baked data. */
+function hydrate(d){
+  if(!d)return;
+  if(d.feed&&d.feed.length)FEED=d.feed; if(d.tape&&d.tape.length)TAPE=d.tape; if(d.stats)STATS=d.stats; if(d.lexicon&&d.lexicon.length)LEX=d.lexicon;
+  if(d.voices&&d.voices.length)VOICES=d.voices; if(d.dispatch&&d.dispatch.length)DISPATCH=d.dispatch;
+  if(d.charts){ CALLS.forEach(function(c){ if(d.charts[c.tk]&&d.charts[c.tk].length) c.series=d.charts[c.tk]; }); }
+  if(d.plans){ CALLS.forEach(function(c){ var p=d.plans[c.tk]; if(p){ if(p.entry!=null)c.entry=p.entry; if(p.stop!=null)c.invalid=p.stop; if(p.target!=null)c.targets=[['target',p.target]]; c.spoken=true; } }); }
+  /* re-render in place; keeps whatever view the reader is on */
+  renderHome();renderToday();renderClass();renderRecord();
+}
+/* render instantly from the baked data, then fold in the_record_data.json when it lands.
+   The reader never waits on the 1.4MB fetch. */
+boot();
 try{
-  fetch('the_record_data.json').then(function(r){return r.ok?r.json():null;}).then(function(d){
-    if(d){ if(d.feed&&d.feed.length)FEED=d.feed; if(d.tape&&d.tape.length)TAPE=d.tape; if(d.stats)STATS=d.stats; if(d.lexicon&&d.lexicon.length)LEX=d.lexicon;
-            if(d.voices&&d.voices.length)VOICES=d.voices; if(d.dispatch&&d.dispatch.length)DISPATCH=d.dispatch;
-            if(d.charts){ CALLS.forEach(function(c){ if(d.charts[c.tk]&&d.charts[c.tk].length) c.series=d.charts[c.tk]; }); }
-            if(d.plans){ CALLS.forEach(function(c){ var p=d.plans[c.tk]; if(p){ if(p.entry!=null)c.entry=p.entry; if(p.stop!=null)c.invalid=p.stop; if(p.target!=null)c.targets=[['target',p.target]]; c.spoken=true; } }); } }
-    boot();
-  }).catch(boot);
-}catch(e){ boot(); }
+  fetch('the_record_data.json').then(function(r){return r.ok?r.json():null;}).then(hydrate).catch(function(){});
+}catch(e){}
 </script>
 </body></html>
