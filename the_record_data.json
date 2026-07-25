@@ -1,7 +1,131 @@
 {
-  "generated_at": "2026-07-24T10:55:29.139312+00:00",
+  "generated_at": "2026-07-25T10:21:26.601506+00:00",
   "source": "counterparty public podcast feed (buzzsprout) + own extraction",
   "feed": [
+    {
+      "d": "Jul 24",
+      "t": "Bubble Boi - Selling Everything, the Kimi Shock, and Killing DRAM",
+      "g": "",
+      "calls": [
+        [
+          "INTC",
+          "L",
+          "open",
+          "",
+          "If Intel beat earnings, you would come on, and Intel crushed earnings, but the market is in a little bit of a of a weird",
+          "",
+          43,
+          "19546724"
+        ],
+        [
+          "MU",
+          "S",
+          "open",
+          "",
+          "And I've always I've always like, yeah, that's just to your point, like Micron has higher margins than even NVIDIA, and ",
+          "",
+          379,
+          "19546724"
+        ],
+        [
+          "HBM",
+          "S",
+          "open",
+          "",
+          "I mean, it's not in their incentive to do that either, because they don't make fucking like good HBM either, but they ca",
+          "",
+          561,
+          "19546724"
+        ],
+        [
+          "SPX",
+          "L",
+          "open",
+          "",
+          "Like, so net my portfolio, like I'm long and short, I have no positive exposure to like SPX.",
+          "",
+          997,
+          "19546724"
+        ],
+        [
+          "GOOGL",
+          "L",
+          "open",
+          "",
+          "Google's down now 20 from ATH, it's down $30 from the 350 level where uh Berkshire bought like Buffett bought $10 billio",
+          "",
+          1431,
+          "19546724"
+        ],
+        [
+          "DRAM",
+          "S",
+          "open",
+          "",
+          "So when you start seeing that happening, sell DRAM.",
+          "",
+          3116,
+          "19546724"
+        ]
+      ]
+    },
+    {
+      "d": "Jul 24",
+      "t": "Jensen Loves Open Source, Bubble Boi Shares Alpha, and I Have Fun Onchain",
+      "g": "",
+      "calls": [
+        [
+          "IMAX",
+          "L",
+          "open",
+          "",
+          "I I should have just bought IMAX.",
+          "",
+          466,
+          "19546720"
+        ],
+        [
+          "BTC",
+          "L",
+          "red",
+          "+0.0%",
+          "I I remember I had this soul long at $81 when Bitcoin was like 61k or whatnot.",
+          "",
+          559,
+          "19546720"
+        ],
+        [
+          "INTC",
+          "L",
+          "open",
+          "",
+          "If Intel beat earnings, you would come on, and Intel crushed earnings, but the market is in a little bit of a of a weird",
+          "",
+          681,
+          "19546720"
+        ],
+        [
+          "MU",
+          "S",
+          "open",
+          "",
+          "And I've always I've always like, yeah, that's just to your point, like Micron has higher margins than even NVIDIA, and ",
+          "",
+          997,
+          "19546720"
+        ],
+        [
+          "HBM",
+          "S",
+          "open",
+          "",
+          "I mean, it's not in their incentive to do that either, because they don't make fucking like good HBM either, but they ca",
+          "",
+          1171,
+          "19546720"
+        ]
+      ]
+    },
     {
       "d": "Jul 23",
       "t": "Robinhood\u2019s Memecoin Strategy is Working and Onchain is Fun Again",
@@ -530,7 +654,7 @@
           "ZEC",
           "L",
           "green",
-          "+7.5%",
+          "+7.3%",
           "I'm not sure that I'm convinced, but I think the conditions feel good, and uh they feel about the same as when I was fir",
           "",
           2287,
@@ -540,7 +664,7 @@
           "ETH",
           "L",
           "green",
-          "+8.7%",
+          "+8.6%",
           "Bought some ETH here after promising myself last summer I never do it again.",
           "",
           2371,
@@ -631,7 +755,7 @@
           "BTC",
           "S",
           "red",
-          "-5.2%",
+          "-5.3%",
           "Like I think of Bitcoin after 1010 when it's hanging out around 100k and everyone's like, This is the bottom, this is th",
           "",
           437,
@@ -889,7 +1013,7 @@
           "ETH",
           "L",
           "green",
-          "+15.7%",
+          "+15.6%",
           "So Jared from Subway was the most profitable MVV bot sandwich bought during really the ETH run.",
           "",
           1613,
@@ -919,7 +1043,7 @@
           "SOL",
           "L",
           "green",
-          "+12.1%",
+          "+12.2%",
           "Uh, Ansome Solana Long.",
           "",
           2060,
@@ -1083,7 +1207,7 @@
           "BTC",
           "L",
           "green",
-          "+4.7%",
+          "+4.8%",
           "I think the real spot was Sailor sold Bitcoin.",
           "",
           422,
@@ -1170,7 +1294,7 @@
           "ZEC",
           "S",
           "red",
-          "-11.6%",
+          "-11.7%",
           "Run Zcash for a six-figure trade, re-enter for no reason, give a bunch back, then short it for no reason, give a bunch b",
           "",
           676,
@@ -1190,7 +1314,7 @@
           "BTC",
           "L",
           "green",
-          "+4.7%",
+          "+4.8%",
           "You have to issue more mst, dilute shareholders more, raise more cash, and this whole time Bitcoin has to go up more to ",
           "",
           845,
@@ -6346,6 +6470,4750 @@
     }
   ],
   "tape": [
+    [
+      "",
+      "First of all, thank you for popping in on late notice.",
+      "0:09",
+      "19546724",
+      9,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "And second of all, I want to give you a couple flowers because I think it was last Intel earnings.",
+      "0:12",
+      "19546724",
+      12,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I guess about a quarter ago, you came on and you had one of our best performing stream guests with trade ideas.",
+      "0:17",
+      "19546724",
+      17,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "Intel, I believe Sandisk was the other one that proceeded to go basically up only since you first came on the stream.",
+      "0:26",
+      "19546724",
+      26,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "If Intel beat earnings, you would come on, and Intel crushed earnings, but the market is in a little bit of a of a weird spot at the moment.",
+      "0:43",
+      "19546724",
+      43,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And so I think it's actually more valuable for you to come on now.",
+      "0:50",
+      "19546724",
+      50,
+      "Jul 24"
+    ],
+    [
+      "",
+      "How is your trading performance going in the market as we currently stand?",
+      "0:59",
+      "19546724",
+      59,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I think this is like the best year I've ever had trading or money-wise in my life.",
+      "1:04",
+      "19546724",
+      64,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like I've never I think all the years I've been working combined do not add up to the money I've made this year.",
+      "1:12",
+      "19546724",
+      72,
+      "Jul 24"
+    ],
+    [
+      "",
+      "All the years you've worked in your life combined do not make add up to this year.",
+      "1:19",
+      "19546724",
+      79,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Why do you think like this is just the year you finally put it all together and all of the work just caught up and it just hit?",
+      "1:26",
+      "19546724",
+      86,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I I think it's definitely the AI trade is part of it.",
+      "1:37",
+      "19546724",
+      97,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And it's just because of my like career and background, it was a lot easier for me to know like what was bullshit and what was not, and who was gonna make it and who wasn't.",
+      "1:41",
+      "19546724",
+      101,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, because I don't like sit down every day like with the financials, and I'm like, oh, like this company's expensive, this company's cheap.",
+      "1:55",
+      "19546724",
+      115,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I'm always just thinking about the products, yes, and the customers that are gonna use those products.",
+      "2:05",
+      "19546724",
+      125,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So for me, it was just like right place, right time.",
+      "2:10",
+      "19546724",
+      130,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And I've always been, you know, because I just like am an engineer, I've always been fascinated by AI and have been thinking about it for a long time and learning about it.",
+      "2:14",
+      "19546724",
+      134,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It's like all that research and knowledge that I've accumulated over the years is just like super valuable now.",
+      "2:26",
+      "19546724",
+      146,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I I know I asked you this last first of all, congratulations.",
+      "2:32",
+      "19546724",
+      152,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Are you still like are you a full-time trader right now or are you working a job?",
+      "2:37",
+      "19546724",
+      157,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Well, uh, I I I was uh probably consulting more back then, right?",
+      "2:42",
+      "19546724",
+      162,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I might have done like consulting gigs just because I like left my last job and I was just really wasn't into like going to a big corporation again or like some very like highly hierarchical place.",
+      "2:47",
+      "19546724",
+      167,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I was doing like consulting work, but I definitely don't do that now.",
+      "3:00",
+      "19546724",
+      180,
+      "Jul 24"
+    ],
+    [
+      "",
+      "To your earlier point of you have this prior, you know, technical expertise that allowed you to see through the bullshit of what was real, what was fake, what was valuable at this initial blow off on ",
+      "3:05",
+      "19546724",
+      185,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Do you think that edge has eroded and there's sort of a new game being played?",
+      "3:21",
+      "19546724",
+      201,
+      "Jul 24"
+    ],
+    [
+      "",
+      "The tech technical expertise doesn't help as much, or is it equally as valuable as it was six months ago, a year ago?",
+      "3:24",
+      "19546724",
+      204,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It's definitely equally as valuable, and especially if you disagree with the market, right?",
+      "3:30",
+      "19546724",
+      210,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So um it takes time for the market to either like understand new information, or the market might weigh like certain kinds of information more than you would because they're run by like people who are",
+      "3:36",
+      "19546724",
+      216,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "So um Intel Earnings is a good example always because no one really knows what to make sense of it for a few days.",
+      "3:52",
+      "19546724",
+      232,
+      "Jul 24"
+    ],
+    [
+      "NVDA",
+      "But I also think like an example of uh people weighing things more than they should is like whatever NVIDIA does is like all that matters, right?",
+      "3:58",
+      "19546724",
+      238,
+      "Jul 24"
+    ],
+    [
+      "NVDA",
+      "But people don't understand, like most of like the compute in the future, it's probably not gonna be NVIDIA, right?",
+      "4:07",
+      "19546724",
+      247,
+      "Jul 24"
+    ],
+    [
+      "META",
+      "Like it'll probably be like uh all the hyperscalers' own personal compute, you know, TPUs, training, meta.",
+      "4:14",
+      "19546724",
+      254,
+      "Jul 24"
+    ],
+    [
+      "NVDA",
+      "It doesn't mean NVIDIA is like gonna go away.",
+      "4:22",
+      "19546724",
+      262,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like the whole class of like market is growing, right?",
+      "4:26",
+      "19546724",
+      266,
+      "Jul 24"
+    ],
+    [
+      "",
+      "There's growth in this industry, but you have to understand that like what one person says doesn't set the you know rules for the whole entire industry, the industry moves based on what's the optimal ",
+      "4:29",
+      "19546724",
+      269,
+      "Jul 24"
+    ],
+    [
+      "NVDA",
+      "So, what do you think that means for the future of Nvidia's mode and like dominance?",
+      "4:46",
+      "19546724",
+      286,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I mean, when you're like when you have like these 75% margins to uh do like like right place, right time, right?",
+      "4:51",
+      "19546724",
+      291,
+      "Jul 24"
+    ],
+    [
+      "",
+      "But like as uh like Uncle Jeff always says, it's like your margin someone else's opportunity, right?",
+      "5:00",
+      "19546724",
+      300,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Yeah, you can only get get away with it for so long, and there's a reason why hyperscalers for their own internal workloads are investing in you know their own ASICs, right?",
+      "5:06",
+      "19546724",
+      306,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, or investing in their own interconnects, they want to own it because at the scale that they're spending money, why would you be beholden to a customer?",
+      "5:17",
+      "19546724",
+      317,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, even you, like you want to like do a business, right?",
+      "5:25",
+      "19546724",
+      325,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, you'd be really dumb if like you only prioritize one microphone company, right?",
+      "5:29",
+      "19546724",
+      329,
+      "Jul 24"
+    ],
+    [
+      "",
+      "For your podcast, you'd be like, Well, what if this microphone?",
+      "5:34",
+      "19546724",
+      334,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, I like it, but I'm willing to change if like they start charging me too much or like they're not shipping.",
+      "5:37",
+      "19546724",
+      337,
+      "Jul 24"
+    ],
+    [
+      "NVDA",
+      "I think um I think it's clear, like NVIDIA has you know a pretty dominant position right now, but the incentive structure for the labs and the hyperscalers is to you know vertically integrate.",
+      "5:45",
+      "19546724",
+      345,
+      "Jul 24"
+    ],
+    [
+      "MU",
+      "It's kind of like the Citrini post I think he made about uh with memory in Micron after their earnings.",
+      "6:01",
+      "19546724",
+      361,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And he was like, okay, margins are insane, their earnings are disgusting, but the bear side to this is how long is the market gonna let them get away with I mean, fleecing everybody else.",
+      "6:07",
+      "19546724",
+      367,
+      "Jul 24"
+    ],
+    [
+      "MU",
+      "And I've always I've always like, yeah, that's just to your point, like Micron has higher margins than even NVIDIA, and they sell a less differentiated product.",
+      "6:19",
+      "19546724",
+      379,
+      "Jul 24"
+    ],
+    [
+      "NVDA",
+      "Like people are more willing to um just think of the value NVIDIA is adding, right?",
+      "6:28",
+      "19546724",
+      388,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like they're more willing to pay a premium because you're managing, you know, infrastructure, you're making a unique differentiated product, there's all this capital expenditure.",
+      "6:33",
+      "19546724",
+      393,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, people don't want to take on that risk all the time, but you know, that's why people pay a premium.",
+      "6:42",
+      "19546724",
+      402,
+      "Jul 24"
+    ],
+    [
+      "MU",
+      "But micron is really probably like the worst memory maker from just a quality perspective, really.",
+      "6:47",
+      "19546724",
+      407,
+      "Jul 24"
+    ],
+    [
+      "HBM",
+      "Yeah, just like from a quality perspective, their HBM has always been like the lowest quality.",
+      "6:54",
+      "19546724",
+      414,
+      "Jul 24"
+    ],
+    [
+      "MU",
+      "And one thing, I don't know if I mentioned this in the last stream, but if you actually look at the big three memory makers, Samsung, SK, Micron, people think it's all about HBM because that's what th",
+      "7:00",
+      "19546724",
+      420,
+      "Jul 24"
+    ],
+    [
+      "RAM",
+      "Now that's part of it, but most of the growth is actually coming from the commodity RAM.",
+      "7:12",
+      "19546724",
+      432,
+      "Jul 24"
+    ],
+    [
+      "HBM",
+      "Because to make HBM, you take commodity DRAM wafers and you slice them, you dice them, and you stack them, right?",
+      "7:18",
+      "19546724",
+      438,
+      "Jul 24"
+    ],
+    [
+      "DRAM",
+      "Um, you know, people still need DRAM for other things, right?",
+      "7:30",
+      "19546724",
+      450,
+      "Jul 24"
+    ],
+    [
+      "",
+      "But there's this big uh AI build-out where people are gonna just start consuming that.",
+      "7:34",
+      "19546724",
+      454,
+      "Jul 24"
+    ],
+    [
+      "DRAM",
+      "And the price of commodity DRAM has just skyrocketed even more than HBM.",
+      "7:39",
+      "19546724",
+      459,
+      "Jul 24"
+    ],
+    [
+      "HBM",
+      "HBM is like steady to flat, maybe slightly up, slightly down, because they because they have capacity, right?",
+      "7:43",
+      "19546724",
+      463,
+      "Jul 24"
+    ],
+    [
+      "MU",
+      "But commodity DRAM, like just the stuff you're putting in your PC, that's shooting through the roof, and that's where Micron and all these other people are making their money.",
+      "7:50",
+      "19546724",
+      470,
+      "Jul 24"
+    ],
+    [
+      "MU",
+      "But really, Micron's the most egregious because their HBM was always the lowest quality.",
+      "7:58",
+      "19546724",
+      478,
+      "Jul 24"
+    ],
+    [
+      "MU",
+      "Their HPM is lowest quality, but they're just dominating on a layer below with the yeah, I mean like exactly because let's just say like NVIDIA, and I don't have these numbers off the top of my head, ",
+      "8:03",
+      "19546724",
+      483,
+      "Jul 24"
+    ],
+    [
+      "MU",
+      "Well, there's less DRAM, like there's just less commodity DRAM, and Micron's just gonna charge the market price for it.",
+      "8:25",
+      "19546724",
+      505,
+      "Jul 24"
+    ],
+    [
+      "",
+      "All right, so like it's funny because you already because you said like, oh, I I made all these great calls.",
+      "8:36",
+      "19546724",
+      516,
+      "Jul 24"
+    ],
+    [
+      "CS",
+      "If you can get access to CS CXMT's IPO, you should just like full port that.",
+      "8:44",
+      "19546724",
+      524,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, you should just like I was thinking of like, you know, pawning like everything I own to get more money to do this because it's extremely like mispriced, it's extremely lower.",
+      "8:49",
+      "19546724",
+      529,
+      "Jul 24"
+    ],
+    [
+      "CXMT",
+      "And the thing is, CXMT, despite them, like you know, they're Chinese, they don't really have an HBM product, the demand for just Kamai DRAM is so high, and they still get to charge that premium.",
+      "9:03",
+      "19546724",
+      543,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And they're mainly selling to Chinese companies, right?",
+      "9:14",
+      "19546724",
+      554,
+      "Jul 24"
+    ],
+    [
+      "CXMT",
+      "So there's been like a lot of talk like CXMT is gonna crash the DRAM market.",
+      "9:17",
+      "19546724",
+      557,
+      "Jul 24"
+    ],
+    [
+      "HBM",
+      "I mean, it's not in their incentive to do that either, because they don't make fucking like good HBM either, but they can sell to all the Chinese companies and make tons of money.",
+      "9:21",
+      "19546724",
+      561,
+      "Jul 24"
+    ],
+    [
+      "MU",
+      "And if you just look at like what micron trades at, what CXMT is gonna IPO at, and then just look at like how many bits or like DRAM sells their shipping, uh CXMT is extremely cheap, but that's partly",
+      "9:31",
+      "19546724",
+      571,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So at what price is it still egregiously cheap?",
+      "9:47",
+      "19546724",
+      587,
+      "Jul 24"
+    ],
+    [
+      "HYPE",
+      "Because I think hyperliquid valuation right now is 400 billion, give or take.",
+      "9:50",
+      "19546724",
+      590,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Yeah, that that doesn't sound that cheap to me, but I think uh the Chinese uh I feel it's 130, maybe.",
+      "9:56",
+      "19546724",
+      596,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, I don't think it's the end of the world, but like at 130, I'm like moving to China if I can to get access.",
+      "10:07",
+      "19546724",
+      607,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Okay, I don't have that much experience trading emerging markets, but the the age old ism is like never trade Chinese companies ever.",
+      "10:15",
+      "19546724",
+      615,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I think it's I think partly it's because like government intervention, the markets like the government will back an industry, and then immediately when like the industry is in trouble, we'll just be l",
+      "10:25",
+      "19546724",
+      625,
+      "Jul 24"
+    ],
+    [
+      "CCP",
+      "So the Chinese industry, like the uh you know, the CCP, the central uh party, they will prioritize an industry.",
+      "10:42",
+      "19546724",
+      642,
+      "Jul 24"
+    ],
+    [
+      "",
+      "They did this with uh EVs a couple years ago, right?",
+      "10:49",
+      "19546724",
+      649,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And all the EV companies were great buys, but now they're not because they're in deadly competition.",
+      "10:51",
+      "19546724",
+      651,
+      "Jul 24"
+    ],
+    [
+      "",
+      "China's not about like, from my perspective, the Chinese like stock market and the government there is not like, oh, I want a big winner, I just want like the biggest market cap company.",
+      "10:58",
+      "19546724",
+      658,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It's more like I want this industry and I want people to compete to lower the cost.",
+      "11:08",
+      "19546724",
+      668,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I want like this is going to be a public good.",
+      "11:14",
+      "19546724",
+      674,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like electric cars, cheap electric cars is great for the Chinese people, it's great for the world.",
+      "11:16",
+      "19546724",
+      676,
+      "Jul 24"
+    ],
+    [
+      "MSTR",
+      "But the thing is with these semiconductor companies, they actually can't employ that uh strategy.",
+      "11:22",
+      "19546724",
+      682,
+      "Jul 24"
+    ],
+    [
+      "",
+      "They actually have to back them because it's such like the capital that you need to play in this game, especially at the global scale, is just so high that it doesn't actually make sense to make peopl",
+      "11:27",
+      "19546724",
+      687,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It makes sense for people to come together and work together, right?",
+      "11:39",
+      "19546724",
+      699,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I think uh for the semi companies, it's it's extremely like it's a great opportunity.",
+      "11:42",
+      "19546724",
+      702,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And I'm invested personally in like some Chinese companies.",
+      "11:49",
+      "19546724",
+      709,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Okay, so speaking of investing in Chinese companies, I I might be misremembering this, but most positive it was you that were tweeting about buying Baba, and I have this like bit that's like every gre",
+      "11:52",
+      "19546724",
+      712,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Probably every time I've long baba, I have lost money.",
+      "12:07",
+      "19546724",
+      727,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Especially with this takeover of Chinese open source, Kimmy with Z Poo, like it feels like they are in dominant.",
+      "12:11",
+      "19546724",
+      731,
+      "Jul 24"
+    ],
+    [
+      "",
+      "They're owners of all these like Chinese AI labs, they own everything, except maybe Deep Seek, but um I think also like if you if ignore that for a sec.",
+      "12:18",
+      "19546724",
+      738,
+      "Jul 24"
+    ],
+    [
+      "",
+      "If you just look at like Alibaba's like uh I would say like their e-commerce, and then if you look at their cloud, it's so cheap, it's so cheap, and it's still a very high-quality cloud.",
+      "12:27",
+      "19546724",
+      747,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like if you're outside the US, like if you're in Asia, if you're in like an emerging market, even in Europe, you might use like Alibaba's cloud.",
+      "12:41",
+      "19546724",
+      761,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And now they have like the biggest, like basically the big one of some of the biggest AI companies in the world on there, and they're gonna start getting deals with like Huawei to get special chips.",
+      "12:48",
+      "19546724",
+      768,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I think like Alibaba's in a great position.",
+      "13:00",
+      "19546724",
+      780,
+      "Jul 24"
+    ],
+    [
+      "",
+      "If you think the Chinese AI market is gonna grow, like that that money's gonna flow through Alibaba servers.",
+      "13:02",
+      "19546724",
+      782,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I think they I think they have some public listing.",
+      "13:14",
+      "19546724",
+      794,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Okay, I want to go back to some of the broader market stuff a little bit.",
+      "13:21",
+      "19546724",
+      801,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I I asked you your performance at the beginning of the stream.",
+      "13:24",
+      "19546724",
+      804,
+      "Jul 24"
+    ],
+    [
+      "DRAM",
+      "I don't want to make this like a like a uh a villain uh head to head, but Serenity posted monthly performance uh I guess like year to date, but in the month, it was on 49%, which is crazy because you ",
+      "13:28",
+      "19546724",
+      808,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Do you think that this is general performance right now?",
+      "13:55",
+      "19546724",
+      835,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like a mostly round tripped um PLs amongst the finter crowd.",
+      "13:58",
+      "19546724",
+      838,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I hate to give like Serenity some credit here, but like uh you have to admit, like, most of these companies are down like 50% from their all-time highs, and it's like a broad industry sell-off.",
+      "14:05",
+      "19546724",
+      845,
+      "Jul 24"
+    ],
+    [
+      "",
+      "But I think people see that, and listen, like, we could all say, like, oh, like manage your rest better, do better, but like uh people see that and they may dunk, and I'm not saying like all of Sereni",
+      "14:17",
+      "19546724",
+      857,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Let's say what's like even if they dropped 50 from an all-time high that you like picked randomly for a day, um they're still some of the best performing companies in the world, and they're probably w",
+      "14:36",
+      "19546724",
+      876,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "But I think like when you see like sand disk or Intel moving 10 plus percent a day, like you can't be really shocked that you could go down like 20, 30, 50 percent.",
+      "14:56",
+      "19546724",
+      896,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It's just the nature of the game for something that's high growth, right?",
+      "15:10",
+      "19546724",
+      910,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I don't think that's like a sign that you should just like sell everything, everyone's cooked.",
+      "15:17",
+      "19546724",
+      917,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It's a sign that you should just probably like take some chips off the table and be careful.",
+      "15:21",
+      "19546724",
+      921,
+      "Jul 24"
+    ],
+    [
+      "",
+      "But you just need to like be uh prescient of what's going on.",
+      "15:28",
+      "19546724",
+      928,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like Santa is probably probably about 50% down from its all-time high, but like uh in like actual like market cap terms, it's like barely moved versus where it was at the beginning of the year.",
+      "15:35",
+      "19546724",
+      935,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So speaking of selling everything and panicking, yeah, I haven't screenshot it.",
+      "15:56",
+      "19546724",
+      956,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Yes, enter, enter, everything, yes, dot dot dot, even that one.",
+      "16:07",
+      "19546724",
+      967,
+      "Jul 24"
+    ],
+    [
+      "",
+      "The next two weeks will be tough for most of you.",
+      "16:11",
+      "19546724",
+      971,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I mean, dude, I I don't even think I realized how much um motion you got, which is 850,000 views.",
+      "16:19",
+      "19546724",
+      979,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Yeah, congrats, first of all, for having that level of reach.",
+      "16:26",
+      "19546724",
+      986,
+      "Jul 24"
+    ],
+    [
+      "",
+      "But where are we right now with your exposure to the market?",
+      "16:29",
+      "19546724",
+      989,
+      "Jul 24"
+    ],
+    [
+      "SPX",
+      "Like, so net my portfolio, like I'm long and short, I have no positive exposure to like SPX.",
+      "16:37",
+      "19546724",
+      997,
+      "Jul 24"
+    ],
+    [
+      "SPX",
+      "So, like on a delta basis, I'm negative SPX, right?",
+      "16:44",
+      "19546724",
+      1004,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, but not like largely negative, it's not like I'm shorting 100%, but I think it's like negative, like 15% exposure to the market.",
+      "16:48",
+      "19546724",
+      1008,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Well, and that's just because like you have to realize kind of like the game theory here.",
+      "16:57",
+      "19546724",
+      1017,
+      "Jul 24"
+    ],
+    [
+      "",
+      "All these names are up hundreds of percent, some cases thousands of percent.",
+      "17:03",
+      "19546724",
+      1023,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "Yeah, you have to understand like these institutional investors who bought them either bought them in the beginning of the year or halfway through, and they're like, if you bought Intel at the beginni",
+      "17:07",
+      "19546724",
+      1027,
+      "Jul 24"
+    ],
+    [
+      "",
+      "That is great performance for a professional money manager, right?",
+      "17:24",
+      "19546724",
+      1044,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, so they that like from their perspective, they need to lock in their gains and just like again, like you need to understand their goal is not to like become the richest person on earth, their goal",
+      "17:30",
+      "19546724",
+      1050,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So it's kind of like positioning, but also it's like, you know, we we got like earnings came, the market ripped, everyone's realizing that the build out's real.",
+      "17:46",
+      "19546724",
+      1066,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, now there's questions of like, is CapEx sustainable from hyperscalers?",
+      "17:57",
+      "19546724",
+      1077,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Is CapEx by even some of these companies like overbuilt?",
+      "18:03",
+      "19546724",
+      1083,
+      "Jul 24"
+    ],
+    [
+      "",
+      "A big reason why I tweeted that was like I for a long time was just like, you know, I had positive exposure, and like if I lost the days where like Sandis was down like 10%, I might have been down one",
+      "18:07",
+      "19546724",
+      1087,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Even though Sandis might have been one of my largest positions.",
+      "18:20",
+      "19546724",
+      1100,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um the reason why I was very like move fast and just you know panic and sell is just because uh panic early.",
+      "18:24",
+      "19546724",
+      1104,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I think there was a lot of in uh innovations that came out, and it took me some time to really sit down and read through all the research of like what Kimmy's doing and all these other AI models, and ",
+      "18:33",
+      "19546724",
+      1113,
+      "Jul 24"
+    ],
+    [
+      "",
+      "How long until this starts reaching other labs?",
+      "18:58",
+      "19546724",
+      1138,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And I started realizing like you have to like new facts have come.",
+      "19:01",
+      "19546724",
+      1141,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I cannot hold things with as much confidence uh with the prior thesis, right?",
+      "19:05",
+      "19546724",
+      1145,
+      "Jul 24"
+    ],
+    [
+      "",
+      "What do you I guess on the kim do the catbacks after on the Kimmy point?",
+      "19:11",
+      "19546724",
+      1151,
+      "Jul 24"
+    ],
+    [
+      "",
+      "What do you think the emergence of Kimmy and you know the triple narrative violation?",
+      "19:15",
+      "19546724",
+      1155,
+      "Jul 24"
+    ],
+    [
+      "",
+      "One, it's a Chinese open source company, two, the token cost is significantly cheaper.",
+      "19:20",
+      "19546724",
+      1160,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Three, they allegedly did it on Huawei chips.",
+      "19:24",
+      "19546724",
+      1164,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, what do you think the emergence of Kimmy has changed for your long horizon view of the AI trade?",
+      "19:27",
+      "19546724",
+      1167,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So if Kimmy came out and it was just a really good model, but it's still using, like, you know, more or less the same kind of techniques or infrastructure of like the other AI models, I probably would",
+      "19:34",
+      "19546724",
+      1174,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I think it was that Kimmy's using a new technique that really cuts down memory growth entirely, so it's a fixed memory size, and they got really good results.",
+      "19:51",
+      "19546724",
+      1191,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So they didn't just like cut like you know, um, memory and got like okay results, they got world-class results.",
+      "20:04",
+      "19546724",
+      1204,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So the technique Kimmy's using for these, and we call them attention mechanisms and like tension mechanisms, yeah.",
+      "20:12",
+      "19546724",
+      1212,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like these AI models have this thing that people have dubbed attention.",
+      "20:18",
+      "19546724",
+      1218,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Okay, it uses this technique called linear attention, and linear attention was used by the Quan models back in the day, or not even that long ago, right?",
+      "20:21",
+      "19546724",
+      1221,
+      "Jul 24"
+    ],
+    [
+      "",
+      "But um, Quan wasn't like as competitive, right?",
+      "20:29",
+      "19546724",
+      1229,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So, like we didn't think much of it, and we didn't think like it would scale.",
+      "20:32",
+      "19546724",
+      1232,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, it's looking more and more likely that this scales pretty well, and if that's the case, you have a fixed memory size, it's always fixed, right?",
+      "20:36",
+      "19546724",
+      1236,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So the memory's not growing with the longer you talk to it, and the memory per user is gonna be fixed.",
+      "20:48",
+      "19546724",
+      1248,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Now it's not completely fixed, like a lot of pushback I got was like, well, that's only like 75% of the model is fixed, the rest still kind of grows.",
+      "20:54",
+      "19546724",
+      1254,
+      "Jul 24"
+    ],
+    [
+      "",
+      "My point there was like, well, okay, now let's just say every model in the world goes to that.",
+      "21:03",
+      "19546724",
+      1263,
+      "Jul 24"
+    ],
+    [
+      "",
+      "There's a but since I've like looked at it, I've done more research, and I don't think it's as clear-cut, right?",
+      "21:11",
+      "19546724",
+      1271,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, it's it doesn't mean like we're done for, it just means like there's a trade-off that I think a lot of the Chinese labs and increasingly the American ones will start adopting.",
+      "21:16",
+      "19546724",
+      1276,
+      "Jul 24"
+    ],
+    [
+      "DRAM",
+      "Um, in theory, if every frontier model goes to this, the demand for DRAM drops significantly.",
+      "21:30",
+      "19546724",
+      1290,
+      "Jul 24"
+    ],
+    [
+      "HBM",
+      "I mean, HBM is different, but DRAM for sure, you just need to offload less so you can get away with it.",
+      "21:41",
+      "19546724",
+      1301,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, but here's the other thing it's like you can like everything fixed, because they already bought the memory, right?",
+      "21:47",
+      "19546724",
+      1307,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like they already have these servers, everything fixed, they just serve more and more.",
+      "21:54",
+      "19546724",
+      1314,
+      "Jul 24"
+    ],
+    [
+      "",
+      "They're going to make more money with the like imagine you had a car and like you just wake up and someone's like, Oh, I found a new way to drive it, and now it's like 10 times faster.",
+      "22:05",
+      "19546724",
+      1325,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It's like we'd be like, Well, why sell the car?",
+      "22:12",
+      "19546724",
+      1332,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I I thought it was kind of a bit of that, but also I just think like you have to really like readjust the assumption now that they're gonna like crazily spend for the next two years.",
+      "22:17",
+      "19546724",
+      1337,
+      "Jul 24"
+    ],
+    [
+      "",
+      "What's to say there's not another innovation that shrinks this more, and now like you have this one uh server rack and you go from serving like a thousand users to a hundred thousand users.",
+      "22:29",
+      "19546724",
+      1349,
+      "Jul 24"
+    ],
+    [
+      "",
+      "How can you justify spending 500k for a new server rack?",
+      "22:39",
+      "19546724",
+      1359,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Now, that being said, we have like two years before that that actually shows up, but it's uh it's definitely in everyone's conversations now.",
+      "22:44",
+      "19546724",
+      1364,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And I will say, even if this happens and they adopt Kimmy, the money will shift to different things.",
+      "22:53",
+      "19546724",
+      1373,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And it as a lot of people have already said this, and they've been right for the wrong reasons.",
+      "23:02",
+      "19546724",
+      1382,
+      "Jul 24"
+    ],
+    [
+      "NVDA",
+      "Kimmy's actually really good for NVIDIA because the big thing for NVIDIA was most of the time when you're doing inference, the GPU is sitting there doing nothing.",
+      "23:06",
+      "19546724",
+      1386,
+      "Jul 24"
+    ],
+    [
+      "GPU",
+      "So you paid for this expensive GPU and you're just like not using it.",
+      "23:15",
+      "19546724",
+      1395,
+      "Jul 24"
+    ],
+    [
+      "NVDA",
+      "Kimmy makes the GPU more busy, so it's more justified to like you know, buy the high-end NVIDIA stuff.",
+      "23:22",
+      "19546724",
+      1402,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Got it, but I think everyone's reasoning is just complete bullshit and lies.",
+      "23:30",
+      "19546724",
+      1410,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Okay, that's to your earlier point on hyperscaler capex build out.",
+      "23:37",
+      "19546724",
+      1417,
+      "Jul 24"
+    ],
+    [
+      "GOOGL",
+      "We had Google earnings on Wednesday, they announced a substantial increase on CapEx guidance, and I have the chart up right now.",
+      "23:43",
+      "19546724",
+      1423,
+      "Jul 24"
+    ],
+    [
+      "GOOGL",
+      "Google's down now 20 from ATH, it's down $30 from the 350 level where uh Berkshire bought like Buffett bought $10 billion of their, I think $80 billion dilution.",
+      "23:51",
+      "19546724",
+      1431,
+      "Jul 24"
+    ],
+    [
+      "GOOGL",
+      "Yeah, and so what how like at what point are you or is the market gonna step in and buy Google, or do we just like hate this CapEx increase?",
+      "24:07",
+      "19546724",
+      1447,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Market the financial analysts hate CapEx, like it just lowers free cash flow, and everything's free cash flow to them.",
+      "24:18",
+      "19546724",
+      1458,
+      "Jul 24"
+    ],
+    [
+      "",
+      "A company is only worth its free cash flow from now to infinity, right?",
+      "24:24",
+      "19546724",
+      1464,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So if you have no free cash flow for the next year or two, come and you had to buy the company, just hold it for two years.",
+      "24:28",
+      "19546724",
+      1468,
+      "Jul 24"
+    ],
+    [
+      "",
+      "You don't, you're in theory, not gonna make any money.",
+      "24:34",
+      "19546724",
+      1474,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like if you bought the whole company and just held it for two years, again, that's theory, right?",
+      "24:38",
+      "19546724",
+      1478,
+      "Jul 24"
+    ],
+    [
+      "",
+      "But like, but like you know, like the pyramid wasn't built in like a day, right?",
+      "24:43",
+      "19546724",
+      1483,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, it takes time to do the right things, right?",
+      "24:47",
+      "19546724",
+      1487,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And I think uh the market will punish them for capex just because there's like boomer fund managers who have like finance degrees, and that's all they know.",
+      "24:53",
+      "19546724",
+      1493,
+      "Jul 24"
+    ],
+    [
+      "",
+      "They don't know that the pie is bigger on the other side, yeah.",
+      "25:01",
+      "19546724",
+      1501,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, what was the capex of like Christopher Columbus finding North America?",
+      "25:04",
+      "19546724",
+      1504,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Yeah, once we got here, it was like worth it, right?",
+      "25:09",
+      "19546724",
+      1509,
+      "Jul 24"
+    ],
+    [
+      "",
+      "We're probably like we're that's the model I'm applying to this.",
+      "25:12",
+      "19546724",
+      1512,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I think the market will punish them as long as they keep guiding to higher capex.",
+      "25:15",
+      "19546724",
+      1515,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Now, that being said, I don't think they will.",
+      "25:19",
+      "19546724",
+      1519,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I don't think they I think for this year it was very clear that they were gonna finish the guidance of like a little bit higher until next year.",
+      "25:21",
+      "19546724",
+      1521,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I think uh next year is when you're gonna start seeing um things slowly hint to less.",
+      "25:28",
+      "19546724",
+      1528,
+      "Jul 24"
+    ],
+    [
+      "MSTR",
+      "You mentioned Google, but Microsoft is the one that got really punished, and it's because Microsoft's plan, like their their whole strategy of like we're gonna burn CapEx and make these AI data center",
+      "25:35",
+      "19546724",
+      1535,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Investors don't believe it because they're like, for what?",
+      "25:47",
+      "19546724",
+      1547,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Yeah, right, yeah, like like what are you doing?",
+      "25:52",
+      "19546724",
+      1552,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Yeah, for copilot, and then they're like, Oh, we're gonna rent this to people, and it's like, well, the big AI labs are doing their own data centers and they're kind of like diversifying.",
+      "25:55",
+      "19546724",
+      1555,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Now, there's probably like a kernel of truth that like people will just rent from whoever, but that's where the market will punish them.",
+      "26:08",
+      "19546724",
+      1568,
+      "Jul 24"
+    ],
+    [
+      "GOOGL",
+      "Google, for the longest time, didn't get punished because Gemini was pretty good.",
+      "26:16",
+      "19546724",
+      1576,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, they have like they use AI for all their products, even not Gemini, like it's just a common workload, right?",
+      "26:20",
+      "19546724",
+      1580,
+      "Jul 24"
+    ],
+    [
+      "GOOGL",
+      "So I'd say Google search, like they have that everywhere.",
+      "26:27",
+      "19546724",
+      1587,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So the thing is though, like they can only do it so much.",
+      "26:31",
+      "19546724",
+      1591,
+      "Jul 24"
+    ],
+    [
+      "GOOGL",
+      "Like eventually the market will just put its foot down and be like, Google, you can't just dilute me another 20 this year, like you can't just do another dilution.",
+      "26:35",
+      "19546724",
+      1595,
+      "Jul 24"
+    ],
+    [
+      "GOOGL",
+      "Google, you can't borrow a trillion dollars, like like chill out.",
+      "26:43",
+      "19546724",
+      1603,
+      "Jul 24"
+    ],
+    [
+      "",
+      "But here's the thing as they're bringing this capex on, the money starts coming.",
+      "26:48",
+      "19546724",
+      1608,
+      "Jul 24"
+    ],
+    [
+      "",
+      "The money, like it's like it's like time to recoup your cost, right?",
+      "26:53",
+      "19546724",
+      1613,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, if I uh I'm trying to think of a dumb example, like uh I'm opening a laundry map, like I have to invest in these like laundry machines and dryers.",
+      "26:57",
+      "19546724",
+      1617,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It might take me like a year or two to get the money, but that's gonna start happening with these data centers.",
+      "27:06",
+      "19546724",
+      1626,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like eventually, the money is gonna start coming.",
+      "27:11",
+      "19546724",
+      1631,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And by my math, it's a lot of money and it's high margin, it's extremely high margin.",
+      "27:14",
+      "19546724",
+      1634,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, we're talking like north of 90% margin sometimes for serving these models.",
+      "27:20",
+      "19546724",
+      1640,
+      "Jul 24"
+    ],
+    [
+      "",
+      "How much of it is dependent on one Gemini being good or frontier level, which it is not right now, and they're maybe getting double punished for it.",
+      "27:24",
+      "19546724",
+      1644,
+      "Jul 24"
+    ],
+    [
+      "",
+      "But then there's the second over like this gray cloud, I feel like, over the industry of cheap Chinese open source causing tokens to be erased to zero.",
+      "27:32",
+      "19546724",
+      1652,
+      "Jul 24"
+    ],
+    [
+      "GOOGL",
+      "Like, what if the Google payoff like from CapEx isn't as lucrative as it maybe it felt like it could be a year or two ago?",
+      "27:41",
+      "19546724",
+      1661,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I will say we'll address the Gemini point.",
+      "27:48",
+      "19546724",
+      1668,
+      "Jul 24"
+    ],
+    [
+      "",
+      "To an extent, Gemini not being great is like not good.",
+      "27:51",
+      "19546724",
+      1671,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, if they have a better and better model, it completely justifies the capex.",
+      "27:54",
+      "19546724",
+      1674,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Yeah, and let me explain because it has to do with your second point.",
+      "27:59",
+      "19546724",
+      1679,
+      "Jul 24"
+    ],
+    [
+      "",
+      "The Chinese models coming and making good models isn't as big of a deal, I think, for the CapEx.",
+      "28:02",
+      "19546724",
+      1682,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Here's the thing if a model like starts improving beyond the Chinese models, like we're we're valuing them based on the frontier capability, right?",
+      "28:09",
+      "19546724",
+      1689,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So if the next Gemini model can, like, you know, I don't know, uh try and think of a high value thing, like find a new drug, right?",
+      "28:19",
+      "19546724",
+      1699,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like that can cure people, what's the value of that Gemini model?",
+      "28:27",
+      "19546724",
+      1707,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Imagine it can make a movie, imagine it can like do all this other stuff, and we're on track, like we will get there, it's gonna take years, we'll get there, but the Chinese models can't like unless t",
+      "28:34",
+      "19546724",
+      1714,
+      "Jul 24"
+    ],
+    [
+      "",
+      "But we're but it's not a big deal that they can code better, like coding's already done, like coding's gone.",
+      "28:55",
+      "19546724",
+      1735,
+      "Jul 24"
+    ],
+    [
+      "",
+      "The next step is gonna be like doctors, lawyers, uh, airlines.",
+      "29:00",
+      "19546724",
+      1740,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So, like if if Kimmy came out and made some novel pharmaceutical discovery, then it's okay, yeah.",
+      "29:05",
+      "19546724",
+      1745,
+      "Jul 24"
+    ],
+    [
+      "",
+      "But until that happens, we America's, you know.",
+      "29:16",
+      "19546724",
+      1756,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I know I'm jumping around, but uh economics for open AI and anthropic IPOs.",
+      "29:20",
+      "19546724",
+      1760,
+      "Jul 24"
+    ],
+    [
+      "",
+      "He got out the door first, he got paid, and then now it's there's no time left for anthropic open AI.",
+      "29:28",
+      "19546724",
+      1768,
+      "Jul 24"
+    ],
+    [
+      "SPCX",
+      "And moving quickly because 112 right now on SpaceX, yeah.",
+      "29:41",
+      "19546724",
+      1781,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Speed is very important for getting money, and the more money you have, the more you can fight.",
+      "29:45",
+      "19546724",
+      1785,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I don't think the IPOs are cooked, but if we're in like a real prolonged bear market, they are.",
+      "29:50",
+      "19546724",
+      1790,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, despite my tweet of like selling everything, I want to buy back, but I just think there's a time to do it, and then the time's not right now.",
+      "29:56",
+      "19546724",
+      1796,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I think um, like the anthropic IPO shouldn't be derailed, should still come at the end of this year, I think.",
+      "30:04",
+      "19546724",
+      1804,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, the open AI one we have to see though, because they don't want to IPO, and then immediately people are like, Oh, anthropic's model is better.",
+      "30:11",
+      "19546724",
+      1811,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, the most common trade in the world is gonna be like long anthropic, short open AI as like a hedge, right?",
+      "30:18",
+      "19546724",
+      1818,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, but that's but again, like this is this uh removes a lot of nuance.",
+      "30:24",
+      "19546724",
+      1824,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So, are you a re-entry on like price capitulation or on some news-based AI advancement event?",
+      "30:29",
+      "19546724",
+      1829,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I think the price needs to go down a bit, but also I think we need some like more clear signs from the AI labs and the hyperscalers that like they're not worried, like they're good.",
+      "30:39",
+      "19546724",
+      1839,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um and also I'm just doing my own research of like what does these like new innovations really mean, right?",
+      "30:51",
+      "19546724",
+      1851,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Yeah, like what are the impacts to all parts of the supply chain?",
+      "30:57",
+      "19546724",
+      1857,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So part of it's me doing my work uh being more confident because when I invest, I invest with like confidence.",
+      "31:01",
+      "19546724",
+      1861,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like I'm not trying to just buy like one percent of every company, I'm just trying to put money in the company I like, right?",
+      "31:12",
+      "19546724",
+      1872,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So it's a bit of a different investing mindset for me.",
+      "31:18",
+      "19546724",
+      1878,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Oh, I don't know about this fund that I've heard uh people talk about.",
+      "31:28",
+      "19546724",
+      1888,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Okay, the one you know, the one other thing we haven't talked about, I know you gotta go pretty soon.",
+      "31:32",
+      "19546724",
+      1892,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "Um, but the one other topic we haven't really covered is Intel, which is funny.",
+      "31:38",
+      "19546724",
+      1898,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "Um, so I guess to start, like if I remember correctly, when you came on three months ago, give or take, um, your Intel thesis was really based off like their packaging ability and the new note.",
+      "31:43",
+      "19546724",
+      1903,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "Where are you right now on Intel as a company, its future growth, your conviction in it?",
+      "31:58",
+      "19546724",
+      1918,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Yeah, I mean, I think it's by the way, I think it's like super bullish.",
+      "32:04",
+      "19546724",
+      1924,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like the earnings call was great, despite the sell-off, because they're guiding for CapEx.",
+      "32:09",
+      "19546724",
+      1929,
+      "Jul 24"
+    ],
+    [
+      "",
+      "The pre- the reason it's selling off is people think they're gonna do more capex than they're talking about.",
+      "32:14",
+      "19546724",
+      1934,
+      "Jul 24"
+    ],
+    [
+      "",
+      "They're very admint that they only need to do 20 billion.",
+      "32:18",
+      "19546724",
+      1938,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And by my math, I think 20 billion is more than enough.",
+      "32:22",
+      "19546724",
+      1942,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Also, they mentioned in the call they have prepayments from customers, so customers are putting up the money saying, I want capacity whenever you get it.",
+      "32:25",
+      "19546724",
+      1945,
+      "Jul 24"
+    ],
+    [
+      "AP",
+      "And they mentioned, forget 18A, which is already in production in 18AP.",
+      "32:34",
+      "19546724",
+      1954,
+      "Jul 24"
+    ],
+    [
+      "",
+      "They mentioned they're going all in now on their next generation 14A.",
+      "32:39",
+      "19546724",
+      1959,
+      "Jul 24"
+    ],
+    [
+      "",
+      "They've all they've said this many times, they would never boost CapEx until there's a guaranteed customer.",
+      "32:44",
+      "19546724",
+      1964,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, CapEx is no joke, especially for this, because once you put this stuff up, you need flow all the time.",
+      "32:52",
+      "19546724",
+      1972,
+      "Jul 24"
+    ],
+    [
+      "API",
+      "It's not like an AI inference cluster where like it's just API, like you need new customers, right?",
+      "32:59",
+      "19546724",
+      1979,
+      "Jul 24"
+    ],
+    [
+      "",
+      "You definitely think that they have long-term commitments there.",
+      "33:06",
+      "19546724",
+      1986,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I think, like, honestly, like the market's selling off a bit, the CapEx rumors, like it's just like people don't know what they don't know, right?",
+      "33:12",
+      "19546724",
+      1992,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I mean, maybe not like today, today, but like in the next in the next six months to a year, like this is like you're getting it even cheaper.",
+      "33:27",
+      "19546724",
+      2007,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And it's like, by my math, 14A has a real customer.",
+      "33:36",
+      "19546724",
+      2016,
+      "Jul 24"
+    ],
+    [
+      "",
+      "You could just do the math of like, okay, 20 billion, how many like machines does that buy?",
+      "33:41",
+      "19546724",
+      2021,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And you just start getting ridiculous numbers, you start getting numbers that are like a hundred percent revenue growth, like within a year.",
+      "33:50",
+      "19546724",
+      2030,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "So I just think uh, yeah, and and by the way, I've heard um, I've heard like my my name's been ringing in these uh pod shops now because it's become a common like trade to like bet against bubble into",
+      "33:58",
+      "19546724",
+      2038,
+      "Jul 24"
+    ],
+    [
+      "",
+      "But I think uh people the the market discounts things until they start seeing results in the earnings, right?",
+      "34:13",
+      "19546724",
+      2053,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "Like when Intel beat last time and they said, like, oh, we're positive margin, we're gonna be higher growth because of CPUs and more positive margin for longer.",
+      "34:21",
+      "19546724",
+      2061,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It that's all they needed, and then the whole move happened instantly.",
+      "34:31",
+      "19546724",
+      2071,
+      "Jul 24"
+    ],
+    [
+      "",
+      "We have this bit, we have this bit in the stream never bet against Bubba Boy.",
+      "34:36",
+      "19546724",
+      2076,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I'm not always uh right, but if I'm like confident in something, just know like I wouldn't be overly confident if I didn't have like good research to back it up.",
+      "34:42",
+      "19546724",
+      2082,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like when I know I didn't do my research and something new happens, like Kimmy, I very quickly reassessed my plan.",
+      "34:54",
+      "19546724",
+      2094,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Okay, here's another side of the market that I don't understand that well at all.",
+      "35:02",
+      "19546724",
+      2102,
+      "Jul 24"
+    ],
+    [
+      "",
+      "But I saw this, um, I I saved it just in case.",
+      "35:05",
+      "19546724",
+      2105,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "The semi-analysis made this post about SMIC and how they're beating Intel's uh 188 18A.",
+      "35:07",
+      "19546724",
+      2107,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, can you break down exactly what that is and like can China catch up on that side?",
+      "35:14",
+      "19546724",
+      2114,
+      "Jul 24"
+    ],
+    [
+      "",
+      "You're asking the right person, I think, for this.",
+      "35:21",
+      "19546724",
+      2121,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, so to your second part of your question, absolutely China can catch up.",
+      "35:24",
+      "19546724",
+      2124,
+      "Jul 24"
+    ],
+    [
+      "EUV",
+      "I'm not one of these people who just think like EUV is like this like godsand that like no one can replicate.",
+      "35:28",
+      "19546724",
+      2128,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I mean, like, we're not idiots, like you everyone like the laws of physics are the same here in here in the US and China, right?",
+      "35:35",
+      "19546724",
+      2135,
+      "Jul 24"
+    ],
+    [
+      "",
+      "You can only like uh hide things for so long.",
+      "35:43",
+      "19546724",
+      2143,
+      "Jul 24"
+    ],
+    [
+      "",
+      "The question is more when do they catch up, not if.",
+      "35:46",
+      "19546724",
+      2146,
+      "Jul 24"
+    ],
+    [
+      "SMIC",
+      "And the comparison of like 18A and SMIC, I mean, it was very disingenuous, I think.",
+      "35:48",
+      "19546724",
+      2148,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, the comparison is like transistor density and all these other things and pitch.",
+      "35:54",
+      "19546724",
+      2154,
+      "Jul 24"
+    ],
+    [
+      "",
+      "That's not like performance, like that's just like one metric.",
+      "36:01",
+      "19546724",
+      2161,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So you look at one metric and you're trying to say like what the whole performance of the node is.",
+      "36:05",
+      "19546724",
+      2165,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "I could pull out a bunch of other metrics that will say Intel's better.",
+      "36:10",
+      "19546724",
+      2170,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "The other point is like 18A was like early, like eight, like they picked out Intel.",
+      "36:13",
+      "19546724",
+      2173,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, I don't think they're like good friends of mine, so I think that's why they're uh trying to pull this uh wool over people's eyes.",
+      "36:25",
+      "19546724",
+      2185,
+      "Jul 24"
+    ],
+    [
+      "TSMC",
+      "But 18A is like okay, it was their first node to ramp up, and they just started moving their real capacity, like their own internal capacity from TSMC onto 18A.",
+      "36:32",
+      "19546724",
+      2192,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And 18A's benefit is more power, it's not really like higher, more transistor density, right?",
+      "36:44",
+      "19546724",
+      2204,
+      "Jul 24"
+    ],
+    [
+      "AP",
+      "18AP, I'd like them to do the same comparison, and 14A, I'd like them to do the same comparison.",
+      "36:51",
+      "19546724",
+      2211,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So if they're like a real reputable publication, they should just keep updating and do like a node head to head, right?",
+      "36:56",
+      "19546724",
+      2216,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It's it's completely fine if like someone wants to point out like flaws.",
+      "37:02",
+      "19546724",
+      2222,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I just think like you know, like the way you present the information already biases it, right?",
+      "37:06",
+      "19546724",
+      2226,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like uh the media is biased just because of choosing what to report on, right?",
+      "37:11",
+      "19546724",
+      2231,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "How much impact do you think they have on the market if they were to go full-blown, like you know, uh anti-Intel crusade?",
+      "37:16",
+      "19546724",
+      2236,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "Like how much intel uh influence do you think they have over the market?",
+      "37:24",
+      "19546724",
+      2244,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I think in certain scenarios they have a lot, in certain scenarios they don't.",
+      "37:29",
+      "19546724",
+      2249,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "I think if they went on a whole Intel crusade, it doesn't really matter.",
+      "37:33",
+      "19546724",
+      2253,
+      "Jul 24"
+    ],
+    [
+      "NVDA",
+      "I mean, Intel's gonna spend the money and make the money, like they have cut like like no, yeah, at the end of the day, like like uh Google and like NVIDIA are not gonna read like the semi-analysis re",
+      "37:36",
+      "19546724",
+      2256,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, it's not how it works, it's more like the investor community, right?",
+      "37:52",
+      "19546724",
+      2272,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Yeah, yeah, and even then, like everyone needs to do their own research.",
+      "37:56",
+      "19546724",
+      2276,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, if you're not doing that, what's the point?",
+      "38:00",
+      "19546724",
+      2280,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And I've heard from people who like are professional like hedge fund managers that they ban some of their employees from reading Southside research, they ban them, they just say don't read it at all.",
+      "38:03",
+      "19546724",
+      2283,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So, Southside Research is just there to color what's going on, it's not really there to like tell you what to do.",
+      "38:14",
+      "19546724",
+      2294,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, okay, so there's this another thing that happened that I think was kind of fascinating is I guess it was a a month or so ago now, but the last Leopold Aschenbenner situation awareness 13F was uh I",
+      "38:21",
+      "19546724",
+      2301,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And then it was later disclosed the Shaw's 20% investment, which I'm now a community member bag holder of at like, I don't know, one and a half billion dollars or something from Australian Neo Cloud.",
+      "38:40",
+      "19546724",
+      2320,
+      "Jul 24"
+    ],
+    [
+      "",
+      "What do you think about the direction that Leopold and it it it sort of resembles like the AI bottleneck trade a little bit?",
+      "38:54",
+      "19546724",
+      2334,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It's like okay, fuck it, we're doing photonics.",
+      "39:01",
+      "19546724",
+      2341,
+      "Jul 24"
+    ],
+    [
+      "",
+      "What's more what's cheaper than photonics, but now it's just the money managers are doing it.",
+      "39:03",
+      "19546724",
+      2343,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I have to preface Leo's a good friend of mine.",
+      "39:09",
+      "19546724",
+      2349,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I don't give him any advice or anything, but we've uh we're we're mutual respects for each other.",
+      "39:12",
+      "19546724",
+      2352,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I think I think he's not like uh he's more sophisticated than he comes off, I think.",
+      "39:18",
+      "19546724",
+      2358,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, his investment in neo clouds has a very, very specific thesis, and I actually don't think it's wrong.",
+      "39:23",
+      "19546724",
+      2363,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Depends on the neo cloud, but like he has a very good thesis on this, and also like if you're gonna invest in like flash memory, photonics, all these things, they're by definition cyclical, right?",
+      "39:30",
+      "19546724",
+      2370,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, you're gonna invest, you're gonna build out, and then you're gonna wait till you need to do it again.",
+      "39:41",
+      "19546724",
+      2381,
+      "Jul 24"
+    ],
+    [
+      "",
+      "He's has a very specific thesis, and I don't really want to state it for the public because I'd rather him uh state that when he's ready.",
+      "39:46",
+      "19546724",
+      2386,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, I don't want to like give away his like story, but I I I I don't think it's like non-sound.",
+      "39:54",
+      "19546724",
+      2394,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I mean, I'm pretty bullish on certain neo clouds, and when I started uh moving my portfolio, one of the first things I bought was neo clouds.",
+      "40:01",
+      "19546724",
+      2401,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I don't think neo clouds in the short term are gonna do bad.",
+      "40:08",
+      "19546724",
+      2408,
+      "Jul 24"
+    ],
+    [
+      "",
+      "The question is just like long term, do these neo clouds just mature into real clouds, like real infrastructure, right?",
+      "40:12",
+      "19546724",
+      2412,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So there's a lot of uh debate, and there's a lot of smart people, I think, looking at it.",
+      "40:19",
+      "19546724",
+      2419,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, I wouldn't say like my whole portfolio is long neo clouds, though.",
+      "40:24",
+      "19546724",
+      2424,
+      "Jul 24"
+    ],
+    [
+      "",
+      "You should become a Shaw's shareholder with me.",
+      "40:28",
+      "19546724",
+      2428,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I didn't really, I just saw a situation awareness 19.9%.",
+      "40:33",
+      "19546724",
+      2433,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, another interesting thing happened today is um Jensen made a Twitter account and threw out a war cry rallying on the side of open source AI.",
+      "40:39",
+      "19546724",
+      2439,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It feels like we're setting up for this artificial intelligence civil war that is basically Sam and Dario who hate each other, but maybe they have common enemies against maybe they have Trump Admin on",
+      "40:53",
+      "19546724",
+      2453,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I hate to agree with Jensen because he is talking his book, right?",
+      "41:18",
+      "19546724",
+      2478,
+      "Jul 24"
+    ],
+    [
+      "NVDA",
+      "So good for NVIDIA, and he loves neo clouds, he he wants neo clouds to exist, he doesn't want all the compute in like a handful of people's hands, and other people can't come up with models.",
+      "41:24",
+      "19546724",
+      2484,
+      "Jul 24"
+    ],
+    [
+      "",
+      "If anything, he wants everyone to have local compute, every business.",
+      "41:34",
+      "19546724",
+      2494,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I will say, like, yeah, there is gonna be like a bit of a civil, as you say, like a civil war.",
+      "41:40",
+      "19546724",
+      2500,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, a lot of people think like we should ban Chinese open source models, and they cite all these bullshit risks and reasons.",
+      "41:46",
+      "19546724",
+      2506,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I think um if you're an AI lab, you're a lap, like lab is in your name.",
+      "41:55",
+      "19546724",
+      2515,
+      "Jul 24"
+    ],
+    [
+      "",
+      "If you can't like innovate, you're not gonna be a lap for long.",
+      "42:05",
+      "19546724",
+      2525,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I think you should focus on what America's best at, and America's best at innovation.",
+      "42:10",
+      "19546724",
+      2530,
+      "Jul 24"
+    ],
+    [
+      "",
+      "China's so good at taking something, making a thousand copies and refining, refining and making it better.",
+      "42:17",
+      "19546724",
+      2537,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, um, like one of my like favorite things to do in like my pat in like my free time is like look at YouTube Shorts, and there's all these YouTube shorts of like Chinese, ancient Chinese constructi",
+      "42:23",
+      "19546724",
+      2543,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, this is like built into the Chinese culture, they're so good at refining things over generations.",
+      "42:40",
+      "19546724",
+      2560,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So, I think, like, yeah, like long story short, I just think the AI labs like trying to ban competitors is really stupid, and it's gonna happen with or without them.",
+      "42:47",
+      "19546724",
+      2567,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, we're not gonna have a monopoly or a duopoly in AI.",
+      "42:57",
+      "19546724",
+      2577,
+      "Jul 24"
+    ],
+    [
+      "",
+      "One of them is data, like you need certain kinds of data to do the next leap in ability.",
+      "43:06",
+      "19546724",
+      2586,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, how are you gonna discover drugs if you don't have data on biology and chemistry, right?",
+      "43:13",
+      "19546724",
+      2593,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, you could you could only like do so much just like in your house reading textbooks with a pen and paper, right?",
+      "43:20",
+      "19546724",
+      2600,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I think uh they need to realize that their job is like not to like fight the low-end consumers, their job is to move the needle.",
+      "43:26",
+      "19546724",
+      2606,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And if you can't move the needle, then you shouldn't be in your business in this business at all.",
+      "43:35",
+      "19546724",
+      2615,
+      "Jul 24"
+    ],
+    [
+      "",
+      "YouTube shorts, I hate to just pick this one out, but YouTube Shorts and the big two six is a little bit questionable.",
+      "43:41",
+      "19546724",
+      2621,
+      "Jul 24"
+    ],
+    [
+      "",
+      "You know, there's also this funny, like, there's this deep irony where it's like um the US wins the internet by Being open and letting everyone basically build the internet on top.",
+      "43:50",
+      "19546724",
+      2630,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And then round two, you kind of get like a startover, and the US is like edging towards like closed AI, or at least pushing for closed AI.",
+      "44:04",
+      "19546724",
+      2644,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And China is like, no, no, no, we're gonna do open AI, and like Xi does a speech, and he's like, No, no, no, we're doing open AI, like yeah, open AI.",
+      "44:14",
+      "19546724",
+      2654,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, it's yeah, but deeply ironic how that's playing out.",
+      "44:22",
+      "19546724",
+      2662,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Yeah, I I will say though, I don't think like a lot of people have told me they're gonna ban Chinese models.",
+      "44:27",
+      "19546724",
+      2667,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I don't think there's any chance that's happening.",
+      "44:31",
+      "19546724",
+      2671,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I just like from the people in the administration who actually um advise like Trump, and of course, there's Congress and the Senate and all that, but there's just not really it doesn't really make sen",
+      "44:34",
+      "19546724",
+      2674,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I mean, what do you think of the trade if that happens?",
+      "44:46",
+      "19546724",
+      2686,
+      "Jul 24"
+    ],
+    [
+      "",
+      "We've I've spent a lot of time trying to think of this.",
+      "44:48",
+      "19546724",
+      2688,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, we will just fly to China and come back with some flash drives.",
+      "45:02",
+      "19546724",
+      2702,
+      "Jul 24"
+    ],
+    [
+      "",
+      "The question is more like if you work with the government, how can you um ensure that these models are safe?",
+      "45:07",
+      "19546724",
+      2707,
+      "Jul 24"
+    ],
+    [
+      "API",
+      "So if they ban it, they'll say you can't work with the government if you're just using their API.",
+      "45:13",
+      "19546724",
+      2713,
+      "Jul 24"
+    ],
+    [
+      "",
+      "That's fine, that's that makes sense, that's reasonable.",
+      "45:17",
+      "19546724",
+      2717,
+      "Jul 24"
+    ],
+    [
+      "",
+      "But a whole bunch of companies will come out who say, Hey, we downloaded Kimmy and we're gonna run it safely for just for you.",
+      "45:21",
+      "19546724",
+      2721,
+      "Jul 24"
+    ],
+    [
+      "",
+      "What is your thesis as to why there's no chance the US will ban it?",
+      "45:30",
+      "19546724",
+      2730,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Because I don't think that that's consensus idea.",
+      "45:34",
+      "19546724",
+      2734,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I mean, um, you kind of see like Jensen made his whole post.",
+      "45:37",
+      "19546724",
+      2737,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Yeah, Elon, like Elon doesn't want like if you can beat Elon, go beat him, he'll try to get better.",
+      "45:47",
+      "19546724",
+      2747,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, why are you trying to do unfair tactics?",
+      "45:56",
+      "19546724",
+      2756,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I think even Sam could it's really just Dario, right?",
+      "45:58",
+      "19546724",
+      2758,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, even um, yeah, I don't think Sam hates it at all.",
+      "46:03",
+      "19546724",
+      2763,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I think it's more like, well, you know, like we're focused on doing the next big thing, we're not focused on just like commoditizing, like you know, like little uh Python scripts, like that's not gonn",
+      "46:06",
+      "19546724",
+      2766,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um okay, I'll give you like uh one final and then like a sign off.",
+      "46:22",
+      "19546724",
+      2782,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, even if you're not long anything crazy right now, what are the emerging trends and or trades that you think are the most interesting over the I don't know the rest of the year?",
+      "46:27",
+      "19546724",
+      2787,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I I said I think I hope I said this on your last stream.",
+      "46:39",
+      "19546724",
+      2799,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I was absolutely right, and people keep trying to like uh grab for straws there.",
+      "46:45",
+      "19546724",
+      2805,
+      "Jul 24"
+    ],
+    [
+      "TSMC",
+      "I will say though, there may be like a new way to do like quote unquote photonics that is less cooked, um, but it's gonna not be any of the names that people have right now with like these very expens",
+      "46:51",
+      "19546724",
+      2811,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I think um that's uh something that I'm excited about, and I think NeoClouds are in a very interesting place right now.",
+      "47:11",
+      "19546724",
+      2831,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Because I want to run Kimmy and like figure it out.",
+      "47:20",
+      "19546724",
+      2840,
+      "Jul 24"
+    ],
+    [
+      "",
+      "The only way I can really run Kimmy is if I get one of those big servers.",
+      "47:23",
+      "19546724",
+      2843,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I don't know if I could say because it's like contract to contract, but we're talking like hundreds of thousands a month.",
+      "47:29",
+      "19546724",
+      2849,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And what is the it's like, why do you have to run apps?",
+      "47:40",
+      "19546724",
+      2860,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Yeah, um what what is the like it's break down the advantages of this approach running locally like this?",
+      "47:48",
+      "19546724",
+      2868,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Well, for me, it's more like I need to like, I'm not gonna like take someone else's word of like what Kimmy's impact is gonna be.",
+      "47:55",
+      "19546724",
+      2875,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I'm gonna run it and I'm gonna say, okay, like how is it running?",
+      "48:02",
+      "19546724",
+      2882,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, what what do the tests say and all this?",
+      "48:06",
+      "19546724",
+      2886,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And the other advantage is just like you run it for yourself, you can do all kinds of things, you can change it, you can optimize it.",
+      "48:09",
+      "19546724",
+      2889,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And also, I think uh when Kimmy starts becoming really open source, like when they drop the weights, it's gonna be a fun uh race to see who can get it to run because it's not that easy.",
+      "48:16",
+      "19546724",
+      2896,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I would like we spent a lot of time talking about on the stream talking about local AI and what is the best expression to long local AI, and I'm always like fuck, you know.",
+      "48:25",
+      "19546724",
+      2905,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I wish um, you know, I wish like Mac Mini was its own company.",
+      "48:33",
+      "19546724",
+      2913,
+      "Jul 24"
+    ],
+    [
+      "",
+      "By the way, the answer is Flash for long AI for long local AI, it's flash, and who specifically?",
+      "48:37",
+      "19546724",
+      2917,
+      "Jul 24"
+    ],
+    [
+      "DRAM",
+      "I think uh there's a time we need company your readers should look into called physon, physon uh that make flash controllers, and they're getting rid of DRAM.",
+      "48:47",
+      "19546724",
+      2927,
+      "Jul 24"
+    ],
+    [
+      "DRAM",
+      "I'm very bullish on this idea of getting rid of DRAM.",
+      "48:57",
+      "19546724",
+      2937,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Whoa, it can you give us like the highest best explanation you can as to why it's flash?",
+      "49:02",
+      "19546724",
+      2942,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, like you can store like one point like terabytes on flash, right?",
+      "49:12",
+      "19546724",
+      2952,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Also, if you look at like what you're really doing during AI, like all the naive like EEs will tell you, like, oh, flash is slow.",
+      "49:17",
+      "19546724",
+      2957,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Well, it's it's slow if like you just use it for anything, but if you use it for AI, you need to know how to use it, how to talk to it.",
+      "49:25",
+      "19546724",
+      2965,
+      "Jul 24"
+    ],
+    [
+      "",
+      "AI doesn't always need fast memory, it doesn't always need this.",
+      "49:34",
+      "19546724",
+      2974,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Okay, flash, anything, any other themes that you really like or specific names coming here.",
+      "49:46",
+      "19546724",
+      2986,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I'm very interested to see what Qualcomm does.",
+      "49:57",
+      "19546724",
+      2997,
+      "Jul 24"
+    ],
+    [
+      "",
+      "What is up with every company being like, oh, we're building some uh device with Qualcomm?",
+      "50:00",
+      "19546724",
+      3000,
+      "Jul 24"
+    ],
+    [
+      "SPCX",
+      "There was a SpaceX League, then back, there's like the opening out.",
+      "50:05",
+      "19546724",
+      3005,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Well, I I was very skeptical, and I think everyone's very skeptical of Qualcomm right now, so we have to see what they really ship, but there's reason to believe that they're not like completely inept",
+      "50:12",
+      "19546724",
+      3012,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, they may actually like if you like you could pull off pull up on your stream eventually, like Qualcomm's like data center accelerators, what bandwidth they're quoting, right?",
+      "50:25",
+      "19546724",
+      3025,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Okay, they're quoting ridiculous bandwidths, and many people just don't think they can hit it.",
+      "50:34",
+      "19546724",
+      3034,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, they think like there's some like you know, little terms of service, little asterisk there.",
+      "50:40",
+      "19546724",
+      3040,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I think there's a chance that they might actually not be joking.",
+      "50:46",
+      "19546724",
+      3046,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And if they're not joking, you think it's it just goes crazy.",
+      "50:49",
+      "19546724",
+      3049,
+      "Jul 24"
+    ],
+    [
+      "AAPL",
+      "Balcom's a terribly run company, so let's why, why, why, why it's just this terrible management, like just really like they've basically alienated alienated like every customer they've had that like t",
+      "50:57",
+      "19546724",
+      3057,
+      "Jul 24"
+    ],
+    [
+      "",
+      "But they're like cockroaches, like they never die.",
+      "51:18",
+      "19546724",
+      3078,
+      "Jul 24"
+    ],
+    [
+      "AAPL",
+      "Like, yeah, that's Qualcomm and Apple had a lot of beef, and they they they sued each other a lot.",
+      "51:25",
+      "19546724",
+      3085,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, I don't know, what are you excited about?",
+      "51:42",
+      "19546724",
+      3102,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And like when are you, I don't know, what are you working on or what are you excited about right now that you haven't mentioned, if anything?",
+      "51:47",
+      "19546724",
+      3107,
+      "Jul 24"
+    ],
+    [
+      "DRAM",
+      "I'm excited for Flash to take what DRAM's job is.",
+      "51:52",
+      "19546724",
+      3112,
+      "Jul 24"
+    ],
+    [
+      "DRAM",
+      "So when you start seeing that happening, sell DRAM.",
+      "51:56",
+      "19546724",
+      3116,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, like we're not there yet, but yeah, I mean, like, you can only charge people extortion for so long.",
+      "52:01",
+      "19546724",
+      3121,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So okay, actually, last question give me a um a sign off on uh favorite trader on Twitter right now that you think it's is hot or underrated or doing well or anything.",
+      "52:08",
+      "19546724",
+      3128,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I think um I think uh irrational analyst is a very smart person, and I think he's a real like photonics expert and an engineer.",
+      "52:29",
+      "19546724",
+      3149,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And I would definitely like don't just take him at it, like what he posts, like at his word, but like read what he says and read what he talks about, and you'll start learning about the industry, like",
+      "52:40",
+      "19546724",
+      3160,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, if like I said, like if photonics gets uncooked, it's gonna be this guy who finds it, right?",
+      "52:54",
+      "19546724",
+      3174,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So he has some recommendations, but we're yet to see if they've played out.",
+      "53:02",
+      "19546724",
+      3182,
+      "Jul 24"
+    ],
+    [
+      "",
+      "We like hang out all the time, like in the base.",
+      "53:10",
+      "19546724",
+      3190,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I've never seen him fucking hit a money spread in some chrome jeans with a class azul in the club.",
+      "53:25",
+      "19546724",
+      3205,
+      "Jul 24"
+    ],
+    [
+      "",
+      "You're a shout out because I tried to shout someone out last time, but I messed up shout out, my boys at through shout out through.",
+      "53:38",
+      "19546724",
+      3218,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Maybe one day we'll do a thro a stream on what is through.",
+      "53:47",
+      "19546724",
+      3227,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Bubble Boy and Robert Chang, Titans of the cryptocurrency industry, is we're in good hands, man.",
+      "53:55",
+      "19546724",
+      3235,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Shout out to Thru, Bubble Boy, shout out to Bubble Boy.",
+      "54:01",
+      "19546724",
+      3241,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I look forward to part three at some point in the near future.",
+      "54:04",
+      "19546724",
+      3244,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Purple and blues and yellows and whites and lights and brights.",
+      "0:05",
+      "19546720",
+      5,
+      "Jul 24"
+    ],
+    [
+      "NFLX",
+      "Netflix just dropped a trailer for a prediction market show that, from what I understand, has nothing to do with Calci or Polymarket.",
+      "0:11",
+      "19546720",
+      11,
+      "Jul 24"
+    ],
+    [
+      "",
+      "The guys in this house have made millions of dollars on prediction markets.",
+      "0:23",
+      "19546720",
+      23,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Probably eight figures just over the course of the World Cup.",
+      "0:27",
+      "19546720",
+      27,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I like betting on Calci trading on polymarket.",
+      "0:30",
+      "19546720",
+      30,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Eight figures followed by I put five thousand dollars in Spain.",
+      "0:37",
+      "19546720",
+      37,
+      "Jul 24"
+    ],
+    [
+      "",
+      "But that wait, what slip was that, by the way?",
+      "0:48",
+      "19546720",
+      48,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Eight figures, easy cleared, but if Argentina wins the whole thing, eight games, I'll I'll bink them for 30.",
+      "0:52",
+      "19546720",
+      52,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like when you wake up, you gotta put on your lucky underwear, eat like a good luck meal, listen to your favorite song, take a deep breath, send a prayer.",
+      "1:01",
+      "19546720",
+      61,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I think prediction markers are low key taking over the world.",
+      "1:09",
+      "19546720",
+      69,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I wish there was like some Twitter traders on there.",
+      "1:12",
+      "19546720",
+      72,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I wish, I wish like Carr and Doma and people like this were on there, but they're not.",
+      "1:15",
+      "19546720",
+      75,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Okay, one more thing, by the way, because you know we do robotics updates every morning.",
+      "1:26",
+      "19546720",
+      86,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Unitree just dropped a video of their latest dog robot.",
+      "1:30",
+      "19546720",
+      90,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Remember, we watched the Black Mirror thing the other day.",
+      "1:37",
+      "19546720",
+      97,
+      "Jul 24"
+    ],
+    [
+      "",
+      "You gotta prepare your prepare yourself for what you're about to watch.",
+      "1:39",
+      "19546720",
+      99,
+      "Jul 24"
+    ],
+    [
+      "AK",
+      "Imagine you for you imagine you forgot to tip at Whole Foods and you're walking out for the grocery store and you're like a hundred yards away and you turn around, and this thing is just like in a ful",
+      "1:43",
+      "19546720",
+      103,
+      "Jul 24"
+    ],
+    [
+      "HOA",
+      "This is the type of shit that HOA sends your way when you paint your fence a little bit too shit too white.",
+      "1:59",
+      "19546720",
+      119,
+      "Jul 24"
+    ],
+    [
+      "HOA",
+      "You like put up a basketball hoop without the permission, the HOA like drops this thing at the top of your cul de sac.",
+      "2:04",
+      "19546720",
+      124,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Anyways, they just launched this thing, and that is horrifying.",
+      "2:10",
+      "19546720",
+      130,
+      "Jul 24"
+    ],
+    [
+      "YC",
+      "YC just announced their like request for startups, and it's deep.",
+      "2:18",
+      "19546720",
+      138,
+      "Jul 24"
+    ],
+    [
+      "",
+      "There's like four crypto projects on the that they're requesting.",
+      "2:21",
+      "19546720",
+      141,
+      "Jul 24"
+    ],
+    [
+      "",
+      "They basically put out a document of what they are looking for in their next batch for startups that they want to invest in.",
+      "2:24",
+      "19546720",
+      144,
+      "Jul 24"
+    ],
+    [
+      "",
+      "We might not go through all of them, but uh, I want to just read a couple of them.",
+      "2:32",
+      "19546720",
+      152,
+      "Jul 24"
+    ],
+    [
+      "",
+      "One, the best time to build in crypto, it's a dispiriting moment in crypto.",
+      "2:38",
+      "19546720",
+      158,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Prices are down, hot narratives have fallen flat, and many builders are leaving.",
+      "2:42",
+      "19546720",
+      162,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It sounds crazy, but at White Combinator, we're more optimistic than ever.",
+      "2:45",
+      "19546720",
+      165,
+      "Jul 24"
+    ],
+    [
+      "",
+      "We've invested in more than 100 crypto startups, but we expect that number to go up a lot.",
+      "2:48",
+      "19546720",
+      168,
+      "Jul 24"
+    ],
+    [
+      "YC",
+      "Eventually, we expect every YC startup to use crypto rails from capital raising to payments, though most will probably never even know.",
+      "2:51",
+      "19546720",
+      171,
+      "Jul 24"
+    ],
+    [
+      "YC",
+      "Many YC funded fintechs, way outside crypto, are building on crypto, like deal in gusto.",
+      "2:59",
+      "19546720",
+      179,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Stable coins are being adopted by every major financial institution, tokenized stocks are transforming trading.",
+      "3:06",
+      "19546720",
+      186,
+      "Jul 24"
+    ],
+    [
+      "HYPE",
+      "Projects like Hyperliquid with a tiny team are making top stock exchanges squeamish about their edge.",
+      "3:10",
+      "19546720",
+      190,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And it feels inevitable that agents are gonna use crypto network as financial rails.",
+      "3:16",
+      "19546720",
+      196,
+      "Jul 24"
+    ],
+    [
+      "COIN",
+      "We funded major crypto teams building in crypto like Stripe, Coinbase, and Axiom.",
+      "3:20",
+      "19546720",
+      200,
+      "Jul 24"
+    ],
+    [
+      "",
+      "As you know that one of the most successful startups ever is Axiom.",
+      "3:25",
+      "19546720",
+      205,
+      "Jul 24"
+    ],
+    [
+      "",
+      "All right, stock market opens in 21 seconds as always.",
+      "3:33",
+      "19546720",
+      213,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It's powered by Phantom because anything that you want to buy, any stock, any coin, if you want to sell your coin, you want to go to stable coins, if you want to trade perps on the coins, if you want ",
+      "3:39",
+      "19546720",
+      219,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And on that note, the stock market is oh, I'm scared of luck, I'm scared of luck, I'm scared to look.",
+      "3:56",
+      "19546720",
+      236,
+      "Jul 24"
+    ],
+    [
+      "",
+      "The Dow is up 0.12, the Nasdaq 100, that is down 0.74.",
+      "4:11",
+      "19546720",
+      251,
+      "Jul 24"
+    ],
+    [
+      "IGV",
+      "The Sox is down 1.67, the Soxol is down 5.14, the IGV is green, wild DRAM down 5.11 553, and it is getting destroyed.",
+      "4:26",
+      "19546720",
+      266,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Unopen, and the mags are back for revenge after one of the worst days in recent history.",
+      "4:42",
+      "19546720",
+      282,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Maybe if you opened it today, not if you opened it yesterday.",
+      "4:54",
+      "19546720",
+      294,
+      "Jul 24"
+    ],
+    [
+      "BTC",
+      "Um, Bitcoin off a cliff, off a cliff 64.2, pump fun, not really feeling it.",
+      "4:58",
+      "19546720",
+      298,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Yields are all down across the board, two years down 0.2, 10 years down 0.3, the 30 years down 0.04.",
+      "5:10",
+      "19546720",
+      310,
+      "Jul 24"
+    ],
+    [
+      "ZEC",
+      "Zcash is under 500, copper can never get to the level, and lighter is down three.",
+      "5:19",
+      "19546720",
+      319,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It has up 12 yesterday, and that thing is fucking flying on Lockheed Martin.",
+      "5:45",
+      "19546720",
+      345,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Look at this thing, it's up uh 20 in two days on Lockheed Martin.",
+      "5:51",
+      "19546720",
+      351,
+      "Jul 24"
+    ],
+    [
+      "",
+      "That tell you what, that's all about cost per kill.",
+      "5:55",
+      "19546720",
+      355,
+      "Jul 24"
+    ],
+    [
+      "IBM",
+      "Uh, biggest gainer, Salesforce 2.8, Adobe 2.1, Oracle 1.6, uh Cloudflare 1, IBM one, it's 208.",
+      "5:58",
+      "19546720",
+      358,
+      "Jul 24"
+    ],
+    [
+      "MSFT",
+      "Microsoft green, that's up 0.5, Blackberry 1%, Firefly Space Stock.",
+      "6:08",
+      "19546720",
+      368,
+      "Jul 24"
+    ],
+    [
+      "GOOGL",
+      "Google is flat after its worst day in over two years.",
+      "6:15",
+      "19546720",
+      375,
+      "Jul 24"
+    ],
+    [
+      "GOOGL",
+      "Okay, Warren Buffett is down off the 10 billion dollar investment that Berkshire made into Google's dilution at $350, $318.",
+      "6:21",
+      "19546720",
+      381,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Chris Camillo, friend of the stream, friend of mine.",
+      "6:34",
+      "19546720",
+      394,
+      "Jul 24"
+    ],
+    [
+      "AMZN",
+      "Um, he made a tweet yesterday, and he said he added Amazon on leverage.",
+      "6:38",
+      "19546720",
+      398,
+      "Jul 24"
+    ],
+    [
+      "",
+      "If I'm wrong, I will pay for it, is what Chris Camillo said yesterday.",
+      "6:43",
+      "19546720",
+      403,
+      "Jul 24"
+    ],
+    [
+      "NFLX",
+      "Snowflake flat, Netflix on point three, Intel.",
+      "6:48",
+      "19546720",
+      408,
+      "Jul 24"
+    ],
+    [
+      "",
+      "This is this is uh crazy because it's below its earnings beat.",
+      "6:51",
+      "19546720",
+      411,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "It went to 113, it's under 100 once again on Intel, which is not great.",
+      "6:55",
+      "19546720",
+      415,
+      "Jul 24"
+    ],
+    [
+      "NVDA",
+      "Nvidia 208 down 0.5, QCom down one, ASML down one, Nokia down two, right after all of CT piled into Nokia.",
+      "7:05",
+      "19546720",
+      425,
+      "Jul 24"
+    ],
+    [
+      "MU",
+      "SpaceX 115 AOS L down two and a half, Bloom Energy down three, Micron down three, nine sixty one, cerebrus down five.",
+      "7:14",
+      "19546720",
+      434,
+      "Jul 24"
+    ],
+    [
+      "",
+      "One of the worst charts in recent history after what they just pulled.",
+      "7:23",
+      "19546720",
+      443,
+      "Jul 24"
+    ],
+    [
+      "BART",
+      "Look at this BART up, Bart down, Bart up, Bart down.",
+      "7:26",
+      "19546720",
+      446,
+      "Jul 24"
+    ],
+    [
+      "ADR",
+      "Um, Sandis is down three, skynix, the ADR is 163, and it is down four percent.",
+      "7:29",
+      "19546720",
+      449,
+      "Jul 24"
+    ],
+    [
+      "STUB",
+      "Stubhub green day doesn't ever deserve it ever again.",
+      "7:54",
+      "19546720",
+      474,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Sphere is up two, Madison Square Garden, both of them are up one.",
+      "7:58",
+      "19546720",
+      478,
+      "Jul 24"
+    ],
+    [
+      "SNAP",
+      "Date is up 1.5, DraftKings up two, Shopify is up one, snap is up one, Lulu's up one, Uber is up 0.2, Reddit is up 0.6, 1.6, excuse me.",
+      "8:07",
+      "19546720",
+      487,
+      "Jul 24"
+    ],
+    [
+      "MSTR",
+      "DoorDash is up one, reddit is flat, eBay is red, mstr 92.",
+      "8:16",
+      "19546720",
+      496,
+      "Jul 24"
+    ],
+    [
+      "",
+      "$200 a month, 200 times 818, $163,000 a month.",
+      "8:30",
+      "19546720",
+      510,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Chat, would you subscribe to me for $200 a month or no?",
+      "8:37",
+      "19546720",
+      517,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Roman dudes the meme coin of the food industry.",
+      "9:11",
+      "19546720",
+      551,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Tastes good, little nutritional value, cheap.",
+      "9:13",
+      "19546720",
+      553,
+      "Jul 24"
+    ],
+    [
+      "BTC",
+      "I I remember I had this soul long at $81 when Bitcoin was like 61k or whatnot.",
+      "9:19",
+      "19546720",
+      559,
+      "Jul 24"
+    ],
+    [
+      "BTC",
+      "And it Bitcoin ran up like 4k, but like 10%, and you never even got uh soul.",
+      "9:25",
+      "19546720",
+      565,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I mean, that uh that was the top, and it hasn't come close to that since all right.",
+      "9:31",
+      "19546720",
+      571,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Cerebus is under 200, two years down 0.4, 10 year down 0.5, 30 is down 0.2.",
+      "9:36",
+      "19546720",
+      576,
+      "Jul 24"
+    ],
+    [
+      "SPCX",
+      "Um, SpaceX 113, AMD down three, Broadcom down three, robo down three, Nvidia down 1.2.",
+      "9:43",
+      "19546720",
+      583,
+      "Jul 24"
+    ],
+    [
+      "",
+      "If you like went backwards in this, ceasefire continues through.",
+      "10:00",
+      "19546720",
+      600,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, we're saying like 22% chance they strike on the 25th, 30th, they strike by the 26th, 55 by the 31st.",
+      "10:03",
+      "19546720",
+      603,
+      "Jul 24"
+    ],
+    [
+      "",
+      "An immense wave of American airlock airlifts into the Middle East is underway, and the pattern pushes a possible escalation.",
+      "10:14",
+      "19546720",
+      614,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Imagine everything else is assembling, special operation forces deployed from US bases, V1 bombers on alert in Britain, F-16s from Germany, and F-35s from England, refueling aircraft, massing in Israe",
+      "10:19",
+      "19546720",
+      619,
+      "Jul 24"
+    ],
+    [
+      "",
+      "First of all, thank you for popping in on late notice.",
+      "10:51",
+      "19546720",
+      651,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "And second of all, I want to give you a couple flowers because I think it was last Intel earnings.",
+      "10:53",
+      "19546720",
+      653,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I guess about a quarter ago, you came on and you had one of our best performing stream guests with trade ideas.",
+      "10:57",
+      "19546720",
+      657,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "Intel, and I believe Sandisc was the other one that proceeded to go basically up only since you first came on the stream.",
+      "11:05",
+      "19546720",
+      665,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "If Intel beat earnings, you would come on, and Intel crushed earnings, but the market is in a little bit of a of a weird spot at the moment, and so I think it's actually more valuable for you to come ",
+      "11:21",
+      "19546720",
+      681,
+      "Jul 24"
+    ],
+    [
+      "",
+      "How is your trading performance going in the market as we currently stand?",
+      "11:36",
+      "19546720",
+      696,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I think this is like the best year I've ever had trading or money-wise in my life.",
+      "11:41",
+      "19546720",
+      701,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I think all the years I've been working combined do not add up to the money I've made this year.",
+      "11:49",
+      "19546720",
+      709,
+      "Jul 24"
+    ],
+    [
+      "",
+      "All the years you've worked in your life combined do not make add up to this year.",
+      "11:54",
+      "19546720",
+      714,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, is this just this is just the year you finally put it all together and all of the work just caught up and it just hit?",
+      "12:01",
+      "19546720",
+      721,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I I think it's definitely the AI trade is part of it.",
+      "12:10",
+      "19546720",
+      730,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And it's just because of my like career and background, it was a lot easier for me to know like what was bullshit and what was not, and who was gonna make it and who wasn't.",
+      "12:14",
+      "19546720",
+      734,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, because I don't like sit down every day like with the financials, and I'm like, oh, like this company's expensive, this company's cheap.",
+      "12:26",
+      "19546720",
+      746,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I'm always just thinking about the products and the customers that are gonna use those products.",
+      "12:36",
+      "19546720",
+      756,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So for me, it was just like right place, right time.",
+      "12:41",
+      "19546720",
+      761,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And I've always been, you know, because I just like am an engineer, I've always been fascinated by AI and have been thinking about it for a long time and learning about it.",
+      "12:44",
+      "19546720",
+      764,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It's like all that research and knowledge that I've accumulated over the years just like super valuable now.",
+      "12:56",
+      "19546720",
+      776,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I know I asked you this last first of all, congratulations.",
+      "13:02",
+      "19546720",
+      782,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Are you still like are you a full-time trader right now?",
+      "13:06",
+      "19546720",
+      786,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Well, I I I was uh probably consulting more back then, right?",
+      "13:11",
+      "19546720",
+      791,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I might have done like consulting gigs just because I like left my last job and I was just really wasn't into like going to a big corporation again or like some very like highly hierarchical place.",
+      "13:15",
+      "19546720",
+      795,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I was doing like consulting work, but I definitely don't do that now.",
+      "13:28",
+      "19546720",
+      808,
+      "Jul 24"
+    ],
+    [
+      "",
+      "To your earlier point of you have this prior, you know, technical expertise that allowed you to see through the bullshit of what was real, what was fake, what was valuable at this initial blow-off on ",
+      "13:33",
+      "19546720",
+      813,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Do you think that edge has eroded and there's sort of a new game being played?",
+      "13:46",
+      "19546720",
+      826,
+      "Jul 24"
+    ],
+    [
+      "",
+      "The technical expertise doesn't help as much, or is it equally as valuable as it was six months ago, a year ago?",
+      "13:50",
+      "19546720",
+      830,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It's definitely equally as valuable, and especially if you disagree with the market, right?",
+      "13:56",
+      "19546720",
+      836,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So um it takes time for the market to either like understand new information, or the market may weigh like certain kinds of information more than you would because they're run by like people who are n",
+      "14:02",
+      "19546720",
+      842,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "So um Intel Earnings is a good example always because no one really knows what to make sense of it for a few days.",
+      "14:16",
+      "19546720",
+      856,
+      "Jul 24"
+    ],
+    [
+      "NVDA",
+      "But I also think like an example of uh people weighing things more than they should is like whatever NVIDIA does is like all that matters, right?",
+      "14:22",
+      "19546720",
+      862,
+      "Jul 24"
+    ],
+    [
+      "NVDA",
+      "But people don't understand like most of like the compute in the future, it's probably not gonna be NVIDIA, right?",
+      "14:31",
+      "19546720",
+      871,
+      "Jul 24"
+    ],
+    [
+      "META",
+      "Like it'll probably be like uh all the hyperscalers own personal compute, you know, TPUs, training, meta.",
+      "14:38",
+      "19546720",
+      878,
+      "Jul 24"
+    ],
+    [
+      "NVDA",
+      "It doesn't mean NVIDIA is like gonna go away.",
+      "14:45",
+      "19546720",
+      885,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like the whole class of like market is growing, right?",
+      "14:48",
+      "19546720",
+      888,
+      "Jul 24"
+    ],
+    [
+      "",
+      "There's growth in this industry, but you have to understand that like what one person says doesn't set the you know rules for the whole entire industry, the industry moves based on what's the optimal ",
+      "14:51",
+      "19546720",
+      891,
+      "Jul 24"
+    ],
+    [
+      "NVDA",
+      "So, what do you think that means for the future of Nvidia's mode and like dominance?",
+      "15:08",
+      "19546720",
+      908,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I mean, when you're like when you have like these 75% margins to like like right place, right time, right?",
+      "15:12",
+      "19546720",
+      912,
+      "Jul 24"
+    ],
+    [
+      "",
+      "But like as uh like Uncle Jeff always says, it's like your margin someone else's opportunity, right?",
+      "15:19",
+      "19546720",
+      919,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Yeah, you can only get get away with it for so long, and there's a reason why hyperscalers for their own internal workloads are investing in you know their own ASICs, right?",
+      "15:25",
+      "19546720",
+      925,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, or investing in their own interconnects, they want to own it because at the scale that they're spending money, why would you be beholden to a customer?",
+      "15:35",
+      "19546720",
+      935,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, even you, like you want to like do a business, right?",
+      "15:44",
+      "19546720",
+      944,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, you'd be really dumb if like you only prioritize one microphone company, right?",
+      "15:47",
+      "19546720",
+      947,
+      "Jul 24"
+    ],
+    [
+      "",
+      "For your podcast, you'd be like, Well, what if this microphone?",
+      "15:52",
+      "19546720",
+      952,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, I like it, but I'm willing to change if like they start charging me too much or like they're not shipping.",
+      "15:55",
+      "19546720",
+      955,
+      "Jul 24"
+    ],
+    [
+      "NVDA",
+      "I think um I think it's clear, like NVIDIA has you know a pretty dominant position right now, but the incentive structure for the labs and the hyperscalers is to you know vertically integrate.",
+      "16:04",
+      "19546720",
+      964,
+      "Jul 24"
+    ],
+    [
+      "MU",
+      "It's kind of like this trini post I think he made about uh with memory and micron after their earnings.",
+      "16:19",
+      "19546720",
+      979,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And he was like, Okay, margins are insane, their earnings are disgusting, but the bear side to this is how long is the market gonna let them get away with I mean, fleecing everybody else, of course.",
+      "16:25",
+      "19546720",
+      985,
+      "Jul 24"
+    ],
+    [
+      "MU",
+      "And I've always I've always like, yeah, that's just to your point, like Micron has higher margins than even NVIDIA, and they sell a less differentiated product, like people are more willing to um just",
+      "16:37",
+      "19546720",
+      997,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like they are more willing to pay a premium because you're managing, you know, infrastructure, you're making a unique differentiated product, there's all this capital expenditure, like people don't wa",
+      "16:50",
+      "19546720",
+      1010,
+      "Jul 24"
+    ],
+    [
+      "MU",
+      "But micron is really probably like the worst memory maker from just a quality perspective, really?",
+      "17:04",
+      "19546720",
+      1024,
+      "Jul 24"
+    ],
+    [
+      "HBM",
+      "Yeah, just like from a quality perspective, their HBM has always been like the lowest quality.",
+      "17:11",
+      "19546720",
+      1031,
+      "Jul 24"
+    ],
+    [
+      "MU",
+      "And one thing, I don't know if I mentioned this in the last stream, but if you actually look at the big three memory makers, Samsung, SK, Micron, people think it's all about HBM because that's what th",
+      "17:16",
+      "19546720",
+      1036,
+      "Jul 24"
+    ],
+    [
+      "RAM",
+      "Now that's part of it, but most of the growth is actually coming from the commodity RAM.",
+      "17:28",
+      "19546720",
+      1048,
+      "Jul 24"
+    ],
+    [
+      "HBM",
+      "Because to make HBM, you take commodity DRAM wafers and you slice them, you dice them, and you stack them, right?",
+      "17:33",
+      "19546720",
+      1053,
+      "Jul 24"
+    ],
+    [
+      "DRAM",
+      "Um, you know, people still need DRAM for other things, right?",
+      "17:45",
+      "19546720",
+      1065,
+      "Jul 24"
+    ],
+    [
+      "DRAM",
+      "But there's this big uh AI build out where people are gonna just start consuming that, and the price of commodity DRAM has just skyrocketed even more than HBM.",
+      "17:48",
+      "19546720",
+      1068,
+      "Jul 24"
+    ],
+    [
+      "HBM",
+      "HBM's like steady to flat, maybe slightly up, slightly down, because they because they have capacity, right?",
+      "17:58",
+      "19546720",
+      1078,
+      "Jul 24"
+    ],
+    [
+      "MU",
+      "But commodity DRAM, like just the stuff you're putting in your PC, that's shooting through the roof, and that's where Micron and all these other people are making their money.",
+      "18:03",
+      "19546720",
+      1083,
+      "Jul 24"
+    ],
+    [
+      "MU",
+      "But really, Micron is the most egregious because their HBM was always the lowest quality.",
+      "18:12",
+      "19546720",
+      1092,
+      "Jul 24"
+    ],
+    [
+      "MU",
+      "Their HBM is the lowest quality, but they're just dominating on a layer below with the yeah, I mean, like exactly because let's just say like NVIDIA, and I don't have these numbers off the top of my h",
+      "18:16",
+      "19546720",
+      1096,
+      "Jul 24"
+    ],
+    [
+      "MU",
+      "Well, there's less DRAM, like there's just less commodity DRAM, and Micron's just gonna charge the market price for it.",
+      "18:37",
+      "19546720",
+      1117,
+      "Jul 24"
+    ],
+    [
+      "",
+      "All right, so like it's funny because you already because you said, like, oh, I I made all these great calls.",
+      "18:47",
+      "19546720",
+      1127,
+      "Jul 24"
+    ],
+    [
+      "CS",
+      "If you can get access to CS CXMT's IPO, you should just like full port that.",
+      "18:55",
+      "19546720",
+      1135,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Um, you should just like I was thinking of like you know, pawning like everything I own to get more money to do this because it's extremely like mispriced, it's extremely lower.",
+      "19:00",
+      "19546720",
+      1140,
+      "Jul 24"
+    ],
+    [
+      "CXMT",
+      "And the thing is, CXMT, despite them, like you know, they're Chinese, they don't really have an HBM product, the demand for just Kamai DRAM is so high, and they still get to charge that premium.",
+      "19:13",
+      "19546720",
+      1153,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And they're mainly selling to Chinese companies, right?",
+      "19:24",
+      "19546720",
+      1164,
+      "Jul 24"
+    ],
+    [
+      "CXMT",
+      "So there's been like a lot of talk like CXMT is gonna crash the DRAM market.",
+      "19:27",
+      "19546720",
+      1167,
+      "Jul 24"
+    ],
+    [
+      "HBM",
+      "I mean, it's not in their incentive to do that either, because they don't make fucking like good HBM either, but they can sell to all the Chinese companies and make tons of money.",
+      "19:31",
+      "19546720",
+      1171,
+      "Jul 24"
+    ],
+    [
+      "MU",
+      "And if you just look at like what Micron trades at, what CXMT is gonna IPO at, and then just look at like how many bits or like DRAM sells their shipping, CXMT is extremely cheap.",
+      "19:40",
+      "19546720",
+      1180,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So at what price is it still egregiously cheap?",
+      "19:55",
+      "19546720",
+      1195,
+      "Jul 24"
+    ],
+    [
+      "HYPE",
+      "Because I think hyperliquid valuation right now is 400 billion, give or take.",
+      "19:59",
+      "19546720",
+      1199,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Yeah, that that doesn't sound that cheap to me, but I think uh Chinese uh I feel it's 130, maybe.",
+      "20:04",
+      "19546720",
+      1204,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like, I don't think it's the end of the world, but like at 130, I'm like moving to China if I can to get access.",
+      "20:14",
+      "19546720",
+      1214,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Okay, I don't have that much experience trading emerging markets, but the age old ism is like never trade Chinese companies ever.",
+      "20:22",
+      "19546720",
+      1222,
+      "Jul 24"
+    ],
+    [
+      "",
+      "I think it's I think partly it's because like government intervention, the markets like the government will back an industry, and then immediately when like the industry is in trouble, we'll just be l",
+      "20:31",
+      "19546720",
+      1231,
+      "Jul 24"
+    ],
+    [
+      "CCP",
+      "So the Chinese industry, like the uh you know, the CCP, the central party, they will prioritize an industry.",
+      "20:48",
+      "19546720",
+      1248,
+      "Jul 24"
+    ],
+    [
+      "",
+      "They did this with uh EVs a couple years ago, right?",
+      "20:54",
+      "19546720",
+      1254,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And all the EV companies were great buys, but now they're not because they're in deadly competition.",
+      "20:56",
+      "19546720",
+      1256,
+      "Jul 24"
+    ],
+    [
+      "",
+      "China's not about like, from my perspective, the Chinese like stock market and the government there is not like, oh, I want a big winner, I just want like the biggest market cap company.",
+      "21:03",
+      "19546720",
+      1263,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It's more like I want this industry and I want people to compete to lower the cost.",
+      "21:13",
+      "19546720",
+      1273,
+      "Jul 24"
+    ],
+    [
+      "",
+      "Like electric cars, cheap electric cars is great for the Chinese people, it's great for the world.",
+      "21:20",
+      "19546720",
+      1280,
+      "Jul 24"
+    ],
+    [
+      "MSTR",
+      "But the thing is with these semiconductor companies, they actually can't employ that uh strategy.",
+      "21:27",
+      "19546720",
+      1287,
+      "Jul 24"
+    ],
+    [
+      "",
+      "They actually have to back them because it's such like the capital that you need to play in this game, especially at the global scale, is just so high that it doesn't actually make sense to make peopl",
+      "21:32",
+      "19546720",
+      1292,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It makes sense for people to come together and work together, right?",
+      "21:43",
+      "19546720",
+      1303,
+      "Jul 24"
+    ],
+    [
+      "",
+      "So I think uh for the semi companies, it's it's extremely like it's a great opportunity.",
+      "21:46",
+      "19546720",
+      1306,
+      "Jul 24"
+    ],
+    [
+      "",
+      "And I'm invested personally in like some Chinese companies.",
+      "21:52",
+      "19546720",
+      1312,
+      "Jul 24"
+    ],
+    [
+      "INTC",
+      "I look forward to part three at some point in the near future, maybe 200 intel.",
+      "21:57",
+      "19546720",
+      1317,
+      "Jul 24"
+    ],
+    [
+      "",
+      "It's not even my favorite Italian brain rock character.",
+      "22:15",
+      "19546720",
+      1335,
+      "Jul 24"
+    ],
     [
       "",
       "Yo, yo, yo, yo, yo, yo, yo, yo, yo, yo, yo, yo, yo.",
@@ -277321,9 +282189,9 @@
   },
   "stats": {
     "green_now": null,
-    "avg_ret": 3.0,
+    "avg_ret": 2.0,
     "graded": 0,
-    "open": 545,
-    "shows": 132
+    "open": 556,
+    "shows": 134
   }
 }
