@@ -487,7 +487,10 @@ def merge_archives(old, new):
             a, b = eps[i], eps[j]
             if a in drop or b in drop or ep_date.get(a) != ep_date.get(b): continue
             qa, qb = by_ep[a], by_ep[b]
-            if len(qa & qb) / max(1, min(len(qa), len(qb))) > 0.3:
+            # symmetric Jaccard: a true re-upload is near-identical on BOTH sides.
+            # An interview cut from the day's stream shares its lines but the union is
+            # far larger, so it stays. Only near-clones get merged.
+            if len(qa & qb) / max(1, len(qa | qb)) > 0.6:
                 drop.add(a if len(qa) < len(qb) else b)
     if drop:
         new["tape"] = [r for r in new["tape"] if str(r[3]) not in drop]
@@ -500,7 +503,7 @@ def merge_archives(old, new):
         for k in kept:
             if k.get("d") != f0.get("d"): continue
             kq = {c[1] for c in k.get("calls",[]) if len(c) > 1}
-            if qs and kq and len(qs & kq) / max(1, min(len(qs), len(kq))) > 0.5:
+            if qs and kq and len(qs & kq) / max(1, len(qs | kq)) > 0.6:
                 dup = True
                 if len(f0.get("calls",[])) > len(k.get("calls",[])):
                     kept[kept.index(k)] = f0
@@ -535,7 +538,15 @@ def merge_archives(old, new):
     new["stats"] = st
     return new
 
+def _key_diag():
+    """One loud, unambiguous line in every run log about the API key state."""
+    if ANTHROPIC_KEY:
+        print(f"ANTHROPIC_API_KEY: present ({ANTHROPIC_KEY[:10]}..., {len(ANTHROPIC_KEY)} chars) -> LLM pass ON")
+    else:
+        print("ANTHROPIC_API_KEY: ABSENT -> heuristic fallback, lexicon/dispatch/grading will be EMPTY")
+
 def build(all_episodes=False, limit=20):
+    _key_diag()
     eps = episodes()
     if not all_episodes:
         eps = eps[:limit]
