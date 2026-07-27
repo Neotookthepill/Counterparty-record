@@ -168,17 +168,31 @@ def extract_levels(sents, name):
     out["stated"] = any(out[k] is not None for k in ("entry", "stop", "target"))
     return out
 
+# Not tickers: chat slang and market shorthand the pattern matcher mistakes for symbols.
+NOT_TICKERS = {"TA","PFP","FUD","LP","TP","SP","AL","SL","PNL","ATH","CEO","CTO","IPO","ETF",
+               "GDP","CPI","FED","AI","US","USA","UK","EU","OK","LOL","IMO","DM","VC","YT"}
+# A sentence that negates the position is not a call.
+NEGATIONS = ("not long","not short","i'm not","i am not","no position","no positive exposure",
+             "no exposure","wouldn't long","wouldn't short","can't long","can't short",
+             "never long","never short","not buying","not selling","don't own","do not own")
+# "long" as duration, not direction.
+TIME_LONG = ("how long","long time","long day","long story","for a long","too long","longer than",
+             "so long","as long as","all day long","long ago","long run","long-term relationship")
+
 def extract_calls_heuristic(sents):
     """No-LLM fallback: find ticker (by pattern) + direction in a sentence, keep as a receipt."""
     sym2name = {sym: name for name, sym in TICKERS.items()}
     calls = []
     for t, sent in sents:
         low = " " + sent.lower() + " "
-        tickers = detect_tickers(sent)
+        if any(n in low for n in NEGATIONS):
+            continue
+        tickers = [x for x in detect_tickers(sent) if x not in NOT_TICKERS]
         if not tickers:
             continue
         tk = tickers[0]
-        d = "L" if any(k in low for k in LONG_WORDS) else ("S" if any(k in low for k in SHORT_WORDS) else None)
+        is_long = any(k in low for k in LONG_WORDS) and not any(k in low for k in TIME_LONG)
+        d = "L" if is_long else ("S" if any(k in low for k in SHORT_WORDS) else None)
         if not d:
             continue
         calls.append({"tk": tk, "dir": d, "quote": sent[:180], "ts": mmss(t), "secs": int(t)})
@@ -461,6 +475,41 @@ def merge_archives(old, new):
     def kt(r): return (str(r[3]), int(r[4] or 0), r[1])
     seen_t = {kt(r) for r in new.get("tape",[])}
     new["tape"] = new.get("tape",[]) + [r for r in old.get("tape",[]) if kt(r) not in seen_t]
+    # dedupe re-uploads: same date, >30% shared quotes = same episode, keep the richer one
+    from collections import defaultdict
+    by_ep = defaultdict(set); ep_date = {}
+    for r in new["tape"]:
+        by_ep[str(r[3])].add(r[1]); ep_date[str(r[3])] = r[5]
+    drop = set()
+    eps = list(by_ep)
+    for i in range(len(eps)):
+        for j in range(i+1, len(eps)):
+            a, b = eps[i], eps[j]
+            if a in drop or b in drop or ep_date.get(a) != ep_date.get(b): continue
+            qa, qb = by_ep[a], by_ep[b]
+            if len(qa & qb) / max(1, min(len(qa), len(qb))) > 0.3:
+                drop.add(a if len(qa) < len(qb) else b)
+    if drop:
+        new["tape"] = [r for r in new["tape"] if str(r[3]) not in drop]
+        print(f"dedupe: dropped {len(drop)} re-uploaded episode(s)")
+    # same at the feed level: two shows on one date sharing most call quotes = one show
+    kept, removed = [], 0
+    for f0 in new["feed"]:
+        qs = {c[1] for c in f0.get("calls",[]) if len(c) > 1}
+        dup = False
+        for k in kept:
+            if k.get("d") != f0.get("d"): continue
+            kq = {c[1] for c in k.get("calls",[]) if len(c) > 1}
+            if qs and kq and len(qs & kq) / max(1, min(len(qs), len(kq))) > 0.5:
+                dup = True
+                if len(f0.get("calls",[])) > len(k.get("calls",[])):
+                    kept[kept.index(k)] = f0
+                break
+        if dup: removed += 1
+        else: kept.append(f0)
+    if removed:
+        new["feed"] = kept
+        print(f"dedupe: dropped {removed} duplicate feed entrie(s)")
     # plans / charts: union, fresh values win
     for key in ("plans","charts"):
         merged = dict(old.get(key) or {}); merged.update(new.get(key) or {})
