@@ -30,7 +30,7 @@ Backfill all: python ingest.py --all
 """
 
 import json, re, sys, os, time, urllib.request, urllib.error, xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 SHOW_ID = "2535072"
 RSS     = f"https://feeds.buzzsprout.com/{SHOW_ID}.rss"
@@ -350,11 +350,11 @@ LEXICON_SYS = (
 
 def build_lexicon(tape):
     """LLM pass over the spoken corpus -> [[term, def, src], ...]. None to keep baked."""
-    if not ANTHROPIC_KEY or not tape:
+    if not _llm_ready() or not tape:
         return None
     corpus = "\n".join(t[1] for t in tape if t[1])[:14000]
     try:
-        raw = _anthropic(corpus, LEXICON_SYS, 2200)
+        raw = _llm(corpus, LEXICON_SYS, 2200)
         raw = raw[raw.find("["): raw.rfind("]") + 1]
         out = [[str(x.get("term","")).strip(), str(x.get("def","")).strip(), str(x.get("src","")).strip()]
                for x in json.loads(raw) if x.get("term")]
@@ -367,6 +367,57 @@ def build_lexicon(tape):
 # Turn raw transcript into real calls. Throws out mentions, keeps direction +
 # conviction + the verbatim line. Needs ANTHROPIC_API_KEY; falls back to heuristic.
 ANTHROPIC_KEY  = os.environ.get("ANTHROPIC_API_KEY", "")
+GEMINI_KEY     = os.environ.get("GEMINI_API_KEY", "")
+_PROVIDER = [None]          # resolved on first call: anthropic | gemini
+_GEMINI_T = [0.0]           # pacing for the free tier (15 requests/min)
+
+def _llm_ready():
+    return bool(ANTHROPIC_KEY or GEMINI_KEY)
+
+def _gemini(content, system, max_tokens=1500):
+    wait = 4.2 - (time.time() - _GEMINI_T[0])
+    if wait > 0: time.sleep(wait)
+    body = json.dumps({
+        "system_instruction": {"parts": [{"text": system}]},
+        "contents": [{"parts": [{"text": content}]}],
+        "generationConfig": {"maxOutputTokens": max_tokens, "temperature": 0.4},
+    }).encode()
+    last = ""
+    for attempt in range(5):
+        req = urllib.request.Request(
+            "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" + GEMINI_KEY,
+            data=body, headers={"content-type": "application/json"})
+        try:
+            with urllib.request.urlopen(req, timeout=90) as r:
+                d = json.loads(r.read().decode())
+            _GEMINI_T[0] = time.time()
+            return "".join(pt.get("text", "") for c in d.get("candidates", [])
+                           for pt in c.get("content", {}).get("parts", []))
+        except urllib.error.HTTPError as e:
+            last = f"gemini {e.code}: {e.read().decode('utf-8','replace')[:200]}"
+            if e.code in (429, 500, 503):
+                time.sleep(2 ** attempt * 3); continue
+            raise RuntimeError(last)
+    raise RuntimeError(last or "gemini: retries exhausted")
+
+def _llm(content, system, max_tokens=1500):
+    """Anthropic when a funded key exists, Gemini free tier otherwise.
+    Switches to Gemini mid-run if Anthropic rejects for billing/auth."""
+    if _PROVIDER[0] is None:
+        _PROVIDER[0] = "anthropic" if ANTHROPIC_KEY else ("gemini" if GEMINI_KEY else "none")
+    if _PROVIDER[0] == "anthropic":
+        try:
+            return _anthropic(content, system, max_tokens)
+        except RuntimeError as e:
+            s = str(e).lower()
+            if GEMINI_KEY and ("credit balance" in s or "billing" in s or "anthropic 401" in s):
+                print("  provider switch: anthropic unavailable -> gemini free tier", file=sys.stderr)
+                _PROVIDER[0] = "gemini"
+            else:
+                raise
+    if _PROVIDER[0] == "gemini":
+        return _gemini(content, system, max_tokens)
+    raise RuntimeError("no LLM key available")
 CLASSIFY_MODEL = "claude-sonnet-4-6"
 CLASSIFY_SYS = (
  "You extract trading CALLS from a finance livestream transcript. "
@@ -400,13 +451,13 @@ def _anthropic(content, system, max_tokens=1500):
 
 def classify_calls(sents):
     """LLM pass over timestamped sentences -> clean calls. None = caller uses heuristic."""
-    if not ANTHROPIC_KEY or not sents:
+    if not _llm_ready() or not sents:
         return None
     text = "\n".join(f"[{int(t)}s] {s}" for t, s in sents)
     out = []; ok = False
     for i in range(0, len(text), 9000):
         try:
-            raw = _anthropic(text[i:i+9000], CLASSIFY_SYS, 1500)
+            raw = _llm(text[i:i+9000], CLASSIFY_SYS, 1500)
             raw = raw[raw.find("["): raw.rfind("]")+1]
             for c in json.loads(raw):
                 tk = str(c.get("ticker","")).upper().strip()
@@ -541,12 +592,90 @@ def merge_archives(old, new):
 
 _LLM_ERRORS = []
 
+DISPATCH_SYS = """You write The Daily Dispatch for The Record, the written recap of The Threadguy Stream (Counterparty).
+Hard rules: concise and punchy; NEVER use em-dashes; no hype; nothing attributed to a guest unless it appears in the lines provided; never invent numbers or facts.
+Given one show's transcript lines and its logged calls, return ONLY a JSON object:
+{"grade":"B+","head":"max 60 chars, the day in one line","stand":"one sentence, the stance","lead":"3 to 5 sentences, what mattered and why","p":"2 to 4 sentences on the rest of the tape","lesson":"1 or 2 sentences, the takeaway a trader keeps"}
+Grade the day's calls honestly, A to D. Return only the JSON."""
+
+_MONTHS = {m: i + 1 for i, m in enumerate(
+    ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"])}
+
+def _dlabel_to_date(dlabel, ref):
+    """'Jul 24' -> date, assuming the most recent past occurrence relative to ref."""
+    try:
+        mon, day = dlabel.split()
+        dt = datetime(ref.year, _MONTHS[mon[:3]], int(day), tzinfo=timezone.utc)
+        if dt > ref + timedelta(days=2):
+            dt = dt.replace(year=ref.year - 1)
+        return dt
+    except Exception:
+        return None
+
+def build_dispatch(feed, tape, prev_dispatch, max_new=10):
+    """LLM-written daily editions for recent shows that lack one. Old editions are
+    preserved by the merge; this only fills the gap, newest first."""
+    if not _llm_ready():
+        return []
+    now = datetime.now(timezone.utc)
+    def norm(datestr):
+        try:
+            _, md = datestr.split(", ")
+            mon, day = md.split()
+            return (mon[:3], int(day))
+        except Exception:
+            return None
+    have = {norm(e.get("date", "")) for e in (prev_dispatch or [])}
+    out = []
+    for f in feed:
+        if len(out) >= max_new:
+            break
+        dl = f.get("d", "")
+        try:
+            mon, day = dl.split(); key = (mon[:3], int(day))
+        except Exception:
+            continue
+        if key in have:
+            continue
+        ep_lines = [t for t in tape if t[5] == dl][:400]
+        if len(ep_lines) < 30:
+            continue
+        dt = _dlabel_to_date(dl, now)
+        if not dt or (now - dt).days > 21:
+            continue   # editions are written while the calls still matter
+        corpus = ("SHOW: " + f.get("t", "") + "\nCALLS: " + json.dumps(f.get("calls", [])[:12])
+                  + "\nLINES:\n" + "\n".join(x[2] + " " + x[1] for x in ep_lines))[:16000]
+        try:
+            raw = _llm(corpus, DISPATCH_SYS, 900)
+            raw = raw[raw.find("{"): raw.rfind("}") + 1]
+            j = json.loads(raw)
+            body = [["lead", str(j.get("lead", ""))[:900]]]
+            if j.get("p"): body.append(["p", str(j["p"])[:700]])
+            if j.get("lesson"): body.append(["lesson", str(j["lesson"])[:400]])
+            monday = dt - timedelta(days=dt.weekday())
+            out.append({
+                "id": "d" + dt.strftime("%m%d"),
+                "date": dt.strftime("%A, %B %-d") if hasattr(dt, 'strftime') else dl,
+                "read": "3 min" if len(str(j.get("lead",""))) > 400 else "2 min",
+                "grade": str(j.get("grade", "B"))[:2],
+                "head": str(j.get("head", f.get("t","")[:60]))[:80],
+                "stand": str(j.get("stand", ""))[:200],
+                "body": body,
+                "wk": monday.strftime("%Y-%m-%d"),
+                "wklabel": "Week of " + monday.strftime("%B %-d"),
+            })
+            print(f"  dispatch written: {dl} ({out[-1]['grade']}) {out[-1]['head'][:50]}")
+            have.add(key)
+        except Exception as e:
+            print(f"  ! dispatch failed for {dl} ({e})", file=sys.stderr)
+            if len(_LLM_ERRORS) < 8: _LLM_ERRORS.append("dispatch: " + str(e)[:180])
+    return out
+
 def _key_diag():
     """One loud, unambiguous line in every run log about the API key state."""
-    if ANTHROPIC_KEY:
-        print(f"ANTHROPIC_API_KEY: present ({ANTHROPIC_KEY[:10]}..., {len(ANTHROPIC_KEY)} chars) -> LLM pass ON")
-    else:
-        print("ANTHROPIC_API_KEY: ABSENT -> heuristic fallback, lexicon/dispatch/grading will be EMPTY")
+    a = f"present ({ANTHROPIC_KEY[:10]}..., {len(ANTHROPIC_KEY)} chars)" if ANTHROPIC_KEY else "absent"
+    g = f"present ({GEMINI_KEY[:8]}..., {len(GEMINI_KEY)} chars)" if GEMINI_KEY else "absent"
+    print(f"ANTHROPIC_API_KEY: {a} | GEMINI_API_KEY: {g} -> LLM pass {'ON' if _llm_ready() else 'OFF (heuristic only)'}")
 
 def build(all_episodes=False, limit=20):
     _key_diag()
@@ -625,8 +754,10 @@ def build(all_episodes=False, limit=20):
             "graded": graded, "open": sum(len(f["calls"]) for f in feed) - graded,
             "shows": len(feed),
         },
-        # voices / dispatch left for the editor pass (the human seat)
+        # voices left for the editor pass (the human seat)
     }
+    prev = load_existing() or {}
+    data["dispatch"] = build_dispatch(feed, tape, prev.get("dispatch"), max_new=(10 if all_episodes else 2))
     STUDIED = ["AMC", "ZEC", "MU", "MSTR", "HYPE", "WTI"]
     for tk in STUDIED:
         series = price_window(tk)
