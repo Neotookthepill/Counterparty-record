@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T11:15:20.791946+00:00",
+  "generated_at": "2026-07-29T14:57:38.599960+00:00",
   "source": "counterparty public podcast feed (buzzsprout) + own extraction",
   "feed": [
     {
@@ -3108,7 +3108,7 @@
           "SOL",
           "L",
           "red",
-          "-13.7%",
+          "-13.6%",
           "Like, I still have bags of Solana that I bought sub $20.",
           "",
           41,
@@ -3396,7 +3396,7 @@
           "SOL",
           "L",
           "red",
-          "-12.8%",
+          "-12.7%",
           "And the only other time that I feel like that's happened was briefly during AI season in 2024, where it obvious I mean i",
           "",
           1656,
@@ -3453,7 +3453,7 @@
           "SOL",
           "L",
           "red",
-          "-12.8%",
+          "-12.7%",
           "Is my long tail like bear Solana because I gotta do it.",
           "",
           1386,
@@ -282511,7 +282511,7 @@
   },
   "stats": {
     "green_now": null,
-    "avg_ret": 0.6,
+    "avg_ret": -0.5,
     "graded": 0,
     "open": 406,
     "shows": 111
