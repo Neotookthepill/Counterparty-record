@@ -420,6 +420,7 @@ def classify_calls(sents):
             ok = True
         except Exception as e:
             print(f"  ! classify chunk failed ({e})", file=sys.stderr)
+            if len(_LLM_ERRORS) < 8: _LLM_ERRORS.append(str(e)[:200])
     if not ok:
         return None   # every chunk failed -> fall back to heuristic, do not wipe
     seen, uniq = set(), []
@@ -538,6 +539,8 @@ def merge_archives(old, new):
     new["stats"] = st
     return new
 
+_LLM_ERRORS = []
+
 def _key_diag():
     """One loud, unambiguous line in every run log about the API key state."""
     if ANTHROPIC_KEY:
@@ -644,6 +647,14 @@ def build(all_episodes=False, limit=20):
         print(f"  lexicon: {len(lex)} terms from the corpus")
     # --- MERGE with the existing archive: The Record never memory-holes itself. ---
     # Scheduled runs only see the latest episodes; everything already on disk is kept.
+    data["diag"] = {
+        "key_present": bool(ANTHROPIC_KEY),
+        "key_prefix": (ANTHROPIC_KEY[:10] + "...") if ANTHROPIC_KEY else None,
+        "key_len": len(ANTHROPIC_KEY) if ANTHROPIC_KEY else 0,
+        "llm_errors": _LLM_ERRORS,
+        "lexicon_built": len(data.get("lexicon") or []),
+        "dispatch_built": len(data.get("dispatch") or []),
+    }
     data = merge_archives(load_existing(), data)
     with open(OUT, "w") as f:
         json.dump(data, f, indent=2)
