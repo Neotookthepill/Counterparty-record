@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T14:57:38.599960+00:00",
+  "generated_at": "2026-07-30T14:02:04.936929+00:00",
   "source": "counterparty public podcast feed (buzzsprout) + own extraction",
   "feed": [
     {
@@ -125,7 +125,7 @@
           "BTC",
           "L",
           "red",
-          "+0.0%",
+          "-0.6%",
           "Uh made a bit of money on Bitcoin ETH, uh just buying it, I think, in in 2018, 2019.",
           "",
           2018,
@@ -176,7 +176,7 @@
           "HYPE",
           "L",
           "red",
-          "-4.4%",
+          "-11.3%",
           "They spot a new distribution channel, regulatory distortion, shortage or wave of hype before everyone else.",
           "",
           488,
@@ -216,7 +216,7 @@
           "BTC",
           "L",
           "red",
-          "-3.3%",
+          "-3.9%",
           "Not only a company built on Bitcoin, not only a company built with Bitcoin on its balance sheet, but also a company with",
           "",
           939,
@@ -263,7 +263,7 @@
           "HYPE",
           "S",
           "green",
-          "+4.4%",
+          "+11.3%",
           "His hype short is up $800k.",
           "",
           451,
@@ -273,7 +273,7 @@
           "BTC",
           "L",
           "red",
-          "-3.3%",
+          "-3.9%",
           "Bitcoin long plus 150.",
           "",
           464,
@@ -370,7 +370,7 @@
           "ZEC",
           "L",
           "red",
-          "-8.8%",
+          "-12.2%",
           "It was the thesis I had when I first bought Zcash a couple months back, which was a really, really, really big trade for",
           "",
           2137,
@@ -380,7 +380,7 @@
           "HYPE",
           "L",
           "red",
-          "-4.4%",
+          "-11.3%",
           "Watch this revenue market cap for hype, it's not bad, and it is holding.",
           "",
           2441,
@@ -447,7 +447,7 @@
           "ETH",
           "L",
           "green",
-          "+5.7%",
+          "+7.6%",
           "Bought some ETH here after promising myself last summer I never do it again.",
           "",
           2371,
@@ -528,7 +528,7 @@
           "BTC",
           "S",
           "red",
-          "-1.8%",
+          "-1.1%",
           "Like I think of Bitcoin after 1010 when it's hanging out around 100k and everyone's like, This is the bottom, this is th",
           "",
           437,
@@ -662,7 +662,7 @@
           "ETH",
           "L",
           "green",
-          "+12.5%",
+          "+14.6%",
           "So Jared from Subway was the most profitable MVV bot sandwich bought during really the ETH run.",
           "",
           1613,
@@ -692,7 +692,7 @@
           "SOL",
           "L",
           "green",
-          "+7.0%",
+          "+5.7%",
           "Uh, Ansome Solana Long.",
           "",
           2060,
@@ -702,7 +702,7 @@
           "BTC",
           "L",
           "green",
-          "+2.6%",
+          "+2.0%",
           "He bought one of his lowest purchases ever of Bitcoin.",
           "",
           2083,
@@ -846,7 +846,7 @@
           "BTC",
           "L",
           "green",
-          "+1.3%",
+          "+0.7%",
           "I think the real spot was Sailor sold Bitcoin.",
           "",
           422,
@@ -281877,658 +281877,659 @@
     "ZEC": [
       [
         0,
-        366.56,
-        402.81,
-        320.35,
-        339.73
-      ],
-      [
-        1,
         340.09,
         340.7,
         266.15,
         270.46
       ],
       [
-        2,
+        1,
         270.76,
         282.0,
         187.74,
         239.75
       ],
       [
-        3,
+        2,
         239.79,
         251.63,
         220.68,
         240.0
       ],
       [
-        4,
+        3,
         240.21,
         331.3,
         228.04,
         297.04
       ],
       [
-        5,
+        4,
         297.22,
         309.5,
         254.37,
         261.08
       ],
       [
-        6,
+        5,
         261.5,
         265.59,
         230.08,
         236.89
       ],
       [
-        7,
+        6,
         237.56,
         259.21,
         214.67,
         218.83
       ],
       [
-        8,
+        7,
         218.59,
         233.16,
         203.57,
         220.41
       ],
       [
-        9,
+        8,
         220.58,
         250.19,
         193.27,
         197.01
       ],
       [
-        10,
+        9,
         197.12,
         229.83,
         192.39,
         212.28
       ],
       [
-        11,
+        10,
         212.66,
         234.71,
         203.39,
         229.28
       ],
       [
-        12,
+        11,
         230.58,
         288.39,
         227.29,
         234.29
       ],
       [
-        13,
+        12,
         234.5,
         239.75,
         213.66,
         228.48
       ],
       [
-        14,
+        13,
         228.32,
         246.42,
         213.35,
         215.69
       ],
       [
-        15,
+        14,
         215.61,
         256.87,
         209.38,
         248.16
       ],
       [
-        16,
+        15,
         247.43,
         257.88,
         231.73,
         250.77
       ],
       [
-        17,
+        16,
         250.45,
         339.18,
         237.0,
         323.54
       ],
       [
-        18,
+        17,
         323.8,
         386.65,
         308.34,
         361.85
       ],
       [
-        19,
+        18,
         361.53,
         381.54,
         333.77,
         340.48
       ],
       [
-        20,
+        19,
         341.08,
         354.9,
         300.58,
         311.8
       ],
       [
-        21,
+        20,
         312.13,
         366.13,
         307.17,
         359.57
       ],
       [
-        22,
+        21,
         359.57,
         364.23,
         330.91,
         336.0
       ],
       [
-        23,
+        22,
         335.93,
         392.42,
         318.69,
         387.1
       ],
       [
-        24,
+        23,
         387.72,
         603.2,
         379.9,
         553.81
       ],
       [
-        25,
+        24,
         554.64,
         637.66,
         533.86,
         592.81
       ],
       [
-        26,
+        25,
         592.81,
         593.91,
         515.94,
         560.17
       ],
       [
-        27,
+        26,
         560.56,
         569.19,
         487.29,
         561.06
       ],
       [
-        28,
+        27,
         563.11,
         687.58,
         551.62,
         584.04
       ],
       [
-        29,
+        28,
         582.58,
         683.14,
         567.47,
         567.9
       ],
       [
-        30,
+        29,
         569.77,
         581.45,
         504.05,
         527.19
       ],
       [
-        31,
+        30,
         528.2,
         642.41,
         526.48,
         623.0
       ],
       [
-        32,
+        31,
         620.93,
         629.53,
         257.56,
         440.8
       ],
       [
-        33,
+        32,
         439.98,
         479.73,
         401.78,
         427.86
       ],
       [
-        34,
+        33,
         427.99,
         540.92,
         404.12,
         518.51
       ],
       [
-        35,
+        34,
         518.5,
         532.51,
         440.97,
         476.8
       ],
       [
-        36,
+        35,
         476.73,
         485.91,
         411.41,
         415.57
       ],
       [
-        37,
+        36,
         415.7,
         426.19,
         386.74,
         395.13
       ],
       [
-        38,
+        37,
         395.03,
         423.38,
         368.11,
         416.67
       ],
       [
-        39,
+        38,
         416.7,
         474.17,
         410.84,
         461.91
       ],
       [
-        40,
+        39,
         461.92,
         511.06,
         438.78,
         481.31
       ],
       [
-        41,
+        40,
         481.19,
         548.4,
         477.39,
         495.13
       ],
       [
-        42,
+        41,
         495.42,
         587.32,
         495.42,
         547.27
       ],
       [
-        43,
+        42,
         546.28,
         565.71,
         525.93,
         532.27
       ],
       [
-        44,
+        43,
         532.98,
         537.43,
         473.13,
         485.2
+      ],
+      [
+        44,
+        484.98,
+        509.56,
+        451.53,
+        467.14
       ]
     ],
     "HYPE": [
       [
         0,
-        24.99,
-        34.79,
-        24.99,
-        30.6
-      ],
-      [
-        1,
         30.58,
         38.3,
         27.67,
         32.63
       ],
       [
-        2,
+        1,
         32.52,
         36.66,
         31.06,
         31.42
       ],
       [
-        3,
+        2,
         31.48,
         33.46,
         28.45,
         29.41
       ],
       [
-        4,
+        3,
         29.45,
         32.27,
         29.36,
         30.74
       ],
       [
-        5,
+        4,
         30.75,
         31.42,
         27.88,
         29.08
       ],
       [
-        6,
+        5,
         29.08,
         30.59,
         25.9,
         26.43
       ],
       [
-        7,
+        6,
         26.46,
         29.96,
         25.8,
         27.34
       ],
       [
-        8,
+        7,
         27.4,
         33.58,
         26.25,
         31.35
       ],
       [
-        9,
+        8,
         31.33,
         33.21,
         29.56,
         30.38
       ],
       [
-        10,
+        9,
         30.39,
         37.85,
         29.83,
         36.28
       ],
       [
-        11,
+        10,
         36.25,
         38.71,
         35.86,
         37.3
       ],
       [
-        12,
+        11,
         37.46,
         43.67,
         37.31,
         39.33
       ],
       [
-        13,
+        12,
         39.3,
         40.67,
         36.82,
         37.4
       ],
       [
-        14,
+        13,
         37.37,
         41.5,
         37.3,
         38.6
       ],
       [
-        15,
+        14,
         38.61,
         40.23,
         35.69,
         36.58
       ],
       [
-        16,
+        15,
         36.49,
         37.75,
         34.48,
         36.42
       ],
       [
-        17,
+        16,
         36.4,
         39.77,
         35.17,
         38.76
       ],
       [
-        18,
+        17,
         38.72,
         43.03,
         38.22,
         40.83
       ],
       [
-        19,
+        18,
         40.87,
         45.69,
         40.87,
         43.84
       ],
       [
-        20,
+        19,
         43.87,
         45.51,
         40.55,
         40.75
       ],
       [
-        21,
+        20,
         40.72,
         41.81,
         38.92,
         41.14
       ],
       [
-        22,
+        21,
         41.14,
         43.53,
         39.5,
         40.16
       ],
       [
-        23,
+        22,
         40.16,
         42.4,
         38.77,
         41.28
       ],
       [
-        24,
+        23,
         41.26,
         44.69,
         40.69,
         43.07
       ],
       [
-        25,
+        24,
         43.11,
         44.33,
         41.91,
         42.97
       ],
       [
-        26,
+        25,
         42.97,
         44.74,
         38.24,
         44.17
       ],
       [
-        27,
+        26,
         44.16,
         47.71,
         40.44,
         47.63
       ],
       [
-        28,
+        27,
         47.71,
         62.28,
         46.96,
         54.82
       ],
       [
-        29,
+        28,
         54.68,
         64.66,
         54.18,
         59.57
       ],
       [
-        30,
+        29,
         59.49,
         68.48,
         56.37,
         68.26
       ],
       [
-        31,
+        30,
         68.25,
         75.53,
         67.48,
         74.57
       ],
       [
-        32,
+        31,
         74.5,
         75.24,
         55.56,
         59.61
       ],
       [
-        33,
+        32,
         59.61,
         65.68,
         52.68,
         58.91
       ],
       [
-        34,
+        33,
         58.91,
         68.54,
         56.89,
         66.88
       ],
       [
-        35,
+        34,
         66.89,
         76.87,
         65.67,
         70.27
       ],
       [
-        36,
+        35,
         70.28,
         71.35,
         61.62,
         62.13
       ],
       [
-        37,
+        36,
         62.12,
         65.32,
         58.71,
         61.61
       ],
       [
-        38,
+        37,
         61.62,
         67.65,
         60.63,
         62.35
       ],
       [
-        39,
+        38,
         62.35,
         71.95,
         61.82,
         71.27
       ],
       [
-        40,
+        39,
         71.27,
         72.71,
         66.19,
         67.1
       ],
       [
-        41,
+        40,
         67.08,
         69.28,
         62.58,
         63.43
       ],
       [
-        42,
+        41,
         63.44,
         68.86,
         58.49,
         59.69
       ],
       [
-        43,
+        42,
         59.77,
         63.35,
         58.39,
         60.84
       ],
       [
-        44,
+        43,
         60.86,
         61.16,
         56.65,
         58.14
+      ],
+      [
+        44,
+        58.1,
+        60.4,
+        53.11,
+        53.88
       ]
     ]
   },
   "stats": {
     "green_now": null,
-    "avg_ret": -0.5,
+    "avg_ret": 0.5,
     "graded": 0,
     "open": 406,
     "shows": 111
   },
+  "dispatch": [],
   "diag": {
     "key_present": true,
     "key_prefix": "sk-ant-api...",
     "key_len": 108,
     "llm_errors": [
-      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
-      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
-      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
-      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
-      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
-      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
-      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
-      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit"
+      "gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.",
+      "gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.",
+      "gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.",
+      "gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.",
+      "gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.",
+      "gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.",
+      "gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.",
+      "gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google."
     ],
     "lexicon_built": 0,
     "dispatch_built": 0
