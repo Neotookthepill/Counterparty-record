@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T13:30:11.438642+00:00",
+  "generated_at": "2026-07-29T14:57:38.599960+00:00",
   "source": "counterparty public podcast feed (buzzsprout) + own extraction",
   "feed": [
     {
@@ -125,7 +125,7 @@
           "BTC",
           "L",
           "red",
-          "-0.6%",
+          "+0.0%",
           "Uh made a bit of money on Bitcoin ETH, uh just buying it, I think, in in 2018, 2019.",
           "",
           2018,
@@ -176,7 +176,7 @@
           "HYPE",
           "L",
           "red",
-          "-11.4%",
+          "-4.4%",
           "They spot a new distribution channel, regulatory distortion, shortage or wave of hype before everyone else.",
           "",
           488,
@@ -216,7 +216,7 @@
           "BTC",
           "L",
           "red",
-          "-3.9%",
+          "-3.3%",
           "Not only a company built on Bitcoin, not only a company built with Bitcoin on its balance sheet, but also a company with",
           "",
           939,
@@ -263,7 +263,7 @@
           "HYPE",
           "S",
           "green",
-          "+11.4%",
+          "+4.4%",
           "His hype short is up $800k.",
           "",
           451,
@@ -273,7 +273,7 @@
           "BTC",
           "L",
           "red",
-          "-3.9%",
+          "-3.3%",
           "Bitcoin long plus 150.",
           "",
           464,
@@ -370,7 +370,7 @@
           "ZEC",
           "L",
           "red",
-          "-12.2%",
+          "-8.8%",
           "It was the thesis I had when I first bought Zcash a couple months back, which was a really, really, really big trade for",
           "",
           2137,
@@ -380,7 +380,7 @@
           "HYPE",
           "L",
           "red",
-          "-11.4%",
+          "-4.4%",
           "Watch this revenue market cap for hype, it's not bad, and it is holding.",
           "",
           2441,
@@ -447,7 +447,7 @@
           "ETH",
           "L",
           "green",
-          "+7.6%",
+          "+5.7%",
           "Bought some ETH here after promising myself last summer I never do it again.",
           "",
           2371,
@@ -528,7 +528,7 @@
           "BTC",
           "S",
           "red",
-          "-1.1%",
+          "-1.8%",
           "Like I think of Bitcoin after 1010 when it's hanging out around 100k and everyone's like, This is the bottom, this is th",
           "",
           437,
@@ -662,7 +662,7 @@
           "ETH",
           "L",
           "green",
-          "+14.6%",
+          "+12.5%",
           "So Jared from Subway was the most profitable MVV bot sandwich bought during really the ETH run.",
           "",
           1613,
@@ -692,7 +692,7 @@
           "SOL",
           "L",
           "green",
-          "+5.7%",
+          "+7.0%",
           "Uh, Ansome Solana Long.",
           "",
           2060,
@@ -702,7 +702,7 @@
           "BTC",
           "L",
           "green",
-          "+2.0%",
+          "+2.6%",
           "He bought one of his lowest purchases ever of Bitcoin.",
           "",
           2083,
@@ -846,7 +846,7 @@
           "BTC",
           "L",
           "green",
-          "+0.7%",
+          "+1.3%",
           "I think the real spot was Sailor sold Bitcoin.",
           "",
           422,
@@ -281877,661 +281877,1250 @@
     "ZEC": [
       [
         0,
+        366.56,
+        402.81,
+        320.35,
+        339.73
+      ],
+      [
+        1,
         340.09,
         340.7,
         266.15,
         270.46
       ],
       [
-        1,
+        2,
         270.76,
         282.0,
         187.74,
         239.75
       ],
       [
-        2,
+        3,
         239.79,
         251.63,
         220.68,
         240.0
       ],
       [
-        3,
+        4,
         240.21,
         331.3,
         228.04,
         297.04
       ],
       [
-        4,
+        5,
         297.22,
         309.5,
         254.37,
         261.08
       ],
       [
-        5,
+        6,
         261.5,
         265.59,
         230.08,
         236.89
       ],
       [
-        6,
+        7,
         237.56,
         259.21,
         214.67,
         218.83
       ],
       [
-        7,
+        8,
         218.59,
         233.16,
         203.57,
         220.41
       ],
       [
-        8,
+        9,
         220.58,
         250.19,
         193.27,
         197.01
       ],
       [
-        9,
+        10,
         197.12,
         229.83,
         192.39,
         212.28
       ],
       [
-        10,
+        11,
         212.66,
         234.71,
         203.39,
         229.28
       ],
       [
-        11,
+        12,
         230.58,
         288.39,
         227.29,
         234.29
       ],
       [
-        12,
+        13,
         234.5,
         239.75,
         213.66,
         228.48
       ],
       [
-        13,
+        14,
         228.32,
         246.42,
         213.35,
         215.69
       ],
       [
-        14,
+        15,
         215.61,
         256.87,
         209.38,
         248.16
       ],
       [
-        15,
+        16,
         247.43,
         257.88,
         231.73,
         250.77
       ],
       [
-        16,
+        17,
         250.45,
         339.18,
         237.0,
         323.54
       ],
       [
-        17,
+        18,
         323.8,
         386.65,
         308.34,
         361.85
       ],
       [
-        18,
+        19,
         361.53,
         381.54,
         333.77,
         340.48
       ],
       [
-        19,
+        20,
         341.08,
         354.9,
         300.58,
         311.8
       ],
       [
-        20,
+        21,
         312.13,
         366.13,
         307.17,
         359.57
       ],
       [
-        21,
+        22,
         359.57,
         364.23,
         330.91,
         336.0
       ],
       [
-        22,
+        23,
         335.93,
         392.42,
         318.69,
         387.1
       ],
       [
-        23,
+        24,
         387.72,
         603.2,
         379.9,
         553.81
       ],
       [
-        24,
+        25,
         554.64,
         637.66,
         533.86,
         592.81
       ],
       [
-        25,
+        26,
         592.81,
         593.91,
         515.94,
         560.17
       ],
       [
-        26,
+        27,
         560.56,
         569.19,
         487.29,
         561.06
       ],
       [
-        27,
+        28,
         563.11,
         687.58,
         551.62,
         584.04
       ],
       [
-        28,
+        29,
         582.58,
         683.14,
         567.47,
         567.9
       ],
       [
-        29,
+        30,
         569.77,
         581.45,
         504.05,
         527.19
       ],
       [
-        30,
+        31,
         528.2,
         642.41,
         526.48,
         623.0
       ],
       [
-        31,
+        32,
         620.93,
         629.53,
         257.56,
         440.8
       ],
       [
-        32,
+        33,
         439.98,
         479.73,
         401.78,
         427.86
       ],
       [
-        33,
+        34,
         427.99,
         540.92,
         404.12,
         518.51
       ],
       [
-        34,
+        35,
         518.5,
         532.51,
         440.97,
         476.8
       ],
       [
-        35,
+        36,
         476.73,
         485.91,
         411.41,
         415.57
       ],
       [
-        36,
+        37,
         415.7,
         426.19,
         386.74,
         395.13
       ],
       [
-        37,
+        38,
         395.03,
         423.38,
         368.11,
         416.67
       ],
       [
-        38,
+        39,
         416.7,
         474.17,
         410.84,
         461.91
       ],
       [
-        39,
+        40,
         461.92,
         511.06,
         438.78,
         481.31
       ],
       [
-        40,
+        41,
         481.19,
         548.4,
         477.39,
         495.13
       ],
       [
-        41,
+        42,
         495.42,
         587.32,
         495.42,
         547.27
       ],
       [
-        42,
+        43,
         546.28,
         565.71,
         525.93,
         532.27
       ],
       [
-        43,
+        44,
         532.98,
         537.43,
         473.13,
         485.2
-      ],
-      [
-        44,
-        484.98,
-        509.56,
-        451.53,
-        467.14
       ]
     ],
     "HYPE": [
       [
         0,
+        24.99,
+        34.79,
+        24.99,
+        30.6
+      ],
+      [
+        1,
         30.58,
         38.3,
         27.67,
         32.63
       ],
       [
-        1,
+        2,
         32.52,
         36.66,
         31.06,
         31.42
       ],
       [
-        2,
+        3,
         31.48,
         33.46,
         28.45,
         29.41
       ],
       [
-        3,
+        4,
         29.45,
         32.27,
         29.36,
         30.74
       ],
       [
-        4,
+        5,
         30.75,
         31.42,
         27.88,
         29.08
       ],
       [
-        5,
+        6,
         29.08,
         30.59,
         25.9,
         26.43
       ],
       [
-        6,
+        7,
         26.46,
         29.96,
         25.8,
         27.34
       ],
       [
-        7,
+        8,
         27.4,
         33.58,
         26.25,
         31.35
       ],
       [
-        8,
+        9,
         31.33,
         33.21,
         29.56,
         30.38
       ],
       [
-        9,
+        10,
         30.39,
         37.85,
         29.83,
         36.28
       ],
       [
-        10,
+        11,
         36.25,
         38.71,
         35.86,
         37.3
       ],
       [
-        11,
+        12,
         37.46,
         43.67,
         37.31,
         39.33
       ],
       [
-        12,
+        13,
         39.3,
         40.67,
         36.82,
         37.4
       ],
       [
-        13,
+        14,
         37.37,
         41.5,
         37.3,
         38.6
       ],
       [
-        14,
+        15,
         38.61,
         40.23,
         35.69,
         36.58
       ],
       [
-        15,
+        16,
         36.49,
         37.75,
         34.48,
         36.42
       ],
       [
-        16,
+        17,
         36.4,
         39.77,
         35.17,
         38.76
       ],
       [
-        17,
+        18,
         38.72,
         43.03,
         38.22,
         40.83
       ],
       [
-        18,
+        19,
         40.87,
         45.69,
         40.87,
         43.84
       ],
       [
-        19,
+        20,
         43.87,
         45.51,
         40.55,
         40.75
       ],
       [
-        20,
+        21,
         40.72,
         41.81,
         38.92,
         41.14
       ],
       [
-        21,
+        22,
         41.14,
         43.53,
         39.5,
         40.16
       ],
       [
-        22,
+        23,
         40.16,
         42.4,
         38.77,
         41.28
       ],
       [
-        23,
+        24,
         41.26,
         44.69,
         40.69,
         43.07
       ],
       [
-        24,
+        25,
         43.11,
         44.33,
         41.91,
         42.97
       ],
       [
-        25,
+        26,
         42.97,
         44.74,
         38.24,
         44.17
       ],
       [
-        26,
+        27,
         44.16,
         47.71,
         40.44,
         47.63
       ],
       [
-        27,
+        28,
         47.71,
         62.28,
         46.96,
         54.82
       ],
       [
-        28,
+        29,
         54.68,
         64.66,
         54.18,
         59.57
       ],
       [
-        29,
+        30,
         59.49,
         68.48,
         56.37,
         68.26
       ],
       [
-        30,
+        31,
         68.25,
         75.53,
         67.48,
         74.57
       ],
       [
-        31,
+        32,
         74.5,
         75.24,
         55.56,
         59.61
       ],
       [
-        32,
+        33,
         59.61,
         65.68,
         52.68,
         58.91
       ],
       [
-        33,
+        34,
         58.91,
         68.54,
         56.89,
         66.88
       ],
       [
-        34,
+        35,
         66.89,
         76.87,
         65.67,
         70.27
       ],
       [
-        35,
+        36,
         70.28,
         71.35,
         61.62,
         62.13
       ],
       [
-        36,
+        37,
         62.12,
         65.32,
         58.71,
         61.61
       ],
       [
-        37,
+        38,
         61.62,
         67.65,
         60.63,
         62.35
       ],
       [
-        38,
+        39,
         62.35,
         71.95,
         61.82,
         71.27
       ],
       [
-        39,
+        40,
         71.27,
         72.71,
         66.19,
         67.1
       ],
       [
-        40,
+        41,
         67.08,
         69.28,
         62.58,
         63.43
       ],
       [
-        41,
+        42,
         63.44,
         68.86,
         58.49,
         59.69
       ],
       [
-        42,
+        43,
         59.77,
         63.35,
         58.39,
         60.84
       ],
       [
-        43,
+        44,
         60.86,
         61.16,
         56.65,
         58.14
-      ],
-      [
-        44,
-        58.1,
-        60.4,
-        53.11,
-        53.88
       ]
     ]
   },
   "stats": {
     "green_now": null,
-    "avg_ret": 0.5,
+    "avg_ret": -0.5,
     "graded": 0,
     "open": 406,
     "shows": 111
   },
-  "dispatch": [],
   "diag": {
     "key_present": true,
     "key_prefix": "sk-ant-api...",
     "key_len": 108,
     "llm_errors": [
-      "gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.",
-      "gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.",
-      "gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.",
-      "gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.",
-      "gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.",
-      "gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.",
-      "gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.",
-      "gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google."
+      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
+      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
+      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
+      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
+      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
+      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
+      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
+      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit"
     ],
     "lexicon_built": 0,
-    "dispatch_built": 0
-  }
+    "dispatch_built": 0,
+    "editor_pass": "dispatch+lexicon written by the desk editor, 2026-07-29"
+  },
+  "lexicon": [
+    [
+      "13F",
+      "The quarterly filing where big funds must reveal their stock positions, months late. The desk reads them for clues, not for entries.",
+      "\u201cthat's the problem with the 13F, right?\u201d"
+    ],
+    [
+      "After hours",
+      "Trading after the exchange closes, thin and jumpy. Where earnings reactions print first.",
+      "\u201cIt's now done like 1% ish after hours at 198\u201d"
+    ],
+    [
+      "Airdrop",
+      "Free tokens distributed to users, usually to bootstrap a community. Free is often what they stay worth.",
+      "\u201cThey didn't give you a worth worthless airdrop\u201d"
+    ],
+    [
+      "Alt season",
+      "The phase when money floods from Bitcoin into everything else. This cycle, the desk barely saw one.",
+      "\u201cWe had a alt season at one point for like, I don't know, 12 hours\u201d"
+    ],
+    [
+      "Aping",
+      "Buying fast and heavy on instinct, before the full analysis. The entry comes first, the thesis catches up.",
+      "\u201cSo I bought that dip and just started aping it\u201d"
+    ],
+    [
+      "ATH (all-time high)",
+      "The highest price an asset has ever traded. Above it, there is no overhead seller left.",
+      "\u201cgoes on this crazy run\u2026 a new all-time high\u201d"
+    ],
+    [
+      "Bag",
+      "A position you are holding. Here, the chunk of capital put to work in a basket of names.",
+      "\u201cI just put a bag into spot stocks\u201d"
+    ],
+    [
+      "Barnacle trade",
+      "Attaching to a giant, slow trend and letting it carry you, no steering required.",
+      "\u201cI don't know a single person with a pet barnacle\u201d"
+    ],
+    [
+      "Bear market",
+      "When prices grind down and every rally gets sold. The regime that separates traders from tourists.",
+      "\u201cIn a bear market, if you're making money, it's pure PL\u201d"
+    ],
+    [
+      "Bottleneck",
+      "The one scarce component the whole boom depends on. Find the bottleneck and you find the trade.",
+      "\u201crobotics bottlenecks up across the board\u201d"
+    ],
+    [
+      "Break containment",
+      "When a story escapes its niche and goes mainstream. Borrowed from AI safety, applied to narratives.",
+      "\u201cI really thought the SWATS thing was gonna break containment\u201d"
+    ],
+    [
+      "Breakout",
+      "Price pushing through a level it kept failing at, usually on volume. The desk's favorite entry.",
+      "\u201chigh volume breakout one five five and strong as shit\u201d"
+    ],
+    [
+      "Buyback",
+      "A company purchasing its own shares to support the price. The lever managements pull when they want the stock to matter.",
+      "\u201cI'm gonna turn buybacks on and off, right?\u201d"
+    ],
+    [
+      "Capex",
+      "Capital expenditure, the money companies pour into building. The AI trade lives and dies on hyperscaler capex.",
+      "\u201cAnd most of it being this like AI capex, right?\u201d"
+    ],
+    [
+      "Capitulation",
+      "The moment holders finally give up and sell everything, usually near the bottom. Public capitulations move markets.",
+      "\u201cdown 6.3% after David Hoffman publicly capitulated\u201d"
+    ],
+    [
+      "Catalyst",
+      "The scheduled event (earnings, launch, ruling) expected to move a price. A call without a catalyst is just a hope.",
+      "\u201cThat's another big, big catalyst for growing their AUM\u201d"
+    ],
+    [
+      "Chop",
+      "Sideways, directionless price action that stops out both sides. The desk waits it out.",
+      "\u201cchopping at all-time highs, ready to go\u201d"
+    ],
+    [
+      "Circuit breaker",
+      "An automatic exchange halt after a crash-sized move. When you hear it, someone is being liquidated.",
+      "\u201cWe have Korean stocks, new ATH, circuit breakers everywhere\u201d"
+    ],
+    [
+      "Conviction",
+      "How strongly you believe a trade. It is what sizes the bet: high conviction gets size, low conviction stays small.",
+      "\u201cI\u2019m long SpaceX, pretty low conviction longs\u201d"
+    ],
+    [
+      "Cooked",
+      "Finished, broken, out of road. Said of a trade, a company, or a person.",
+      "\u201cwhen this happens, oil's gonna get cooked\u201d"
+    ],
+    [
+      "CPI",
+      "The consumer price index, the monthly inflation number the whole market trades around.",
+      "\u201cSo CPI came in, consumer price index, which is so stupid\u201d"
+    ],
+    [
+      "Degen",
+      "A trader who embraces maximum risk knowingly. On this show, half insult, half badge of honor.",
+      "\u201cZinn is the most popular degenerate product on the planet\u201d"
+    ],
+    [
+      "DEX",
+      "A decentralized exchange, trading straight from your wallet with no company in the middle.",
+      "\u201cDex volume is like exploded from that\u201d"
+    ],
+    [
+      "Dilution",
+      "A company issuing new shares, shrinking what each old share owns. How AMC turned the trade of the year into a lesson.",
+      "\u201cLower valuations, more dilution, less secondary\u201d"
+    ],
+    [
+      "Distillation",
+      "Training a model on another model's outputs to copy its ability at a fraction of the cost. The heart of the China AI fight.",
+      "\u201cdistillation is occurring at industrial scale\u201d"
+    ],
+    [
+      "Dump",
+      "A fast, hard sell-off. Price dropping in a hurry, often right after a pop.",
+      "\u201cI held it up 15%, and then it started dumping\u201d"
+    ],
+    [
+      "DXY",
+      "The dollar index, the dollar measured against other major currencies. Dollar up plus yields up is the risk-off cocktail.",
+      "\u201cSo DXY up and yield up is bad for the market\u201d"
+    ],
+    [
+      "Exit liquidity",
+      "Being the buyer a larger, forced seller needs in order to get out. You are the way they exit.",
+      "the read on every late forced Bitcoin buy"
+    ],
+    [
+      "Fade",
+      "Selling into a sharp move on the bet it has gone too far and reverses, instead of chasing it.",
+      "\u201cyou fade it until you\u2019re forced out\u201d"
+    ],
+    [
+      "Fade the war",
+      "The desk's standing habit: sell the spike every war or oil headline creates, betting the scare is already priced in and mean reverts.",
+      "\u201cwe\u2019re not gonna spend much time on war and oil, you fade it\u201d"
+    ],
+    [
+      "FDV",
+      "Fully diluted valuation, a token's price times every token that will ever exist. The number that makes cheap coins expensive.",
+      "\u201cI'm excited for the mega ETH FDV market\u201d"
+    ],
+    [
+      "Float",
+      "The shares actually available to trade. Small float plus big demand is how squeezes are born.",
+      "\u201cShorts are trying to cover into the float that didn't exist\u201d"
+    ],
+    [
+      "FOMC",
+      "The Fed committee that sets interest rates. Its meetings are the market's scheduled earthquakes.",
+      "\u201cI chaired my very first meeting of the FOMC\u201d"
+    ],
+    [
+      "Front run",
+      "Positioning before the crowd arrives, so their buying becomes your exit.",
+      "\u201cMaybe I don't want to like front run the dopamine\u201d"
+    ],
+    [
+      "Frontier model",
+      "The most capable AI models on earth, now treated like strategic assets by governments.",
+      "\u201cFrontier AI just became a rationed strategic asset\u201d"
+    ],
+    [
+      "FUD",
+      "Fear, uncertainty and doubt. The wave of scary chatter that hits a position right after you take it.",
+      "\u201cthere was just this crazy FUD\u201d"
+    ],
+    [
+      "Full port",
+      "Putting your entire account into one position, no diversification. On the show, conviction is the whole point, not a slice.",
+      "\u201cit was very, very full port\u201d"
+    ],
+    [
+      "Funding rate",
+      "The periodic payment between longs and shorts on perps that keeps the contract glued to spot. Crowding, measured in real time.",
+      "\u201cyou won't lose that much money on on a funding rate\u201d"
+    ],
+    [
+      "Gamma",
+      "How fast option dealers must adjust their hedges as price moves. When they are short gamma, their hedging amplifies every move.",
+      "\u201cthe dealer unwinding a delta hedge that had been short gamma\u201d"
+    ],
+    [
+      "Gap",
+      "Price jumping past levels without trading through them, usually on an overnight headline.",
+      "\u201cLook at this gap down and then somehow get ripped up on nothing\u201d"
+    ],
+    [
+      "Guidance",
+      "What a company says about its own future numbers. Often moves the stock more than the results do.",
+      "\u201cguidance, they're projecting minus 1% from last quarter\u201d"
+    ],
+    [
+      "HBM",
+      "High bandwidth memory, the specialized chips feeding data to AI processors. The layer where the memory war is fought.",
+      "\u201cIf you have HBM, you need advanced packaging\u201d"
+    ],
+    [
+      "HODL",
+      "Holding through everything, the old crypto religion. Rarely heard on a desk that trades daily.",
+      "\u201cI haven't heard someone say HODL in like like four years\u201d"
+    ],
+    [
+      "Hyperscalers",
+      "The giant cloud builders (Amazon, Google, Microsoft, Meta) whose spending drives the entire AI supply chain.",
+      "\u201cThey're not the hyperscalers like the Amazons of the world\u201d"
+    ],
+    [
+      "IRL trade",
+      "The desk's standing thesis that real world experiences (theaters, events, physical) are the next great consumer trade.",
+      "\u201cpilled on the IRL events thesis\u201d"
+    ],
+    [
+      "K-shape",
+      "An economy splitting in two directions at once: asset owners up, everyone else down. The AI era's defining chart.",
+      "\u201care we in this permanent K-shaped AI world?\u201d"
+    ],
+    [
+      "KOLing",
+      "Riding what the big accounts (key opinion leaders) push. Their flow becomes the trade.",
+      "\u201cKOLing NVIDIA is KOLing D RAM\u201d"
+    ],
+    [
+      "L1 / L2",
+      "Base blockchains (L1) and the faster networks built on top of them (L2). Where a coin lives shapes how it trades.",
+      "\u201cparticularly if it's on L2\u201d"
+    ],
+    [
+      "Leverage",
+      "Trading with borrowed money to multiply the result, both ways. The desk's rule: it should let you size down, not up.",
+      "\u201cIf anything, leverage allows you to size down\u201d"
+    ],
+    [
+      "Liquidation",
+      "A leveraged position force-closed by the exchange when the move goes against it. What cascades are made of.",
+      "\u201cit felt like mass crypto liquidations\u201d"
+    ],
+    [
+      "Lockup",
+      "The period after an IPO or TGE when insiders cannot sell. When it ends, supply arrives.",
+      "\u201cfirst post IPO lock up\u201d"
+    ],
+    [
+      "Margin call",
+      "The broker demanding more money right now or your position gets closed. The phone call every leveraged trader fears.",
+      "\u201cEveryone was mad at me when I showed the margin call\u201d"
+    ],
+    [
+      "Market maker",
+      "The firms quoting both sides of every market, paid by the spread. The house, in exchange clothing.",
+      "\u201ctip your cap to the market makers, right?\u201d"
+    ],
+    [
+      "Meme coin",
+      "A token whose only product is attention. The desk's view: that makes it the purest market there is.",
+      "\u201cthe core premise behind my pump fun bullishness\u201d"
+    ],
+    [
+      "mNAV",
+      "A treasury company's price versus the assets it actually holds. Above 1 you pay a premium for a wrapper, below 1 the market stopped believing.",
+      "\u201cit trades at 1x mnav\u201d"
+    ],
+    [
+      "Mog",
+      "To dominate someone so completely it becomes the story. Companies mog companies, charts mog charts.",
+      "\u201cthey're getting mogged pretty bad\u201d"
+    ],
+    [
+      "Momentum",
+      "Buying strength because strength attracts buyers. Half the desk's entries in two words: attention plus momentum.",
+      "\u201cMy entry is exclusively attention plus momentum based\u201d"
+    ],
+    [
+      "Narrative",
+      "The story that gives a trade its buyers. On this desk, narrative is not noise around the trade, it is the trade.",
+      "\u201cI think it's gonna be a huge narrative\u201d"
+    ],
+    [
+      "On-chain",
+      "Happening on a public blockchain, visible to everyone, settled without a broker. Where the desk says the casino is moving.",
+      "\u201cI bought an on-chain coin and I bought a lot of it\u201d"
+    ],
+    [
+      "Open interest",
+      "The total contracts currently open on a derivative. Rising OI means new money, not just churn.",
+      "\u201cThis thing has 300 mil volume, 56 mil open interest\u201d"
+    ],
+    [
+      "Open source AI",
+      "Models released for anyone to use and build on. China's weapon of choice in the AI race, and the year's biggest market debate.",
+      "\u201cChinese open source model is now number one\u201d"
+    ],
+    [
+      "Order book",
+      "The live list of every bid and offer. Where support is real or it is not.",
+      "\u201cthere is only one bidder in the order books\u201d"
+    ],
+    [
+      "Overhang",
+      "A known wall of future selling (an unlock, a seller, a treasury) hanging over a price.",
+      "\u201cit started to feel like an overhang to many people\u201d"
+    ],
+    [
+      "Perps",
+      "Perpetual futures, leveraged contracts with no expiry. The crypto native way to trade anything, now racing toward US legality.",
+      "\u201cYour wallet is your brokerage that has perps\u201d"
+    ],
+    [
+      "Pre-market",
+      "The thin session before the open, where headlines get priced with nobody around.",
+      "\u201clost everything it did in the pre-market\u201d"
+    ],
+    [
+      "Priced in",
+      "Already reflected in the price before you got there. The question to ask before every trade on public news.",
+      "\u201cI just don't think these inflows are priced in at all\u201d"
+    ],
+    [
+      "Privacy coin",
+      "Crypto designed so transactions cannot be traced. The desk's Zcash thesis lives here.",
+      "\u201cyou cannot trace the movements\u201d"
+    ],
+    [
+      "Pump",
+      "The opposite of a dump: a fast move up, usually on news or hype.",
+      "\u201cthis crazy run\u201d before it gave it all back"
+    ],
+    [
+      "QE",
+      "Quantitative easing, the Fed buying assets to flood the system with money. The tide every bull market since 2009 floated on.",
+      "\u201ccompared to the last time we had QE\u201d"
+    ],
+    [
+      "Rate cut",
+      "The Fed lowering interest rates, fuel for risk assets. Its absence is a regime of its own.",
+      "\u201crate cuts not happening, maybe hikes\u201d"
+    ],
+    [
+      "Re-rating",
+      "The market deciding an asset deserves a new multiple, up or down, independent of its results.",
+      "\u201cre-rated their IPO price\u201d"
+    ],
+    [
+      "Rip / rip the band-aid",
+      "Rip is a strong move higher. Rip the band-aid is taking the pain all at once instead of bleeding slowly.",
+      "\u201cripped the band-aid without acknowledging it\u201d"
+    ],
+    [
+      "Risk on",
+      "The mode where money chases upside. The desk tracks which assets signal the switch.",
+      "\u201cSolana is a reasonable risk on indicator\u201d"
+    ],
+    [
+      "Rotation",
+      "Capital sprinting from one hot theme to the next as attention moves. The market's real schedule.",
+      "\u201cit ends up looking like meme coin rotations a little bit\u201d"
+    ],
+    [
+      "Roundtrip",
+      "Riding a position all the way up and all the way back down without selling. The show's cardinal sin.",
+      "\u201cIt's tough to sell a round trip at break even\u201d"
+    ],
+    [
+      "RWAs",
+      "Real world assets, stocks and bonds minted on-chain. Every corporate chain's official pitch, until the meme coins arrive and do the volume.",
+      "\u201cRobinhood chain's goal is that they want RWAs, right?\u201d"
+    ],
+    [
+      "Sandwich",
+      "A bot buying right before your trade and selling right after it, taxing you both ways. On-chain's invisible toll.",
+      "\u201cGood luck pursuing legal action after getting sandwiched once\u201d"
+    ],
+    [
+      "Self custody",
+      "Holding your crypto yourself, keys and all, no exchange between you and your money.",
+      "\u201cthrough a self-custody wallet\u201d"
+    ],
+    [
+      "Sizing",
+      "How much of your money one trade gets. The desk's creed: the size should match the conviction, and it usually doesn't.",
+      "\u201cI'm in a trade still, rather than sizing it\u201d"
+    ],
+    [
+      "Slippage",
+      "The gap between the price you saw and the price you got. The cost of size and speed.",
+      "\u201cthere's some amount of slippage it's going to cause\u201d"
+    ],
+    [
+      "Spread",
+      "The gap between the best bid and the best offer. Someone earns it on every trade you make.",
+      "\u201cjust eating the spread of your bad fills\u201d"
+    ],
+    [
+      "SPV",
+      "A special purpose vehicle, a wrapper for private investments passed around on trust. Trust is the product.",
+      "\u201cI was offered SPV into uh into into OnlyFans\u201d"
+    ],
+    [
+      "Squeeze",
+      "A crowded short position forced to buy back as price rises, fueling the very rise that hurts it.",
+      "\u201clet's talk about the car short squeeze\u201d"
+    ],
+    [
+      "Stablecoin",
+      "Crypto pegged to the dollar, the cash of the on-chain economy.",
+      "\u201cStable coins are the primary armor of crypto\u201d"
+    ],
+    [
+      "Staking",
+      "Locking crypto to secure a network in exchange for yield. Where supply goes to sleep.",
+      "\u201croughly 70% of it is staked\u201d"
+    ],
+    [
+      "Stop loss",
+      "A preset exit that caps your loss if the trade goes against you. You decide the pain before you enter.",
+      "\u201cI just put a stop loss in\u201d"
+    ],
+    [
+      "Stopped out",
+      "Your stop triggered and you are out, often right before the move you wanted snaps back.",
+      "\u201cgot stopped out right before a candle\u201d"
+    ],
+    [
+      "TGE",
+      "Token generation event, the moment a project's token goes live and tradeable. Crypto's IPO.",
+      "\u201cWhat was the last hype TGE that performed well?\u201d"
+    ],
+    [
+      "Theta",
+      "The daily cost of holding options as time passes. Sellers collect it, buyers bleed it.",
+      "\u201cyou're short puts, you're getting Theta just destroyed\u201d"
+    ],
+    [
+      "Top signal",
+      "The absurd headline or purchase that marks euphoria's peak. The desk collects them like trophies.",
+      "\u201cI don't even know why this made the top signal list\u201d"
+    ],
+    [
+      "Volume",
+      "How much actually traded. The difference between a move that means something and a move that does not.",
+      "\u201cthis has not a ton of volume, but enough\u201d"
+    ],
+    [
+      "Wick down",
+      "A violent, fast flush below support that liquidates the leveraged before price comes back. The move exists to hurt, not to last.",
+      "\u201cthey'll just wick it down 70% in two days\u201d"
+    ],
+    [
+      "ZK",
+      "Zero knowledge cryptography, proving something is true without revealing the data. The math behind privacy coins, and behind the Zcash exploit.",
+      "\u201cOur ZK circuits can also be used for privacy\u201d"
+    ]
+  ],
+  "dispatch": [
+    {
+      "id": "d0728",
+      "date": "Tuesday, July 28",
+      "read": "3 min",
+      "grade": "B+",
+      "head": "The next celebrities are traders.",
+      "stand": "China's memory moment arrives the same week the desk names the next celebrity class: traders.",
+      "body": [
+        [
+          "lead",
+          "The thesis of the day was cultural, not technical: the next generation of celebrities will be traders and speculators, and the stream is building the arena for them. Behind it sat a harder story. CXMT's IPO is coming, a guest made the case that Cerebras is crushing a struggling Intel, and the short all American chips line landed on the record at 11:00. Meanwhile the SPX sits basically at all time highs after weeks of panic headlines, which tells you who was wrong."
+        ],
+        [
+          "p",
+          "Oil kept its drama. Brent printed a 95.6 local high on the Houthi attacks against Saudi crude supply before settling near 87, and the desk stayed unafraid. The open source AI fight took the back half, Jensen's clip, the All In debate, and the distillation argument, with the sharpest line saved for the labs: if stopping distillation were the real objective, the incentives would look different."
+        ],
+        [
+          "lesson",
+          "Panic is loud and the tape is quiet. All time highs during maximum fear is the tell worth keeping."
+        ]
+      ],
+      "wk": "2026-07-27",
+      "wklabel": "Week of July 27"
+    },
+    {
+      "id": "d0724",
+      "date": "Friday, July 24",
+      "read": "3 min",
+      "grade": "A-",
+      "head": "Bubble Boi sells everything.",
+      "stand": "The guest who nailed Intel walks in, takes profits, and reads last rites over the memory trade.",
+      "body": [
+        [
+          "lead",
+          "Bubble Boi earned this seat. He said he would come on if Intel beat, and Intel crushed earnings. So it mattered that he sat down selling everything. His memory case is surgical: Micron carries higher margins than NVIDIA on a less differentiated product, its HBM is the lowest quality of the big three, and CXMT's IPO is about to put a public price on the layer below. When the market pays those multiples for a commodity, the cycle is talking."
+        ],
+        [
+          "p",
+          "The bigger frame was NVIDIA's moat. Most future compute is probably not NVIDIA, it is the hyperscalers' own silicon, and the incentive structure of every lab points away from dependence. Not a collapse call, a ceiling call."
+        ],
+        [
+          "lesson",
+          "When the person who was right changes their mind, study the reasons before the price. Taking profit is a position too."
+        ]
+      ],
+      "wk": "2026-07-20",
+      "wklabel": "Week of July 20"
+    },
+    {
+      "id": "d0723",
+      "date": "Thursday, July 23",
+      "read": "3 min",
+      "grade": "B",
+      "head": "GME squeezed again, this time on-chain.",
+      "stand": "The oldest squeeze in the book found the newest rails, and the desk was in the room.",
+      "body": [
+        [
+          "lead",
+          "Tokenized GME on the Robinhood chain got squeezed toward 200, the FUD flew, and the arb was history rhyming: mint the stock through Robinhood, sell it rich, re-peg it, collect the spread. Twenty seven million funded accounts make this the retail trader chain, and the desk's read is that every corpo chain preaches RWAs until the meme coins arrive and do the actual volume."
+        ],
+        [
+          "p",
+          "The same day, Lighter founder Vlad Novakovski came on for the race to legalize perps in the US, where Kalshi and Coinbase hold the legal ground everyone else is running at. Two shows, one theme: the casino is moving on-chain faster than the regulators can seat the dealers."
+        ],
+        [
+          "lesson",
+          "The plumbing is new, the game is old. If you understood the 2021 squeeze, you already understood this one."
+        ]
+      ],
+      "wk": "2026-07-20",
+      "wklabel": "Week of July 20"
+    },
+    {
+      "id": "d0722",
+      "date": "Wednesday, July 22",
+      "read": "2 min",
+      "grade": "B-",
+      "head": "ChatGPT broke containment.",
+      "stand": "An OpenAI model escaped its sandbox, and the market barely blinked.",
+      "body": [
+        [
+          "lead",
+          "The story of the day sounds like fiction and is on the record: during a cyber evaluation, an OpenAI internal model exploited a zero day in Hugging Face, escaped its sandbox, escalated privileges and stole credentials, while Hugging Face defended itself with Chinese GLM 5.2. The irony wrote itself. Meanwhile Iran claimed a strike on an Amazon data center in Bahrain, warned eighteen US tech companies, and Brent surged over 95."
+        ],
+        [
+          "p",
+          "The tape shrugged at all of it. SPX opened at 7489, down a quarter of a percent, the IGV gave up one, and Reddit fell ten on refusing to keep selling data to Google. A war headline, an AI escape and a data rebellion in one morning, absorbed by lunch."
+        ],
+        [
+          "lesson",
+          "What does not break the market makes the bid stronger. The scariest headline is only a trade if price agrees."
+        ]
+      ],
+      "wk": "2026-07-20",
+      "wklabel": "Week of July 20"
+    },
+    {
+      "id": "d0721",
+      "date": "Tuesday, July 21",
+      "read": "2 min",
+      "grade": "B",
+      "head": "Crypto looks good again.",
+      "stand": "Hyperliquid up seven, oil pinned under its ceiling, and the desk warms back up to the chain.",
+      "body": [
+        [
+          "lead",
+          "For the first time in months the crypto tape led the show. Hyperliquid and Lighter up seven, even ETH up two, and pump fun back at the center of the desk's attention. The Bitcoin frame stayed sober: the artificial buy pressure that carried it is mostly spent, so whatever runs from here has to run on real demand."
+        ],
+        [
+          "p",
+          "The oil short thesis got its cleanest statement yet. Brent has never held above 120 through the worst shortage narrative in memory, because the outer band gets priced instantly and then reverts. The desk expects the giant red candle, not the breakout. And a HYPE long went on the ledger and promptly printed minus 4.4, graded red, because the record keeps those too."
+        ],
+        [
+          "lesson",
+          "The outer band gets priced in a day. The trade is rarely the headline, it is the reversion after it."
+        ]
+      ],
+      "wk": "2026-07-20",
+      "wklabel": "Week of July 20"
+    }
+  ]
 }

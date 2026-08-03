@@ -225,12 +225,9 @@ def extract_calls_llm(title, desc, sents):
     return json.loads(raw)
 
 def extract(title, desc, transcript_json):
+    """Stage 1, the broad searchable layer: always heuristic (fast, free).
+    The clean scoreboard layer comes from classify_calls (stage 2) via _llm."""
     sents = sentences(transcript_json)
-    if os.environ.get("ANTHROPIC_API_KEY"):
-        try:
-            return extract_calls_llm(title, desc, sents), sents
-        except Exception as e:
-            print(f"  ! LLM extract failed ({e}); using heuristic", file=sys.stderr)
     return extract_calls_heuristic(sents), sents
 
 # ---------- 4 : prices for the Anatomy charts (real) ----------
@@ -370,6 +367,9 @@ ANTHROPIC_KEY  = os.environ.get("ANTHROPIC_API_KEY", "")
 GEMINI_KEY     = os.environ.get("GEMINI_API_KEY", "")
 _PROVIDER = [None]          # resolved on first call: anthropic | gemini
 _GEMINI_T = [0.0]           # pacing for the free tier (15 requests/min)
+_QUOTA_DEAD = [False]       # gemini daily quota exhausted -> stop calling, fail fast
+CLASSIFY_BUDGET = int(os.environ.get("CLASSIFY_BUDGET", "120"))   # LLM calls per run for classification
+_CLASSIFY_USED = [0]
 
 def _llm_ready():
     return bool(ANTHROPIC_KEY or GEMINI_KEY)
@@ -395,7 +395,12 @@ def _gemini(content, system, max_tokens=1500):
                            for pt in c.get("content", {}).get("parts", []))
         except urllib.error.HTTPError as e:
             last = f"gemini {e.code}: {e.read().decode('utf-8','replace')[:200]}"
-            if e.code in (429, 500, 503):
+            if e.code == 429:
+                if attempt >= 1:               # two strikes on 429 -> the daily quota is gone
+                    _QUOTA_DEAD[0] = True
+                    raise RuntimeError(last + " [daily quota exhausted, giving up for this run]")
+                time.sleep(15); continue
+            if e.code in (500, 503):
                 time.sleep(2 ** attempt * 3); continue
             raise RuntimeError(last)
     raise RuntimeError(last or "gemini: retries exhausted")
@@ -416,6 +421,8 @@ def _llm(content, system, max_tokens=1500):
             else:
                 raise
     if _PROVIDER[0] == "gemini":
+        if _QUOTA_DEAD[0]:
+            raise RuntimeError("gemini daily quota exhausted")
         return _gemini(content, system, max_tokens)
     raise RuntimeError("no LLM key available")
 CLASSIFY_MODEL = "claude-sonnet-4-6"
@@ -455,9 +462,13 @@ def classify_calls(sents):
         return None
     text = "\n".join(f"[{int(t)}s] {s}" for t, s in sents)
     out = []; ok = False
-    for i in range(0, len(text), 9000):
+    step = 9000 if ANTHROPIC_KEY else 28000    # gemini flash swallows big chunks: 3x fewer calls
+    for i in range(0, len(text), step):
+        if _QUOTA_DEAD[0] or _CLASSIFY_USED[0] >= CLASSIFY_BUDGET:
+            break                               # save the rest of the quota for lexicon + dispatch
         try:
-            raw = _llm(text[i:i+9000], CLASSIFY_SYS, 1500)
+            _CLASSIFY_USED[0] += 1
+            raw = _llm(text[i:i+step], CLASSIFY_SYS, 1500)
             raw = raw[raw.find("["): raw.rfind("]")+1]
             for c in json.loads(raw):
                 tk = str(c.get("ticker","")).upper().strip()
@@ -522,8 +533,14 @@ def merge_archives(old, new):
     if not old:
         return new
     def kf(e): return (e.get("d",""), e.get("t",""))
-    seen_f = {kf(e) for e in new.get("feed",[])}
-    new["feed"] = new.get("feed",[]) + [e for e in old.get("feed",[]) if kf(e) not in seen_f]
+    old_by = {kf(e): e for e in old.get("feed",[])}
+    upgraded = []
+    for e in new.get("feed",[]):
+        o = old_by.get(kf(e))
+        # never downgrade: an LLM-classified archive entry beats a fresh heuristic one
+        upgraded.append(o if (o and o.get("llmv") and not e.get("llmv")) else e)
+    seen_f = {kf(e) for e in upgraded}
+    new["feed"] = upgraded + [e for e in old.get("feed",[]) if kf(e) not in seen_f]
     def kt(r): return (str(r[3]), int(r[4] or 0), r[1])
     seen_t = {kt(r) for r in new.get("tape",[])}
     new["tape"] = new.get("tape",[]) + [r for r in old.get("tape",[]) if kt(r) not in seen_t]
@@ -677,8 +694,15 @@ def _key_diag():
     g = f"present ({GEMINI_KEY[:8]}..., {len(GEMINI_KEY)} chars)" if GEMINI_KEY else "absent"
     print(f"ANTHROPIC_API_KEY: {a} | GEMINI_API_KEY: {g} -> LLM pass {'ON' if _llm_ready() else 'OFF (heuristic only)'}")
 
+_PREV_LLM_TITLES = set()
+
 def build(all_episodes=False, limit=20):
     _key_diag()
+    global _PREV_LLM_TITLES
+    _prev_archive = load_existing() or {}
+    _PREV_LLM_TITLES = {e.get("t") for e in (_prev_archive.get("feed") or []) if e.get("llmv")}
+    if _PREV_LLM_TITLES:
+        print(f"  {len(_PREV_LLM_TITLES)} episode(s) already LLM-classified, quota saved")
     eps = episodes()
     if not all_episodes:
         eps = eps[:limit]
@@ -698,7 +722,7 @@ def build(all_episodes=False, limit=20):
         raw_calls = calls
         # Stage 2: clean calls for the FEED / scoreboard. Falls back to heuristic
         # if no key or the pass fails (never wipes the broad layer).
-        clf = classify_calls(sents)
+        clf = None if ep["title"] in _PREV_LLM_TITLES else classify_calls(sents)
         feed_calls = clf if clf else raw_calls
         if clf:
             print(f"  classified {len(clf)} real calls")
@@ -730,7 +754,7 @@ def build(all_episodes=False, limit=20):
         rows = [[c["tk"], c.get("dir","L"), c.get("status","open"), c.get("pct",""),
                  c.get("thesis", c.get("quote",""))[:120], c.get("conviction",""),
                  int(c.get("secs",0) or 0), ep["id"]] for c in feed_calls]
-        feed.append({"d": dlabel, "t": ep["title"], "g": "", "calls": rows})
+        feed.append({"d": dlabel, "t": ep["title"], "g": "", "llmv": (1 if clf else 0), "calls": rows})
         # full-text tape: every substantive line is searchable, ticker tagged when found
         # [tk_or_blank, sentence, ts, epid, secs, date]
         for t, sent in sents:
@@ -756,8 +780,7 @@ def build(all_episodes=False, limit=20):
         },
         # voices left for the editor pass (the human seat)
     }
-    prev = load_existing() or {}
-    data["dispatch"] = build_dispatch(feed, tape, prev.get("dispatch"), max_new=(10 if all_episodes else 2))
+    data["dispatch"] = build_dispatch(feed, tape, _prev_archive.get("dispatch"), max_new=(10 if all_episodes else 2))
     STUDIED = ["AMC", "ZEC", "MU", "MSTR", "HYPE", "WTI"]
     for tk in STUDIED:
         series = price_window(tk)
@@ -783,6 +806,8 @@ def build(all_episodes=False, limit=20):
         "key_prefix": (ANTHROPIC_KEY[:10] + "...") if ANTHROPIC_KEY else None,
         "key_len": len(ANTHROPIC_KEY) if ANTHROPIC_KEY else 0,
         "llm_errors": _LLM_ERRORS,
+        "gemini_quota_dead": _QUOTA_DEAD[0],
+        "classify_calls_used": _CLASSIFY_USED[0],
         "lexicon_built": len(data.get("lexicon") or []),
         "dispatch_built": len(data.get("dispatch") or []),
     }
