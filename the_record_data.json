@@ -282538,467 +282538,560 @@
     [
       "13F",
       "The quarterly filing where big funds must reveal their stock positions, months late. The desk reads them for clues, not for entries.",
-      "\u201cthat's the problem with the 13F, right?\u201d"
+      "\u201cthat's the problem with the 13F, right?\u201d",
+      "Market"
     ],
     [
       "After hours",
       "Trading after the exchange closes, thin and jumpy. Where earnings reactions print first.",
-      "\u201cIt's now done like 1% ish after hours at 198\u201d"
+      "\u201cIt's now done like 1% ish after hours at 198\u201d",
+      "Market"
     ],
     [
       "Airdrop",
       "Free tokens distributed to users, usually to bootstrap a community. Free is often what they stay worth.",
-      "\u201cThey didn't give you a worth worthless airdrop\u201d"
+      "\u201cThey didn't give you a worth worthless airdrop\u201d",
+      "Crypto"
     ],
     [
       "Alt season",
       "The phase when money floods from Bitcoin into everything else. This cycle, the desk barely saw one.",
-      "\u201cWe had a alt season at one point for like, I don't know, 12 hours\u201d"
+      "\u201cWe had a alt season at one point for like, I don't know, 12 hours\u201d",
+      "Crypto"
     ],
     [
       "Aping",
       "Buying fast and heavy on instinct, before the full analysis. The entry comes first, the thesis catches up.",
-      "\u201cSo I bought that dip and just started aping it\u201d"
+      "\u201cSo I bought that dip and just started aping it\u201d",
+      "Desk slang"
     ],
     [
       "ATH (all-time high)",
       "The highest price an asset has ever traded. Above it, there is no overhead seller left.",
-      "\u201cgoes on this crazy run\u2026 a new all-time high\u201d"
+      "\u201cgoes on this crazy run\u2026 a new all-time high\u201d",
+      "Market"
     ],
     [
       "Bag",
       "A position you are holding. Here, the chunk of capital put to work in a basket of names.",
-      "\u201cI just put a bag into spot stocks\u201d"
+      "\u201cI just put a bag into spot stocks\u201d",
+      "Desk slang"
     ],
     [
       "Barnacle trade",
       "Attaching to a giant, slow trend and letting it carry you, no steering required.",
-      "\u201cI don't know a single person with a pet barnacle\u201d"
+      "\u201cI don't know a single person with a pet barnacle\u201d",
+      "Desk slang"
     ],
     [
       "Bear market",
       "When prices grind down and every rally gets sold. The regime that separates traders from tourists.",
-      "\u201cIn a bear market, if you're making money, it's pure PL\u201d"
+      "\u201cIn a bear market, if you're making money, it's pure PL\u201d",
+      "Market"
     ],
     [
       "Bottleneck",
       "The one scarce component the whole boom depends on. Find the bottleneck and you find the trade.",
-      "\u201crobotics bottlenecks up across the board\u201d"
+      "\u201crobotics bottlenecks up across the board\u201d",
+      "AI trade"
     ],
     [
       "Break containment",
       "When a story escapes its niche and goes mainstream. Borrowed from AI safety, applied to narratives.",
-      "\u201cI really thought the SWATS thing was gonna break containment\u201d"
+      "\u201cI really thought the SWATS thing was gonna break containment\u201d",
+      "Desk slang"
     ],
     [
       "Breakout",
       "Price pushing through a level it kept failing at, usually on volume. The desk's favorite entry.",
-      "\u201chigh volume breakout one five five and strong as shit\u201d"
+      "\u201chigh volume breakout one five five and strong as shit\u201d",
+      "Market"
     ],
     [
       "Buyback",
       "A company purchasing its own shares to support the price. The lever managements pull when they want the stock to matter.",
-      "\u201cI'm gonna turn buybacks on and off, right?\u201d"
+      "\u201cI'm gonna turn buybacks on and off, right?\u201d",
+      "Market"
     ],
     [
       "Capex",
       "Capital expenditure, the money companies pour into building. The AI trade lives and dies on hyperscaler capex.",
-      "\u201cAnd most of it being this like AI capex, right?\u201d"
+      "\u201cAnd most of it being this like AI capex, right?\u201d",
+      "AI trade"
     ],
     [
       "Capitulation",
       "The moment holders finally give up and sell everything, usually near the bottom. Public capitulations move markets.",
-      "\u201cdown 6.3% after David Hoffman publicly capitulated\u201d"
+      "\u201cdown 6.3% after David Hoffman publicly capitulated\u201d",
+      "Market"
     ],
     [
       "Catalyst",
       "The scheduled event (earnings, launch, ruling) expected to move a price. A call without a catalyst is just a hope.",
-      "\u201cThat's another big, big catalyst for growing their AUM\u201d"
+      "\u201cThat's another big, big catalyst for growing their AUM\u201d",
+      "Market"
     ],
     [
       "Chop",
       "Sideways, directionless price action that stops out both sides. The desk waits it out.",
-      "\u201cchopping at all-time highs, ready to go\u201d"
+      "\u201cchopping at all-time highs, ready to go\u201d",
+      "Market"
     ],
     [
       "Circuit breaker",
       "An automatic exchange halt after a crash-sized move. When you hear it, someone is being liquidated.",
-      "\u201cWe have Korean stocks, new ATH, circuit breakers everywhere\u201d"
+      "\u201cWe have Korean stocks, new ATH, circuit breakers everywhere\u201d",
+      "Market"
     ],
     [
       "Conviction",
       "How strongly you believe a trade. It is what sizes the bet: high conviction gets size, low conviction stays small.",
-      "\u201cI\u2019m long SpaceX, pretty low conviction longs\u201d"
+      "\u201cI\u2019m long SpaceX, pretty low conviction longs\u201d",
+      "Desk slang"
     ],
     [
       "Cooked",
       "Finished, broken, out of road. Said of a trade, a company, or a person.",
-      "\u201cwhen this happens, oil's gonna get cooked\u201d"
+      "\u201cwhen this happens, oil's gonna get cooked\u201d",
+      "Desk slang"
     ],
     [
       "CPI",
       "The consumer price index, the monthly inflation number the whole market trades around.",
-      "\u201cSo CPI came in, consumer price index, which is so stupid\u201d"
+      "\u201cSo CPI came in, consumer price index, which is so stupid\u201d",
+      "Macro"
     ],
     [
       "Degen",
       "A trader who embraces maximum risk knowingly. On this show, half insult, half badge of honor.",
-      "\u201cZinn is the most popular degenerate product on the planet\u201d"
+      "\u201cZinn is the most popular degenerate product on the planet\u201d",
+      "Desk slang"
     ],
     [
       "DEX",
       "A decentralized exchange, trading straight from your wallet with no company in the middle.",
-      "\u201cDex volume is like exploded from that\u201d"
+      "\u201cDex volume is like exploded from that\u201d",
+      "Crypto"
     ],
     [
       "Dilution",
       "A company issuing new shares, shrinking what each old share owns. How AMC turned the trade of the year into a lesson.",
-      "\u201cLower valuations, more dilution, less secondary\u201d"
+      "\u201cLower valuations, more dilution, less secondary\u201d",
+      "Market"
     ],
     [
       "Distillation",
       "Training a model on another model's outputs to copy its ability at a fraction of the cost. The heart of the China AI fight.",
-      "\u201cdistillation is occurring at industrial scale\u201d"
+      "\u201cdistillation is occurring at industrial scale\u201d",
+      "AI trade"
     ],
     [
       "Dump",
       "A fast, hard sell-off. Price dropping in a hurry, often right after a pop.",
-      "\u201cI held it up 15%, and then it started dumping\u201d"
+      "\u201cI held it up 15%, and then it started dumping\u201d",
+      "Market"
     ],
     [
       "DXY",
       "The dollar index, the dollar measured against other major currencies. Dollar up plus yields up is the risk-off cocktail.",
-      "\u201cSo DXY up and yield up is bad for the market\u201d"
+      "\u201cSo DXY up and yield up is bad for the market\u201d",
+      "Macro"
     ],
     [
       "Exit liquidity",
       "Being the buyer a larger, forced seller needs in order to get out. You are the way they exit.",
-      "the read on every late forced Bitcoin buy"
+      "the read on every late forced Bitcoin buy",
+      "Desk slang"
     ],
     [
       "Fade",
       "Selling into a sharp move on the bet it has gone too far and reverses, instead of chasing it.",
-      "\u201cyou fade it until you\u2019re forced out\u201d"
+      "\u201cyou fade it until you\u2019re forced out\u201d",
+      "Desk slang"
     ],
     [
       "Fade the war",
       "The desk's standing habit: sell the spike every war or oil headline creates, betting the scare is already priced in and mean reverts.",
-      "\u201cwe\u2019re not gonna spend much time on war and oil, you fade it\u201d"
+      "\u201cwe\u2019re not gonna spend much time on war and oil, you fade it\u201d",
+      "Desk slang"
     ],
     [
       "FDV",
       "Fully diluted valuation, a token's price times every token that will ever exist. The number that makes cheap coins expensive.",
-      "\u201cI'm excited for the mega ETH FDV market\u201d"
+      "\u201cI'm excited for the mega ETH FDV market\u201d",
+      "Crypto"
     ],
     [
       "Float",
       "The shares actually available to trade. Small float plus big demand is how squeezes are born.",
-      "\u201cShorts are trying to cover into the float that didn't exist\u201d"
+      "\u201cShorts are trying to cover into the float that didn't exist\u201d",
+      "Market"
     ],
     [
       "FOMC",
       "The Fed committee that sets interest rates. Its meetings are the market's scheduled earthquakes.",
-      "\u201cI chaired my very first meeting of the FOMC\u201d"
+      "\u201cI chaired my very first meeting of the FOMC\u201d",
+      "Macro"
     ],
     [
       "Front run",
       "Positioning before the crowd arrives, so their buying becomes your exit.",
-      "\u201cMaybe I don't want to like front run the dopamine\u201d"
+      "\u201cMaybe I don't want to like front run the dopamine\u201d",
+      "AI trade"
     ],
     [
       "Frontier model",
       "The most capable AI models on earth, now treated like strategic assets by governments.",
-      "\u201cFrontier AI just became a rationed strategic asset\u201d"
+      "\u201cFrontier AI just became a rationed strategic asset\u201d",
+      "Macro"
     ],
     [
       "FUD",
       "Fear, uncertainty and doubt. The wave of scary chatter that hits a position right after you take it.",
-      "\u201cthere was just this crazy FUD\u201d"
+      "\u201cthere was just this crazy FUD\u201d",
+      "Crypto"
     ],
     [
       "Full port",
       "Putting your entire account into one position, no diversification. On the show, conviction is the whole point, not a slice.",
-      "\u201cit was very, very full port\u201d"
+      "\u201cit was very, very full port\u201d",
+      "Desk slang"
     ],
     [
       "Funding rate",
       "The periodic payment between longs and shorts on perps that keeps the contract glued to spot. Crowding, measured in real time.",
-      "\u201cyou won't lose that much money on on a funding rate\u201d"
+      "\u201cyou won't lose that much money on on a funding rate\u201d",
+      "Crypto"
     ],
     [
       "Gamma",
       "How fast option dealers must adjust their hedges as price moves. When they are short gamma, their hedging amplifies every move.",
-      "\u201cthe dealer unwinding a delta hedge that had been short gamma\u201d"
+      "\u201cthe dealer unwinding a delta hedge that had been short gamma\u201d",
+      "Options"
     ],
     [
       "Gap",
       "Price jumping past levels without trading through them, usually on an overnight headline.",
-      "\u201cLook at this gap down and then somehow get ripped up on nothing\u201d"
+      "\u201cLook at this gap down and then somehow get ripped up on nothing\u201d",
+      "Market"
     ],
     [
       "Guidance",
       "What a company says about its own future numbers. Often moves the stock more than the results do.",
-      "\u201cguidance, they're projecting minus 1% from last quarter\u201d"
+      "\u201cguidance, they're projecting minus 1% from last quarter\u201d",
+      "Market"
     ],
     [
       "HBM",
       "High bandwidth memory, the specialized chips feeding data to AI processors. The layer where the memory war is fought.",
-      "\u201cIf you have HBM, you need advanced packaging\u201d"
+      "\u201cIf you have HBM, you need advanced packaging\u201d",
+      "AI trade"
     ],
     [
       "HODL",
       "Holding through everything, the old crypto religion. Rarely heard on a desk that trades daily.",
-      "\u201cI haven't heard someone say HODL in like like four years\u201d"
+      "\u201cI haven't heard someone say HODL in like like four years\u201d",
+      "Crypto"
     ],
     [
       "Hyperscalers",
       "The giant cloud builders (Amazon, Google, Microsoft, Meta) whose spending drives the entire AI supply chain.",
-      "\u201cThey're not the hyperscalers like the Amazons of the world\u201d"
+      "\u201cThey're not the hyperscalers like the Amazons of the world\u201d",
+      "AI trade"
     ],
     [
       "IRL trade",
       "The desk's standing thesis that real world experiences (theaters, events, physical) are the next great consumer trade.",
-      "\u201cpilled on the IRL events thesis\u201d"
+      "\u201cpilled on the IRL events thesis\u201d",
+      "AI trade"
     ],
     [
       "K-shape",
       "An economy splitting in two directions at once: asset owners up, everyone else down. The AI era's defining chart.",
-      "\u201care we in this permanent K-shaped AI world?\u201d"
+      "\u201care we in this permanent K-shaped AI world?\u201d",
+      "AI trade"
     ],
     [
       "KOLing",
       "Riding what the big accounts (key opinion leaders) push. Their flow becomes the trade.",
-      "\u201cKOLing NVIDIA is KOLing D RAM\u201d"
+      "\u201cKOLing NVIDIA is KOLing D RAM\u201d",
+      "Desk slang"
     ],
     [
       "L1 / L2",
       "Base blockchains (L1) and the faster networks built on top of them (L2). Where a coin lives shapes how it trades.",
-      "\u201cparticularly if it's on L2\u201d"
+      "\u201cparticularly if it's on L2\u201d",
+      "Crypto"
     ],
     [
       "Leverage",
       "Trading with borrowed money to multiply the result, both ways. The desk's rule: it should let you size down, not up.",
-      "\u201cIf anything, leverage allows you to size down\u201d"
+      "\u201cIf anything, leverage allows you to size down\u201d",
+      "Market"
     ],
     [
       "Liquidation",
       "A leveraged position force-closed by the exchange when the move goes against it. What cascades are made of.",
-      "\u201cit felt like mass crypto liquidations\u201d"
+      "\u201cit felt like mass crypto liquidations\u201d",
+      "Market"
     ],
     [
       "Lockup",
       "The period after an IPO or TGE when insiders cannot sell. When it ends, supply arrives.",
-      "\u201cfirst post IPO lock up\u201d"
+      "\u201cfirst post IPO lock up\u201d",
+      "Market"
     ],
     [
       "Margin call",
       "The broker demanding more money right now or your position gets closed. The phone call every leveraged trader fears.",
-      "\u201cEveryone was mad at me when I showed the margin call\u201d"
+      "\u201cEveryone was mad at me when I showed the margin call\u201d",
+      "Market"
     ],
     [
       "Market maker",
       "The firms quoting both sides of every market, paid by the spread. The house, in exchange clothing.",
-      "\u201ctip your cap to the market makers, right?\u201d"
+      "\u201ctip your cap to the market makers, right?\u201d",
+      "Market"
     ],
     [
       "Meme coin",
       "A token whose only product is attention. The desk's view: that makes it the purest market there is.",
-      "\u201cthe core premise behind my pump fun bullishness\u201d"
+      "\u201cthe core premise behind my pump fun bullishness\u201d",
+      "Crypto"
     ],
     [
       "mNAV",
       "A treasury company's price versus the assets it actually holds. Above 1 you pay a premium for a wrapper, below 1 the market stopped believing.",
-      "\u201cit trades at 1x mnav\u201d"
+      "\u201cit trades at 1x mnav\u201d",
+      "Crypto"
     ],
     [
       "Mog",
       "To dominate someone so completely it becomes the story. Companies mog companies, charts mog charts.",
-      "\u201cthey're getting mogged pretty bad\u201d"
+      "\u201cthey're getting mogged pretty bad\u201d",
+      "Desk slang"
     ],
     [
       "Momentum",
       "Buying strength because strength attracts buyers. Half the desk's entries in two words: attention plus momentum.",
-      "\u201cMy entry is exclusively attention plus momentum based\u201d"
+      "\u201cMy entry is exclusively attention plus momentum based\u201d",
+      "Market"
     ],
     [
       "Narrative",
       "The story that gives a trade its buyers. On this desk, narrative is not noise around the trade, it is the trade.",
-      "\u201cI think it's gonna be a huge narrative\u201d"
+      "\u201cI think it's gonna be a huge narrative\u201d",
+      "Desk slang"
     ],
     [
       "On-chain",
       "Happening on a public blockchain, visible to everyone, settled without a broker. Where the desk says the casino is moving.",
-      "\u201cI bought an on-chain coin and I bought a lot of it\u201d"
+      "\u201cI bought an on-chain coin and I bought a lot of it\u201d",
+      "Crypto"
     ],
     [
       "Open interest",
       "The total contracts currently open on a derivative. Rising OI means new money, not just churn.",
-      "\u201cThis thing has 300 mil volume, 56 mil open interest\u201d"
+      "\u201cThis thing has 300 mil volume, 56 mil open interest\u201d",
+      "Crypto"
     ],
     [
       "Open source AI",
       "Models released for anyone to use and build on. China's weapon of choice in the AI race, and the year's biggest market debate.",
-      "\u201cChinese open source model is now number one\u201d"
+      "\u201cChinese open source model is now number one\u201d",
+      "AI trade"
     ],
     [
       "Order book",
       "The live list of every bid and offer. Where support is real or it is not.",
-      "\u201cthere is only one bidder in the order books\u201d"
+      "\u201cthere is only one bidder in the order books\u201d",
+      "Market"
     ],
     [
       "Overhang",
       "A known wall of future selling (an unlock, a seller, a treasury) hanging over a price.",
-      "\u201cit started to feel like an overhang to many people\u201d"
+      "\u201cit started to feel like an overhang to many people\u201d",
+      "Market"
     ],
     [
       "Perps",
       "Perpetual futures, leveraged contracts with no expiry. The crypto native way to trade anything, now racing toward US legality.",
-      "\u201cYour wallet is your brokerage that has perps\u201d"
+      "\u201cYour wallet is your brokerage that has perps\u201d",
+      "Crypto"
     ],
     [
       "Pre-market",
       "The thin session before the open, where headlines get priced with nobody around.",
-      "\u201clost everything it did in the pre-market\u201d"
+      "\u201clost everything it did in the pre-market\u201d",
+      "Market"
     ],
     [
       "Priced in",
       "Already reflected in the price before you got there. The question to ask before every trade on public news.",
-      "\u201cI just don't think these inflows are priced in at all\u201d"
+      "\u201cI just don't think these inflows are priced in at all\u201d",
+      "Desk slang"
     ],
     [
       "Privacy coin",
       "Crypto designed so transactions cannot be traced. The desk's Zcash thesis lives here.",
-      "\u201cyou cannot trace the movements\u201d"
+      "\u201cyou cannot trace the movements\u201d",
+      "Crypto"
     ],
     [
       "Pump",
       "The opposite of a dump: a fast move up, usually on news or hype.",
-      "\u201cthis crazy run\u201d before it gave it all back"
+      "\u201cthis crazy run\u201d before it gave it all back",
+      "Market"
     ],
     [
       "QE",
       "Quantitative easing, the Fed buying assets to flood the system with money. The tide every bull market since 2009 floated on.",
-      "\u201ccompared to the last time we had QE\u201d"
+      "\u201ccompared to the last time we had QE\u201d",
+      "Macro"
     ],
     [
       "Rate cut",
       "The Fed lowering interest rates, fuel for risk assets. Its absence is a regime of its own.",
-      "\u201crate cuts not happening, maybe hikes\u201d"
+      "\u201crate cuts not happening, maybe hikes\u201d",
+      "Macro"
     ],
     [
       "Re-rating",
       "The market deciding an asset deserves a new multiple, up or down, independent of its results.",
-      "\u201cre-rated their IPO price\u201d"
+      "\u201cre-rated their IPO price\u201d",
+      "Market"
     ],
     [
       "Rip / rip the band-aid",
       "Rip is a strong move higher. Rip the band-aid is taking the pain all at once instead of bleeding slowly.",
-      "\u201cripped the band-aid without acknowledging it\u201d"
+      "\u201cripped the band-aid without acknowledging it\u201d",
+      "Desk slang"
     ],
     [
       "Risk on",
       "The mode where money chases upside. The desk tracks which assets signal the switch.",
-      "\u201cSolana is a reasonable risk on indicator\u201d"
+      "\u201cSolana is a reasonable risk on indicator\u201d",
+      "Market"
     ],
     [
       "Rotation",
       "Capital sprinting from one hot theme to the next as attention moves. The market's real schedule.",
-      "\u201cit ends up looking like meme coin rotations a little bit\u201d"
+      "\u201cit ends up looking like meme coin rotations a little bit\u201d",
+      "Market"
     ],
     [
       "Roundtrip",
       "Riding a position all the way up and all the way back down without selling. The show's cardinal sin.",
-      "\u201cIt's tough to sell a round trip at break even\u201d"
+      "\u201cIt's tough to sell a round trip at break even\u201d",
+      "Desk slang"
     ],
     [
       "RWAs",
       "Real world assets, stocks and bonds minted on-chain. Every corporate chain's official pitch, until the meme coins arrive and do the volume.",
-      "\u201cRobinhood chain's goal is that they want RWAs, right?\u201d"
+      "\u201cRobinhood chain's goal is that they want RWAs, right?\u201d",
+      "Crypto"
     ],
     [
       "Sandwich",
       "A bot buying right before your trade and selling right after it, taxing you both ways. On-chain's invisible toll.",
-      "\u201cGood luck pursuing legal action after getting sandwiched once\u201d"
+      "\u201cGood luck pursuing legal action after getting sandwiched once\u201d",
+      "Crypto"
     ],
     [
       "Self custody",
       "Holding your crypto yourself, keys and all, no exchange between you and your money.",
-      "\u201cthrough a self-custody wallet\u201d"
+      "\u201cthrough a self-custody wallet\u201d",
+      "Crypto"
     ],
     [
       "Sizing",
       "How much of your money one trade gets. The desk's creed: the size should match the conviction, and it usually doesn't.",
-      "\u201cI'm in a trade still, rather than sizing it\u201d"
+      "\u201cI'm in a trade still, rather than sizing it\u201d",
+      "Market"
     ],
     [
       "Slippage",
       "The gap between the price you saw and the price you got. The cost of size and speed.",
-      "\u201cthere's some amount of slippage it's going to cause\u201d"
+      "\u201cthere's some amount of slippage it's going to cause\u201d",
+      "Market"
     ],
     [
       "Spread",
       "The gap between the best bid and the best offer. Someone earns it on every trade you make.",
-      "\u201cjust eating the spread of your bad fills\u201d"
+      "\u201cjust eating the spread of your bad fills\u201d",
+      "Market"
     ],
     [
       "SPV",
       "A special purpose vehicle, a wrapper for private investments passed around on trust. Trust is the product.",
-      "\u201cI was offered SPV into uh into into OnlyFans\u201d"
+      "\u201cI was offered SPV into uh into into OnlyFans\u201d",
+      "Market"
     ],
     [
       "Squeeze",
       "A crowded short position forced to buy back as price rises, fueling the very rise that hurts it.",
-      "\u201clet's talk about the car short squeeze\u201d"
+      "\u201clet's talk about the car short squeeze\u201d",
+      "Market"
     ],
     [
       "Stablecoin",
       "Crypto pegged to the dollar, the cash of the on-chain economy.",
-      "\u201cStable coins are the primary armor of crypto\u201d"
+      "\u201cStable coins are the primary armor of crypto\u201d",
+      "Crypto"
     ],
     [
       "Staking",
       "Locking crypto to secure a network in exchange for yield. Where supply goes to sleep.",
-      "\u201croughly 70% of it is staked\u201d"
+      "\u201croughly 70% of it is staked\u201d",
+      "Crypto"
     ],
     [
       "Stop loss",
       "A preset exit that caps your loss if the trade goes against you. You decide the pain before you enter.",
-      "\u201cI just put a stop loss in\u201d"
+      "\u201cI just put a stop loss in\u201d",
+      "Market"
     ],
     [
       "Stopped out",
       "Your stop triggered and you are out, often right before the move you wanted snaps back.",
-      "\u201cgot stopped out right before a candle\u201d"
+      "\u201cgot stopped out right before a candle\u201d",
+      "Market"
     ],
     [
       "TGE",
       "Token generation event, the moment a project's token goes live and tradeable. Crypto's IPO.",
-      "\u201cWhat was the last hype TGE that performed well?\u201d"
+      "\u201cWhat was the last hype TGE that performed well?\u201d",
+      "Crypto"
     ],
     [
       "Theta",
       "The daily cost of holding options as time passes. Sellers collect it, buyers bleed it.",
-      "\u201cyou're short puts, you're getting Theta just destroyed\u201d"
+      "\u201cyou're short puts, you're getting Theta just destroyed\u201d",
+      "Options"
     ],
     [
       "Top signal",
       "The absurd headline or purchase that marks euphoria's peak. The desk collects them like trophies.",
-      "\u201cI don't even know why this made the top signal list\u201d"
+      "\u201cI don't even know why this made the top signal list\u201d",
+      "Desk slang"
     ],
     [
       "Volume",
       "How much actually traded. The difference between a move that means something and a move that does not.",
-      "\u201cthis has not a ton of volume, but enough\u201d"
+      "\u201cthis has not a ton of volume, but enough\u201d",
+      "Market"
     ],
     [
       "Wick down",
       "A violent, fast flush below support that liquidates the leveraged before price comes back. The move exists to hurt, not to last.",
-      "\u201cthey'll just wick it down 70% in two days\u201d"
+      "\u201cthey'll just wick it down 70% in two days\u201d",
+      "Desk slang"
     ],
     [
       "ZK",
       "Zero knowledge cryptography, proving something is true without revealing the data. The math behind privacy coins, and behind the Zcash exploit.",
-      "\u201cOur ZK circuits can also be used for privacy\u201d"
+      "\u201cOur ZK circuits can also be used for privacy\u201d",
+      "Crypto"
     ]
   ],
   "dispatch": [

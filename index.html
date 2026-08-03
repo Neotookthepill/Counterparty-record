@@ -46,7 +46,7 @@ a{color:inherit}
 .nav .live .d{width:6px;height:6px;border-radius:50%;background:var(--bear);margin-right:7px;animation:lp 1.8s ease-in-out infinite}
 @keyframes lp{0%,100%{box-shadow:0 0 0 0 rgba(207,90,74,.5)}50%{box-shadow:0 0 0 5px rgba(207,90,74,0)}}
 
-.view{display:none;animation:fade .4s ease}
+.view{display:none;animation:fade .4s ease;scroll-margin-top:80px}
 .view.on{display:block}
 @keyframes fade{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:none}}
 
@@ -59,24 +59,24 @@ a{color:inherit}
 .rule-c{width:54px;height:1px;background:var(--brass);margin:26px auto 0}
 
 /* ---------- HOME ---------- */
-.hero{text-align:center;padding:74px 0 30px;position:relative}
-.hero .mk{width:clamp(96px,12vw,128px);margin:0 auto 26px;display:block;filter:drop-shadow(0 14px 28px rgba(0,0,0,.5))}
-.hero h1{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:clamp(40px,6.6vw,82px);line-height:.98;letter-spacing:-.022em;margin:0 auto;max-width:16ch;color:var(--cream)}
+.hero{text-align:center;padding:20vh 0 14vh;position:relative;min-height:82vh;display:flex;flex-direction:column;justify-content:center}
+.hero .mk{width:clamp(72px,8vw,96px);margin:0 auto 34px;display:block;filter:drop-shadow(0 14px 28px rgba(0,0,0,.5));opacity:.92}
+.hero h1{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:clamp(52px,10vw,132px);line-height:.94;letter-spacing:-.028em;margin:0 auto;max-width:15ch;color:var(--cream)}
 .hero h1 .hl{display:block;text-wrap:balance}
 .hero h1 .hl+.hl{margin-top:.14em}
-.hero .lede{font-family:"Newsreader",serif;font-size:clamp(17px,2.1vw,21px);color:var(--cream-2);max-width:610px;margin:24px auto 0;line-height:1.5}
+.hero .lede{font-family:"Newsreader",serif;font-size:clamp(18px,2.3vw,24px);color:var(--cream-2);max-width:640px;margin:34px auto 0;line-height:1.5}
 .hero .live{display:inline-flex;align-items:center;margin-top:26px;font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--cream-3)}
 .hero .live .d{width:7px;height:7px;border-radius:50%;background:var(--bear);margin-right:11px;animation:lp 1.8s ease-in-out infinite}
 .hero .live .sep{color:var(--brass);margin:0 11px}
 
 /* proof strip */
-.proof{display:flex;flex-wrap:wrap;justify-content:center;gap:0;margin:46px auto 0;max-width:880px;border-top:1px solid var(--ln);border-bottom:1px solid var(--ln)}
-.proof .c{flex:1;min-width:170px;padding:26px 22px;text-align:center;border-right:1px solid var(--ln)}
+.proof{display:flex;flex-wrap:wrap;justify-content:center;gap:0;margin:0 auto 40px;max-width:1080px;border-top:1px solid var(--ln);border-bottom:1px solid var(--ln)}
+.proof .c{flex:1;min-width:200px;padding:40px 22px;text-align:center;border-right:1px solid var(--ln)}
 .proof .c:last-child{border-right:none}
-.proof .c .n{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:46px;line-height:1;color:var(--cream)}
+.proof .c .n{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:clamp(60px,8.5vw,128px);line-height:.9;letter-spacing:-.022em;color:var(--cream)}
 .proof .c .n .pct{font-size:26px;color:var(--brass);margin-left:4px}
 .proof .c .n.g{color:var(--bull-n)}
-.proof .c .l{font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--cream-3);margin-top:11px}
+.proof .c .l{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--cream-2);margin-top:12px}
 
 /* the three doors */
 .doors{margin:54px 0 10px;border-top:1px solid var(--ln)}
@@ -416,6 +416,52 @@ body.locked{overflow:hidden;height:100vh}
   .edition{padding:30px 22px 34px}
   .disp-wrap{gap:28px}
 }
+
+/* ---------- Lexicon view ---------- */
+.lex-wrap{padding-top:96px;padding-bottom:80px}
+.sec-head{text-align:center;max-width:52ch;margin:0 auto 40px}
+.sec-lede{font-family:"Newsreader",serif;font-size:clamp(15px,1.7vw,18px);color:var(--cream-2);line-height:1.5;margin:14px auto 0}
+.lex-controls{max-width:720px;margin:0 auto 34px}
+.lex-search{width:100%;background:rgba(239,233,218,.05);border:1px solid var(--ln);border-radius:8px;color:var(--cream);font-family:"Newsreader",serif;font-size:16px;padding:14px 18px;outline:none;transition:border .2s}
+.lex-search:focus{border-color:var(--brass)}
+.lex-search::placeholder{color:var(--cream-3)}
+.lex-filters{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:16px}
+.lex-fil{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--cream-2);background:transparent;border:1px solid var(--ln);border-radius:100px;padding:7px 14px;cursor:pointer;transition:.18s}
+.lex-fil:hover{color:var(--cream);border-color:var(--brass-soft)}
+.lex-fil[aria-current="true"]{background:var(--brass);color:var(--navy);border-color:var(--brass)}
+.lex-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:1100px;margin:0 auto}
+.lex-card{background:var(--navy-2);border:1px solid var(--ln-2);border-radius:9px;padding:18px 18px 16px;cursor:pointer;transition:border .18s, transform .18s;text-align:left;display:block;width:100%}
+.lex-card:hover{border-color:var(--brass-soft);transform:translateY(-1px)}
+.lex-card .lc-top{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.lex-card h4{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:23px;color:var(--cream);margin:0;line-height:1.05}
+.lex-card .lc-cat{font-family:"IBM Plex Mono",monospace;font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--brass);white-space:nowrap;opacity:.85}
+.lex-card .lc-def{font-family:"Newsreader",serif;font-size:14.5px;line-height:1.5;color:var(--cream-2);margin:10px 0 0;max-height:0;overflow:hidden;opacity:0;transition:max-height .3s ease, opacity .25s, margin .3s}
+.lex-card .lc-src{font-family:"Newsreader",serif;font-style:italic;font-size:13px;color:var(--cream-3);margin:10px 0 0;max-height:0;overflow:hidden;opacity:0;transition:max-height .3s ease, opacity .25s, margin .3s}
+.lex-card[aria-expanded="true"] .lc-def{max-height:200px;opacity:1;margin-top:11px}
+.lex-card[aria-expanded="true"] .lc-src{max-height:120px;opacity:1;margin-top:9px}
+.lex-card[aria-expanded="true"]{border-color:var(--brass-soft)}
+.lex-empty{text-align:center;color:var(--cream-3);font-family:"Newsreader",serif;font-style:italic;padding:40px}
+@media(max-width:860px){.lex-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.lex-grid{grid-template-columns:1fr}.lex-wrap{padding-top:80px}}
+/* archetypes accordion */
+.arch-acc{max-width:760px;margin:0 auto}
+.arch-row{border-bottom:1px solid var(--ln)}
+.arch-q{width:100%;text-align:left;background:none;border:0;cursor:pointer;padding:22px 0;display:flex;align-items:center;justify-content:space-between;gap:16px;font-family:"Cormorant Garamond",serif;font-weight:700;font-size:clamp(20px,2.4vw,26px);color:var(--cream);transition:color .18s}
+.arch-q:hover{color:var(--brass)}
+.arch-q .plus{font-family:"IBM Plex Mono",monospace;font-size:20px;color:var(--brass);transition:transform .2s}
+.arch-row[aria-expanded="true"] .plus{transform:rotate(45deg)}
+.arch-a{max-height:0;overflow:hidden;transition:max-height .3s ease;font-family:"Newsreader",serif;font-size:16px;line-height:1.55;color:var(--cream-2)}
+.arch-row[aria-expanded="true"] .arch-a{max-height:200px;padding-bottom:22px}
+
+
+/* ---------- section intros: aérées façon counterparty.tv ---------- */
+.cl-head{text-align:center;max-width:54ch;margin:0 auto 34px}
+.cl-head h2{margin-bottom:14px}
+.cl-head p{font-family:"Newsreader",serif;font-size:clamp(15px,1.7vw,18px);line-height:1.5;color:var(--cream-2);max-width:52ch;margin:0 auto}
+.view-head, .rec-head, .desk-head{text-align:center;max-width:56ch;margin-left:auto;margin-right:auto}
+.view-head p, .rec-head p, .desk-head p{font-family:"Newsreader",serif;line-height:1.55;color:var(--cream-2)}
+.kick{display:block;margin-bottom:12px}
+
 </style></head><body>
 <div id="intro" role="button" tabindex="0" aria-label="Enter The Record">
   <div class="i-eyebrow">The Record</div>
@@ -438,6 +484,7 @@ body.locked{overflow:hidden;height:100vh}
     <button data-view="today">Today</button>
     <button data-view="class">The Classroom</button>
     <button data-view="tape">The Tape</button>
+    <button data-view="lexicon">The Lexicon</button>
     <button data-view="record">The Ledger</button>
     <button data-view="desk">The Desk</button>
     <span class="live"><span class="d"></span>Live 8:30 EST</span>
@@ -508,9 +555,9 @@ body.locked{overflow:hidden;height:100vh}
 
     <div class="cl-tabs" id="cl-tabs">
       <button data-pane="anatomy" aria-current="true">Anatomy of a call</button>
-      <button data-pane="search">Search the tape</button>
+      
       <button data-pane="archetypes">Archetypes</button>
-      <button data-pane="lexicon">Lexicon</button>
+      
     </div>
 
     <div class="cl-pane on" id="cl-anatomy">
@@ -548,7 +595,33 @@ body.locked{overflow:hidden;height:100vh}
       </div>
     </div>
 
-    <div class="cl-pane" id="cl-search">
+    <div class="cl-pane" id="cl-archetypes">
+      <div class="cl-head"><span class="kick">The patterns, taught</span><h2>The Archetype Library</h2><p>The show runs the same handful of trades over and over. Learn the pattern once, and you see it everywhere.</p></div>
+      <div class="arch-acc" id="arch-grid"></div>
+    </div>
+
+    
+  </div></section>
+
+  <!-- RECORD -->
+    <section class="view" id="view-lexicon" aria-label="The Lexicon">
+      <div class="wrap lex-wrap">
+        <div class="sec-head">
+          <span class="kick">No jargon left unexplained</span>
+          <h2>The Lexicon</h2>
+          <p class="sec-lede">The language of the show, in plain English. Ninety-three terms, each one pulled from the tape with the line it was said in.</p>
+        </div>
+        <div class="lex-controls">
+          <input id="lex-q" class="lex-search" type="text" placeholder="Search a term or a definition" autocomplete="off">
+          <div class="lex-filters" id="lex-filters"></div>
+        </div>
+        <div class="lex-grid" id="lex-grid"></div>
+        <div class="lex-empty" id="lex-empty" hidden>No term matches. Try another word.</div>
+      </div>
+    </section>
+
+    <section class="view" id="view-tape" aria-label="The Tape">
+      <div class="tape-view-inner">
       <div class="cl-head"><span class="kick">The thing video cannot do</span><h2>Search the tape</h2><p>paste.trade, the live profit and loss, tracks the trade. The Record makes the whole spoken archive searchable. Type a ticker or a phrase, and jump to the exact moment it was said.</p></div>
       <div class="tape-search">
         <div class="ts-box"><input id="tape-q" type="text" placeholder="try AMC, fullport, Zcash, never diversify..." aria-label="search the tape"></div>
@@ -556,19 +629,9 @@ body.locked{overflow:hidden;height:100vh}
         <div class="ts-note">The whole archive. Every word of every show, searchable to the second. Each result jumps straight to the moment it was said.</div>
       </div>
     </div>
+      </div>
+    </section>
 
-    <div class="cl-pane" id="cl-archetypes">
-      <div class="cl-head"><span class="kick">The patterns, taught</span><h2>The Archetype Library</h2><p>The show runs the same handful of trades over and over. Learn the pattern once, and you see it everywhere.</p></div>
-      <div class="arch-grid" id="arch-grid"></div>
-    </div>
-
-    <div class="cl-pane" id="cl-lexicon">
-      <div class="cl-head"><span class="kick">No jargon left unexplained</span><h2>The Lexicon</h2><p>The language of the show, in plain English.</p></div>
-      <div class="lex" id="lex-body"></div>
-    </div>
-  </div></section>
-
-  <!-- RECORD -->
   <section class="view" id="view-record"><div class="wrap">
     <div class="opener"><img class="mk" data-k="j" src="" alt="" role="presentation"><span class="kick">Trust it</span><h2>The Ledger</h2><p>Every call the show makes, written down and kept to the second. Not a scoreboard, the receipts. The money P&amp;L lives on paste.trade. This is the permanent, searchable record of who said what.</p><div class="rule-c"></div></div>
 
@@ -848,9 +911,26 @@ function renderAnat(i){CUR=i;var c=CALLS[i];
   } else { te.innerHTML=''; }
 }
 function renderClass(){renderTabs();renderAnat(0);
-  document.getElementById('arch-grid').innerHTML=ARCH.map(function(a){return '<div class="arch-c"><h4>'+a[0]+'</h4><p>'+a[1]+'</p><div class="ex">'+a[2]+'<br>'+a[3]+'</div></div>';}).join('');
-  document.getElementById('lex-body').innerHTML=LEX.map(function(t){return '<div class="term"><h4>'+t[0]+'</h4><p>'+t[1]+'</p>'+(t[2]?'<div class="term-src">'+t[2]+'</div>':'')+'</div>';}).join('');
+  document.getElementById('arch-grid').innerHTML=ARCH.map(function(a,i){return '<div class="arch-row" aria-expanded="'+(i===0?'true':'false')+'"><button class="arch-q">'+a[0]+'<span class="plus">+</span></button><div class="arch-a">'+a[1]+'</div></div>';}).join('');
+  renderLexicon();
   tapeSearch('');
+}
+var LEXFILTER='All';
+function lexCats(){var s={};LEX.forEach(function(t){s[t[3]||'Market']=1;});return ['All'].concat(Object.keys(s).sort());}
+function renderLexFilters(){var f=document.getElementById('lex-filters'); if(!f)return;
+  f.innerHTML=lexCats().map(function(c){return '<button class="lex-fil" data-cat="'+c+'" aria-current="'+(c===LEXFILTER?'true':'false')+'">'+c+'</button>';}).join('');}
+function renderLexicon(){
+  renderLexFilters();
+  var qel=document.getElementById('lex-q'); var q=(qel?qel.value:'').trim().toLowerCase();
+  var grid=document.getElementById('lex-grid'); if(!grid)return;
+  var rows=LEX.filter(function(t){
+    if(LEXFILTER!=='All' && (t[3]||'Market')!==LEXFILTER) return false;
+    if(q && (t[0]+' '+t[1]).toLowerCase().indexOf(q)<0) return false;
+    return true; });
+  var emp=document.getElementById('lex-empty'); if(emp) emp.hidden=rows.length>0;
+  grid.innerHTML=rows.map(function(t){
+    return '<button class="lex-card" aria-expanded="false"><div class="lc-top"><h4>'+t[0]+'</h4><span class="lc-cat">'+(t[3]||'')+'</span></div><div class="lc-def">'+t[1]+'</div>'+(t[2]?'<div class="lc-src">'+t[2]+'</div>':'')+'</button>';
+  }).join('');
 }
 function tapeGo(s){var i=document.getElementById('tape-q'); if(i){i.value=s;} tapeSearch(s);}
 function tapeSearch(q){
@@ -936,13 +1016,8 @@ function sanitizeData(){
   DISPATCH=DISPATCH.map(function(e){return {id:esc(e.id),date:esc(e.date),read:esc(e.read),grade:esc(e.grade),head:esc(e.head),stand:esc(e.stand),wk:e.wk,wklabel:esc(e.wklabel),body:(e.body||[]).map(function(b){return [b[0],esc(b[1])];})};});
 }
 function show(v){
-  var view=(v==='tape')?'class':v;
   document.querySelectorAll('#nav button').forEach(function(b){b.setAttribute('aria-current',b.dataset.view===v?'true':'false');});
-  document.querySelectorAll('.view').forEach(function(s){s.classList.toggle('on',s.id==='view-'+view);});
-  if(v==='tape'){
-    document.querySelectorAll('#cl-tabs button').forEach(function(b){b.setAttribute('aria-current',b.getAttribute('data-pane')==='search'?'true':'false');});
-    document.querySelectorAll('.cl-pane').forEach(function(p){p.classList.toggle('on',p.id==='cl-search');});
-  }
+  document.querySelectorAll('.view').forEach(function(s){s.classList.toggle('on',s.id==='view-'+v);});
   window.scrollTo({top:0,behavior:'smooth'});
 }
 document.getElementById('nav').addEventListener('click',function(e){var b=e.target.closest('button');if(b)show(b.dataset.view);});
@@ -989,6 +1064,12 @@ document.getElementById('enter').addEventListener('click',function(e){e.stopProp
 intro.addEventListener('click',enterDesk);
 intro.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '||e.key==='Escape')enterDesk();});
 document.getElementById('replay').addEventListener('click',replayIntro);
+document.addEventListener('click',function(e){
+  var fil=e.target.closest('.lex-fil'); if(fil){LEXFILTER=fil.getAttribute('data-cat');renderLexicon();return;}
+  var card=e.target.closest('.lex-card'); if(card){card.setAttribute('aria-expanded',card.getAttribute('aria-expanded')==='true'?'false':'true');return;}
+  var aq=e.target.closest('.arch-q'); if(aq){var row=aq.parentNode;row.setAttribute('aria-expanded',row.getAttribute('aria-expanded')==='true'?'false':'true');return;}
+});
+document.addEventListener('input',function(e){ if(e.target.id==='lex-q') renderLexicon(); });
 /* skip the intro on repeat visits within the session; Replay still works */
 try{ if(sessionStorage.getItem('cp_entered')==='1'){ leaving=true; document.body.classList.remove('pre-enter'); document.body.classList.remove('locked'); intro.style.display='none'; setTimeout(countHome,300); } }catch(e){}
 
