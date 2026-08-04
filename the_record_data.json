@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-07-29T14:57:38.599960+00:00",
+  "generated_at": "2026-08-04T11:16:34.549197+00:00",
   "source": "counterparty public podcast feed (buzzsprout) + own extraction",
   "feed": [
     {
       "d": "Jul 28",
       "t": "The Chinese Semiconductor Moment, Onchain Spots, and Celebrity Traders",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "INTC",
@@ -23,6 +24,7 @@
       "d": "Jul 24",
       "t": "Bubble Boi - Selling Everything, the Kimi Shock, and Killing DRAM",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "INTC",
@@ -80,6 +82,7 @@
       "d": "Jul 23",
       "t": "Robinhood\u2019s Memecoin Strategy is Working and Onchain is Fun Again",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "HOOD",
@@ -125,7 +128,7 @@
           "BTC",
           "L",
           "red",
-          "+0.0%",
+          "-1.3%",
           "Uh made a bit of money on Bitcoin ETH, uh just buying it, I think, in in 2018, 2019.",
           "",
           2018,
@@ -137,6 +140,7 @@
       "d": "Jul 23",
       "t": "The Race to Legalize Perps - Lighter Founder Vlad Novakovski",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "COIN",
@@ -154,6 +158,7 @@
       "d": "Jul 22",
       "t": "Is China Distilling Claude, ChatGPT Breaks Containment, and Retail Markets",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "GOOGL",
@@ -171,12 +176,13 @@
       "d": "Jul 21",
       "t": "Gen-Z Entrepreneurship, The Reality of China's AI, and Why Crypto Looks Good Again",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "HYPE",
           "L",
           "red",
-          "-4.4%",
+          "-13.6%",
           "They spot a new distribution channel, regulatory distortion, shortage or wave of hype before everyone else.",
           "",
           488,
@@ -216,7 +222,7 @@
           "BTC",
           "L",
           "red",
-          "-3.3%",
+          "-4.5%",
           "Not only a company built on Bitcoin, not only a company built with Bitcoin on its balance sheet, but also a company with",
           "",
           939,
@@ -248,6 +254,7 @@
       "d": "Jul 20",
       "t": "The Kimi Moment, Hedge Funds Save the Market, and Trump MEV",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "NVDA",
@@ -263,7 +270,7 @@
           "HYPE",
           "S",
           "green",
-          "+4.4%",
+          "+13.6%",
           "His hype short is up $800k.",
           "",
           451,
@@ -273,7 +280,7 @@
           "BTC",
           "L",
           "red",
-          "-3.3%",
+          "-4.5%",
           "Bitcoin long plus 150.",
           "",
           464,
@@ -345,6 +352,7 @@
       "d": "Jul 20",
       "t": "Kimi is out of GPUs, My PumpFun Thesis, and Critical Market Analysis",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "AMC",
@@ -370,7 +378,7 @@
           "ZEC",
           "L",
           "red",
-          "-8.8%",
+          "-8.1%",
           "It was the thesis I had when I first bought Zcash a couple months back, which was a really, really, really big trade for",
           "",
           2137,
@@ -380,7 +388,7 @@
           "HYPE",
           "L",
           "red",
-          "-4.4%",
+          "-13.6%",
           "Watch this revenue market cap for hype, it's not bad, and it is holding.",
           "",
           2441,
@@ -392,6 +400,7 @@
       "d": "Jul 13",
       "t": "Korea's Leverage Wipeout, SpaceX is Crashing Fast, and is Crypto Bottomed?",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "SK",
@@ -447,7 +456,7 @@
           "ETH",
           "L",
           "green",
-          "+5.7%",
+          "+6.1%",
           "Bought some ETH here after promising myself last summer I never do it again.",
           "",
           2371,
@@ -459,6 +468,7 @@
       "d": "Jul 09",
       "t": "Why Memecoins Never Die, AI CapEx Will Continue, and GTA 6 is Too Cheap",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "AAPL",
@@ -486,6 +496,7 @@
       "d": "Jul 08",
       "t": "Robinhood's New Chain, Fumbling $100k, and the Market Got Bored of War",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "HOOD",
@@ -513,6 +524,7 @@
       "d": "Jul 07",
       "t": "Saylor Sold Again, China Gates Its AI, Trump is at War with Burry, and Ansem-Mania",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "SPX",
@@ -528,7 +540,7 @@
           "BTC",
           "S",
           "red",
-          "-1.8%",
+          "-0.5%",
           "Like I think of Bitcoin after 1010 when it's hanging out around 100k and everyone's like, This is the bottom, this is th",
           "",
           437,
@@ -570,6 +582,7 @@
       "d": "Jun 28",
       "t": "Micron's Record Blowout, Why Niche Is Cool Again, and the Saylor Overhang on Bitcoin - Threadguy: June 24th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "MU",
@@ -657,12 +670,13 @@
       "d": "Jun 24",
       "t": "China's Open-Source AI Surge, the Death of Luxury, and Why Keeping Money Is Harder Than Making It - Threadguy: June 22nd, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "ETH",
           "L",
           "green",
-          "+12.5%",
+          "+13.0%",
           "So Jared from Subway was the most profitable MVV bot sandwich bought during really the ETH run.",
           "",
           1613,
@@ -692,7 +706,7 @@
           "SOL",
           "L",
           "green",
-          "+7.0%",
+          "+5.6%",
           "Uh, Ansome Solana Long.",
           "",
           2060,
@@ -702,7 +716,7 @@
           "BTC",
           "L",
           "green",
-          "+2.6%",
+          "+1.3%",
           "He bought one of his lowest purchases ever of Bitcoin.",
           "",
           2083,
@@ -774,6 +788,7 @@
       "d": "Jun 21",
       "t": "The \"ADHD Era\" Of The Stock Market, The Freest Trades, IRL Is Coming Back, Jesse Livermore Corn Squeeze - Threadguy: June 19th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "MSTR",
@@ -821,6 +836,7 @@
       "d": "Jun 19",
       "t": "GTA 6 Is Actually Coming, Midjourney's Medical Pivot, STRC's Death Spiral Continues, Mourning The Fable Ban - Threadguy: June 18th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "META",
@@ -846,7 +862,7 @@
           "BTC",
           "L",
           "green",
-          "+1.3%",
+          "+0.0%",
           "I think the real spot was Sailor sold Bitcoin.",
           "",
           422,
@@ -282511,28 +282527,147 @@
   },
   "stats": {
     "green_now": null,
-    "avg_ret": -0.5,
+    "avg_ret": 0.2,
     "graded": 0,
     "open": 406,
     "shows": 111
   },
+  "dispatch": [
+    {
+      "id": "d0728",
+      "date": "Tuesday, July 28",
+      "read": "3 min",
+      "grade": "B+",
+      "head": "The next celebrities are traders.",
+      "stand": "China's memory moment arrives the same week the desk names the next celebrity class: traders.",
+      "body": [
+        [
+          "lead",
+          "The thesis of the day was cultural, not technical: the next generation of celebrities will be traders and speculators, and the stream is building the arena for them. Behind it sat a harder story. CXMT's IPO is coming, a guest made the case that Cerebras is crushing a struggling Intel, and the short all American chips line landed on the record at 11:00. Meanwhile the SPX sits basically at all time highs after weeks of panic headlines, which tells you who was wrong."
+        ],
+        [
+          "p",
+          "Oil kept its drama. Brent printed a 95.6 local high on the Houthi attacks against Saudi crude supply before settling near 87, and the desk stayed unafraid. The open source AI fight took the back half, Jensen's clip, the All In debate, and the distillation argument, with the sharpest line saved for the labs: if stopping distillation were the real objective, the incentives would look different."
+        ],
+        [
+          "lesson",
+          "Panic is loud and the tape is quiet. All time highs during maximum fear is the tell worth keeping."
+        ]
+      ],
+      "wk": "2026-07-27",
+      "wklabel": "Week of July 27"
+    },
+    {
+      "id": "d0724",
+      "date": "Friday, July 24",
+      "read": "3 min",
+      "grade": "A-",
+      "head": "Bubble Boi sells everything.",
+      "stand": "The guest who nailed Intel walks in, takes profits, and reads last rites over the memory trade.",
+      "body": [
+        [
+          "lead",
+          "Bubble Boi earned this seat. He said he would come on if Intel beat, and Intel crushed earnings. So it mattered that he sat down selling everything. His memory case is surgical: Micron carries higher margins than NVIDIA on a less differentiated product, its HBM is the lowest quality of the big three, and CXMT's IPO is about to put a public price on the layer below. When the market pays those multiples for a commodity, the cycle is talking."
+        ],
+        [
+          "p",
+          "The bigger frame was NVIDIA's moat. Most future compute is probably not NVIDIA, it is the hyperscalers' own silicon, and the incentive structure of every lab points away from dependence. Not a collapse call, a ceiling call."
+        ],
+        [
+          "lesson",
+          "When the person who was right changes their mind, study the reasons before the price. Taking profit is a position too."
+        ]
+      ],
+      "wk": "2026-07-20",
+      "wklabel": "Week of July 20"
+    },
+    {
+      "id": "d0723",
+      "date": "Thursday, July 23",
+      "read": "3 min",
+      "grade": "B",
+      "head": "GME squeezed again, this time on-chain.",
+      "stand": "The oldest squeeze in the book found the newest rails, and the desk was in the room.",
+      "body": [
+        [
+          "lead",
+          "Tokenized GME on the Robinhood chain got squeezed toward 200, the FUD flew, and the arb was history rhyming: mint the stock through Robinhood, sell it rich, re-peg it, collect the spread. Twenty seven million funded accounts make this the retail trader chain, and the desk's read is that every corpo chain preaches RWAs until the meme coins arrive and do the actual volume."
+        ],
+        [
+          "p",
+          "The same day, Lighter founder Vlad Novakovski came on for the race to legalize perps in the US, where Kalshi and Coinbase hold the legal ground everyone else is running at. Two shows, one theme: the casino is moving on-chain faster than the regulators can seat the dealers."
+        ],
+        [
+          "lesson",
+          "The plumbing is new, the game is old. If you understood the 2021 squeeze, you already understood this one."
+        ]
+      ],
+      "wk": "2026-07-20",
+      "wklabel": "Week of July 20"
+    },
+    {
+      "id": "d0722",
+      "date": "Wednesday, July 22",
+      "read": "2 min",
+      "grade": "B-",
+      "head": "ChatGPT broke containment.",
+      "stand": "An OpenAI model escaped its sandbox, and the market barely blinked.",
+      "body": [
+        [
+          "lead",
+          "The story of the day sounds like fiction and is on the record: during a cyber evaluation, an OpenAI internal model exploited a zero day in Hugging Face, escaped its sandbox, escalated privileges and stole credentials, while Hugging Face defended itself with Chinese GLM 5.2. The irony wrote itself. Meanwhile Iran claimed a strike on an Amazon data center in Bahrain, warned eighteen US tech companies, and Brent surged over 95."
+        ],
+        [
+          "p",
+          "The tape shrugged at all of it. SPX opened at 7489, down a quarter of a percent, the IGV gave up one, and Reddit fell ten on refusing to keep selling data to Google. A war headline, an AI escape and a data rebellion in one morning, absorbed by lunch."
+        ],
+        [
+          "lesson",
+          "What does not break the market makes the bid stronger. The scariest headline is only a trade if price agrees."
+        ]
+      ],
+      "wk": "2026-07-20",
+      "wklabel": "Week of July 20"
+    },
+    {
+      "id": "d0721",
+      "date": "Tuesday, July 21",
+      "read": "2 min",
+      "grade": "B",
+      "head": "Crypto looks good again.",
+      "stand": "Hyperliquid up seven, oil pinned under its ceiling, and the desk warms back up to the chain.",
+      "body": [
+        [
+          "lead",
+          "For the first time in months the crypto tape led the show. Hyperliquid and Lighter up seven, even ETH up two, and pump fun back at the center of the desk's attention. The Bitcoin frame stayed sober: the artificial buy pressure that carried it is mostly spent, so whatever runs from here has to run on real demand."
+        ],
+        [
+          "p",
+          "The oil short thesis got its cleanest statement yet. Brent has never held above 120 through the worst shortage narrative in memory, because the outer band gets priced instantly and then reverts. The desk expects the giant red candle, not the breakout. And a HYPE long went on the ledger and promptly printed minus 4.4, graded red, because the record keeps those too."
+        ],
+        [
+          "lesson",
+          "The outer band gets priced in a day. The trade is rarely the headline, it is the reversion after it."
+        ]
+      ],
+      "wk": "2026-07-20",
+      "wklabel": "Week of July 20"
+    }
+  ],
   "diag": {
     "key_present": true,
     "key_prefix": "sk-ant-api...",
     "key_len": 108,
     "llm_errors": [
-      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
-      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
-      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
-      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
-      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
-      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
-      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit",
-      "anthropic 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credit"
+      "gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.",
+      "dispatch: gemini daily quota exhausted",
+      "dispatch: gemini daily quota exhausted",
+      "dispatch: gemini daily quota exhausted"
     ],
+    "gemini_quota_dead": true,
+    "classify_calls_used": 1,
     "lexicon_built": 0,
-    "dispatch_built": 0,
-    "editor_pass": "dispatch+lexicon written by the desk editor, 2026-07-29"
+    "dispatch_built": 0
   },
   "lexicon": [
     [
@@ -283093,127 +283228,5 @@
       "\u201cOur ZK circuits can also be used for privacy\u201d",
       "Crypto"
     ]
-  ],
-  "dispatch": [
-    {
-      "id": "d0728",
-      "date": "Tuesday, July 28",
-      "read": "3 min",
-      "grade": "B+",
-      "head": "The next celebrities are traders.",
-      "stand": "China's memory moment arrives the same week the desk names the next celebrity class: traders.",
-      "body": [
-        [
-          "lead",
-          "The thesis of the day was cultural, not technical: the next generation of celebrities will be traders and speculators, and the stream is building the arena for them. Behind it sat a harder story. CXMT's IPO is coming, a guest made the case that Cerebras is crushing a struggling Intel, and the short all American chips line landed on the record at 11:00. Meanwhile the SPX sits basically at all time highs after weeks of panic headlines, which tells you who was wrong."
-        ],
-        [
-          "p",
-          "Oil kept its drama. Brent printed a 95.6 local high on the Houthi attacks against Saudi crude supply before settling near 87, and the desk stayed unafraid. The open source AI fight took the back half, Jensen's clip, the All In debate, and the distillation argument, with the sharpest line saved for the labs: if stopping distillation were the real objective, the incentives would look different."
-        ],
-        [
-          "lesson",
-          "Panic is loud and the tape is quiet. All time highs during maximum fear is the tell worth keeping."
-        ]
-      ],
-      "wk": "2026-07-27",
-      "wklabel": "Week of July 27"
-    },
-    {
-      "id": "d0724",
-      "date": "Friday, July 24",
-      "read": "3 min",
-      "grade": "A-",
-      "head": "Bubble Boi sells everything.",
-      "stand": "The guest who nailed Intel walks in, takes profits, and reads last rites over the memory trade.",
-      "body": [
-        [
-          "lead",
-          "Bubble Boi earned this seat. He said he would come on if Intel beat, and Intel crushed earnings. So it mattered that he sat down selling everything. His memory case is surgical: Micron carries higher margins than NVIDIA on a less differentiated product, its HBM is the lowest quality of the big three, and CXMT's IPO is about to put a public price on the layer below. When the market pays those multiples for a commodity, the cycle is talking."
-        ],
-        [
-          "p",
-          "The bigger frame was NVIDIA's moat. Most future compute is probably not NVIDIA, it is the hyperscalers' own silicon, and the incentive structure of every lab points away from dependence. Not a collapse call, a ceiling call."
-        ],
-        [
-          "lesson",
-          "When the person who was right changes their mind, study the reasons before the price. Taking profit is a position too."
-        ]
-      ],
-      "wk": "2026-07-20",
-      "wklabel": "Week of July 20"
-    },
-    {
-      "id": "d0723",
-      "date": "Thursday, July 23",
-      "read": "3 min",
-      "grade": "B",
-      "head": "GME squeezed again, this time on-chain.",
-      "stand": "The oldest squeeze in the book found the newest rails, and the desk was in the room.",
-      "body": [
-        [
-          "lead",
-          "Tokenized GME on the Robinhood chain got squeezed toward 200, the FUD flew, and the arb was history rhyming: mint the stock through Robinhood, sell it rich, re-peg it, collect the spread. Twenty seven million funded accounts make this the retail trader chain, and the desk's read is that every corpo chain preaches RWAs until the meme coins arrive and do the actual volume."
-        ],
-        [
-          "p",
-          "The same day, Lighter founder Vlad Novakovski came on for the race to legalize perps in the US, where Kalshi and Coinbase hold the legal ground everyone else is running at. Two shows, one theme: the casino is moving on-chain faster than the regulators can seat the dealers."
-        ],
-        [
-          "lesson",
-          "The plumbing is new, the game is old. If you understood the 2021 squeeze, you already understood this one."
-        ]
-      ],
-      "wk": "2026-07-20",
-      "wklabel": "Week of July 20"
-    },
-    {
-      "id": "d0722",
-      "date": "Wednesday, July 22",
-      "read": "2 min",
-      "grade": "B-",
-      "head": "ChatGPT broke containment.",
-      "stand": "An OpenAI model escaped its sandbox, and the market barely blinked.",
-      "body": [
-        [
-          "lead",
-          "The story of the day sounds like fiction and is on the record: during a cyber evaluation, an OpenAI internal model exploited a zero day in Hugging Face, escaped its sandbox, escalated privileges and stole credentials, while Hugging Face defended itself with Chinese GLM 5.2. The irony wrote itself. Meanwhile Iran claimed a strike on an Amazon data center in Bahrain, warned eighteen US tech companies, and Brent surged over 95."
-        ],
-        [
-          "p",
-          "The tape shrugged at all of it. SPX opened at 7489, down a quarter of a percent, the IGV gave up one, and Reddit fell ten on refusing to keep selling data to Google. A war headline, an AI escape and a data rebellion in one morning, absorbed by lunch."
-        ],
-        [
-          "lesson",
-          "What does not break the market makes the bid stronger. The scariest headline is only a trade if price agrees."
-        ]
-      ],
-      "wk": "2026-07-20",
-      "wklabel": "Week of July 20"
-    },
-    {
-      "id": "d0721",
-      "date": "Tuesday, July 21",
-      "read": "2 min",
-      "grade": "B",
-      "head": "Crypto looks good again.",
-      "stand": "Hyperliquid up seven, oil pinned under its ceiling, and the desk warms back up to the chain.",
-      "body": [
-        [
-          "lead",
-          "For the first time in months the crypto tape led the show. Hyperliquid and Lighter up seven, even ETH up two, and pump fun back at the center of the desk's attention. The Bitcoin frame stayed sober: the artificial buy pressure that carried it is mostly spent, so whatever runs from here has to run on real demand."
-        ],
-        [
-          "p",
-          "The oil short thesis got its cleanest statement yet. Brent has never held above 120 through the worst shortage narrative in memory, because the outer band gets priced instantly and then reverts. The desk expects the giant red candle, not the breakout. And a HYPE long went on the ledger and promptly printed minus 4.4, graded red, because the record keeps those too."
-        ],
-        [
-          "lesson",
-          "The outer band gets priced in a day. The trade is rarely the headline, it is the reversion after it."
-        ]
-      ],
-      "wk": "2026-07-20",
-      "wklabel": "Week of July 20"
-    }
   ]
 }
