@@ -1,0 +1,857 @@
+# -*- coding: utf-8 -*-
+"""
+The Record . data collector
+=================================================================
+Where the data comes from, and how we collect it, WITHOUT touching paste.trade.
+
+Counterparty publishes its own machine readable record. This script reads it and
+builds `the_record_data.json`, which the site loads. Same public source paste.trade
+uses (the show's own words), our own independent pipeline, a different output:
+a written, taught, searchable archive instead of a live P&L terminal.
+
+SOURCES (all public, all the show's own output)
+  RSS feed         https://feeds.buzzsprout.com/2535072.rss
+  per episode      .../<id>/transcript.json   (word level, timestamped)
+                   .../<id>/chapters.json      (titled timestamps)
+  jump to moment   https://www.buzzsprout.com/2535072/episodes/<id>?t=<seconds>
+  prices (charts)  Stooq free CSV  (stocks)  /  CoinGecko free  (crypto)   [stubbed]
+
+PIPELINE
+  1. fetch RSS, find episodes (skip ones already in the cache)
+  2. download transcript.json + chapters.json for each new episode
+  3. extract calls  -> LLM pass if ANTHROPIC_API_KEY is set, else heuristic
+  4. attach a price window per ticker for the Anatomy charts        [stub]
+  5. draft a 3 minute Dispatch                                       [LLM optional]
+  6. write the_record_data.json  (feed, tape, voices, dispatch)
+  7. a human (the editor seat) reviews before publish
+
+Run nightly:  python ingest.py            (Netlify scheduled fn / GitHub Action / cron)
+Backfill all: python ingest.py --all
+"""
+
+import json, re, sys, os, time, urllib.request, urllib.error, xml.etree.ElementTree as ET
+from datetime import datetime, timezone, timedelta
+
+SHOW_ID = "2535072"
+RSS     = f"https://feeds.buzzsprout.com/{SHOW_ID}.rss"
+EP_BASE = f"https://www.buzzsprout.com/{SHOW_ID}/episodes/"
+OUT     = "the_record_data.json"
+UA      = {"User-Agent": "the-record-ingest/1.0"}
+
+# Map the names actually said on the show to tickers. Extend as the show evolves.
+TICKERS = {
+    "amc":"AMC","micron":"MU","mu":"MU","hyperliquid":"HYPE","hype":"HYPE",
+    "zcash":"ZEC","zec":"ZEC","strategy":"MSTR","mstr":"MSTR","strc":"MSTR","saylor":"MSTR",
+    "spacex":"SPCX","bitcoin":"BTC","btc":"BTC","ethereum":"ETH","eth":"ETH",
+    "marvell":"MRVL","mrvl":"MRVL","robinhood":"HOOD","hood":"HOOD","stubhub":"STUB",
+    "snapchat":"SNAP","snap":"SNAP","oil":"WTI","crude":"WTI","take two":"TTWO","gta":"TTWO",
+    "nvidia":"NVDA","tesla":"TSLA","uber":"UBER","amazon":"AMZN","coreweave":"CRWV",
+}
+LONG_WORDS  = ("long","bought","buying","i'm in","i am in","accumulate","holding","hold","spot")
+SHORT_WORDS = ("short","shorting","fade","fading","sell","selling","puts")
+
+# Spoken names said in full on air -> ticker. Reuses the curated map and extends it.
+NAME2SYM = dict(TICKERS)
+NAME2SYM.update({
+    "palantir":"PLTR","sofi":"SOFI","rocket lab":"RKLB","coinbase":"COIN",
+    "microstrategy":"MSTR","micro strategy":"MSTR","solana":"SOL",
+    "google":"GOOGL","alphabet":"GOOGL","apple":"AAPL","meta":"META","facebook":"META",
+    "microsoft":"MSFT","netflix":"NFLX","intel":"INTC","palo alto":"PANW",
+    "gamestop":"GME","live nation":"LYV","disney":"DIS","sandisk":"SNDK",
+    "broadcom":"AVGO","super micro":"SMCI","supermicro":"SMCI","circle":"CRCL",
+})
+# All-caps tokens that look like tickers but are not. Guards against the obvious noise.
+NOT_TICKER = {
+ "I","A","AI","OK","CEO","CFO","COO","CTO","IPO","USA","US","UK","EU","FED","CPI","GDP","PPI",
+ "ETF","ETFS","EV","EVS","DD","AH","PM","AM","EST","PST","GMT","ET","Q1","Q2","Q3","Q4","FY",
+ "YTD","ATH","ATL","FOMO","YOLO","NGMI","WAGMI","GG","LOL","IMO","TBH","TV","PC","OS","II","III",
+ "NFT","DEX","CEX","APR","APY","TVL","KOL","OG","ATM","CME","SEC","IRS","FBI","CIA","NASA","CNBC",
+ "IRL","DM","PR","NYSE","TLDR","FAQ","WTF","USD","EUR","GBP","JPY","DXY","VIX","ID","AKA","ASAP",
+ "FYI","RSI","MACD","NO","YES","THE","AND","BUT","SO","GO","UP","IT","WE","HE","ME","MY","BY","OR",
+}
+TICKER_RE = re.compile(r"\$([A-Za-z]{1,5})\b|(?<![A-Za-z])([A-Z]{2,5})(?![A-Za-z])")
+
+def detect_tickers(sent):
+    """Likely tickers in a sentence: spoken name map, then $TAG, then bare caps,
+    filtered by a stopword guard. No fixed shortlist required."""
+    found, low = [], sent.lower()
+    for name, sym in NAME2SYM.items():
+        if re.search(rf"(?<![a-z]){re.escape(name)}(?![a-z])", low):
+            found.append(sym)
+    for m in TICKER_RE.finditer(sent):
+        if m.group(1):                                   # $TAG, strong signal
+            found.append(m.group(1).upper())
+        else:
+            tag = m.group(2).upper()
+            if tag not in NOT_TICKER:                    # bare caps, guarded
+                found.append(tag)
+    seen, out = set(), []
+    for t in found:
+        if t not in seen: seen.add(t); out.append(t)
+    return out
+
+def get(url, asjson=False):
+    req = urllib.request.Request(url, headers=UA)
+    with urllib.request.urlopen(req, timeout=30) as r:
+        raw = r.read().decode("utf-8", "replace")
+    return json.loads(raw) if asjson else raw
+
+def mmss(seconds):
+    s = int(seconds); return f"{s//60}:{s%60:02d}"
+
+# ---------- 1+2 : episodes and their transcripts ----------
+def episodes():
+    xml = get(RSS)
+    ns = {"it":"http://www.itunes.com/dtds/podcast-1.0.dtd"}
+    root = ET.fromstring(xml)
+    out = []
+    for item in root.iter("item"):
+        title = (item.findtext("title") or "").strip()
+        pub   = (item.findtext("pubDate") or "").strip()
+        desc  = (item.findtext("description") or "")
+        enc   = item.find("enclosure")
+        url   = enc.get("url") if enc is not None else ""
+        m = re.search(r"/episodes/(\d+)", url)
+        epid = m.group(1) if m else None
+        if not epid:
+            continue
+        out.append({
+            "id": epid, "title": title, "pubDate": pub,
+            "desc": re.sub("<[^>]+>", "", desc).strip(),
+            "transcript": f"https://www.buzzsprout.com/{SHOW_ID}/{epid}/transcript.json",
+            "chapters":   f"https://www.buzzsprout.com/{SHOW_ID}/{epid}/chapters.json",
+        })
+    return out
+
+def sentences(transcript_json):
+    """Rebuild sentences from word-level segments, keep each sentence's start time."""
+    segs = transcript_json.get("segments", [])
+    out, buf, start = [], [], None
+    for s in segs:
+        w = s.get("body", "")
+        if start is None:
+            start = s.get("startTime", 0)
+        buf.append(w)
+        if re.search(r"[.!?]$", w):
+            out.append((start, " ".join(buf).strip()))
+            buf, start = [], None
+    if buf:
+        out.append((start or 0, " ".join(buf).strip()))
+    return out
+
+# ---------- 3 : extraction ----------
+# Levels are ONLY ever taken from what was said on air. Keyword + a price in the
+# same sentence that names the ticker. No keyword or no number means null, never a guess.
+LEVEL_KEYS = {
+  "entry":  ["in at","entry","got in","bought at","i'm in","im in","added at","long from","short from","filled at"],
+  "stop":   ["stop","invalidat","stopped out","stop loss","cut it at","get out at"],
+  "target": ["target","take profit","looking for","aiming for","sell at","exit at","tp at","price target"],
+}
+PRICE_RE = re.compile(r"\$?\s?(\d{1,5}(?:\.\d{1,2})?)")
+
+def extract_levels(sents, name):
+    """Return {entry,stop,target,stated} using ONLY numbers spoken next to a keyword
+    in a sentence that mentions the ticker. Anything not said on air stays None."""
+    out = {"entry": None, "stop": None, "target": None, "stated": False}
+    for _t, sent in sents:
+        low = sent.lower()
+        if not re.search(rf"(?<![a-z]){re.escape(name)}(?![a-z])", low):
+            continue
+        for kind, keys in LEVEL_KEYS.items():
+            if out[kind] is not None:
+                continue
+            if any(k in low for k in keys):
+                m = PRICE_RE.search(sent)
+                if m:
+                    try: out[kind] = float(m.group(1))
+                    except ValueError: pass
+    out["stated"] = any(out[k] is not None for k in ("entry", "stop", "target"))
+    return out
+
+# Not tickers: chat slang and market shorthand the pattern matcher mistakes for symbols.
+NOT_TICKERS = {"TA","PFP","FUD","LP","TP","SP","AL","SL","PNL","ATH","CEO","CTO","IPO","ETF",
+               "GDP","CPI","FED","AI","US","USA","UK","EU","OK","LOL","IMO","DM","VC","YT"}
+# A sentence that negates the position is not a call.
+NEGATIONS = ("not long","not short","i'm not","i am not","no position","no positive exposure",
+             "no exposure","wouldn't long","wouldn't short","can't long","can't short",
+             "never long","never short","not buying","not selling","don't own","do not own")
+# "long" as duration, not direction.
+TIME_LONG = ("how long","long time","long day","long story","for a long","too long","longer than",
+             "so long","as long as","all day long","long ago","long run","long-term relationship")
+
+def extract_calls_heuristic(sents):
+    """No-LLM fallback: find ticker (by pattern) + direction in a sentence, keep as a receipt."""
+    sym2name = {sym: name for name, sym in TICKERS.items()}
+    calls = []
+    for t, sent in sents:
+        low = " " + sent.lower() + " "
+        if any(n in low for n in NEGATIONS):
+            continue
+        tickers = [x for x in detect_tickers(sent) if x not in NOT_TICKERS]
+        if not tickers:
+            continue
+        tk = tickers[0]
+        is_long = any(k in low for k in LONG_WORDS) and not any(k in low for k in TIME_LONG)
+        d = "L" if is_long else ("S" if any(k in low for k in SHORT_WORDS) else None)
+        if not d:
+            continue
+        calls.append({"tk": tk, "dir": d, "quote": sent[:180], "ts": mmss(t), "secs": int(t)})
+    # de-dupe by ticker, keep first mention
+    seen, uniq = set(), []
+    for c in calls:
+        if c["tk"] in seen: continue
+        seen.add(c["tk"]); uniq.append(c)
+    for c in uniq:
+        c["levels"] = extract_levels(sents, sym2name.get(c["tk"], c["tk"].lower()))
+    return uniq
+
+def extract_calls_llm(title, desc, sents):
+    """Higher quality: ask Claude to read the transcript and return strict JSON calls."""
+    import anthropic  # pip install anthropic
+    client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY
+    text = "\n".join(f"[{mmss(t)}] {s}" for t, s in sents)[:120000]
+    prompt = (
+        "You are the desk editor for a finance show's written record. From the transcript, "
+        "extract every explicit trade CALL the host or a guest makes. Return ONLY a JSON array. "
+        "Each item: {\"tk\":ticker,\"dir\":\"L\"or\"S\",\"status\":\"win|loss|open|flat\","
+        "\"pct\":\"\",\"thesis\":one sentence in plain English,\"quote\":the exact spoken line,"
+        "\"ts\":\"mm:ss\"}. No commentary, no markdown.\n\n"
+        f"TITLE: {title}\nNOTES: {desc}\n\nTRANSCRIPT:\n{text}"
+    )
+    msg = client.messages.create(model="claude-sonnet-4-6", max_tokens=2000,
+                                 messages=[{"role":"user","content":prompt}])
+    raw = "".join(b.text for b in msg.content if b.type=="text").strip()
+    raw = re.sub(r"^```json|```$", "", raw).strip()
+    return json.loads(raw)
+
+def extract(title, desc, transcript_json):
+    """Stage 1, the broad searchable layer: always heuristic (fast, free).
+    The clean scoreboard layer comes from classify_calls (stage 2) via _llm."""
+    sents = sentences(transcript_json)
+    return extract_calls_heuristic(sents), sents
+
+# ---------- 4 : prices for the Anatomy charts (real) ----------
+# Stocks -> Stooq free CSV. Crypto -> CoinGecko free OHLC. Futures -> an ETF/symbol proxy.
+# This is historical price context for the chart studies. It is NOT the live "since call"
+# P&L tracker, which is paste.trade's job and which we deliberately do not rebuild.
+CRYPTO = {"ZEC":"zcash","HYPE":"hyperliquid","BTC":"bitcoin","ETH":"ethereum","SOL":"solana"}
+STOOQ_SYM = {"WTI":"cl.f","SPX":"^spx","SP500":"^spx"}  # non-.us symbols / proxies
+
+def _stooq(ticker):
+    sym = STOOQ_SYM.get(ticker, ticker.lower() + ".us")
+    csv = get(f"https://stooq.com/q/d/l/?s={sym}&i=d")
+    rows = [ln.split(",") for ln in csv.strip().splitlines()[1:]]
+    out = []
+    for r in rows:
+        if len(r) >= 5:
+            try: out.append([r[0], float(r[1]), float(r[2]), float(r[3]), float(r[4])])
+            except ValueError: pass
+    return out  # [date,o,h,l,c]
+
+def _coingecko(ticker, days=180):
+    cid = CRYPTO[ticker]
+    data = get(f"https://api.coingecko.com/api/v3/coins/{cid}/ohlc?vs_currency=usd&days={days}", asjson=True)
+    # [[ms,o,h,l,c],...]
+    return [[datetime.utcfromtimestamp(p[0]/1000).strftime("%Y-%m-%d"), p[1], p[2], p[3], p[4]] for p in data]
+
+def price_window(ticker, days=120):
+    """Return real OHLC as the site's chart shape [[i,o,h,l,c],...], last `days` candles."""
+    try:
+        raw = _coingecko(ticker) if ticker in CRYPTO else _stooq(ticker)
+    except Exception as e:
+        print(f"  ! price fetch failed for {ticker} ({e})", file=sys.stderr); return []
+    raw = raw[-days:]
+    return [[i, round(o,4), round(h,4), round(l,4), round(c,4)] for i,(d,o,h,l,c) in enumerate(raw)]
+
+# ---------- second source : the YouTube channel ----------
+# @notthreadguy posts every stream to YouTube too. YouTube gives a channel RSS and timed
+# captions, so it's the same pipeline, second source, with video deep links (watch?v=ID&t=Ns).
+YT_HANDLE = "notthreadguy"
+
+def yt_channel_id(handle=YT_HANDLE):
+    html = get(f"https://www.youtube.com/@{handle}/videos")
+    m = re.search(r'"channelId":"(UC[\w-]{22})"', html) or re.search(r'channel/(UC[\w-]{22})', html)
+    return m.group(1) if m else None
+
+def yt_videos(channel_id):
+    xml = get(f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}")
+    out = []
+    for m in re.finditer(r"<entry>.*?<yt:videoId>([\w-]+)</yt:videoId>.*?<title>(.*?)</title>.*?<published>(.*?)</published>", xml, re.S):
+        out.append({"id": m.group(1), "title": m.group(2), "published": m.group(3)})
+    return out
+
+def yt_transcript(video_id):
+    """Timed captions via youtube-transcript-api (pip install youtube-transcript-api)."""
+    from youtube_transcript_api import YouTubeTranscriptApi
+    items = YouTubeTranscriptApi.get_transcript(video_id)  # [{text,start,duration}]
+    # rebuild into sentence tuples (start_seconds, text)
+    return [(int(it["start"]), it["text"]) for it in items]
+
+def yt_uploads(handle=YT_HANDLE, since="20260101"):
+    """All channel uploads since `since` (YYYYMMDD), newest first, via yt-dlp.
+    The RSS feed only exposes ~15 recent videos; yt-dlp reaches the full back catalogue.
+    Returns None on failure so the caller can fall back to the RSS path."""
+    import subprocess
+    url = f"https://www.youtube.com/@{handle}/videos"
+    try:
+        out = subprocess.run(
+            ["yt-dlp", "--ignore-errors", "--dateafter", since,
+             "--print", "%(id)s|%(upload_date)s|%(title)s", url],
+            capture_output=True, text=True, timeout=900).stdout
+    except Exception as e:
+        print(f"  ! yt-dlp unavailable ({e}); using RSS fallback", file=sys.stderr); return None
+    vids = []
+    for ln in out.strip().splitlines():
+        p = ln.split("|", 2)
+        if len(p) >= 2 and p[0]:
+            d = p[1]
+            vids.append({"id": p[0],
+                         "published": f"{d[:4]}-{d[4:6]}-{d[6:8]}" if len(d) >= 8 else "",
+                         "title": p[2] if len(p) > 2 else ""})
+    return vids
+
+def youtube_calls(limit=10, since=None):
+    """Timestamped lines from the YouTube captions -> tape (search) backfill.
+    Uses the full uploads list (yt-dlp) when `since` is set, else the RSS feed."""
+    vids = yt_uploads(since=since.replace("-", "")) if since else None
+    if vids is None:
+        cid = yt_channel_id()
+        if not cid:
+            print("  ! could not resolve YouTube channel id", file=sys.stderr); return []
+        vids = yt_videos(cid)[:limit]
+    else:
+        print(f"  youtube uploads since {since}: {len(vids)} videos")
+    rows = []
+    for v in vids:
+        pub = (v.get("published") or "")[:10]
+        if since and pub and pub < since:
+            continue
+        try:
+            sents = yt_transcript(v["id"])
+        except Exception as e:
+            print(f"  ! no captions for {v['id']} ({e})", file=sys.stderr); continue
+        for c in extract_calls_heuristic(sents):
+            rows.append([c["tk"], c["quote"], c["ts"], "yt:" + v["id"], c["secs"], pub])
+    return rows  # deep link: https://www.youtube.com/watch?v=ID&t=NNNs
+
+# ---------- Lexicon : the desk's vocabulary, taught from its own words ----------
+LEXICON_SYS = (
+ "You build a glossary for newcomers from a finance livestream's own words. "
+ "Find the recurring slang, trader jargon, and signature phrases the desk actually uses "
+ "(e.g. fullport, fade the war, never diversify, rebuy, roundtrip, exit liquidity). "
+ "Return ONLY a JSON array, no prose. Each item: "
+ '{"term": short phrase, "def": one plain-English sentence a beginner understands, '
+ '"src": a short real example of how it is used, <=80 chars}. '
+ "Aim for 10 to 16 of the most useful, genuinely recurring terms. No generic finance 101."
+)
+
+def build_lexicon(tape):
+    """LLM pass over the spoken corpus -> [[term, def, src], ...]. None to keep baked."""
+    if not _llm_ready() or not tape:
+        return None
+    corpus = "\n".join(t[1] for t in tape if t[1])[:14000]
+    try:
+        raw = _llm(corpus, LEXICON_SYS, 2200)
+        raw = raw[raw.find("["): raw.rfind("]") + 1]
+        out = [[str(x.get("term","")).strip(), str(x.get("def","")).strip(), str(x.get("src","")).strip()]
+               for x in json.loads(raw) if x.get("term")]
+        return out or None
+    except Exception as e:
+        print(f"  ! lexicon pass failed ({e})", file=sys.stderr); return None
+
+# ---------- 6 : assemble ----------
+# ====================  STAGE 2 : CLASSIFY (LLM)  ====================
+# Turn raw transcript into real calls. Throws out mentions, keeps direction +
+# conviction + the verbatim line. Needs ANTHROPIC_API_KEY; falls back to heuristic.
+ANTHROPIC_KEY  = os.environ.get("ANTHROPIC_API_KEY", "")
+GEMINI_KEY     = os.environ.get("GEMINI_API_KEY", "")
+_PROVIDER = [None]          # resolved on first call: anthropic | gemini
+_GEMINI_T = [0.0]           # pacing for the free tier (15 requests/min)
+_QUOTA_DEAD = [False]       # gemini daily quota exhausted -> stop calling, fail fast
+CLASSIFY_BUDGET = int(os.environ.get("CLASSIFY_BUDGET", "120"))   # LLM calls per run for classification
+_CLASSIFY_USED = [0]
+
+def _llm_ready():
+    return bool(ANTHROPIC_KEY or GEMINI_KEY)
+
+def _gemini(content, system, max_tokens=1500):
+    wait = 4.2 - (time.time() - _GEMINI_T[0])
+    if wait > 0: time.sleep(wait)
+    body = json.dumps({
+        "system_instruction": {"parts": [{"text": system}]},
+        "contents": [{"parts": [{"text": content}]}],
+        "generationConfig": {"maxOutputTokens": max_tokens, "temperature": 0.4},
+    }).encode()
+    last = ""
+    for attempt in range(5):
+        req = urllib.request.Request(
+            "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" + GEMINI_KEY,
+            data=body, headers={"content-type": "application/json"})
+        try:
+            with urllib.request.urlopen(req, timeout=90) as r:
+                d = json.loads(r.read().decode())
+            _GEMINI_T[0] = time.time()
+            return "".join(pt.get("text", "") for c in d.get("candidates", [])
+                           for pt in c.get("content", {}).get("parts", []))
+        except urllib.error.HTTPError as e:
+            last = f"gemini {e.code}: {e.read().decode('utf-8','replace')[:200]}"
+            if e.code == 429:
+                if attempt >= 1:               # two strikes on 429 -> the daily quota is gone
+                    _QUOTA_DEAD[0] = True
+                    raise RuntimeError(last + " [daily quota exhausted, giving up for this run]")
+                time.sleep(15); continue
+            if e.code in (500, 503):
+                time.sleep(2 ** attempt * 3); continue
+            raise RuntimeError(last)
+    raise RuntimeError(last or "gemini: retries exhausted")
+
+def _llm(content, system, max_tokens=1500):
+    """Anthropic when a funded key exists, Gemini free tier otherwise.
+    Switches to Gemini mid-run if Anthropic rejects for billing/auth."""
+    if _PROVIDER[0] is None:
+        _PROVIDER[0] = "anthropic" if ANTHROPIC_KEY else ("gemini" if GEMINI_KEY else "none")
+    if _PROVIDER[0] == "anthropic":
+        try:
+            return _anthropic(content, system, max_tokens)
+        except RuntimeError as e:
+            s = str(e).lower()
+            if GEMINI_KEY and ("credit balance" in s or "billing" in s or "anthropic 401" in s):
+                print("  provider switch: anthropic unavailable -> gemini free tier", file=sys.stderr)
+                _PROVIDER[0] = "gemini"
+            else:
+                raise
+    if _PROVIDER[0] == "gemini":
+        if _QUOTA_DEAD[0]:
+            raise RuntimeError("gemini daily quota exhausted")
+        return _gemini(content, system, max_tokens)
+    raise RuntimeError("no LLM key available")
+CLASSIFY_MODEL = "claude-sonnet-4-6"
+CLASSIFY_SYS = (
+ "You extract trading CALLS from a finance livestream transcript. "
+ "A call is an explicit directional view or a stated position on a tradeable asset "
+ "(stock, crypto, commodity, index). NOT a call: casual mentions, questions, news "
+ "recaps, jokes, or naming an asset with no view. Return ONLY a JSON array, no prose. "
+ 'Each item: {"ticker":"AMC","direction":"long"|"short","conviction":"high"|"medium"|"low",'
+ '"quote": verbatim sentence up to 160 chars,"secs": integer start seconds}. '
+ "Use standard tickers (AMC, MU, MSTR, BTC, ETH, ZEC, HYPE, NVDA, TSLA, HOOD, SPCX, CRWV). "
+ "If there are no real calls, return []."
+)
+
+def _anthropic(content, system, max_tokens=1500):
+    body = json.dumps({"model": CLASSIFY_MODEL, "max_tokens": max_tokens,
+                       "system": system, "messages": [{"role":"user","content":content}]}).encode()
+    last = ""
+    for attempt in range(5):
+        req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body,
+            headers={"content-type":"application/json","x-api-key":ANTHROPIC_KEY,
+                     "anthropic-version":"2023-06-01"})
+        try:
+            with urllib.request.urlopen(req, timeout=90) as r:
+                d = json.loads(r.read().decode())
+            return "".join(b.get("text","") for b in d.get("content",[]) if b.get("type")=="text")
+        except urllib.error.HTTPError as e:
+            last = f"anthropic {e.code}: {e.read().decode('utf-8','replace')[:200]}"
+            if e.code in (429, 529, 500, 503):      # rate limit / overloaded -> back off
+                time.sleep(2 ** attempt * 3); continue
+            raise RuntimeError(last)                 # 400/401/404 -> real error, stop
+    raise RuntimeError(last or "anthropic: retries exhausted")
+
+def classify_calls(sents):
+    """LLM pass over timestamped sentences -> clean calls. None = caller uses heuristic."""
+    if not _llm_ready() or not sents:
+        return None
+    text = "\n".join(f"[{int(t)}s] {s}" for t, s in sents)
+    out = []; ok = False
+    step = 9000 if ANTHROPIC_KEY else 28000    # gemini flash swallows big chunks: 3x fewer calls
+    for i in range(0, len(text), step):
+        if _QUOTA_DEAD[0] or _CLASSIFY_USED[0] >= CLASSIFY_BUDGET:
+            break                               # save the rest of the quota for lexicon + dispatch
+        try:
+            _CLASSIFY_USED[0] += 1
+            raw = _llm(text[i:i+step], CLASSIFY_SYS, 1500)
+            raw = raw[raw.find("["): raw.rfind("]")+1]
+            for c in json.loads(raw):
+                tk = str(c.get("ticker","")).upper().strip()
+                if not tk: continue
+                secs = int(c.get("secs", 0) or 0)
+                out.append({"tk": tk,
+                            "dir": "S" if str(c.get("direction","")).lower().startswith("s") else "L",
+                            "conviction": c.get("conviction","medium"),
+                            "quote": str(c.get("quote",""))[:160],
+                            "secs": secs, "ts": mmss(secs)})
+            ok = True
+        except Exception as e:
+            print(f"  ! classify chunk failed ({e})", file=sys.stderr)
+            if len(_LLM_ERRORS) < 8: _LLM_ERRORS.append(str(e)[:200])
+    if not ok:
+        return None   # every chunk failed -> fall back to heuristic, do not wipe
+    seen, uniq = set(), []
+    for c in out:
+        if c["tk"] in seen: continue
+        seen.add(c["tk"]); uniq.append(c)
+    return uniq
+
+# ====================  STAGE 3 : GRADE (mark to market)  ====================
+# No fake "closed". Every call carries its return since it was made, in its stated
+# direction, off real daily closes. The market grades the call, live, forever.
+_CLOSES = {}
+def _close_series(ticker):
+    if ticker in _CLOSES: return _CLOSES[ticker]
+    try:
+        raw = _coingecko(ticker, days=365) if ticker in CRYPTO else _stooq(ticker)
+        s = [(d, c) for d, o, h, l, c in raw]
+    except Exception:
+        s = []
+    _CLOSES[ticker] = s
+    return s
+
+def grade(ticker, direction, call_date_iso):
+    """Return since the call, in its stated direction. None if no price coverage."""
+    s = _close_series(ticker)
+    if not s: return None
+    entry = next((c for d, c in s if d >= call_date_iso), None)
+    if entry is None: entry = s[-1][1]
+    last = s[-1][1]
+    if not entry: return None
+    raw = (last - entry) / entry
+    ret = raw if direction == "L" else -raw
+    return {"entry_px": round(entry, 4), "last_px": round(last, 4),
+            "ret": round(ret * 100, 1), "green": ret > 0}
+
+
+def load_existing():
+    """Previous the_record_data.json, if any. The archive on disk is the source of truth."""
+    try:
+        with open(OUT) as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+def merge_archives(old, new):
+    """Union of the old archive and the fresh pull. New entries win on collision,
+    old entries are NEVER dropped. Keys: feed by (date,title), tape by (ep,secs,quote)."""
+    if not old:
+        return new
+    def kf(e): return (e.get("d",""), e.get("t",""))
+    old_by = {kf(e): e for e in old.get("feed",[])}
+    upgraded = []
+    for e in new.get("feed",[]):
+        o = old_by.get(kf(e))
+        # never downgrade: an LLM-classified archive entry beats a fresh heuristic one
+        upgraded.append(o if (o and o.get("llmv") and not e.get("llmv")) else e)
+    seen_f = {kf(e) for e in upgraded}
+    new["feed"] = upgraded + [e for e in old.get("feed",[]) if kf(e) not in seen_f]
+    def kt(r): return (str(r[3]), int(r[4] or 0), r[1])
+    seen_t = {kt(r) for r in new.get("tape",[])}
+    new["tape"] = new.get("tape",[]) + [r for r in old.get("tape",[]) if kt(r) not in seen_t]
+    # dedupe re-uploads: same date, >30% shared quotes = same episode, keep the richer one
+    from collections import defaultdict
+    by_ep = defaultdict(set); ep_date = {}
+    for r in new["tape"]:
+        by_ep[str(r[3])].add(r[1]); ep_date[str(r[3])] = r[5]
+    drop = set()
+    eps = list(by_ep)
+    for i in range(len(eps)):
+        for j in range(i+1, len(eps)):
+            a, b = eps[i], eps[j]
+            if a in drop or b in drop or ep_date.get(a) != ep_date.get(b): continue
+            qa, qb = by_ep[a], by_ep[b]
+            # symmetric Jaccard: a true re-upload is near-identical on BOTH sides.
+            # An interview cut from the day's stream shares its lines but the union is
+            # far larger, so it stays. Only near-clones get merged.
+            if len(qa & qb) / max(1, len(qa | qb)) > 0.6:
+                drop.add(a if len(qa) < len(qb) else b)
+    if drop:
+        new["tape"] = [r for r in new["tape"] if str(r[3]) not in drop]
+        print(f"dedupe: dropped {len(drop)} re-uploaded episode(s)")
+    # same at the feed level: two shows on one date sharing most call quotes = one show
+    kept, removed = [], 0
+    for f0 in new["feed"]:
+        qs = {c[1] for c in f0.get("calls",[]) if len(c) > 1}
+        dup = False
+        for k in kept:
+            if k.get("d") != f0.get("d"): continue
+            kq = {c[1] for c in k.get("calls",[]) if len(c) > 1}
+            if qs and kq and len(qs & kq) / max(1, len(qs | kq)) > 0.6:
+                dup = True
+                if len(f0.get("calls",[])) > len(k.get("calls",[])):
+                    kept[kept.index(k)] = f0
+                break
+        if dup: removed += 1
+        else: kept.append(f0)
+    if removed:
+        new["feed"] = kept
+        print(f"dedupe: dropped {removed} duplicate feed entrie(s)")
+    # plans / charts: union, fresh values win
+    for key in ("plans","charts"):
+        merged = dict(old.get(key) or {}); merged.update(new.get(key) or {})
+        new[key] = merged
+    # lexicon / voices / dispatch: keep whichever side is richer, merge dispatch by (date,head)
+    for key in ("lexicon","voices"):
+        if not new.get(key) and old.get(key): new[key] = old[key]
+        elif new.get(key) and old.get(key) and len(old[key]) > len(new[key]): new[key] = old[key]
+    # writing / featured: human-authored and human-curated, never touched by the pipeline
+    for hk in ("writing", "featured"):
+        if old.get(hk) and not new.get(hk):
+            new[hk] = old[hk]
+    if old.get("dispatch"):
+        kd = lambda e: (e.get("date",""), e.get("head",""))
+        seen_d = {kd(e) for e in new.get("dispatch",[])}
+        new["dispatch"] = (new.get("dispatch") or []) + [e for e in old["dispatch"] if kd(e) not in seen_d]
+    # stats: recount on the merged feed; keep avg_ret from the fresh graded pass
+    fs = new["feed"]
+    greens = sum(1 for f0 in fs for c in f0.get("calls",[]) if len(c)>2 and c[2]=="win")
+    reds   = sum(1 for f0 in fs for c in f0.get("calls",[]) if len(c)>2 and c[2]=="loss")
+    graded = greens + reds
+    st = new.get("stats") or {}
+    st.update({"green_now": (round(100*greens/graded) if graded else None),
+               "graded": graded,
+               "open": sum(len(f0.get("calls",[])) for f0 in fs) - graded,
+               "shows": len(fs)})
+    new["stats"] = st
+    return new
+
+_LLM_ERRORS = []
+
+DISPATCH_SYS = """You write The Daily Dispatch for The Record, the written recap of The Threadguy Stream (Counterparty).
+Hard rules: concise and punchy; NEVER use em-dashes; no hype; nothing attributed to a guest unless it appears in the lines provided; never invent numbers or facts.
+Given one show's transcript lines and its logged calls, return ONLY a JSON object:
+{"grade":"B+","head":"max 60 chars, the day in one line","stand":"one sentence, the stance","lead":"3 to 5 sentences, what mattered and why","p":"2 to 4 sentences on the rest of the tape","lesson":"1 or 2 sentences, the takeaway a trader keeps"}
+Grade the day's calls honestly, A to D. Return only the JSON."""
+
+_MONTHS = {m: i + 1 for i, m in enumerate(
+    ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"])}
+
+def _dlabel_to_date(dlabel, ref):
+    """'Jul 24' -> date, assuming the most recent past occurrence relative to ref."""
+    try:
+        mon, day = dlabel.split()
+        dt = datetime(ref.year, _MONTHS[mon[:3]], int(day), tzinfo=timezone.utc)
+        if dt > ref + timedelta(days=2):
+            dt = dt.replace(year=ref.year - 1)
+        return dt
+    except Exception:
+        return None
+
+def build_dispatch(feed, tape, prev_dispatch, max_new=10):
+    """LLM-written daily editions for recent shows that lack one. Old editions are
+    preserved by the merge; this only fills the gap, newest first."""
+    if not _llm_ready():
+        return []
+    now = datetime.now(timezone.utc)
+    def norm(datestr):
+        try:
+            _, md = datestr.split(", ")
+            mon, day = md.split()
+            return (mon[:3], int(day))
+        except Exception:
+            return None
+    have = {norm(e.get("date", "")) for e in (prev_dispatch or [])}
+    out = []
+    for f in feed:
+        if len(out) >= max_new:
+            break
+        dl = f.get("d", "")
+        try:
+            mon, day = dl.split(); key = (mon[:3], int(day))
+        except Exception:
+            continue
+        if key in have:
+            continue
+        ep_lines = [t for t in tape if t[5] == dl][:400]
+        if len(ep_lines) < 30:
+            continue
+        dt = _dlabel_to_date(dl, now)
+        if not dt or (now - dt).days > 21:
+            continue   # editions are written while the calls still matter
+        corpus = ("SHOW: " + f.get("t", "") + "\nCALLS: " + json.dumps(f.get("calls", [])[:12])
+                  + "\nLINES:\n" + "\n".join(x[2] + " " + x[1] for x in ep_lines))[:16000]
+        try:
+            raw = _llm(corpus, DISPATCH_SYS, 900)
+            raw = raw[raw.find("{"): raw.rfind("}") + 1]
+            j = json.loads(raw)
+            body = [["lead", str(j.get("lead", ""))[:900]]]
+            if j.get("p"): body.append(["p", str(j["p"])[:700]])
+            if j.get("lesson"): body.append(["lesson", str(j["lesson"])[:400]])
+            monday = dt - timedelta(days=dt.weekday())
+            out.append({
+                "id": "d" + dt.strftime("%m%d"),
+                "date": dt.strftime("%A, %B %-d") if hasattr(dt, 'strftime') else dl,
+                "read": "3 min" if len(str(j.get("lead",""))) > 400 else "2 min",
+                "grade": str(j.get("grade", "B"))[:2],
+                "head": str(j.get("head", f.get("t","")[:60]))[:80],
+                "stand": str(j.get("stand", ""))[:200],
+                "body": body,
+                "wk": monday.strftime("%Y-%m-%d"),
+                "wklabel": "Week of " + monday.strftime("%B %-d"),
+            })
+            print(f"  dispatch written: {dl} ({out[-1]['grade']}) {out[-1]['head'][:50]}")
+            have.add(key)
+        except Exception as e:
+            print(f"  ! dispatch failed for {dl} ({e})", file=sys.stderr)
+            if len(_LLM_ERRORS) < 8: _LLM_ERRORS.append("dispatch: " + str(e)[:180])
+    return out
+
+def _key_diag():
+    """One loud, unambiguous line in every run log about the API key state."""
+    a = f"present ({ANTHROPIC_KEY[:10]}..., {len(ANTHROPIC_KEY)} chars)" if ANTHROPIC_KEY else "absent"
+    g = f"present ({GEMINI_KEY[:8]}..., {len(GEMINI_KEY)} chars)" if GEMINI_KEY else "absent"
+    print(f"ANTHROPIC_API_KEY: {a} | GEMINI_API_KEY: {g} -> LLM pass {'ON' if _llm_ready() else 'OFF (heuristic only)'}")
+
+_PREV_LLM_TITLES = set()
+_PREV_VERIFIED = {}
+
+def _checkpoint(feed, tape, plans, note=""):
+    """Write a partial, merged snapshot so a mid-run crash never loses finished work.
+    The next run skips already-verified episodes and resumes where this stopped."""
+    try:
+        partial = {"generated_at": datetime.now(timezone.utc).isoformat(),
+                   "source": "counterparty feed + own extraction",
+                   "feed": list(feed), "tape": list(tape), "plans": dict(plans),
+                   "charts": {}, "stats": {"shows": len(feed)}}
+        merged = merge_archives(load_existing(), partial)
+        with open(OUT, "w") as f:
+            json.dump(merged, f, indent=2)
+        print(f"  [checkpoint] saved {len(feed)} episodes {note}")
+    except Exception as e:
+        print(f"  ! checkpoint failed ({e})", file=sys.stderr)
+
+def build(all_episodes=False, limit=20):
+    _key_diag()
+    global _PREV_LLM_TITLES
+    _prev_archive = load_existing() or {}
+    _PREV_LLM_TITLES = {e.get("t") for e in (_prev_archive.get("feed") or []) if e.get("llmv")}
+    if _PREV_LLM_TITLES:
+        print(f"  {len(_PREV_LLM_TITLES)} episode(s) already LLM-classified, quota saved")
+    global _PREV_VERIFIED
+    _PREV_VERIFIED = {}
+    for e in (_prev_archive.get("feed") or []):
+        if e.get("llmv"):
+            _PREV_VERIFIED[e.get("t")] = [dict(zip(
+                ["tk","dir","status","pct","thesis","conviction","secs","epid"], r)) | {"verified": True}
+                for r in e.get("calls", [])]
+    eps = episodes()
+    if not all_episodes:
+        eps = eps[:limit]
+    feed, tape, plans = [], [], {}
+    greens = reds = 0; ret_sum = 0.0; graded_n = 0
+    for ep in eps:
+        print(f"- {ep['pubDate'][:16]}  {ep['title'][:60]}")
+        try:
+            tj = get(ep["transcript"], asjson=True)
+        except Exception as e:
+            print(f"  ! no transcript yet ({e})"); 
+            calls, sents = extract_calls_heuristic([(0, ep["desc"])]), []
+            tj = None
+        else:
+            calls, sents = extract(ep["title"], ep["desc"], tj)
+        # Heuristic calls = the broad, searchable layer (drives the TAPE / search).
+        raw_calls = calls
+        # Stage 2: clean calls for the FEED / scoreboard. Falls back to heuristic
+        # if no key or the pass fails (never wipes the broad layer).
+        clf = None if ep["title"] in _PREV_LLM_TITLES else classify_calls(sents)
+        # FAIL CLOSED on attribution: a call reaches the public Ledger only when the
+        # LLM has verified it. Heuristic candidates stay searchable in the Tape (raw_calls)
+        # but are never published as confirmed calls. No verification, no receipt.
+        prev_verified = _PREV_VERIFIED.get(ep["title"])
+        if clf:
+            feed_calls = clf
+            for c in feed_calls: c["verified"] = True
+            print(f"  verified {len(clf)} calls")
+        elif prev_verified:
+            feed_calls = prev_verified          # keep prior verified set on re-run
+            print(f"  kept {len(prev_verified)} previously verified calls")
+        else:
+            feed_calls = []                     # unclassified: nothing published
+            print(f"  unverified episode: {len(raw_calls)} candidates held back, tape only")
+        # date label + iso for grading
+        try:
+            dt = datetime.strptime(ep["pubDate"][:16].strip(), "%a, %d %b %Y")
+            dlabel = dt.strftime("%b %d"); call_iso = dt.strftime("%Y-%m-%d")
+        except Exception:
+            dlabel = ep["pubDate"][:11]; call_iso = "1970-01-01"
+        # spoken levels (only where stated on air) come from the heuristic extract
+        for c in raw_calls:
+            lv = c.get("levels")
+            if lv and lv.get("stated") and c["tk"] not in plans:
+                plans[c["tk"]] = {"entry": lv["entry"], "stop": lv["stop"],
+                                  "target": lv["target"], "date": dlabel, "ep": ep["id"]}
+        # Stage 3: grade each FEED call live, mark to market
+        for c in feed_calls:
+            g = grade(c["tk"], c.get("dir","L"), call_iso)
+            if g:
+                c["status"] = "green" if g["green"] else "red"
+                c["pct"] = f"{'+' if g['ret']>=0 else ''}{g['ret']}%"
+                c["ret"] = g["ret"]
+                graded_n += 1; ret_sum += g["ret"]
+                greens += 1 if g["green"] else 0
+                reds   += 0 if g["green"] else 1
+            else:
+                c["status"] = "open"; c["pct"] = ""
+        # feed row: [tk, dir, status, pct, thesis, conviction, secs, epid]
+        rows = [[c["tk"], c.get("dir","L"), c.get("status","open"), c.get("pct",""),
+                 c.get("thesis", c.get("quote",""))[:120], c.get("conviction",""),
+                 int(c.get("secs",0) or 0), ep["id"]] for c in feed_calls]
+        feed.append({"d": dlabel, "t": ep["title"], "g": "", "llmv": (1 if clf else 0), "calls": rows})
+        # incremental save: protect finished work against a mid-run quota crash
+        if len(feed) % 15 == 0:
+            _checkpoint(feed, tape, plans, "(periodic)")
+        if _QUOTA_DEAD[0]:
+            _checkpoint(feed, tape, plans, "(quota exhausted, stopping cleanly)")
+            print("  LLM quota gone. Verified work saved; rerun tomorrow to continue.")
+            break
+        # full-text tape: every substantive line is searchable, ticker tagged when found
+        # [tk_or_blank, sentence, ts, epid, secs, date]
+        for t, sent in sents:
+            if len(sent) < 45:
+                continue
+            tks = detect_tickers(sent)
+            tape.append([(tks[0] if tks else ""), sent[:200], mmss(int(t)), ep["id"], int(t), dlabel])
+        # 4: attach prices for studied tickers
+        # for c in calls: c["prices"] = price_window(c["tk"], ep["pubDate"])
+    graded = greens + reds
+    data = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "source": "counterparty public podcast feed (buzzsprout) + own extraction",
+        "feed": feed,
+        "tape": tape,
+        "plans": plans,   # entry/stop/target ONLY where spoken on air, else null
+        "charts": {},   # real OHLC per studied ticker, for the Anatomy charts
+        "stats": {       # live, marked to market, recomputed each run
+            "green_now": (round(100 * greens / graded) if graded else None),
+            "avg_ret":   (round(ret_sum / graded_n, 1) if graded_n else None),
+            "graded": graded, "open": sum(len(f["calls"]) for f in feed) - graded,
+            "shows": len(feed),
+        },
+        # voices left for the editor pass (the human seat)
+    }
+    data["dispatch"] = build_dispatch(feed, tape, _prev_archive.get("dispatch"), max_new=(10 if all_episodes else 2))
+    STUDIED = ["AMC", "ZEC", "MU", "MSTR", "HYPE", "WTI"]
+    for tk in STUDIED:
+        series = price_window(tk)
+        if series:
+            data["charts"][tk] = series
+            print(f"  prices {tk}: {len(series)} candles")
+    if "--youtube" in sys.argv or all_episodes:
+        print("- pulling the YouTube channel as a second source")
+        yt = youtube_calls(limit=(50 if all_episodes else 10),
+                           since=("2026-01-01" if all_episodes else None))
+        if yt:
+            data["tape"] = (data.get("tape") or []) + yt
+            print(f"  youtube: {len(yt)} timestamped lines")
+    # Lexicon: built from the desk's own words across the whole tape
+    lex = build_lexicon(data["tape"])
+    if lex:
+        data["lexicon"] = lex
+        print(f"  lexicon: {len(lex)} terms from the corpus")
+    # --- MERGE with the existing archive: The Record never memory-holes itself. ---
+    # Scheduled runs only see the latest episodes; everything already on disk is kept.
+    # diagnostics kept out of the public artifact
+    data = merge_archives(load_existing(), data)
+    with open(OUT, "w") as f:
+        json.dump(data, f, indent=2)
+    print(f"\nwrote {OUT}: {len(data['feed'])} shows, {len(data['tape'])} receipts"
+          + (f", {len(data.get('lexicon',[]))} lexicon terms" if data.get('lexicon') else ""))
+
+if __name__ == "__main__":
+    build(all_episodes=("--all" in sys.argv))
