@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T09:54:10.204460+00:00",
+  "generated_at": "2026-08-12T15:19:55.194523+00:00",
   "source": "counterparty public podcast feed (buzzsprout) + own extraction",
   "feed": [
     {
@@ -840,7 +840,7 @@
           "ETH",
           "L",
           "green",
-          "+14.2%",
+          "+12.3%",
           "So Jared from Subway was the most profitable MVV bot sandwich bought during really the ETH run.",
           "",
           1613,
@@ -870,7 +870,7 @@
           "SOL",
           "L",
           "green",
-          "+4.3%",
+          "+9.0%",
           "Uh, Ansome Solana Long.",
           "",
           2060,
@@ -880,7 +880,7 @@
           "BTC",
           "L",
           "green",
-          "+2.5%",
+          "+2.0%",
           "He bought one of his lowest purchases ever of Bitcoin.",
           "",
           2083,
@@ -1026,7 +1026,7 @@
           "BTC",
           "L",
           "green",
-          "+1.2%",
+          "+0.7%",
           "I think the real spot was Sailor sold Bitcoin.",
           "",
           422,
@@ -1098,6 +1098,7 @@
       "d": "Jun 17",
       "t": "Elon Musk Broke Wall Street, Everybody Hates AI, Soccer Fame Is Generational, Snapchat Glasses Suck - Threadguy: June 16th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "FTV",
@@ -1175,6 +1176,7 @@
       "d": "Jun 13",
       "t": "SpaceX Just IPO'd, The Space Stocks Fakeout, Movies Are Back, Elon Is A Trillionaire, My Stream's Best Trades Ever - Threadguy: June 12th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "SPCX",
@@ -1200,7 +1202,7 @@
           "HYPE",
           "L",
           "red",
-          "-13.1%",
+          "-17.7%",
           "Um I also clicked a little bit of a hype long because I don't know.",
           "",
           101,
@@ -1230,7 +1232,7 @@
           "ETH",
           "S",
           "red",
-          "-4.4%",
+          "-4.2%",
           "We always talk about um ETH short, XRP short.",
           "",
           468,
@@ -1260,7 +1262,7 @@
           "ZEC",
           "L",
           "red",
-          "-6.4%",
+          "-4.4%",
           "Okay, so my Zcash long was on here.",
           "",
           487,
@@ -1280,7 +1282,7 @@
           "BTC",
           "S",
           "green",
-          "+3.0%",
+          "+3.6%",
           "And I refuse to do it because a troll on Twitter says, hey, you said never sell you Bitcoin.",
           "",
           718,
@@ -1322,12 +1324,14 @@
       "d": "Jun 12",
       "t": "What He Learned From Interviewing The Greatest Stock Traders Ever - Jack Schwager",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Jun 12",
       "t": "Stocks RIP After The Peace Deal, Everyone Wants SpaceX, Kharg Island Fakeout, The Greatest Knicks Game Ever, Jack Schwager Interview - Threadguy: June 11th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "WTI",
@@ -1395,12 +1399,13 @@
       "d": "Jun 10",
       "t": "SpaceX Might Top Everything, Inflation Hit Escape Velocity, Trading SpaceX IPO, GoodAlexander Interview, Brian Johnson's Rx Platform - Threadguy: June 10th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "HYPE",
           "L",
           "red",
-          "-1.3%",
+          "-6.6%",
           "It's like we're we're buying Marvell at midnight on EST hours after Jensen's in South Korea talking about Marvell's gonn",
           "",
           326,
@@ -1420,7 +1425,7 @@
           "BTC",
           "L",
           "green",
-          "+1.2%",
+          "+0.6%",
           "I typed up the tweet and it was like something along the lines of wow, war escalation in Bitcoin is green.",
           "",
           937,
@@ -1482,6 +1487,7 @@
       "d": "Jun 10",
       "t": "How to Prepare for the SpaceX IPO - GoodAlexander Interview",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "SPCX",
@@ -1589,12 +1595,13 @@
       "d": "Jun 09",
       "t": "Apple's Useless AI, Jensen Saves The Market, Saylor's Worst Decision, The \"Ozempic Decade\", How To Save Pumpfun - Threadguy: June 9th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "BTC",
           "L",
           "green",
-          "+1.2%",
+          "+0.6%",
           "Interesting spot on Bitcoin.",
           "",
           608,
@@ -1686,12 +1693,13 @@
       "d": "Jun 04",
       "t": "I Rebranded, Saylor Is Selling Bitcoin, Jensen Huang Is Cool, Tulip King Interview, Zcash's Exploit, The War That Never Ended - Threadguy: June 3rd, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "ZEC",
           "L",
           "red",
-          "-22.1%",
+          "-20.4%",
           "We got a uh oil barrel in the background, and we're long Marvell, we're long Marvell and Zcash pair trade short BTC.",
           "",
           185,
@@ -1700,8 +1708,8 @@
         [
           "BTC",
           "L",
-          "green",
-          "+0.4%",
+          "red",
+          "-0.2%",
           "And so I'm gonna be honest, if you believe in Bitcoin, it's probably not a terrible time to buy some spot to start nibbl",
           "",
           600,
@@ -1711,7 +1719,7 @@
           "HYPE",
           "S",
           "green",
-          "+22.0%",
+          "+26.2%",
           "I wanted exposure to some uh some AI, so obviously I didn't sell, but man, the hyper liquid after hours are hyperliquid ",
           "",
           1201,
@@ -1763,12 +1771,13 @@
       "d": "Jun 03",
       "t": "Stocks Are Insane, Jensen Bullposts MRVL, Pokemon Gacha Is Winning, YouTubers Run Hollywood, Bitcoin Is Cooked - Threadguy: June 2nd, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "BTC",
           "L",
-          "green",
-          "+0.4%",
+          "red",
+          "-0.2%",
           "I know buying just Bitcoin kind of sucks, but I have absolutely no interest in allocating and paying attention to altcoi",
           "",
           345,
@@ -1820,6 +1829,7 @@
       "d": "Jun 02",
       "t": "Saylor Sold His Bitcoin, GLP-1s vs Sugar Slop, Software Melt-Up, AGI Is Already Here, Pokemon Card Bubble, Trump Stock Pump - Threadguy: June 2nd, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "MSTR",
@@ -1834,8 +1844,8 @@
         [
           "BTC",
           "S",
-          "red",
-          "-0.4%",
+          "green",
+          "+0.2%",
           "That's been my intro for like over a year, and then he comes out, and not only does he sell, but he sells like 30 bitcoi",
           "",
           72,
@@ -1845,7 +1855,7 @@
           "HYPE",
           "S",
           "green",
-          "+22.0%",
+          "+26.2%",
           "The craziest part about the Michael Saylor selling Bitcoin is that hyperliquid's like $74.",
           "",
           93,
@@ -1885,7 +1895,7 @@
           "ZEC",
           "L",
           "red",
-          "-22.1%",
+          "-20.4%",
           "Threadguy is along a little bit of Zcash, a lot of bit of VBV, and a lot of bit more of Hyper Liquid.",
           "",
           1225,
@@ -1957,6 +1967,7 @@
       "d": "May 30",
       "t": "Hyperliquid Is Cooking, The SAAS Rotation Is Here, Oil Bulls Are Cooked, Returning To My Zcash Trade, AI Is Getting Wild - Threadguy: May 29th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "IGV",
@@ -1982,7 +1993,7 @@
           "ETH",
           "L",
           "red",
-          "-7.2%",
+          "-7.4%",
           "Like, if you ever bought an ETH, I still recommend people to go not touch these because you're relying so heavily on the",
           "",
           570,
@@ -2022,7 +2033,7 @@
           "HYPE",
           "L",
           "red",
-          "-14.8%",
+          "-19.4%",
           "Equivocable for hyperliquid, and you had a bunch of time to long.",
           "",
           1320,
@@ -2034,12 +2045,13 @@
       "d": "May 28",
       "t": "Crypto is Moving Past Bitcoin - Syncracry Capital Interview",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "HYPE",
           "L",
           "red",
-          "-14.8%",
+          "-19.4%",
           "Crypto sentiment, I feel like has been a discussion for a while, but it's and I always say like it's the lowest or it's ",
           "",
           49,
@@ -2049,7 +2061,7 @@
           "BTC",
           "L",
           "red",
-          "-12.8%",
+          "-13.4%",
           "There's a couple spots, and then Bitcoin is just chudding along, and everybody is just rage quitting.",
           "",
           76,
@@ -2059,7 +2071,7 @@
           "ETH",
           "L",
           "red",
-          "-7.2%",
+          "-7.4%",
           "And so speaking of holding things long term, I might be misquoting you on this, but I feel like you guys have gone easie",
           "",
           1341,
@@ -2069,7 +2081,7 @@
           "SOL",
           "L",
           "red",
-          "-9.8%",
+          "-8.1%",
           "And who knows, maybe in the long term, you actually do get something that starts to resemble more of a Solana, where it ",
           "",
           1722,
@@ -2091,6 +2103,7 @@
       "d": "May 28",
       "t": "Robinhood's Trump Accounts, DELL Is Insane, Tesla x SpaceX Merger, Running The Saylor Entry, Series H - Threadguy: May 28th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "AUM",
@@ -2116,7 +2129,7 @@
           "BTC",
           "L",
           "red",
-          "-12.8%",
+          "-13.4%",
           "They bought a thousand bitcoin today, but I don't know enough about this to have a real take.",
           "",
           715,
@@ -2146,7 +2159,7 @@
           "HYPE",
           "L",
           "red",
-          "-14.8%",
+          "-19.4%",
           "And so you basically held hyperliquid, longed Zcash, or you are ready to get carried out.",
           "",
           1844,
@@ -2158,6 +2171,7 @@
       "d": "May 27",
       "t": "JD Vance Is Getting Cooked, Will Quantum K*LL Bitcoin, Too Many Top Signals, Crypto Is In Trouble - Threadguy: May 27th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "AMD",
@@ -2205,6 +2219,7 @@
       "d": "May 27",
       "t": "How AGI Might Break Crypto Forever... - Nic Carter",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "MSTR",
@@ -2230,7 +2245,7 @@
           "BTC",
           "L",
           "red",
-          "-15.2%",
+          "-15.7%",
           "The longer Bitcoin puts it off, Bitcoin hasn't made any real progress in the last six months.",
           "",
           3001,
@@ -2242,12 +2257,13 @@
       "d": "May 26",
       "t": "The Uber Debate, My Huge Crypto Mistake, Ferrari's New EV, Anthropic Signs The Pope, LLMs VS Reddit - Threadguy: May 26th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "BTC",
           "L",
           "red",
-          "-15.2%",
+          "-15.7%",
           "I I uh it's gotten to the point where I have Bitcoin spot bitcoin that I never sell that I'm even like what I I'm I'm si",
           "",
           674,
@@ -2267,7 +2283,7 @@
           "HYPE",
           "L",
           "red",
-          "-2.4%",
+          "-7.6%",
           "I would obviously rather have it over hold it over Coinbase, but there is some hype tailwinds you gotta worry about on t",
           "",
           766,
@@ -2319,6 +2335,7 @@
       "d": "May 15",
       "t": "Leopold Is About To Reveal It, Semiconductor Bloodbath, MegaETH Is The Worst Crypto Chart Ever, AP Swatch Resale Frenzy, Hyperliquid > Robinhood - Threadguy: May 15th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "AP",
@@ -2344,7 +2361,7 @@
           "BTC",
           "L",
           "red",
-          "-20.6%",
+          "-21.1%",
           "Okay, they bought 173 Bitcoin, nothing burger, and then souls, which we've added to this for no particular reason, is th",
           "",
           799,
@@ -2376,6 +2393,7 @@
       "d": "May 15",
       "t": "My AP Swatch Investment Failed, Cerebras IPO, Airmass Interview, The Secret To Trading Is Trade Less, Xi and Trump - Threadguy: May 14th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "MSTR",
@@ -2391,7 +2409,7 @@
           "ZEC",
           "L",
           "red",
-          "-13.4%",
+          "-11.5%",
           "Problem with Zcash is everyone just holds it on perps.",
           "",
           450,
@@ -2411,7 +2429,7 @@
           "BTC",
           "L",
           "red",
-          "-20.6%",
+          "-21.1%",
           "Still holding every Bitcoin I bought from 1k all the way up to 120k.",
           "",
           1526,
@@ -2433,6 +2451,7 @@
       "d": "May 11",
       "t": "Normies BROKE The Stock Market, My ZEC Trade, Long vs Short Bitcoin, Bankless Interview, Roaring Kitty Hacked LIVE - Threadguy: May 11th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "MU",
@@ -2448,7 +2467,7 @@
           "HYPE",
           "S",
           "red",
-          "-35.3%",
+          "-28.1%",
           "Back to back in five minutes, Loracle, who is up, I don't know, 200 and something million dollars all time on hyperliqui",
           "",
           543,
@@ -2458,7 +2477,7 @@
           "BTC",
           "L",
           "red",
-          "-21.7%",
+          "-22.2%",
           "And so I click into like a really tight, a really tight BTC long, like a tight stop loss.",
           "",
           590,
@@ -2478,7 +2497,7 @@
           "ZEC",
           "S",
           "green",
-          "+18.2%",
+          "+16.4%",
           "In a way, it's been like a double-edged sword, my Zcash trade, because I hyper focused on one trade, one asset early in ",
           "",
           1494,
@@ -2488,7 +2507,7 @@
           "ETH",
           "L",
           "red",
-          "-20.9%",
+          "-21.0%",
           "I can't write an article about the investment case for ETH because Tom because Tom Lee's buying it.",
           "",
           1896,
@@ -2500,6 +2519,7 @@
       "d": "May 08",
       "t": "Micron Is The Next Nvidia, Is STRC A Ponzi, Moving To NYC Is The Best Trade, My Bitcoin Thesis, Trading Is The World's Best Job - Threadguy: May 8th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "MSTR",
@@ -2515,7 +2535,7 @@
           "HYPE",
           "L",
           "green",
-          "+35.3%",
+          "+28.1%",
           "Changing my lever position and hype to spot.",
           "",
           538,
@@ -2535,7 +2555,7 @@
           "BTC",
           "S",
           "green",
-          "+21.7%",
+          "+22.2%",
           "Like you could dump individual names, but like to meaningfully dump Bitcoin down to 50k, there has to be like a new coho",
           "",
           751,
@@ -2555,7 +2575,7 @@
           "ETH",
           "S",
           "green",
-          "+20.9%",
+          "+21.0%",
           "And then a 25x ETH short that he's actually up on.",
           "",
           2194,
@@ -2597,6 +2617,7 @@
       "d": "May 07",
       "t": "The Truth of Stock Trading, AI Bottlenecks, Hantavirus Exposed, Only 5 Coins Matter This Cycle, PNL is All That Matters - Threadguy: May 7th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "RR",
@@ -2622,7 +2643,7 @@
           "BTC",
           "S",
           "green",
-          "+21.0%",
+          "+21.5%",
           "I'll short this over Bitcoin.",
           "",
           323,
@@ -2632,7 +2653,7 @@
           "HYPE",
           "S",
           "red",
-          "-35.0%",
+          "-27.8%",
           "He's short hype against his population that's 3x the size.",
           "",
           372,
@@ -2642,7 +2663,7 @@
           "ZEC",
           "L",
           "red",
-          "-12.4%",
+          "-10.5%",
           "Long 25 mil of Bitcoin, long 18 mil of Zcash.",
           "",
           392,
@@ -2684,12 +2705,13 @@
       "d": "May 07",
       "t": "The $200M KelpDAO Hack, DeFi's Trust Crisis & Bitcoin's Return - Robert Leshner",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "HYPE",
           "L",
           "green",
-          "+35.0%",
+          "+27.8%",
           "My question for you, and you could get a little bit technical on this, is like if I'm long hints on a perps position on ",
           "",
           974,
@@ -2711,12 +2733,13 @@
       "d": "May 05",
       "t": "The Only Coins You Should Buy, Fading World War 3, Korean Stocks Are Crazy, Rekt Mando on IQ, Momentum & Korean Stock Trading - Threadguy: May 4th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "ZEC",
           "L",
           "red",
-          "-12.4%",
+          "-10.5%",
           "This looks insane, and I have gotten extraordinarily long on Zcash.",
           "",
           505,
@@ -2808,12 +2831,13 @@
       "d": "May 02",
       "t": "Spirit Airlines is GONE, Bitcoin Is Coming Back, BrokieTrades Interview, How I Started Trading, Running A Hedgefund - Threadguy: May 1st, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "ZEC",
           "L",
           "green",
-          "+25.3%",
+          "+28.0%",
           "But the thing I fuck with the most that I hold right now is Zcash.",
           "",
           78,
@@ -2833,7 +2857,7 @@
           "BTC",
           "S",
           "green",
-          "+18.2%",
+          "+18.7%",
           "I had a shower thought that I was gonna sell clip all my BTC into hyper liquid, so I got out of the shower.",
           "",
           694,
@@ -2853,7 +2877,7 @@
           "HYPE",
           "S",
           "red",
-          "-40.8%",
+          "-33.3%",
           "And you can actually, and I actually think hyperliquid, this funding rate is mispriced on hyperliquid, such that you kno",
           "",
           1564,
@@ -2875,12 +2899,13 @@
       "d": "Apr 30",
       "t": "Roblox Crashes -20%+, Apple Earnings Call, Crypto's Future, Elon's OpenAI Lawsuit, Banks & Ansem's New Show - Threadguy: April 30th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "ZEC",
           "L",
           "green",
-          "+25.3%",
+          "+28.0%",
           "I did click a Zcash long.",
           "",
           639,
@@ -2890,7 +2915,7 @@
           "BTC",
           "L",
           "red",
-          "-18.2%",
+          "-18.7%",
           "Uh, I think stoic savage is long bitcoin, which is interesting.",
           "",
           676,
@@ -2900,7 +2925,7 @@
           "ETH",
           "L",
           "red",
-          "-19.3%",
+          "-19.4%",
           "What do you mean 930x ETH long?",
           "",
           1412,
@@ -2922,6 +2947,7 @@
       "d": "Apr 29",
       "t": "Never Short Stocks, The Great Bear Trap, & Why Crypto is Weak - Tolks",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "CTA",
@@ -2937,7 +2963,7 @@
           "BTC",
           "L",
           "red",
-          "-15.8%",
+          "-16.3%",
           "I longed Bitcoin, which is just like what I'm looking around, what I long.",
           "",
           388,
@@ -2947,7 +2973,7 @@
           "SOL",
           "L",
           "red",
-          "-11.4%",
+          "-9.7%",
           "Like it did nothing for Solana and God forbid anybody's bidding Polygon, but uh it's those type of like announcements th",
           "",
           749,
@@ -2977,7 +3003,7 @@
           "ZEC",
           "L",
           "green",
-          "+44.4%",
+          "+47.5%",
           "I know you were long Zcash for a while.",
           "",
           1179,
@@ -3017,7 +3043,7 @@
           "HYPE",
           "L",
           "green",
-          "+44.8%",
+          "+37.1%",
           "And like I said, like I'm I'm I'm fine, you know, ever since the initial iron strikes, like I, you know, days here and t",
           "",
           1684,
@@ -3039,6 +3065,7 @@
       "d": "Apr 29",
       "t": "Robinhood is COOKED, Biggest Earnings Day Ever, Oil is AMAZING, Tolks: Understanding the Market, Crypto & Gold - Threadguy: April 29th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "LLM",
@@ -3064,7 +3091,7 @@
           "ZEC",
           "L",
           "green",
-          "+44.4%",
+          "+47.5%",
           "I think Tolks was long Zcash into this and closed it.",
           "",
           519,
@@ -3074,7 +3101,7 @@
           "BTC",
           "L",
           "red",
-          "-15.8%",
+          "-16.3%",
           "They bought 142 BTC today, which is nice.",
           "",
           601,
@@ -3134,7 +3161,7 @@
           "HYPE",
           "L",
           "green",
-          "+44.8%",
+          "+37.1%",
           "I mean, I don't really have much spot exposure outside of BTC hype and Zach.",
           "",
           1766,
@@ -3156,12 +3183,13 @@
       "d": "Apr 27",
       "t": "OpenAI Might K*LL Apple, Big Tech Destroys Crypto, Sleep Score = IQ, Hallucination Yield Meta - Threadguy: April 27th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "ETH",
           "L",
           "red",
-          "-18.3%",
+          "-18.4%",
           "Is anyone long ETH?",
           "",
           713,
@@ -3181,7 +3209,7 @@
           "BTC",
           "L",
           "red",
-          "-15.8%",
+          "-16.3%",
           "My lighter take is that in most instances, highing buying high beta for the sake somebody came in here and said they wer",
           "",
           1462,
@@ -3273,6 +3301,7 @@
       "d": "Apr 25",
       "t": "EasyEats - $30 HOOD Call, Polymarket Edge & Peptides",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "HOOD",
@@ -3288,7 +3317,7 @@
           "SOL",
           "L",
           "red",
-          "-13.6%",
+          "-11.9%",
           "Like, I still have bags of Solana that I bought sub $20.",
           "",
           41,
@@ -3328,7 +3357,7 @@
           "BTC",
           "L",
           "red",
-          "-16.9%",
+          "-17.5%",
           "But I longed Bitcoin instead of like long yeah, it didn't even dump.",
           "",
           977,
@@ -3338,7 +3367,7 @@
           "HYPE",
           "L",
           "green",
-          "+41.3%",
+          "+33.8%",
           "I have calls, shares, and long hyperliquid.",
           "",
           2372,
@@ -3360,6 +3389,7 @@
       "d": "Apr 24",
       "t": "GoodAlexander & David Choi - USDAI, the Upcoming IPO Bubble & Cheap Chinese AI",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "NVDA",
@@ -3415,7 +3445,7 @@
           "BTC",
           "L",
           "red",
-          "-16.9%",
+          "-17.5%",
           "And now we all know how this ended on Solana, but there's a difference where our majors are, you know, BTC and and and C",
           "",
           2714,
@@ -3467,6 +3497,7 @@
       "d": "Apr 23",
       "t": "The FAKE Iran War Headline, AI Shrinkflation, China K*LLED Claude AI, GoodAlexander & David Choi, Exit Liquidity - Threadguy: April 23rd, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "WTI",
@@ -3492,7 +3523,7 @@
           "BTC",
           "L",
           "red",
-          "-16.9%",
+          "-17.5%",
           "And so I'm I'm in a little BTC long baby though, baby, baby, baby.",
           "",
           784,
@@ -3514,12 +3545,13 @@
       "d": "Apr 22",
       "t": "TSLA Earnings Call, CAR's Short Squeeze is OVER, Oil And Stocks Are Ripping, Stocks Trade Like Crypto Now, Cobie Crypto Mindset - Threadguy: April 22nd, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "ETH",
           "S",
           "green",
-          "+19.1%",
+          "+19.2%",
           "But ever I mean, every person on crypto Twitter came out to publicly post the ETH short.",
           "",
           761,
@@ -3551,6 +3583,7 @@
       "d": "Apr 21",
       "t": "Cobie - The Future of Crypto, Capitalism & Society",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "MGMT",
@@ -3576,7 +3609,7 @@
           "SOL",
           "L",
           "red",
-          "-12.7%",
+          "-11.0%",
           "And the only other time that I feel like that's happened was briefly during AI season in 2024, where it obvious I mean i",
           "",
           1656,
@@ -3596,7 +3629,7 @@
           "HYPE",
           "S",
           "red",
-          "-42.7%",
+          "-35.1%",
           "Um and then occasionally you get one like hyperliquid, where people are actually bullish on it and then they don't want ",
           "",
           3088,
@@ -3628,12 +3661,13 @@
       "d": "Apr 20",
       "t": "Inside the $300M Crypto Hack - Tom Kysar",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "SOL",
           "L",
           "red",
-          "-12.7%",
+          "-11.0%",
           "Is my long tail like bear Solana because I gotta do it.",
           "",
           1386,
@@ -3643,7 +3677,7 @@
           "HYPE",
           "L",
           "green",
-          "+42.7%",
+          "+35.1%",
           "As of April 26, the hyperliquid bridge holds approximately 4.7 billion in TVO.",
           "",
           1918,
@@ -3673,7 +3707,7 @@
           "BTC",
           "L",
           "red",
-          "-15.2%",
+          "-15.8%",
           "That's like, yeah, it's like this is like this is like like the second or third generation of most people is like you co",
           "",
           3356,
@@ -3685,6 +3719,7 @@
       "d": "Apr 20",
       "t": "The US vs IRAN War Gets WORSE, the $300M LayerZero Hack, Oil Trade, Tim Cook Retires, AI Stocks - Threadguy: April 20th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "JD",
@@ -3700,7 +3735,7 @@
           "ETH",
           "S",
           "green",
-          "+19.0%",
+          "+19.2%",
           "I don't really know how, but it does 76.2, ETH 2330, despite every person on the planet Earth shorting.",
           "",
           601,
@@ -3730,7 +3765,7 @@
           "BTC",
           "L",
           "red",
-          "-15.2%",
+          "-15.8%",
           "I don't have any long-term bias, except for Bitcoin.",
           "",
           1338,
@@ -3752,12 +3787,13 @@
       "d": "Apr 17",
       "t": "My Huge HIMS Trade, Hans Niemann Interview, The Market is Ripping, AI Slop, Chess is in Trouble, Trading Advice - Threadguy: April 17th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "BTC",
           "L",
           "red",
-          "-14.4%",
+          "-14.9%",
           "I wanted to slam Bitcoin longs so bad.",
           "",
           152,
@@ -3809,12 +3845,13 @@
       "d": "Apr 16",
       "t": "The HIMS Thesis, Peptides, Mamdani vs Ken Griffin, Opus 4.7, SpaceX Is Buying Cybertrucks!? - Threadguy: April 16th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "BTC",
           "S",
           "green",
-          "+14.4%",
+          "+14.9%",
           "I had to sell some Bitcoin, I had to move some stuff.",
           "",
           113,
@@ -3846,6 +3883,7 @@
       "d": "Apr 15",
       "t": "Amit Kukreja - Palantir, Trading Crypto & Investing Advice",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "NVDA",
@@ -3871,7 +3909,7 @@
           "HYPE",
           "L",
           "green",
-          "+32.6%",
+          "+25.5%",
           "Hyperliquid solved this one by making a billion dollars a year and putting all of their revenue back into buying the coi",
           "",
           2324,
@@ -3913,6 +3951,7 @@
       "d": "Apr 14",
       "t": "The 25 Year Old Trader That BEAT Wall Street, Watch Shopping, Gamblification of Everything, Market Close Analysis, The Saylor Method - Threadguy: April 14th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "DRC",
@@ -3928,7 +3967,7 @@
           "BTC",
           "L",
           "red",
-          "-14.4%",
+          "-14.9%",
           "Yesterday he bought 550 million dollars of Bitcoin in one day.",
           "",
           792,
@@ -3950,6 +3989,7 @@
       "d": "Apr 13",
       "t": "Trump's WEIRD Doordash Ad, Hims Conspiracy Theory, Art of the Deal, Stock Market is Bored of War, WLFI Drama - Threadguy: April 13th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "WTI",
@@ -3975,7 +4015,7 @@
           "BTC",
           "L",
           "red",
-          "-9.0%",
+          "-9.6%",
           "According to the stretch dashboard, Sailor is on track to have bought five hundred and fifty million dollars worth of bi",
           "",
           701,
@@ -4047,6 +4087,7 @@
       "d": "Apr 10",
       "t": "The Iran War is Resumed, Rory Johnston Interview, Oil Crisis is INSANE, Trump is going CRAZY? - Threadguy: April 9th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "WTI",
@@ -4064,12 +4105,13 @@
       "d": "Apr 08",
       "t": "Peter Schiff on Gold's Future, Bitcoin Crashing, & Iran War [FULL INTERVIEW]",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "BTC",
           "L",
           "red",
-          "-9.0%",
+          "-9.6%",
           "And I have to admit that your interview in October and the trade it came up with was short Bitcoin, long gold, I think l",
           "",
           82,
@@ -4091,12 +4133,13 @@
       "d": "Apr 07",
       "t": "Trump's Biggest Threat Yet, Ceasefire, Market Manipulation EXPOSED, Peter Schiff Interivew, Why Gold is Up - Threadguy: April 7th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "ZEC",
           "L",
           "green",
-          "+50.0%",
+          "+53.2%",
           "I as much as I would love to talk about crypto and how good my Zcash long looks, we have more important stuff to talk ab",
           "",
           41,
@@ -4116,7 +4159,7 @@
           "BTC",
           "L",
           "red",
-          "-9.0%",
+          "-9.6%",
           "And I have to admit that your interview in October and the trade it came up with was short Bitcoin, long gold, I think l",
           "",
           566,
@@ -4128,12 +4171,13 @@
       "d": "Apr 06",
       "t": "Market Recap, Crypto is Coming BACK, Trump is Going Crazy, Citrini's New Article, Fashion is RUINED - Threadguy: April 6th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "BTC",
           "L",
           "red",
-          "-9.0%",
+          "-9.6%",
           "Peter Schiff, short Bitcoin, long gold.",
           "",
           245,
@@ -4175,6 +4219,7 @@
       "d": "Apr 03",
       "t": "Peptides Are The New Pronouns, Drones & Planes In The US vs Iran War, Strait of Hormuz, Nike is COLLAPSING - Threadguy: April 3rd, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "RWR",
@@ -4212,6 +4257,7 @@
       "d": "Apr 02",
       "t": "TBPN Acquired By OpenAI ($100M+), XPL's Disasterous Downfall, Critical Market Analysis, Trump's Speech Exposed The Truth, SpaceX IPO - Threadguy: April 2nd, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "SPX",
@@ -4227,7 +4273,7 @@
           "ZEC",
           "S",
           "red",
-          "-93.5%",
+          "-97.7%",
           "By the way, this isn't a shot, but on the whole mega church thing, you probably could have started shorting Solana when ",
           "",
           696,
@@ -4259,12 +4305,13 @@
       "d": "Apr 01",
       "t": "The $200M+ Crypto Heist, April Fools Sucks, They're Trying To Save Snapchat, Worshipping the Market gods, Artemis II Rocket Launch - Threadguy: April 1st, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "ETH",
           "S",
           "green",
-          "+10.9%",
+          "+11.0%",
           "Whether it's like every time we we enter a position, we go short like a dollar of ETH on leverage, just to like say we s",
           "",
           384,
@@ -4356,6 +4403,7 @@
       "d": "Mar 31",
       "t": "Andrew Yang Interview - Businessman, Lobbyist, 2020 Presidential Candidate",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "LA",
@@ -4403,6 +4451,7 @@
       "d": "Mar 26",
       "t": "How To Trade In A Trump Market, Bitcoin Front-Ran The Market Crash, The Diminishing Law of TACOs, The Future of Tao (ft. Mark Jeffrey) - Threadguy: March 26th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "WTI",
@@ -4418,7 +4467,7 @@
           "BTC",
           "L",
           "red",
-          "-3.0%",
+          "-3.6%",
           "And the more I gained conviction on that, and having seen, you know, having bought my first Bitcoin on Mount Gox, you kn",
           "",
           1366,
@@ -4430,6 +4479,7 @@
       "d": "Mar 25",
       "t": "The First Time I Made a $100k Trade, War Updates, AI Bubble is OVER!?, Why Sora Shut Down, Taxes Are K*lling Me - Threadguy: March 25th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "SPCX",
@@ -4467,12 +4517,13 @@
       "d": "Mar 24",
       "t": "Why TAO is Pumping, TAO Founder Interview, Ceasefire News, How The Iran War Will End - Threadguy: March 24th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "BTC",
           "L",
           "red",
-          "-9.4%",
+          "-10.0%",
           "Like, and and uh and I hold the wisdom of the whole the whole industry, and not only that, but like if Ethereum is Ether",
           "",
           2181,
@@ -4494,6 +4545,7 @@
       "d": "Mar 23",
       "t": "The US vs Iran Memewar, Don't Bet Against Trump, Why I'm Long $TAO, BTC, AI Labs Are Getting Desperate - Threadguy: March 23rd, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "WTI",
@@ -4509,7 +4561,7 @@
           "BTC",
           "S",
           "green",
-          "+9.4%",
+          "+10.0%",
           "Tesla goes up one, Bitcoin goes up five, Tesla goes down one, Bitcoin goes down five, and right now the market is going ",
           "",
           384,
@@ -4519,7 +4571,7 @@
           "ZEC",
           "L",
           "green",
-          "+112.4%",
+          "+116.9%",
           "Zcash was a long hold.",
           "",
           1411,
@@ -4531,6 +4583,7 @@
       "d": "Mar 20",
       "t": "Why Everything's Dumping, Should You Short Oil, the Problem with 4D Chess, Why I Dropped Out - Threadguy: March 20th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "IGV",
@@ -4558,6 +4611,7 @@
       "d": "Mar 19",
       "t": "When Will The Iran War End, How To Be A Good Trader, My Accountant Loves Me? - Threadguy: March 19th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "WTI",
@@ -4573,7 +4627,7 @@
           "ZEC",
           "L",
           "green",
-          "+107.1%",
+          "+111.6%",
           "You could really make up for a lot because you get handed opportunities like the Zcash, you get handed spots, and that's",
           "",
           1975,
@@ -4585,6 +4639,7 @@
       "d": "Mar 18",
       "t": "My NEW Oil Trade, How to Trade WW3, Trump is in Trouble, Oil's CRAZY Price Action, The Greatest Trade in History - Threadguy: March 18th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "WTI",
@@ -4622,6 +4677,7 @@
       "d": "Mar 17",
       "t": "Trump Admin Resignations, Vanity Fair Covers Crypto, Stablecoins Will Save US Bonds, Citrini Was Right Again - Threadguy: March 17th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "XIV",
@@ -4647,7 +4703,7 @@
           "BTC",
           "L",
           "red",
-          "-8.0%",
+          "-8.6%",
           "All roads lead to crypto stablecoin issuers whopping long dated bonds to keep rates down, stimulate the United States ec",
           "",
           1685,
@@ -4669,6 +4725,7 @@
       "d": "Mar 16",
       "t": "Beating the Oil Market, Hyperliquid at $40, Iran War Update, Pok\u00e9mon Go is an AI Company? - Threadguy: March 16th, 2026",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "WTI",
@@ -4696,30 +4753,34 @@
       "d": "Jan 15",
       "t": "Matt Hougan - CIO of Bitwise ($15B Crypto Asset Management)",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Dec 17",
       "t": "Arthur Hayes - Bitcoin Price Targets, Trading Advice",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Dec 17",
       "t": "Taiki Maeda - The $1.5M ETH Short",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Dec 16",
       "t": "Murad - $10M+ Bitcoin Price Target Explained",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "BTC",
           "L",
           "red",
-          "-25.3%",
+          "-25.7%",
           "In this in-depth conversation, ThreadGuy sits down with Murad to break down the future of crypto, meme coins, Bitcoin, m",
           "",
           0,
@@ -4731,54 +4792,62 @@
       "d": "Dec 16",
       "t": "Tulip King - Prediction Markets Explained",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Nov 15",
       "t": "Mando - State of the Market",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Nov 14",
       "t": "TJR - Day Trading Advice, Crypto, Motivation and More",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Nov 13",
       "t": "TraderMayne - Crypto Trader & Market Analyzer",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Nov 12",
       "t": "Orangie - Memecoin Trader",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Nov 11",
       "t": "PMTrader - Prediction Markets Explained",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Nov 01",
       "t": "EasyEats - Prediction Markets Trading",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Oct 22",
       "t": "Peter Schiff - Gold vs Bitcoin, Market Crashes, US Economy Crisis",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "BTC",
           "S",
           "green",
-          "+40.2%",
+          "+40.6%",
           "Peter David Schiff is an American stockbroker, financial commentator, and radio personality. He co-founded Echelon Wealt",
           "",
           0,
@@ -4790,108 +4859,125 @@
       "d": "Oct 22",
       "t": "Domahhhh - Top Prediction Markets Trader",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Oct 19",
       "t": "TraderMayne - Crypto Trader & Market Analyzer",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Oct 16",
       "t": "Vlad - Lighter Founder | Debate with Robert Chang & Marty",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Oct 10",
       "t": "Changpeng Zhao (CZ) - Binance Founder",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Oct 09",
       "t": "Proph3t - MetaDAO Co-Founder",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Oct 09",
       "t": "Tunez & Intern - Monad Team",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Oct 08",
       "t": "TraderMayne - Crypto Trader & Market Analyzer",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Oct 07",
       "t": "Big_Duca - Crypto Taxes Expert",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Oct 07",
       "t": "Austin Federa - DoubleZero Co-Founder",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Sep 26",
       "t": "Capital Flows - On-Chain Analysis",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Sep 26",
       "t": "Tulip King - Crypto Analyst",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Sep 23",
       "t": "CookerFlips - Legendary Crypto Trader",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Sep 20",
       "t": "Sreeram Kannan - EigenCloud Founder",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Sep 19",
       "t": "Clemente - Crypto Twitter Content Creator",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Sep 19",
       "t": "Quanterty - Legendary Crypto Trader",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Sep 19",
       "t": "Ryan Watkins & Monk - Syncracy Capital",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Sep 15",
       "t": "Kyle Samani - Forward Capital Board Chairman",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "SOL",
           "L",
           "red",
-          "-68.6%",
+          "-68.0%",
           "Although our guest this week is a Managing Partner of a registered investment adviser, nothing in this podcast should be",
           "",
           0,
@@ -4903,18 +4989,21 @@
       "d": "Sep 15",
       "t": "David Choi - Co-Founder of USD-AI",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Sep 15",
       "t": "Nicolas Le Jeune - CEO of Courtyard, Largest Online Trading Card Platform",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Sep 12",
       "t": "Diogenes - Crypto Founder, Hedge Fund Manager",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "DAO",
@@ -4932,12 +5021,13 @@
       "d": "Sep 11",
       "t": "Kyle Samani - Multicoin Co-Founder & Managing Partner",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "SOL",
           "S",
           "green",
-          "+69.3%",
+          "+68.7%",
           "My interview with Kyle Samani, Co-founder and managing partner at Multicoin.\u00a0At Multicoin, Kyle Samani led Solana&apos;s",
           "",
           0,
@@ -4949,30 +5039,34 @@
       "d": "Sep 10",
       "t": "Jez - Full-Time Crypto Trader",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Sep 08",
       "t": "Tuom Holmberg - Collector Crypt Founder",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Sep 07",
       "t": "Luca Netz - Pudgy Penguins Founder",
       "g": "",
+      "llmv": 0,
       "calls": []
     },
     {
       "d": "Sep 06",
       "t": "James Zhang - Sharps Technologies Strategic Advisor",
       "g": "",
+      "llmv": 0,
       "calls": [
         [
           "SOL",
           "L",
           "red",
-          "-65.2%",
+          "-64.5%",
           "My interview with James Zhang, strategic advisor of Sharps Technologies (STSS on NASDAQ).\u00a0James Zhang is the strategic a",
           "",
           0,
@@ -4984,6 +5078,7 @@
       "d": "Sep 05",
       "t": "Alon Cohen - Founder of Pump.Fun",
       "g": "",
+      "llmv": 0,
       "calls": []
     }
   ],
@@ -295498,7 +295593,7 @@
   },
   "stats": {
     "green_now": null,
-    "avg_ret": -0.9,
+    "avg_ret": -0.7,
     "graded": 0,
     "open": 420,
     "shows": 114
@@ -295640,7 +295735,7 @@
       "gemini 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvem"
     ],
     "gemini_quota_dead": false,
-    "classify_calls_used": 109,
+    "classify_calls_used": 120,
     "lexicon_built": 0,
     "dispatch_built": 0
   },
