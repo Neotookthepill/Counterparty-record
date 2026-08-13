@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T15:19:55.194523+00:00",
+  "generated_at": "2026-08-13T09:54:27.736152+00:00",
   "source": "counterparty public podcast feed (buzzsprout) + own extraction",
   "feed": [
     {
@@ -295593,7 +295593,7 @@
   },
   "stats": {
     "green_now": null,
-    "avg_ret": -0.7,
+    "avg_ret": -0.9,
     "graded": 0,
     "open": 420,
     "shows": 114
@@ -295735,7 +295735,7 @@
       "gemini 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvem"
     ],
     "gemini_quota_dead": false,
-    "classify_calls_used": 120,
+    "classify_calls_used": 109,
     "lexicon_built": 0,
     "dispatch_built": 0
   },
