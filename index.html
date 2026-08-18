@@ -1627,7 +1627,17 @@ function hydrate(d){
 sanitizeData();
 boot();
 try{
-  fetch('the_record_data.json').then(function(r){return r.ok?r.json():null;}).then(hydrate).catch(function(){});
+  fetch('the_record_data.json').then(function(r){return r.ok?r.json():null;}).then(function(d){
+    if(d){
+      hydrate(d);
+      /* re-render everything now that real data is loaded */
+      try{ if(typeof renderHome==='function') renderHome(); }catch(e){}
+      try{ if(typeof renderRecord==='function') renderRecord(); }catch(e){}
+      try{ if(typeof renderToday==='function') renderToday(); }catch(e){}
+      try{ if(typeof renderAcademy==='function') renderAcademy(); }catch(e){}
+      try{ if(typeof boot==='function') boot(); }catch(e){}
+    }
+  }).catch(function(){});
 }catch(e){}
 </script>
 </body></html>
