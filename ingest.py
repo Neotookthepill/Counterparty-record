@@ -170,7 +170,12 @@ def extract_levels(sents, name):
 
 # Not tickers: chat slang and market shorthand the pattern matcher mistakes for symbols.
 NOT_TICKERS = {"TA","PFP","FUD","LP","TP","SP","AL","SL","PNL","ATH","CEO","CTO","IPO","ETF",
-               "GDP","CPI","FED","AI","US","USA","UK","EU","OK","LOL","IMO","DM","VC","YT"}
+               "GDP","CPI","FED","AI","US","USA","UK","EU","OK","LOL","IMO","DM","VC","YT",
+               "SK","JP","CT","STUB","GPT","JD","HL","NBA","NFL","API","CTA","UFC","RAF","RGC","TKO",
+               "FOMC","CFTC","AUM","QT","DCF","AGI","LLM","GPU","COVID","IRGC","GFC","JFK","HSR",
+               "ZPU","IKBR","MNF","JJ","TX","QE","ZERP","FWA","TL","HIP","ARB","RX","ARC","VTC",
+               "MF","DRC","SAS","AP","UST","HIM","XTI","DHT","SRS","JJ","VCX","USS","ATT","MNAV",
+               "FTV","RX","XIV","CT","DVN","RR","JJ"}
 # A sentence that negates the position is not a call.
 NEGATIONS = ("not long","not short","i'm not","i am not","no position","no positive exposure",
              "no exposure","wouldn't long","wouldn't short","can't long","can't short",
@@ -195,7 +200,16 @@ def extract_calls_heuristic(sents):
         d = "L" if is_long else ("S" if any(k in low for k in SHORT_WORDS) else None)
         if not d:
             continue
-        calls.append({"tk": tk, "dir": d, "quote": sent[:180], "ts": mmss(t), "secs": int(t)})
+        q = sent.strip()
+        if len(q) > 200:
+            # couper à la dernière phrase complète avant 200 chars
+            cut = q[:200]
+            for sep in ['. ', '! ', '? ']:
+                idx = cut.rfind(sep)
+                if idx > 60:
+                    cut = cut[:idx+1]; break
+            q = cut
+        calls.append({"tk": tk, "dir": d, "quote": q, "ts": mmss(t), "secs": int(t)})
     # de-dupe by ticker, keep first mention
     seen, uniq = set(), []
     for c in calls:
@@ -212,27 +226,42 @@ CONVICTION_WORDS = ("full port","fully","all in","loading","loaded","max","aggre
 HEDGE_WORDS = ("maybe","might","possibly","watching","keeping an eye","small","a bit","tiny",
                "not sure","could","thinking about","considering")
 
+# context that means the ticker/verb is NOT the speaker taking a position
+THIRD_PARTY = ("trump","biden","president","government","sec ","acquired","acquisition",
+               "bought by","acquired by","merger","arrives","military","air force","base in",
+               "he bought","she bought","they bought","trini bought","company bought","was bought",
+               "playing","fight","movie","concert","stadium")
+FIRST_PERSON = ("i'm long","i am long","i'm short","i am short","i bought","i sold","i'm buying",
+                "i'm selling","i longed","i shorted","my position","i'm in","i hold","i'm holding",
+                "i added","i trimmed","i'm accumulating","longing","shorting")
+
 def score_call(call, sents, ticker_freq=None):
     """Score a detected call 0-100 by how strong/actionable it is. No verdict, just signal weight."""
     s = 0
     quote = (call.get("quote") or "").lower()
+    # HARD noise filter: third-party context (Trump bought, acquired by, military base)
+    if any(w in quote for w in THIRD_PARTY):
+        return 0
     # 1. a precise price level is the strongest signal a real call exists
     if call.get("levels"):
-        s += 35
-    # 2. conviction language
+        s += 30
+    # 2. first-person position language is the core signal of a real call
+    if any(w in quote for w in FIRST_PERSON):
+        s += 30
+    # 3. conviction language
     if any(w in quote for w in CONVICTION_WORDS):
-        s += 25
-    # 3. hedging language pulls it down (it's a musing, not a call)
+        s += 20
+    # 4. hedging language pulls it down (it's a musing, not a call)
     if any(w in quote for w in HEDGE_WORDS):
-        s -= 15
-    # 4. explicit direction word present (not just implied)
+        s -= 20
+    # 5. explicit direction word present
     if any(w in quote for w in LONG_WORDS + SHORT_WORDS):
-        s += 15
-    # 5. ticker discussed a lot that day = more weight
+        s += 10
+    # 6. ticker discussed a lot that day = more weight
     if ticker_freq:
         f = ticker_freq.get(call.get("tk"), 0)
-        s += min(20, f * 3)
-    # 6. LLM conviction if present
+        s += min(15, f * 2)
+    # 7. LLM conviction if present
     conv = (call.get("conviction") or "").lower()
     if conv == "high": s += 15
     elif conv == "low": s -= 10
@@ -410,8 +439,34 @@ GEMINI_KEY     = os.environ.get("GEMINI_API_KEY", "")
 _PROVIDER = [None]          # resolved on first call: anthropic | gemini
 _GEMINI_T = [0.0]           # pacing for the free tier (15 requests/min)
 _QUOTA_DEAD = [False]       # gemini daily quota exhausted -> stop calling, fail fast
+# ---------- TELEMETRY (know WHY the LLM did or didn't run) ----------
+TELEMETRY = {
+    "gemini_key_present": bool(os.environ.get("GEMINI_API_KEY", "")),
+    "anthropic_key_present": bool(os.environ.get("ANTHROPIC_API_KEY", "")),
+    "provider": None,
+    "classify_attempted": 0,
+    "classify_succeeded": 0,
+    "classify_failed": 0,
+    "cache_hits": 0,
+    "quota_failures": 0,
+    "parse_failures": 0,
+    "circuit_breaker_reason": None,
+    "episodes_llm": 0,
+    "episodes_cached": 0,
+    "episodes_rules_only": 0,
+}
+def _diag_provider():
+    if os.environ.get("ANTHROPIC_API_KEY"): return "anthropic"
+    if os.environ.get("GEMINI_API_KEY"): return "gemini"
+    return None
+
+# ===== SEPARATE BUDGETS (calls are core, prose is optional) =====
+CALL_CLASSIFY_BUDGET = int(os.environ.get("CALL_CLASSIFY_BUDGET", "80"))   # protected, first priority
+LEXICON_BUDGET       = int(os.environ.get("LEXICON_BUDGET", "25"))
+DISPATCH_BUDGET      = int(os.environ.get("DISPATCH_BUDGET", "15"))
 CLASSIFY_BUDGET = int(os.environ.get("CLASSIFY_BUDGET", "120"))   # LLM calls per run for classification
 _CLASSIFY_USED = [0]
+TELEMETRY["provider"] = _diag_provider()
 
 def _llm_ready():
     return bool(ANTHROPIC_KEY or GEMINI_KEY)
@@ -501,15 +556,19 @@ def _anthropic(content, system, max_tokens=1500):
 def classify_calls(sents):
     """LLM pass over timestamped sentences -> clean calls. None = caller uses heuristic."""
     if not _llm_ready() or not sents:
+        if not _llm_ready(): TELEMETRY["circuit_breaker_reason"] = "no_api_key"
         return None
     text = "\n".join(f"[{int(t)}s] {s}" for t, s in sents)
     out = []; ok = False
     step = 9000 if ANTHROPIC_KEY else 28000    # gemini flash swallows big chunks: 3x fewer calls
     for i in range(0, len(text), step):
-        if _QUOTA_DEAD[0] or _CLASSIFY_USED[0] >= CLASSIFY_BUDGET:
-            break                               # save the rest of the quota for lexicon + dispatch
+        if _QUOTA_DEAD[0]:
+            TELEMETRY["circuit_breaker_reason"] = "quota_dead"; break
+        if _CLASSIFY_USED[0] >= CALL_CLASSIFY_BUDGET:
+            TELEMETRY["circuit_breaker_reason"] = "call_budget_exhausted"; break
         try:
             _CLASSIFY_USED[0] += 1
+            TELEMETRY["classify_attempted"] += 1
             raw = _llm(text[i:i+step], CLASSIFY_SYS, 1500)
             raw = raw[raw.find("["): raw.rfind("]")+1]
             for c in json.loads(raw):
@@ -522,7 +581,12 @@ def classify_calls(sents):
                             "quote": str(c.get("quote",""))[:160],
                             "secs": secs, "ts": mmss(secs)})
             ok = True
+            TELEMETRY["classify_succeeded"] += 1
         except Exception as e:
+            TELEMETRY["classify_failed"] += 1
+            es = str(e).lower()
+            if "quota" in es or "429" in es or "rate" in es: TELEMETRY["quota_failures"] += 1
+            elif "json" in es or "pars" in es: TELEMETRY["parse_failures"] += 1
             print(f"  ! classify chunk failed ({e})", file=sys.stderr)
             if len(_LLM_ERRORS) < 8: _LLM_ERRORS.append(str(e)[:200])
     if not ok:
@@ -890,10 +954,33 @@ def build(all_episodes=False, limit=20):
     # Scheduled runs only see the latest episodes; everything already on disk is kept.
     # diagnostics kept out of the public artifact
     data = merge_archives(load_existing(), data)
+    # attach LLM telemetry so the build is auditable (why did/didn't the AI layer run)
+    data["llm_telemetry"] = TELEMETRY
     with open(OUT, "w") as f:
         json.dump(data, f, indent=2)
     print(f"\nwrote {OUT}: {len(data['feed'])} shows, {len(data['tape'])} receipts"
           + (f", {len(data.get('lexicon',[]))} lexicon terms" if data.get('lexicon') else ""))
+    # ---- BUILD DIAGNOSTIC (the milestone line) ----
+    t = TELEMETRY
+    print("\n===== LLM LAYER DIAGNOSTIC =====")
+    print(f"  provider selected     : {t['provider'] or 'NONE (rule engine only)'}")
+    print(f"  gemini key present    : {t['gemini_key_present']}")
+    print(f"  anthropic key present : {t['anthropic_key_present']}")
+    print(f"  classify attempted    : {t['classify_attempted']}")
+    print(f"  classify succeeded    : {t['classify_succeeded']}")
+    print(f"  classify failed       : {t['classify_failed']}")
+    print(f"  quota failures        : {t['quota_failures']}")
+    print(f"  parse failures        : {t['parse_failures']}")
+    print(f"  circuit breaker       : {t['circuit_breaker_reason'] or 'none'}")
+    if not t['gemini_key_present'] and not t['anthropic_key_present']:
+        print("  >> ROOT CAUSE: no API key set in environment. Add GEMINI_API_KEY or")
+        print("     ANTHROPIC_API_KEY to GitHub Actions secrets to enable the LLM layer.")
+    elif t['classify_attempted'] == 0:
+        print("  >> The LLM was never called this run (budget or no eligible items).")
+    elif t['classify_succeeded'] == 0:
+        print("  >> The LLM was called but every call failed (see quota/parse counts).")
+    print("  rule engine always available: calls detected regardless of LLM status.")
+    print("================================")
 
 if __name__ == "__main__":
     build(all_episodes=("--all" in sys.argv))
