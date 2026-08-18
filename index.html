@@ -850,6 +850,14 @@ body.locked{overflow:hidden;height:100vh}
 
 .trail-cta{display:inline-block;margin-top:18px;font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--brass);border-bottom:1px solid var(--brass-soft);padding-bottom:4px}
 .trail-cta:hover{color:var(--cream)}
+.call-row{padding:14px 0;border-bottom:1px solid rgba(255,255,255,.06)}
+.call-head{display:flex;align-items:center;gap:12px;margin-bottom:5px}
+.call-tk{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:13px;letter-spacing:.04em;color:var(--cream)}
+.call-dir{font-family:"IBM Plex Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.1em;padding:2px 8px;border-radius:3px}
+.dir-long{color:#7fd1a8;background:rgba(127,209,168,.1)}
+.dir-short{color:#e08a8a;background:rgba(224,138,138,.1)}
+.call-ts{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--brass);margin-left:auto}
+.call-quote{font-family:"Newsreader",serif;font-size:14px;line-height:1.5;color:rgba(255,255,255,.75)}
 </style></head><body>
 <div id="intro" role="button" tabindex="0" aria-label="Enter The Record">
   <div class="i-eyebrow">The Record</div>
@@ -1469,6 +1477,17 @@ function tapeSearch(q){
 
 /* ---------- RECORD ---------- */
 
+function callRow(c){
+  if(!c||!c.tk)return '';
+  var dir=(c.dir==='S')?'short':'long';
+  var dcls=(c.dir==='S')?'dir-short':'dir-long';
+  var q=(typeof esc==='function')?esc(c.quote||''):(c.quote||'');
+  var ts=c.ts?'<span class="call-ts">'+((typeof esc==='function')?esc(c.ts):c.ts)+'</span>':'';
+  return '<div class="call-row"><div class="call-head"><span class="call-tk">'+((typeof esc==='function')?esc(c.tk):c.tk)+'</span>'
+    +'<span class="call-dir '+dcls+'">'+dir+'</span>'+ts+'</div>'
+    +'<div class="call-quote">'+q+'</div></div>';
+}
+
 function renderRecord(){
   if(!FEED)return;
   var calls=allCalls().length;
@@ -1630,12 +1649,30 @@ try{
   fetch('the_record_data.json').then(function(r){return r.ok?r.json():null;}).then(function(d){
     if(d){
       hydrate(d);
-      /* re-render everything now that real data is loaded */
-      try{ if(typeof renderHome==='function') renderHome(); }catch(e){}
-      try{ if(typeof renderRecord==='function') renderRecord(); }catch(e){}
-      try{ if(typeof renderToday==='function') renderToday(); }catch(e){}
-      try{ if(typeof renderAcademy==='function') renderAcademy(); }catch(e){}
-      try{ if(typeof boot==='function') boot(); }catch(e){}
+      /* wait a tick so all globals are set, then re-render everything + refresh current view */
+      setTimeout(function(){
+          try{ if(typeof renderAnat==='function') renderAnat(); }catch(e){}
+          try{ if(typeof renderClass==='function') renderClass(); }catch(e){}
+          try{ if(typeof renderDesk==='function') renderDesk(); }catch(e){}
+          try{ if(typeof renderEdition==='function') renderEdition(); }catch(e){}
+          try{ if(typeof renderHome==='function') renderHome(); }catch(e){}
+          try{ if(typeof renderLatest==='function') renderLatest(); }catch(e){}
+          try{ if(typeof renderLexFilters==='function') renderLexFilters(); }catch(e){}
+          try{ if(typeof renderLexicon==='function') renderLexicon(); }catch(e){}
+          try{ if(typeof renderLog==='function') renderLog(); }catch(e){}
+          try{ if(typeof renderRecord==='function') renderRecord(); }catch(e){}
+          try{ if(typeof renderSubtabs==='function') renderSubtabs(); }catch(e){}
+          try{ if(typeof renderTabs==='function') renderTabs(); }catch(e){}
+          try{ if(typeof renderToday==='function') renderToday(); }catch(e){}
+          try{ if(typeof renderWeek==='function') renderWeek(); }catch(e){}
+          try{ if(typeof renderWriting==='function') renderWriting(); }catch(e){}
+          try{ if(typeof show==='function' && typeof CUR!=='undefined'){ var views=['home','today','tape','record','class','lexicon','desk','writing']; } }catch(e){}
+          /* force refresh of whatever view is currently shown */
+          try{
+            var onView=document.querySelector('.view.on');
+            if(onView){ var vid=onView.id.replace('view-',''); if(typeof show==='function') show(vid); }
+          }catch(e){}
+      }, 0);
     }
   }).catch(function(){});
 }catch(e){}
