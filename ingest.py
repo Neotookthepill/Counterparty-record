@@ -205,6 +205,48 @@ def extract_calls_heuristic(sents):
         c["levels"] = extract_levels(sents, sym2name.get(c["tk"], c["tk"].lower()))
     return uniq
 
+
+# ---------- IMPORTANCE SCORING (le tri du signal) ----------
+CONVICTION_WORDS = ("full port","fully","all in","loading","loaded","max","aggressively",
+                    "high conviction","biggest","huge","backing up the truck","size","sized")
+HEDGE_WORDS = ("maybe","might","possibly","watching","keeping an eye","small","a bit","tiny",
+               "not sure","could","thinking about","considering")
+
+def score_call(call, sents, ticker_freq=None):
+    """Score a detected call 0-100 by how strong/actionable it is. No verdict, just signal weight."""
+    s = 0
+    quote = (call.get("quote") or "").lower()
+    # 1. a precise price level is the strongest signal a real call exists
+    if call.get("levels"):
+        s += 35
+    # 2. conviction language
+    if any(w in quote for w in CONVICTION_WORDS):
+        s += 25
+    # 3. hedging language pulls it down (it's a musing, not a call)
+    if any(w in quote for w in HEDGE_WORDS):
+        s -= 15
+    # 4. explicit direction word present (not just implied)
+    if any(w in quote for w in LONG_WORDS + SHORT_WORDS):
+        s += 15
+    # 5. ticker discussed a lot that day = more weight
+    if ticker_freq:
+        f = ticker_freq.get(call.get("tk"), 0)
+        s += min(20, f * 3)
+    # 6. LLM conviction if present
+    conv = (call.get("conviction") or "").lower()
+    if conv == "high": s += 15
+    elif conv == "low": s -= 10
+    return max(0, min(100, s))
+
+def rank_calls(calls, sents):
+    """Attach an importance score to each call and sort strongest first."""
+    from collections import Counter
+    freq = Counter(c.get("tk") for c in calls)
+    for c in calls:
+        c["score"] = score_call(c, sents, freq)
+    return sorted(calls, key=lambda c: c.get("score", 0), reverse=True)
+
+
 def extract_calls_llm(title, desc, sents):
     """Higher quality: ask Claude to read the transcript and return strict JSON calls."""
     import anthropic  # pip install anthropic
@@ -590,6 +632,10 @@ def merge_archives(old, new):
     for key in ("lexicon","voices"):
         if not new.get(key) and old.get(key): new[key] = old[key]
         elif new.get(key) and old.get(key) and len(old[key]) > len(new[key]): new[key] = old[key]
+    # writing / featured: human-authored and human-curated, never touched by the pipeline
+    for hk in ("writing", "featured"):
+        if old.get(hk) and not new.get(hk):
+            new[hk] = old[hk]
     if old.get("dispatch"):
         kd = lambda e: (e.get("date",""), e.get("head",""))
         seen_d = {kd(e) for e in new.get("dispatch",[])}
@@ -695,6 +741,22 @@ def _key_diag():
     print(f"ANTHROPIC_API_KEY: {a} | GEMINI_API_KEY: {g} -> LLM pass {'ON' if _llm_ready() else 'OFF (heuristic only)'}")
 
 _PREV_LLM_TITLES = set()
+_PREV_VERIFIED = {}
+
+def _checkpoint(feed, tape, plans, note=""):
+    """Write a partial, merged snapshot so a mid-run crash never loses finished work.
+    The next run skips already-verified episodes and resumes where this stopped."""
+    try:
+        partial = {"generated_at": datetime.now(timezone.utc).isoformat(),
+                   "source": "counterparty feed + own extraction",
+                   "feed": list(feed), "tape": list(tape), "plans": dict(plans),
+                   "charts": {}, "stats": {"shows": len(feed)}}
+        merged = merge_archives(load_existing(), partial)
+        with open(OUT, "w") as f:
+            json.dump(merged, f, indent=2)
+        print(f"  [checkpoint] saved {len(feed)} episodes {note}")
+    except Exception as e:
+        print(f"  ! checkpoint failed ({e})", file=sys.stderr)
 
 def build(all_episodes=False, limit=20):
     _key_diag()
@@ -703,6 +765,13 @@ def build(all_episodes=False, limit=20):
     _PREV_LLM_TITLES = {e.get("t") for e in (_prev_archive.get("feed") or []) if e.get("llmv")}
     if _PREV_LLM_TITLES:
         print(f"  {len(_PREV_LLM_TITLES)} episode(s) already LLM-classified, quota saved")
+    global _PREV_VERIFIED
+    _PREV_VERIFIED = {}
+    for e in (_prev_archive.get("feed") or []):
+        if e.get("llmv"):
+            _PREV_VERIFIED[e.get("t")] = [dict(zip(
+                ["tk","dir","status","pct","thesis","conviction","secs","epid"], r)) | {"verified": True}
+                for r in e.get("calls", [])]
     eps = episodes()
     if not all_episodes:
         eps = eps[:limit]
@@ -723,9 +792,20 @@ def build(all_episodes=False, limit=20):
         # Stage 2: clean calls for the FEED / scoreboard. Falls back to heuristic
         # if no key or the pass fails (never wipes the broad layer).
         clf = None if ep["title"] in _PREV_LLM_TITLES else classify_calls(sents)
-        feed_calls = clf if clf else raw_calls
+        # FAIL CLOSED on attribution: a call reaches the public Ledger only when the
+        # LLM has verified it. Heuristic candidates stay searchable in the Tape (raw_calls)
+        # but are never published as confirmed calls. No verification, no receipt.
+        prev_verified = _PREV_VERIFIED.get(ep["title"])
         if clf:
-            print(f"  classified {len(clf)} real calls")
+            feed_calls = clf
+            for c in feed_calls: c["verified"] = True
+            print(f"  verified {len(clf)} calls")
+        elif prev_verified:
+            feed_calls = prev_verified          # keep prior verified set on re-run
+            print(f"  kept {len(prev_verified)} previously verified calls")
+        else:
+            feed_calls = []                     # unclassified: nothing published
+            print(f"  unverified episode: {len(raw_calls)} candidates held back, tape only")
         # date label + iso for grading
         try:
             dt = datetime.strptime(ep["pubDate"][:16].strip(), "%a, %d %b %Y")
@@ -755,6 +835,13 @@ def build(all_episodes=False, limit=20):
                  c.get("thesis", c.get("quote",""))[:120], c.get("conviction",""),
                  int(c.get("secs",0) or 0), ep["id"]] for c in feed_calls]
         feed.append({"d": dlabel, "t": ep["title"], "g": "", "llmv": (1 if clf else 0), "calls": rows})
+        # incremental save: protect finished work against a mid-run quota crash
+        if len(feed) % 15 == 0:
+            _checkpoint(feed, tape, plans, "(periodic)")
+        if _QUOTA_DEAD[0]:
+            _checkpoint(feed, tape, plans, "(quota exhausted, stopping cleanly)")
+            print("  LLM quota gone. Verified work saved; rerun tomorrow to continue.")
+            break
         # full-text tape: every substantive line is searchable, ticker tagged when found
         # [tk_or_blank, sentence, ts, epid, secs, date]
         for t, sent in sents:
@@ -801,16 +888,7 @@ def build(all_episodes=False, limit=20):
         print(f"  lexicon: {len(lex)} terms from the corpus")
     # --- MERGE with the existing archive: The Record never memory-holes itself. ---
     # Scheduled runs only see the latest episodes; everything already on disk is kept.
-    data["diag"] = {
-        "key_present": bool(ANTHROPIC_KEY),
-        "key_prefix": (ANTHROPIC_KEY[:10] + "...") if ANTHROPIC_KEY else None,
-        "key_len": len(ANTHROPIC_KEY) if ANTHROPIC_KEY else 0,
-        "llm_errors": _LLM_ERRORS,
-        "gemini_quota_dead": _QUOTA_DEAD[0],
-        "classify_calls_used": _CLASSIFY_USED[0],
-        "lexicon_built": len(data.get("lexicon") or []),
-        "dispatch_built": len(data.get("dispatch") or []),
-    }
+    # diagnostics kept out of the public artifact
     data = merge_archives(load_existing(), data)
     with open(OUT, "w") as f:
         json.dump(data, f, indent=2)

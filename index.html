@@ -645,9 +645,9 @@ body.locked{overflow:hidden;height:100vh}
 .m-h2{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:clamp(30px,4.4vw,58px);line-height:1.0;letter-spacing:-.02em;color:var(--cream);margin:0 0 18px}
 .m-p{font-family:"Newsreader",serif;font-size:clamp(15px,1.7vw,18px);line-height:1.55;color:var(--cream-2);margin:0;max-width:60ch}
 /* edition */
-.m-edition{background:var(--navy-2);padding:90px 5vw;border-top:1px solid var(--ln);border-bottom:1px solid var(--ln)}
-.m-edition .m-kick{margin-bottom:30px}
-.m-edition .sheet{max-width:900px;margin:0 auto}
+
+
+
 /* trail */
 
 
@@ -761,7 +761,7 @@ body.locked{overflow:hidden;height:100vh}
 
 /* marqueurs narratifs en 4 actes (marge) */
 .m-hero,.m-proof,.m-operator{position:relative}
-.m-edition{position:relative}
+
 [data-act]::before{content:attr(data-act);position:absolute;top:0;left:-2px;font-family:"IBM Plex Mono",monospace;font-size:8px;letter-spacing:.16em;text-transform:uppercase;color:var(--cream-3);opacity:.6;writing-mode:vertical-rl;transform:rotate(180deg);height:auto}
 @media(max-width:1100px){[data-act]::before{display:none}}
 
@@ -813,6 +813,43 @@ body.locked{overflow:hidden;height:100vh}
 .replay-link{color:var(--cream-3);border-bottom:1px solid transparent;transition:.15s;cursor:pointer}
 .replay-link:hover{color:var(--brass);border-bottom-color:var(--brass-soft)}
 
+
+/* ===== HERO FRONT (present first) ===== */
+.m-hero{padding:48px 24px 60px}
+.mh-label{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.26em;text-transform:uppercase;color:var(--cream-3);margin-bottom:22px}
+.mh-title{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:clamp(34px,5.4vw,62px);line-height:1.0;letter-spacing:-.02em;color:var(--cream);text-transform:uppercase;margin:0 0 18px;max-width:20ch}
+.mh-sub{font-family:"Newsreader",serif;font-size:clamp(14px,1.7vw,17px);line-height:1.5;color:var(--cream-2);max-width:58ch;margin:0 0 26px}
+/* bloc Latest */
+.latest{display:block;text-decoration:none;border:1px solid rgba(202,173,108,.35);border-radius:10px;padding:16px 20px;margin-bottom:26px;background:linear-gradient(180deg,rgba(201,162,74,.06),transparent);transition:border-color .2s,background .2s}
+.latest:hover{border-color:var(--brass);background:linear-gradient(180deg,rgba(201,162,74,.1),transparent)}
+.latest-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:9px}
+.latest-tag{font-family:"IBM Plex Mono",monospace;font-size:8px;letter-spacing:.18em;text-transform:uppercase;color:var(--brass);display:flex;align-items:center;gap:7px}
+.latest-dot{width:6px;height:6px;border-radius:50%;background:var(--brass);box-shadow:0 0 0 3px rgba(202,173,108,.18)}
+.latest-date{font-family:"IBM Plex Mono",monospace;font-size:8px;letter-spacing:.1em;color:var(--cream-3)}
+.latest-read{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:clamp(18px,2.4vw,23px);line-height:1.2;color:var(--cream);margin-bottom:12px}
+.latest-foot{display:flex;justify-content:space-between;align-items:center;gap:12px}
+#latest-sub{font-family:"Newsreader",serif;font-size:12px;color:var(--cream-3)}
+.latest-cta{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--brass);white-space:nowrap}
+/* diagramme compact */
+.assets{border-top:1px solid var(--ln);padding-top:20px}
+.assets-label{font-family:"IBM Plex Mono",monospace;font-size:8px;letter-spacing:.2em;text-transform:uppercase;color:var(--cream-3);margin-bottom:14px}
+.assets-grid{display:grid;grid-template-columns:1fr 1fr 1fr;border-top:1px solid var(--ln)}
+.assets-grid .fp-pil{padding:16px 18px 14px;border-right:1px solid var(--ln-2);text-decoration:none;display:block;cursor:pointer;transition:background .18s;outline-offset:-2px}
+.assets-grid .fp-pil:last-child{border-right:0}
+.assets-grid .fp-pil:hover{background:rgba(239,233,218,.05)}
+.assets-grid .fp-pil:focus-visible{outline:2px solid var(--brass)}
+.fp-verb{font-family:"Newsreader",serif;font-size:12px;color:var(--cream-2);margin-top:6px}
+.assets-grid .fp-primary{background:var(--cream);border-radius:5px}
+.assets-grid .fp-primary .fp-no{color:var(--brass-d)}
+.assets-grid .fp-primary .fp-tag{color:#6b6858}
+.assets-grid .fp-primary .fp-name{color:var(--navy)}
+.assets-grid .fp-primary .fp-verb{color:#3a3d52}
+.assets-grid .fp-primary:hover{background:#f4efe2}
+.assets-grid .fp-pil:not(.fp-primary):hover{background:rgba(239,233,218,.06)}
+@media(max-width:720px){.assets-grid{grid-template-columns:1fr}.assets-grid .fp-pil{border-right:0;border-top:1px solid var(--ln-2)}.assets-grid .fp-pil:first-child{border-top:0}}
+
+.trail-cta{display:inline-block;margin-top:18px;font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--brass);border-bottom:1px solid var(--brass-soft);padding-bottom:4px}
+.trail-cta:hover{color:var(--cream)}
 </style></head><body>
 <div id="intro" role="button" tabindex="0" aria-label="Enter The Record">
   <div class="i-eyebrow">The Record</div>
@@ -820,7 +857,7 @@ body.locked{overflow:hidden;height:100vh}
   <img class="intro-word" data-k="wc" src="" alt="Counterparty">
   <div class="intro-rule"></div>
   <div class="intro-tag">Nothing said on the show ever disappears again.</div>
-  <div class="intro-live"><span class="dot"></span>Live<span class="sep">&middot;</span>Mon-Fri<span class="sep">&middot;</span>8:30 EST</div>
+  <div class="intro-live"><span class="dot"></span>Live<span class="sep">&middot;</span>Mon-Fri<span class="sep">&middot;</span>8:30 ET</div>
   <button class="intro-enter" id="enter">Enter the Record</button>
   
 </div>
@@ -831,11 +868,11 @@ body.locked{overflow:hidden;height:100vh}
     <div class="stk"><img class="w" data-k="wc" src="" alt="Counterparty"><span class="sub">The Record</span></div>
   </div>
   <nav class="nav" id="nav">
-    <button data-view="home" data-door="today"><svg viewBox="0 0 24 24" class="nav-i"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg><span>Today</span></button>
-    <button data-view="tape" data-door="record"><svg viewBox="0 0 24 24" class="nav-i"><path d="M4 5h16M4 10h16M4 15h10M4 20h7"/></svg><span>The Record</span></button>
-    <button data-view="class" data-door="academy"><svg viewBox="0 0 24 24" class="nav-i"><path d="M3 8l9-5 9 5-9 5-9-5zM6 10v5c0 1 3 2 6 2s6-1 6-2v-5"/></svg><span>Academy</span></button>
-    <button data-view="desk" data-door="desk"><svg viewBox="0 0 24 24" class="nav-i"><path d="M8 3l6 2-1 5-5-1zM11 10l-2 8M6 21h8"/></svg><span>The Desk</span></button>
-    <span class="live"><span class="d"></span>Live 8:30 EST</span>
+    <button data-view="today" data-door="today" aria-label="Today"><svg viewBox="0 0 24 24" class="nav-i"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg><span>Today</span></button>
+    <button data-view="tape" data-door="record" aria-label="The Record"><svg viewBox="0 0 24 24" class="nav-i"><path d="M4 5h16M4 10h16M4 15h10M4 20h7"/></svg><span>The Record</span></button>
+    <button data-view="class" data-door="academy" aria-label="Academy"><svg viewBox="0 0 24 24" class="nav-i"><path d="M3 8l9-5 9 5-9 5-9-5zM6 10v5c0 1 3 2 6 2s6-1 6-2v-5"/></svg><span>Academy</span></button>
+    <button data-view="desk" data-door="desk" aria-label="The Desk"><svg viewBox="0 0 24 24" class="nav-i"><path d="M8 3l6 2-1 5-5-1zM11 10l-2 8M6 21h8"/></svg><span>The Desk</span></button>
+    <span class="live"><span class="d"></span>Live 8:30 ET</span>
   </nav>
 </div></header>
 
@@ -845,78 +882,70 @@ body.locked{overflow:hidden;height:100vh}
   <!-- HOME -->
   <section class="view on" id="view-home">
 
-    <!-- MOVEMENT 1: the system -->
-    <div class="wrap m-hero" data-act="01 / The system">
-      <div class="mh-label">The permanent intelligence layer of Counterparty</div>
-      <h1 class="mh-title">One show. Three assets that compound.</h1>
-      <p class="mh-sub">The show happens live once. The Record keeps every call, every thesis and every lesson working after the stream ends.</p>
-      <div class="flow">
-        <div class="flow-source">
-          <div class="fs-top"><span class="fs-dot" id="live-dot"></span><span id="live-label">Live source</span><span class="fs-days">08:30 EST</span></div>
-          <img class="fs-mk" data-k="j" src="" alt="" role="presentation">
-          <div class="fs-name">The Threadguy<br>Stream</div>
-          <div class="fs-sub">Markets, culture, conviction. Three hours, every weekday.</div>
-          <div class="fs-links">
-            <a href="https://twitch.tv/threadguy" target="_blank" rel="noopener" aria-label="Twitch" title="Twitch"><svg viewBox="0 0 24 24" class="fs-ic"><path d="M4 3h16v10l-4 4h-4l-3 3H6v-3H4V3zm2 2v10h3v2l2-2h4l3-3V5H6zm7 2h2v5h-2V7zm-4 0h2v5H9V7z"/></svg></a>
-            <a href="https://x.com/notthreadguy" target="_blank" rel="noopener" aria-label="X" title="X"><svg viewBox="0 0 24 24" class="fs-ic"><path d="M17.5 3h3l-6.6 7.5L21.5 21h-6l-4.3-5.6L6.2 21H3.2l7-8L2.5 3h6.1l3.9 5.2L17.5 3zm-1 16h1.7L7.6 4.8H5.8L16.5 19z"/></svg></a>
-            <a href="https://youtube.com/@notthreadguy" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube"><svg viewBox="0 0 24 24" class="fs-ic"><path d="M22 8.2a3 3 0 0 0-2.1-2.1C18 5.5 12 5.5 12 5.5s-6 0-7.9.6A3 3 0 0 0 2 8.2 31 31 0 0 0 2 12a31 31 0 0 0 .1 3.8 3 3 0 0 0 2.1 2.1c1.9.6 7.9.6 7.9.6s6 0 7.9-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 22 12a31 31 0 0 0-.1-3.8zM10 15V9l5.2 3L10 15z"/></svg></a>
-          </div>
+    <!-- MOVEMENT 1: the front (present first, then the system) -->
+    <div class="wrap m-hero" data-act="01 / The front">
+      <div class="mh-label">Built from the Threadguy stream</div>
+      <h1 class="mh-title">The show ends.<br>The intelligence keeps working.</h1>
+      <p class="mh-sub">Every call searchable. Every lesson connected. Every thesis followed beyond the stream.</p>
+
+      <a class="latest" id="latest-block" href="javascript:void(0)" onclick="show('record')">
+        <div class="latest-top">
+          <span class="latest-tag"><span class="latest-dot"></span>Latest from the show</span>
+          <span class="latest-date" id="latest-date">Aug 10 &middot; 9:33</span>
         </div>
-        <div class="flow-arrow">&rarr;</div>
-        <div class="flow-pillars">
+        <div class="latest-read" id="latest-read">BTC tests $64.8K as Strategy pressures support.</div>
+        <div class="latest-foot">
+          <span id="latest-sub">5 new moments added to the BTC dossier</span>
+          <span class="latest-cta">Open The Record &rarr;</span>
+        </div>
+      </a>
+
+      <div class="assets">
+        <div class="assets-label">One show &middot; three assets</div>
+        <div class="flow-pillars assets-grid">
           <a class="fp-pil fp-primary" onclick="show('record')" href="javascript:void(0)">
             <div class="fp-top"><span class="fp-no">01</span><span class="fp-tag">Memory</span></div>
             <h3 class="fp-name">The Record</h3>
-            <div class="fp-meta"><span class="fp-n" id="h-tot">&middot;&middot;</span> lines kept with context and timestamp</div>
+            <div class="fp-verb">Search the show</div>
           </a>
           <a class="fp-pil" onclick="show('class')" href="javascript:void(0)">
             <div class="fp-top"><span class="fp-no">02</span><span class="fp-tag">Understanding</span></div>
             <h3 class="fp-name">Academy</h3>
-            <div class="fp-meta"><span class="fp-n" id="h-lex">&middot;&middot;</span> concepts connected to the moments that taught them</div>
+            <div class="fp-verb">Learn from it</div>
           </a>
           <a class="fp-pil" onclick="show('desk')" href="javascript:void(0)">
             <div class="fp-top"><span class="fp-no">03</span><span class="fp-tag">Edge</span></div>
             <h3 class="fp-name">The Desk</h3>
-            <div class="fp-meta"><span class="fp-n" id="h-desk">&middot;&middot;</span> standing degen &amp; on-chain calls</div>
+            <div class="fp-verb">Follow the thesis</div>
           </a>
         </div>
       </div>
-      
-    </div>
-
-    <!-- MOVEMENT 2: today's edition (real dispatch) -->
-    <div class="m-edition" data-act="02 / Today">
-      <div class="m-kick">Latest edition on the desk</div>
-      <a class="sheet" id="home-edition" href="javascript:void(0)" onclick="show('today')"></a>
     </div>
 
     <!-- MOVEMENT 3: proof + thesis trail -->
     <div class="wrap m-proof" data-act="03 / The proof">
-      <div class="m-kick" style="text-align:left">The system, already working</div>
-      <h2 class="m-h2">Not a pitch deck. The show’s intelligence layer, already running.</h2>
-      <p class="proof-line">Calls preserved. Concepts taught. Theses traced.</p>
       <div class="proof-nums">
         <div class="pn"><b id="pn-shows">&middot;&middot;</b><span>Shows preserved</span></div>
         <div class="pn"><b id="pn-lines">&middot;&middot;</b><span>Lines indexed</span></div>
         <div class="pn"><b id="pn-lex">&middot;&middot;</b><span>Concepts connected</span></div>
         <div class="pn"><b id="pn-btc">&middot;&middot;</b><span>BTC moments tracked</span></div>
       </div>
-
       <div class="proof-trail">
         <div class="pt-head">
           <span class="pt-tag">One thesis, traced</span>
-          <span class="pt-dossier">$BTC dossier &middot; <b id="btc-count">&middot;&middot;</b> moments on the tape</span>
+          <span class="pt-dossier">$BTC dossier</span>
         </div>
         <div class="timeline" id="btc-trail"></div>
+        <a class="trail-cta" onclick="show('record')" href="javascript:void(0)">Explore every BTC moment &rarr;</a>
       </div>
     </div>
 
     <!-- MOVEMENT 4: the operator (Kenny) + signature -->
     <div class="wrap m-operator" data-act="04 / The operator">
       <div>
-        <div class="m-kick" style="text-align:left">Built to complement the research desk</div>
-        <h2 class="m-h2">Built to complement the research desk.</h2>
-        <p class="m-p">Counterparty already has structured research: Tulip King, ex-Messari, covers the macro and the fundamentals. What the show does not yet have is the layer that makes every episode compound, and the degen and on-chain read that lives where the fast money actually trades: memecoins, perps, pump.fun, wallet flows. The Record is that layer. I run it alongside the research desk, not on top of it.</p>
+        <div class="m-kick" style="text-align:left">The operator</div>
+        <h2 class="m-h2">Built and operated by Kenny.</h2>
+        <p class="m-p">Degen and on-chain analysis, editorial systems, and the permanent layer behind The Record.</p>
         <p class="m-sign">The show is live once. The Record keeps it working.</p>
       </div>
       <aside class="op-card">
@@ -931,7 +960,7 @@ body.locked{overflow:hidden;height:100vh}
       </aside>
     </div>
 
-    <div class="wrap m-legal">Independent editorial proof of concept by Kenny. Not an official Counterparty product.<span class="legal-sep">&middot;</span><a class="replay-link" onclick="replayIntro()" href="javascript:void(0)">Replay the intro</a></div>
+    <div class="wrap m-legal">Independent proof of concept, built for Counterparty.<span class="legal-sep">&middot;</span><a class="replay-link" onclick="replayIntro()" href="javascript:void(0)">Replay the intro</a></div>
 
   </section>
 
@@ -1081,7 +1110,7 @@ body.locked{overflow:hidden;height:100vh}
 
   <div class="wrap"><div class="foot">
     <img class="fw" data-k="wc" src="" alt="Counterparty">
-    <div class="fl">The Record &middot; the independent archive of the show<br>The Threadguy Stream &middot; Live weekdays 8:30 EST &middot; twitch.tv/threadguy &middot; @counterpartytv<br>Built and written by Kenny &middot; <a href="https://x.com/KtheQuant" target="_blank" rel="noopener" style="color:inherit">@KtheQuant</a><br>Independent editorial proof of concept, built for Counterparty by Kenny. Not an official Counterparty product &middot; official site: <a href="https://www.counterparty.tv" target="_blank" rel="noopener" style="color:inherit">counterparty.tv</a><br><span class="rp" id="replay">&#9655; Replay the intro</span></div>
+    <div class="fl">The Record &middot; the independent archive of the show<br>The Threadguy Stream &middot; Live weekdays 8:30 ET &middot; twitch.tv/threadguy &middot; @counterpartytv<br>Built and written by Kenny &middot; <a href="https://x.com/KtheQuant" target="_blank" rel="noopener" style="color:inherit">@KtheQuant</a><br>Independent editorial proof of concept, built for Counterparty by Kenny. Not an official Counterparty product &middot; official site: <a href="https://www.counterparty.tv" target="_blank" rel="noopener" style="color:inherit">counterparty.tv</a><br><span class="rp" id="replay">&#9655; Replay the intro</span></div>
   </div></div>
 </main>
 
@@ -1255,8 +1284,7 @@ function updateLiveStatus(){
   if(!top||!lbl)return;
   // heure actuelle en EST (UTC-5); le show: lun-ven ~8:30, fenêtre ~3h
   var now=new Date();
-  var utc=now.getTime()+now.getTimezoneOffset()*60000;
-  var est=new Date(utc-5*3600000);
+  var est=new Date(now.toLocaleString('en-US',{timeZone:'America/New_York'}));
   var day=est.getDay(), hr=est.getHours(), min=est.getMinutes();
   var mins=hr*60+min;
   var weekday=(day>=1&&day<=5);
@@ -1266,7 +1294,31 @@ function updateLiveStatus(){
   else{top.classList.add('is-offline');lbl.textContent='Offline';}
 }
 
+
+/* Editorial reads: the editor's clean reformulation of a raw moment.
+   Automation preserves the transcript; the editor gives it meaning. */
+var EDITORIAL_READS=[
+  {date:'Aug 10', ts:'9:33', tk:'BTC', read:'BTC tests $64.8K as Strategy pressures support.', raw:'Crypto 64.8 on BTC and Saylor is drilling support.'}
+];
+function latestMoment(){
+  /* prefer an editor-written read; fall back to the most recent clean BTC line */
+  if(EDITORIAL_READS.length) return EDITORIAL_READS[0];
+  var btc=TAPE.filter(function(t){return t[0]==='BTC'&&t[1].length>40&&t[1].length<140;});
+  if(!btc.length) return null;
+  var t=btc[0];
+  return {date:t[5], ts:t[2], tk:'BTC', read:t[1], raw:t[1]};
+}
+function renderLatest(){
+  var m=latestMoment(); if(!m) return;
+  var rd=document.getElementById('latest-read'); if(rd) rd.textContent=m.read;
+  var dt=document.getElementById('latest-date'); if(dt) dt.textContent=m.date+' \u00b7 '+m.ts;
+  /* count today's BTC moments for the sub line */
+  var sub=document.getElementById('latest-sub');
+  if(sub) sub.textContent='Added to the BTC dossier';
+}
+
 function renderHome(){
+  renderLatest();
   /* only write a number when the real data is loaded; never show 0 or a stale fallback */
   var num=function(id,v){var e=document.getElementById(id); if(e && v && v>0) e.textContent=(v.toLocaleString?v.toLocaleString():v);};
   num('h-tot',TAPE.length);
@@ -1280,7 +1332,7 @@ function renderHome(){
   var tl=document.getElementById('btc-trail');
   if(tl && btc.length){
     /* pick spaced, recent-first moments */
-    var picks=[btc[0],btc[Math.floor(btc.length*0.15)],btc[Math.floor(btc.length*0.35)],btc[Math.floor(btc.length*0.6)],btc[btc.length-1]].filter(Boolean);
+    var picks=[btc[0],btc[Math.floor(btc.length*0.5)],btc[btc.length-1]].filter(Boolean);
     tl.innerHTML=picks.map(function(t,idx){
       var link=(t[3]&&t[2]!=null)?tapeLink(t[3],hmsToSecs(t[2])):null;
       var stat=idx===0?'open':'source';
@@ -1289,16 +1341,6 @@ function renderHome(){
       var close=link?'</a>':'</div>';
       return open+'<time>'+t[5]+'</time><span class="tl-dot"></span><div class="tl-body"><small>'+statLabel+' &middot; '+t[2]+'</small><blockquote>&ldquo;'+t[1]+'&rdquo;</blockquote><span class="tl-hear">hear the moment &#8599;</span></div>'+close;
     }).join('');
-  }
-  /* today's edition, laid on the desk */
-  var ed=DISPATCH[0], sh=document.getElementById('home-edition');
-  if(sh&&ed){
-    var lead=(ed.body&&ed.body[0]&&ed.body[0][1])||'';
-    sh.innerHTML='<div class="sh-top"><span class="sh-date">'+ed.date+'</span><span class="sh-grade">'+ed.grade+'</span></div>'
-      +'<h3>'+ed.head+'</h3>'
-      +(ed.stand?'<p class="sh-stand">'+ed.stand+'</p>':'')
-      +'<p class="sh-lead">'+lead.split('. ').slice(0,3).join('. ')+'.</p>'
-      +'<span class="sh-more">Continue reading &rarr;</span>';
   }
 }
 
@@ -1485,15 +1527,15 @@ function sanitizeData(){
   DISPATCH=DISPATCH.map(function(e){return {id:esc(e.id),date:esc(e.date),read:esc(e.read),grade:esc(e.grade),head:esc(e.head),stand:esc(e.stand),wk:e.wk,wklabel:esc(e.wklabel),body:(e.body||[]).map(function(b){return [b[0],esc(b[1])];})};});
 }
 var DOORS={
-  today:{label:'Today',views:[['home','Front page'],['today','Past editions']]},
+  today:{label:'Today',views:[['today','Past editions']]},
   record:{label:'The Record',views:[['tape','The Tape'],['record','The Ledger']]},
   academy:{label:'Academy',views:[['class','Anatomy'],['lexicon','Lexicon']]},
   desk:{label:'The Desk',views:[['desk','Positions'],['writing','Writing']]}
 };
 var VIEW2DOOR={};
 Object.keys(DOORS).forEach(function(d){DOORS[d].views.forEach(function(v){VIEW2DOOR[v[0]]=d;});});
-VIEW2DOOR['home']='today';
-function doorFor(v){return VIEW2DOOR[v]||'today';}
+VIEW2DOOR['home']=null;
+function doorFor(v){return VIEW2DOOR[v]||null;}
 function renderSubtabs(v){
   var door=doorFor(v), grp=DOORS[door], host=document.getElementById('subtabs');
   if(!host)return;
@@ -1505,7 +1547,7 @@ function renderSubtabs(v){
 }
 function show(v){
   var door=doorFor(v);
-  document.querySelectorAll('#nav button').forEach(function(b){b.setAttribute('aria-current',b.dataset.door===door?'true':'false');});
+  document.querySelectorAll('#nav button').forEach(function(b){b.setAttribute('aria-current',(door&&b.dataset.door===door)?'true':'false');});
   document.querySelectorAll('.view').forEach(function(s){s.classList.toggle('on',s.id==='view-'+v);});
   renderSubtabs(v);
   window.scrollTo({top:0,behavior:'smooth'});
