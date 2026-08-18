@@ -1,1430 +1,251 @@
 {
-  "generated_at": "2026-08-18T09:23:34.398475+00:00",
+  "generated_at": "2026-08-18T14:22:36.062936+00:00",
   "source": "counterparty public podcast feed (buzzsprout) + own extraction",
   "feed": [
     {
       "d": "Aug 14",
-      "t": "Trump's Secret Escape, Italian Cheese Financial Crisis, & The Stakes of PUMP",
+      "t": "Eli Lilly Goes To War, the End of Healthmaxxing, and Social Trading",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "RAF",
-          "S",
-          "open",
-          "",
-          "Trump arrives at the RAF Milden Hall in Britain on the C-32A shortly before the decoy Air Force One arrives.",
-          "",
-          134,
-          "19646345"
-        ],
-        [
-          "TL",
-          "L",
-          "open",
-          "",
-          "Remember, we tried a long air conditioning and I was getting fried on the TL.",
-          "",
-          223,
-          "19646345"
-        ],
-        [
-          "ETH",
-          "L",
-          "red",
-          "+0.0%",
-          "I think it's still happening now if people like Machi and Cryptopathic who are bidding FWA, and these people really don'",
-          "",
-          996,
-          "19646345"
-        ],
-        [
-          "DRAM",
-          "L",
-          "open",
-          "",
-          "If you remember, um fuck, I think three weeks ago, four weeks ago, I bought DRAM on the Gavin Baker bottom call.",
-          "",
-          1383,
-          "19646345"
-        ],
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "Is anyone backing it up and buying SpaceX here?",
-          "",
-          1731,
-          "19646345"
-        ],
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "For NVIDIA, the effort could help its biggest customers secure the financing needed to buy its GPUs, build data centers,",
-          "",
-          1958,
-          "19646345"
-        ],
-        [
-          "RR",
-          "S",
-          "open",
-          "",
-          "Like, you know, there's always RR on like you know, shorting the SP.",
-          "",
-          2282,
-          "19646345"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "Aug 14",
+      "t": "TraderMayne - What It Was Like Trading Crypto In 2013",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "Aug 14",
       "t": "Crypto OGs Are Mad, Lakers Sell For $12B And What I'd Do As CEO of Nike",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "DIS",
-          "L",
-          "open",
-          "",
-          "Disney just bought the fucking Lakers right now, like in this exact moment.",
-          "",
-          952,
-          "19646348"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "+0.0%",
-          "That's when I first bought Bitcoin.",
-          "",
-          1517,
-          "19646348"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "Aug 14",
+      "t": "Johann Kerbrat - Robinhood's Crypto Comeback, Onboarding Retail & Tokenization",
+      "g": "",
+      "llmv": 0,
+      "calls": []
+    },
+    {
+      "d": "Aug 14",
+      "t": "Trump's Secret Escape, Italian Cheese Financial Crisis, & The Stakes of PUMP",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "Aug 10",
       "t": "Back From Vacation: The Anti Bitcoin Cycle & AI Stocks",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "FWA",
-          "L",
-          "open",
-          "",
-          "I only hold what I held when I left, which is a gargantuan amount of pump fun and FWA, which man, I guess I should have ",
-          "",
-          39,
-          "19627676"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-1.5%",
-          "Forget Bitcoin price, forget ETH price, forget, I don't know, just like forget it for a second, forget the like bare hol",
-          "",
-          394,
-          "19627676"
-        ],
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "And so remember, Michael Saylor and Strategy owes 1.7 billion dollars of cash to stretch holders every year in perpetuit",
-          "",
-          1050,
-          "19627676"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Aug 09",
-      "t": "Flood - Inside the Biggest AI Fund Blowup Ever",
+      "t": "The Ansem Interview, the Semiconductor Crash, and the LeBron Economy",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "AGI",
-          "L",
-          "open",
-          "",
-          "Um, AGI is gonna need a tremendous amount of compute and energy, and um, you know, there's gonna be a ton of infrastruct",
-          "",
-          216,
-          "19623822"
-        ],
-        [
-          "SK",
-          "L",
-          "open",
-          "",
-          "Like, uh they bought presumably bought everything 10 give or take under market, and then I mean Bloom Energy is up 25, S",
-          "",
-          1668,
-          "19623822"
-        ],
-        [
-          "HIP",
-          "S",
-          "open",
-          "",
-          "Like, we were being paid 40% on average to be short these names on HIP3, right?",
-          "",
-          1888,
-          "19623822"
-        ],
-        [
-          "IBKR",
-          "S",
-          "open",
-          "",
-          "So if you went and you shorted on IBKR, you pay a borrow rate to short a stop.",
-          "",
-          1893,
-          "19623822"
-        ],
-        [
-          "PL",
-          "L",
-          "open",
-          "",
-          "When I see people posting a lot of PL posting about how this is the craziest run ever, and you're just seeing everybody ",
-          "",
-          2124,
-          "19623822"
-        ],
-        [
-          "MU",
-          "L",
-          "open",
-          "",
-          "It it's it's nobody like everybody when everybody is long and micron is the most traded stock in the market for weeks an",
-          "",
-          2144,
-          "19623822"
-        ],
-        [
-          "HYPE",
-          "S",
-          "red",
-          "-2.6%",
-          "My last one for you is the obvious elephant in the room is views on crypto, and you're still short hyperliquid on the hy",
-          "",
-          2537,
-          "19623822"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-1.5%",
-          "For a while you were buying a ton of Bitcoin, you're tweeting about it.",
-          "",
-          2553,
-          "19623822"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Aug 09",
       "t": "Semiconductors Keep Crashing, Will the FOMC Save Us, and the Gatchafication of Everything",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "STUB",
-          "L",
-          "open",
-          "",
-          "The real problem with longing IRL that I've realized after StubHub, and my girl spent a line, an hour in line for this.",
-          "",
-          602,
-          "19623826"
-        ],
-        [
-          "JFK",
-          "L",
-          "open",
-          "",
-          "The second I touched down JFK in New York City, I'm like, oh yeah, long IRL.",
-          "",
-          629,
-          "19623826"
-        ],
-        [
-          "ZERP",
-          "L",
-          "open",
-          "",
-          "We're no longer in ZERP in a ZERP world, and it was time.",
-          "",
-          1316,
-          "19623826"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "Aug 09",
+      "t": "The Leopold Aftermath, Ken Griffin's Playbook for Success, and Narrative Violations",
+      "g": "",
+      "llmv": 0,
+      "calls": []
+    },
+    {
+      "d": "Aug 09",
+      "t": "LEOPOLD LIQUIDATED LIVE: Ken Griffin is The Grim Reaper, Uniswap V4 Hooks, and a Postmortem",
+      "g": "",
+      "llmv": 0,
+      "calls": []
+    },
+    {
+      "d": "Aug 09",
+      "t": "Flood - Inside the Biggest AI Fund Blowup Ever",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "Jul 28",
       "t": "The Chinese Semiconductor Moment, Onchain Spots, and Celebrity Traders",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "INTC",
-          "S",
-          "open",
-          "",
-          "Cerebrus crushed Intel struggling, short all American chips.",
-          "",
-          660,
-          "19565308"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jul 24",
       "t": "Bubble Boi - Selling Everything, the Kimi Shock, and Killing DRAM",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "INTC",
-          "L",
-          "open",
-          "",
-          "If Intel beat earnings, you would come on, and Intel crushed earnings, but the market is in a little bit of a of a weird",
-          "",
-          43,
-          "19546724"
-        ],
-        [
-          "MU",
-          "S",
-          "open",
-          "",
-          "And I've always I've always like, yeah, that's just to your point, like Micron has higher margins than even NVIDIA, and ",
-          "",
-          379,
-          "19546724"
-        ],
-        [
-          "HBM",
-          "S",
-          "open",
-          "",
-          "I mean, it's not in their incentive to do that either, because they don't make fucking like good HBM either, but they ca",
-          "",
-          561,
-          "19546724"
-        ],
-        [
-          "GOOGL",
-          "L",
-          "open",
-          "",
-          "Google's down now 20 from ATH, it's down $30 from the 350 level where uh Berkshire bought like Buffett bought $10 billio",
-          "",
-          1431,
-          "19546724"
-        ],
-        [
-          "DRAM",
-          "S",
-          "open",
-          "",
-          "So when you start seeing that happening, sell DRAM.",
-          "",
-          3116,
-          "19546724"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "Jul 24",
+      "t": "Jensen Loves Open Source, Bubble Boi Shares Alpha, and I Have Fun Onchain",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "Jul 23",
       "t": "Robinhood\u2019s Memecoin Strategy is Working and Onchain is Fun Again",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "They're buying the tokenized stock on what platform, like uh it was a lot, it's minted by Robin Hood, or like my tokeniz",
-          "",
-          107,
-          "19540778"
-        ],
-        [
-          "GME",
-          "S",
-          "open",
-          "",
-          "It was a short squeeze on GME on-chain.",
-          "",
-          147,
-          "19540778"
-        ],
-        [
-          "ARB",
-          "S",
-          "open",
-          "",
-          "So people were minting the the stock and then selling it and re and re-pegging it, yes, and collecting ARB.",
-          "",
-          155,
-          "19540778"
-        ],
-        [
-          "GOOGL",
-          "L",
-          "open",
-          "",
-          "And you make 50k a year and you're watching this meme coin go viral and you're buying it, and you're thinking to yoursel",
-          "",
-          816,
-          "19540778"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-2.1%",
-          "Uh made a bit of money on Bitcoin ETH, uh just buying it, I think, in in 2018, 2019.",
-          "",
-          2018,
-          "19540778"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jul 23",
       "t": "The Race to Legalize Perps - Lighter Founder Vlad Novakovski",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "COIN",
-          "L",
-          "open",
-          "",
-          "And so there's as I understand at least, there's Calci and Coinbase, which have legal perps in the US, or it's some like",
-          "",
-          995,
-          "19538951"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jul 22",
       "t": "Is China Distilling Claude, ChatGPT Breaks Containment, and Retail Markets",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "GOOGL",
-          "S",
-          "open",
-          "",
-          "Reddit is down 10% on news that they're not gonna sell to Google anymore.",
-          "",
-          1125,
-          "19534310"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jul 21",
       "t": "Gen-Z Entrepreneurship, The Reality of China's AI, and Why Crypto Looks Good Again",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "HYPE",
-          "L",
-          "red",
-          "-7.2%",
-          "They spot a new distribution channel, regulatory distortion, shortage or wave of hype before everyone else.",
-          "",
-          488,
-          "19527337"
-        ],
-        [
-          "WTI",
-          "S",
-          "open",
-          "",
-          "Price has never gotten above 120 on Brent Oil, despite the fact that we're in one of the worst, I don't know, allegedly ",
-          "",
-          648,
-          "19527337"
-        ],
-        [
-          "BABA",
-          "S",
-          "open",
-          "",
-          "And my first thought is like, okay, short Chinese AI companies, short Zepu, short Minimax, short these, you know, short ",
-          "",
-          696,
-          "19527337"
-        ],
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "I suppose you could like long NVIDIA, like mate, like some of these, you know, some some GPU, like long NVIDIA, maybe.",
-          "",
-          771,
-          "19527337"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-5.3%",
-          "Not only a company built on Bitcoin, not only a company built with Bitcoin on its balance sheet, but also a company with",
-          "",
-          939,
-          "19527337"
-        ],
-        [
-          "DRAM",
-          "L",
-          "open",
-          "",
-          "DRAM is holding.",
-          "",
-          1685,
-          "19527337"
-        ],
-        [
-          "ADI",
-          "L",
-          "open",
-          "",
-          "My days consisted of waking up in a new hotel somewhere I'd never been in America, logging into ADI to do some volume an",
-          "",
-          2546,
-          "19527337"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jul 20",
       "t": "The Kimi Moment, Hedge Funds Save the Market, and Trump MEV",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "NVDA",
-          "S",
-          "open",
-          "",
-          "Jensen can't sell to China, and so they're building Frontier AI, arguably better than Fable, without NVIDIA chips, and i",
-          "",
-          46,
-          "19521074"
-        ],
-        [
-          "HYPE",
-          "S",
-          "green",
-          "+7.2%",
-          "His hype short is up $800k.",
-          "",
-          451,
-          "19521074"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-5.3%",
-          "Bitcoin long plus 150.",
-          "",
-          464,
-          "19521074"
-        ],
-        [
-          "DRAM",
-          "S",
-          "open",
-          "",
-          "SP 500, the Russell down 1.3, the Qs are down two, the socks down three and a half, DRAM is 49.95.",
-          "",
-          1059,
-          "19521074"
-        ],
-        [
-          "AAPL",
-          "L",
-          "open",
-          "",
-          "Let's see, companies by market cap gold, Apple reclaims the spot.",
-          "",
-          1234,
-          "19521074"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Are we balls along oil?",
-          "",
-          1664,
-          "19521074"
-        ],
-        [
-          "SPCX",
-          "S",
-          "open",
-          "",
-          "Followed up by anyone selling SpaceX because of a scrub and a launch delay.",
-          "",
-          1811,
-          "19521074"
-        ],
-        [
-          "GOOGL",
-          "L",
-          "open",
-          "",
-          "Yeah, Google had a minus 5% hour-long candle that has now turned into minus 7%.",
-          "",
-          1895,
-          "19521074"
-        ],
-        [
-          "NFLX",
-          "L",
-          "open",
-          "",
-          "But I look at like Netflix and I think to myself, man, what a what a brutal spot for this company.",
-          "",
-          2244,
-          "19521074"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jul 20",
       "t": "Kimi is out of GPUs, My PumpFun Thesis, and Critical Market Analysis",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "AMC",
-          "L",
-          "open",
-          "",
-          "And my long expression was AMC.",
-          "",
-          23,
-          "19521069"
-        ],
-        [
-          "META",
-          "L",
-          "open",
-          "",
-          "Like, if you look at Instagram, for example, Instagram has what, like three billion users, but the holders of meta is on",
-          "",
-          1951,
-          "19521069"
-        ],
-        [
-          "ZEC",
-          "L",
-          "red",
-          "-7.4%",
-          "It was the thesis I had when I first bought Zcash a couple months back, which was a really, really, really big trade for",
-          "",
-          2137,
-          "19521069"
-        ],
-        [
-          "HYPE",
-          "L",
-          "red",
-          "-7.2%",
-          "Watch this revenue market cap for hype, it's not bad, and it is holding.",
-          "",
-          2441,
-          "19521069"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "Jul 20",
+      "t": "Everything is a Memecoin Now, Base Drama Recap, and PumpFun is Here to Stay",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "Jul 13",
       "t": "Korea's Leverage Wipeout, SpaceX is Crashing Fast, and is Crypto Bottomed?",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "SK",
-          "L",
-          "open",
-          "",
-          "People are buying the 2x leverage SK Heinex, but I don't know.",
-          "",
-          421,
-          "19489687"
-        ],
-        [
-          "DRAM",
-          "L",
-          "open",
-          "",
-          "Um, DRAM fighting a little bit, spots gonna be down 0.2.",
-          "",
-          779,
-          "19489687"
-        ],
-        [
-          "SPCX",
-          "S",
-          "open",
-          "",
-          "And so if you lose 135, there's this Gavin Baker clip talking about Cerebrus that the bankers are gonna rage sell SpaceX",
-          "",
-          997,
-          "19489687"
-        ],
-        [
-          "MSTR",
-          "S",
-          "open",
-          "",
-          "Maybe this means strategy doesn't have to sell more Bitcoin for a while, but stock does not like where we are at.",
-          "",
-          1184,
-          "19489687"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And oil's long oil's lower than before the war started.",
-          "",
-          1606,
-          "19489687"
-        ],
-        [
-          "ETH",
-          "L",
-          "green",
-          "+5.5%",
-          "Bought some ETH here after promising myself last summer I never do it again.",
-          "",
-          2371,
-          "19489687"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jul 09",
       "t": "Why Memecoins Never Die, AI CapEx Will Continue, and GTA 6 is Too Cheap",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "AAPL",
-          "L",
-          "open",
-          "",
-          "We had this like Apple China situation where they're gonna be buying memory from China.",
-          "",
-          61,
-          "19471476"
-        ],
-        [
-          "SK",
-          "L",
-          "open",
-          "",
-          "Memory is a commodity, apples buying from China, SK Heinrich in the US, and war all at the same time.",
-          "",
-          1168,
-          "19471476"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jul 08",
       "t": "Robinhood's New Chain, Fumbling $100k, and the Market Got Bored of War",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "And so Robinhood Chain launches, and it's I bought as close to a nothing burger, I think, as you can really get at day o",
-          "",
-          82,
-          "19465848"
-        ],
-        [
-          "GPT",
-          "L",
-          "open",
-          "",
-          "GPT 5.6 soul along with Terra and Luna will launch publicly this Thursday, publicly this Thursday.",
-          "",
-          2012,
-          "19465848"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jul 07",
       "t": "Saylor Sold Again, China Gates Its AI, Trump is at War with Burry, and Ansem-Mania",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "SPX",
-          "S",
-          "open",
-          "",
-          "Like, I think back to Carg Island when Trump was threatening to nuke Carg Island, and everybody was in the AI trade, eve",
-          "",
-          386,
-          "19460557"
-        ],
-        [
-          "BTC",
-          "S",
-          "red",
-          "-1.1%",
-          "Like I think of Bitcoin after 1010 when it's hanging out around 100k and everyone's like, This is the bottom, this is th",
-          "",
-          437,
-          "19460557"
-        ],
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "What if we're in a similar spot with Bitcoin and Michael Saylor?",
-          "",
-          679,
-          "19460557"
-        ],
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "Chris Hood, 2.2, losing it, Shopify losing it, Eli Lilly holding it, take two lost it completely, Reddit losing it compl",
-          "",
-          2340,
-          "19460557"
-        ],
-        [
-          "AMZN",
-          "S",
-          "open",
-          "",
-          "One of the was one of the early Amazon resellers and still called out the internet bubble publicly and short at Amazon.",
-          "",
-          3159,
-          "19460557"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 28",
       "t": "Micron's Record Blowout, Why Niche Is Cool Again, and the Saylor Overhang on Bitcoin - Threadguy: June 24th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "MU",
-          "L",
-          "open",
-          "",
-          "He's long 100k margin micron on 10x.",
-          "",
-          1246,
-          "19415823"
-        ],
-        [
-          "SPCX",
-          "S",
-          "open",
-          "",
-          "Made it back on SpaceX shorts.",
-          "",
-          1269,
-          "19415823"
-        ],
-        [
-          "MSFT",
-          "L",
-          "open",
-          "",
-          "Microsoft and Mags wanted to have a good day today, but didn't quite hold it.",
-          "",
-          1593,
-          "19415823"
-        ],
-        [
-          "UBER",
-          "L",
-          "open",
-          "",
-          "I don't know if we care, but she bought five million of Intel and bought one million of Uber.",
-          "",
-          1690,
-          "19415823"
-        ],
-        [
-          "IMAX",
-          "L",
-          "open",
-          "",
-          "So Trini bought Sphere, he bought IMAX, and he bought something else.",
-          "",
-          1696,
-          "19415823"
-        ],
-        [
-          "ZPU",
-          "L",
-          "open",
-          "",
-          "ZPU was the one that I really wish I bought on the ban of Anthropic Fable, but I don't know what happens to it now.",
-          "",
-          1973,
-          "19415823"
-        ],
-        [
-          "AVGO",
-          "L",
-          "open",
-          "",
-          "Um, I actually bought Broadcom today.",
-          "",
-          2006,
-          "19415823"
-        ],
-        [
-          "AAPL",
-          "L",
-          "open",
-          "",
-          "Apple announced the flip phone, the fold phone, I guess, which I will absolutely be buying when it comes out.",
-          "",
-          2253,
-          "19415823"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "Jun 28",
+      "t": "Government Controlled AI, the BTC Slow Bleed and Europe's AC Crisis - Threadguy: June 25th, 2026",
+      "g": "",
+      "llmv": 0,
+      "calls": []
+    },
+    {
+      "d": "Jun 24",
+      "t": "Anti-AI Backlash Goes Mainstream, the Explosion of Analog, and AMC Fumbling the Trade of the Year",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "Jun 24",
       "t": "China's Open-Source AI Surge, the Death of Luxury, and Why Keeping Money Is Harder Than Making It - Threadguy: June 22nd, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "ETH",
-          "L",
-          "green",
-          "+12.3%",
-          "So Jared from Subway was the most profitable MVV bot sandwich bought during really the ETH run.",
-          "",
-          1613,
-          "19392113"
-        ],
-        [
-          "HOOD",
-          "S",
-          "open",
-          "",
-          "I think you could, I think it's kind of similar to payment for order flow, like the Robin Hood model, where they sell yo",
-          "",
-          1684,
-          "19392113"
-        ],
-        [
-          "MU",
-          "L",
-          "open",
-          "",
-          "Like imagine you could imagine somebody like you sold a ton of micron and they bought it, and you could like message the",
-          "",
-          1914,
-          "19392113"
-        ],
-        [
-          "SOL",
-          "L",
-          "green",
-          "+9.0%",
-          "Uh, Ansome Solana Long.",
-          "",
-          2060,
-          "19392113"
-        ],
-        [
-          "BTC",
-          "L",
-          "green",
-          "+2.0%",
-          "He bought one of his lowest purchases ever of Bitcoin.",
-          "",
-          2083,
-          "19392113"
-        ],
-        [
-          "MSTR",
-          "S",
-          "open",
-          "",
-          "So fi down five, strategy down three to looking a short.",
-          "",
-          2775,
-          "19392113"
-        ],
-        [
-          "STUB",
-          "L",
-          "open",
-          "",
-          "I don't know anything about Stubhub other than the fact that I thought it was a good long into the IRL thesis in the Wor",
-          "",
-          2877,
-          "19392113"
-        ],
-        [
-          "XYZ",
-          "L",
-          "open",
-          "",
-          "Shout out to Trade XYZ, it's getting easier, but it just like wasn't a super clean long, and it's been the winner by far",
-          "",
-          3068,
-          "19392113"
-        ],
-        [
-          "DNA",
-          "L",
-          "open",
-          "",
-          "I would say I think DNA is long minimax.",
-          "",
-          3080,
-          "19392113"
-        ],
-        [
-          "GLM",
-          "L",
-          "open",
-          "",
-          "So Zepu is a company buying GLM 5.2, it's at a $137 billion market cap on about 100 mil of 25 revenue.",
-          "",
-          3128,
-          "19392113"
-        ],
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "SpaceX is a tough spot.",
-          "",
-          3573,
-          "19392113"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 21",
       "t": "The \"ADHD Era\" Of The Stock Market, The Freest Trades, IRL Is Coming Back, Jesse Livermore Corn Squeeze - Threadguy: June 19th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "MSTR",
-          "S",
-          "open",
-          "",
-          "I was complaining about how my trading strategy's been biting me in the ass recently, which is like I buy green candles ",
-          "",
-          188,
-          "19379140"
-        ],
-        [
-          "UPL",
-          "S",
-          "open",
-          "",
-          "And so, what he does is he buys a bunch when it's pumping, go trades the other way, goes like Delta Neutral, buys a bunc",
-          "",
-          298,
-          "19379140"
-        ],
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "Like, okay, I entered um I bought SpaceX at here.",
-          "",
-          487,
-          "19379140"
-        ],
-        [
-          "MRVL",
-          "L",
-          "open",
-          "",
-          "The Marvell type of spot, the Snapchat short, like these event you keep talking about this event-driven type of trade.",
-          "",
-          768,
-          "19379140"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 19",
       "t": "GTA 6 Is Actually Coming, Midjourney's Medical Pivot, STRC's Death Spiral Continues, Mourning The Fable Ban - Threadguy: June 18th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "META",
-          "L",
-          "open",
-          "",
-          "I have a section called fuck meta, which is a little bit hyperbolic, but meta's in a really, really tough spot.",
-          "",
-          65,
-          "19371212"
-        ],
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "So the stretch strategy situation is in a really, really, really tough spot.",
-          "",
-          133,
-          "19371212"
-        ],
-        [
-          "BTC",
-          "L",
-          "green",
-          "+0.7%",
-          "I think the real spot was Sailor sold Bitcoin.",
-          "",
-          422,
-          "19371212"
-        ],
-        [
-          "SPCX",
-          "S",
-          "open",
-          "",
-          "Looks like shorts going out of SpaceX.",
-          "",
-          826,
-          "19371212"
-        ],
-        [
-          "TTWO",
-          "L",
-          "open",
-          "",
-          "I'm only telling you this because I'm interested in in the take two interactive stock.",
-          "",
-          910,
-          "19371212"
-        ],
-        [
-          "AMC",
-          "L",
-          "open",
-          "",
-          "AMC is now up 45% since I entered on a spot trade on my Robin Hood account for the first time since I was like 18.",
-          "",
-          2136,
-          "19371212"
-        ],
-        [
-          "FOMC",
-          "L",
-          "open",
-          "",
-          "So by removing forward guidance, yes, it adds more uncertainty, but it adds more honesty and earnesty into the market wh",
-          "",
-          2332,
-          "19371212"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Owing long oil during the biggest energy crisis and oil shortage of all time proves I am retarded.",
-          "",
-          2786,
-          "19371212"
-        ],
-        [
-          "MSFT",
-          "L",
-          "open",
-          "",
-          "Wow, Microsoft shareholders sue because the stock is on 20% year today.",
-          "",
-          2976,
-          "19371212"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "Jun 19",
+      "t": "The Kevin Warsh Era Begins, Saylor's STRC Death Spiral, Hyperliquid Changes Everything, Snapchat's $2,200 Glasses - Threadguy: June 17th, 2026",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "Jun 17",
       "t": "Elon Musk Broke Wall Street, Everybody Hates AI, Soccer Fame Is Generational, Snapchat Glasses Suck - Threadguy: June 16th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "FTV",
-          "L",
-          "open",
-          "",
-          "I think we can play with the left side of our brain very well, and we can identify a spot, low float, high FTV, mimetic ",
-          "",
-          1011,
-          "19364398"
-        ],
-        [
-          "DCF",
-          "L",
-          "open",
-          "",
-          "So DCF, discounted cash flows, is no longer the only globally scarce story of value.",
-          "",
-          1088,
-          "19364398"
-        ],
-        [
-          "GME",
-          "S",
-          "open",
-          "",
-          "Because the concept of a short squeeze is not like GME did not like invent the short squeeze, right?",
-          "",
-          1446,
-          "19364398"
-        ],
-        [
-          "PE",
-          "L",
-          "open",
-          "",
-          "And so you get this like clashing of eras almost of everyone that's retail is like, okay, space exploration, colonizatio",
-          "",
-          1645,
-          "19364398"
-        ],
-        [
-          "FOMC",
-          "S",
-          "open",
-          "",
-          "And I haven't really been like conscious for that many FOMCs, but it does feel like there was a some substantial de-risk",
-          "",
-          2111,
-          "19364398"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Wouldn't would you long oil here?",
-          "",
-          2681,
-          "19364398"
-        ],
-        [
-          "SNAP",
-          "L",
-          "open",
-          "",
-          "Evan Spiegel announced the long-awaited snap specs.",
-          "",
-          2910,
-          "19364398"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "Jun 17",
+      "t": "SpaceX Shocked Everyone, The Anthropic Doom Loop, You Can't Ban The Internet, What The Fable Ban Means, American Glory - Threadguy: June 15th, 2026",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "Jun 13",
       "t": "SpaceX Just IPO'd, The Space Stocks Fakeout, Movies Are Back, Elon Is A Trillionaire, My Stream's Best Trades Ever - Threadguy: June 12th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "I also am long SpaceX, pretty low conviction longs.",
-          "",
-          69,
-          "19341238"
-        ],
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "Like I have a pretty clear trading strategy that I'm trying to incorporate, which is high conviction long-term spot and ",
-          "",
-          85,
-          "19341238"
-        ],
-        [
-          "HYPE",
-          "L",
-          "red",
-          "-17.7%",
-          "Um I also clicked a little bit of a hype long because I don't know.",
-          "",
-          101,
-          "19341238"
-        ],
-        [
-          "AMC",
-          "L",
-          "open",
-          "",
-          "And this week, I believe he spanked this AMC long.",
-          "",
-          394,
-          "19341238"
-        ],
-        [
-          "STUB",
-          "S",
-          "open",
-          "",
-          "The problem is there's so many trade ideas that it gets a little bit because just because we stream so much, but it's fu",
-          "",
-          444,
-          "19341238"
-        ],
-        [
-          "ETH",
-          "S",
-          "red",
-          "-4.2%",
-          "We always talk about um ETH short, XRP short.",
-          "",
-          468,
-          "19341238"
-        ],
-        [
-          "XRP",
-          "L",
-          "open",
-          "",
-          "I remember talking about XRP yesterday, and then spy long, but there's some of these old, like you can go back pretty fa",
-          "",
-          473,
-          "19341238"
-        ],
-        [
-          "MRVL",
-          "L",
-          "open",
-          "",
-          "Here's when I was long Marvell.",
-          "",
-          479,
-          "19341238"
-        ],
-        [
-          "ZEC",
-          "L",
-          "red",
-          "-4.4%",
-          "Okay, so my Zcash long was on here.",
-          "",
-          487,
-          "19341238"
-        ],
-        [
-          "MU",
-          "L",
-          "open",
-          "",
-          "Micron Long, which is when I entered the Micron Long and I sell sold it so soon.",
-          "",
-          494,
-          "19341238"
-        ],
-        [
-          "BTC",
-          "S",
-          "green",
-          "+3.6%",
-          "And I refuse to do it because a troll on Twitter says, hey, you said never sell you Bitcoin.",
-          "",
-          718,
-          "19341238"
-        ],
-        [
-          "SPCE",
-          "S",
-          "open",
-          "",
-          "And so if you shorted SPCE from the top tick yesterday to bottom tick today, you had a 43% move to make.",
-          "",
-          1084,
-          "19341238"
-        ],
-        [
-          "RKLB",
-          "S",
-          "open",
-          "",
-          "Um, he was short Rocket Lab and he got stopped out.",
-          "",
-          1138,
-          "19341238"
-        ],
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "That is up 7.9%, and it is officially up after market close up 9%, but up 7% since I entered on a good amount of fucking",
-          "",
-          1432,
-          "19341238"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 12",
@@ -1438,3422 +259,504 @@
       "t": "Stocks RIP After The Peace Deal, Everyone Wants SpaceX, Kharg Island Fakeout, The Greatest Knicks Game Ever, Jack Schwager Interview - Threadguy: June 11th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And God, I almost I I I feel for the oil longers because I always felt like they were gonna, I always felt like their da",
-          "",
-          65,
-          "19335007"
-        ],
-        [
-          "HL",
-          "L",
-          "open",
-          "",
-          "I know quite a few people in this chat are long HL.",
-          "",
-          830,
-          "19335007"
-        ],
-        [
-          "PLTR",
-          "L",
-          "open",
-          "",
-          "Except for Palantir, it's barely green, and it's holding on this Trump level for dear life.",
-          "",
-          962,
-          "19335007"
-        ],
-        [
-          "AFC",
-          "S",
-          "open",
-          "",
-          "AFC puts in another monster 10% day.",
-          "",
-          1209,
-          "19335007"
-        ],
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "And then Iran going after Elon, which is Starlink's ground stations in Israel, Qatar, Jordan, United Era, uh Arab Emirat",
-          "",
-          1504,
-          "19335007"
-        ],
-        [
-          "JD",
-          "S",
-          "open",
-          "",
-          "Is my one red flag if you were to fade this, is they only send JD Vance in to fail.",
-          "",
-          1582,
-          "19335007"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 10",
       "t": "SpaceX Might Top Everything, Inflation Hit Escape Velocity, Trading SpaceX IPO, GoodAlexander Interview, Brian Johnson's Rx Platform - Threadguy: June 10th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "HYPE",
-          "L",
-          "red",
-          "-6.6%",
-          "It's like we're we're buying Marvell at midnight on EST hours after Jensen's in South Korea talking about Marvell's gonn",
-          "",
-          326,
-          "19328959"
-        ],
-        [
-          "RX",
-          "L",
-          "open",
-          "",
-          "First and foremost, Brian Johnson just launched a longevity RX platform.",
-          "",
-          667,
-          "19328959"
-        ],
-        [
-          "BTC",
-          "L",
-          "green",
-          "+0.6%",
-          "I typed up the tweet and it was like something along the lines of wow, war escalation in Bitcoin is green.",
-          "",
-          937,
-          "19328959"
-        ],
-        [
-          "HL",
-          "L",
-          "open",
-          "",
-          "I don't know what the level is for buying on on HL.",
-          "",
-          964,
-          "19328959"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And the thing that is so annoying about this oil chart is it hangs around and it looks clean just enough for you to conv",
-          "",
-          1160,
-          "19328959"
-        ],
-        [
-          "AMC",
-          "L",
-          "open",
-          "",
-          "The red guy enters spot on AMC.",
-          "",
-          1425,
-          "19328959"
-        ],
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "And I think it was just because um Meyer Malka now bought 680 shares, $55 million of Robin Hood over the last two weeks.",
-          "",
-          1458,
-          "19328959"
-        ],
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "And that's and so you when you're buying into this thing, you're buying like I think there's a really top investor who I",
-          "",
-          2362,
-          "19328959"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 10",
       "t": "How to Prepare for the SpaceX IPO - GoodAlexander Interview",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "And that's and so you when you're buying into this thing, you're buying like I think there's a really top investor who I",
-          "",
-          382,
-          "19328953"
-        ],
-        [
-          "SK",
-          "L",
-          "open",
-          "",
-          "Um, and I also have like a ton of long telecom exposure because essentially SK will so SK Mobile uh and um you know is o",
-          "",
-          756,
-          "19328953"
-        ],
-        [
-          "TSLA",
-          "S",
-          "open",
-          "",
-          "Tesla, I mean, like I just you know, I've I've followed Tesla my entire career, and I've just seen everyone die shorting",
-          "",
-          840,
-          "19328953"
-        ],
-        [
-          "GOOGL",
-          "S",
-          "open",
-          "",
-          "Um, I originally thought that would be a good idea uh because I was like, yeah, the the the dev second token, but then I",
-          "",
-          953,
-          "19328953"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "You know, this is this is like a uh I kind of stole this from Flood, but we came to the thesis on our own with longing o",
-          "",
-          1152,
-          "19328953"
-        ],
-        [
-          "MSFT",
-          "L",
-          "open",
-          "",
-          "And I've seen like there's all these headlines like Microsoft is no longer really looking to use anthropic, they're spen",
-          "",
-          1841,
-          "19328953"
-        ],
-        [
-          "ARC",
-          "L",
-          "open",
-          "",
-          "He publicly bioworks holdings, he publicly showed it, it's an ARC investments, and it's $500 million market cap.",
-          "",
-          2348,
-          "19328953"
-        ],
-        [
-          "MRVL",
-          "S",
-          "open",
-          "",
-          "And since then, we've had the Intel run, we've had Go Out and Buy Adell, we've had IBM with the quantum investment and j",
-          "",
-          2577,
-          "19328953"
-        ],
-        [
-          "CZ",
-          "L",
-          "open",
-          "",
-          "But like I remember there was this the two month period where we were doing B finance smart chain basically on-chain mem",
-          "",
-          2782,
-          "19328953"
-        ],
-        [
-          "COVID",
-          "L",
-          "open",
-          "",
-          "Why do you think that that's happening like what did you see that made you think that's happening but more importantly w",
-          "",
-          2820,
-          "19328953"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "Jun 09",
+      "t": "Claude Fable Drops, Preparing For The SpaceX IPO, Dating Robots Are Here, Knicks Watchparties Are Back, The Return Of IRL Trade - Threadguy: June 9th, 2026",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "Jun 09",
       "t": "Apple's Useless AI, Jensen Saves The Market, Saylor's Worst Decision, The \"Ozempic Decade\", How To Save Pumpfun - Threadguy: June 9th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "green",
-          "+0.6%",
-          "Interesting spot on Bitcoin.",
-          "",
-          608,
-          "19319177"
-        ],
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "He sort of just scared potential buyers, scared micro strategy holders, scared Bitcoin holders, and ripped the band-aid ",
-          "",
-          626,
-          "19319177"
-        ],
-        [
-          "TSLA",
-          "S",
-          "open",
-          "",
-          "That's up five, AMD up five, Tesla up five, up a lot from the pit average short, Rocket Lab up three, Broadcom up three ",
-          "",
-          1051,
-          "19319177"
-        ],
-        [
-          "SPCE",
-          "L",
-          "open",
-          "",
-          "This is down five from ATH, Adobe down three, Bloom Energy down four, and then Virgin Galactic holding SPCE.",
-          "",
-          1072,
-          "19319177"
-        ],
-        [
-          "WTI",
-          "S",
-          "open",
-          "",
-          "Alright so there's escalation Israel strikes Lebanon and at the same time I don't really know why we dumped on Friday I ",
-          "",
-          1399,
-          "19319177"
-        ],
-        [
-          "MRVL",
-          "L",
-          "open",
-          "",
-          "So um so market was pretty red on Friday I also bought Marvell as a Jensen long last week and it's so Jensen's been on t",
-          "",
-          1541,
-          "19319177"
-        ],
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "And yesterday I guess today but technically yesterday the uh Cosby South Korean index opened circuit breaker down crushe",
-          "",
-          1555,
-          "19319177"
-        ],
-        [
-          "STUB",
-          "L",
-          "open",
-          "",
-          "Where do you buy tickets from StubHub it's a four billion dollar stock their forward PE is like 16 it's fucking low and ",
-          "",
-          2617,
-          "19319177"
-        ],
-        [
-          "AMC",
-          "L",
-          "open",
-          "",
-          "Like I'm thinking of a basket here where I just put a bag into spot stocks and I buy I buy IRL like Live Nation, AMC, an",
-          "",
-          2809,
-          "19319177"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "Jun 04",
+      "t": "Tulip King on Selling Bitcoin For The First Time, ZEC's Exploit, Bitcoin & Quantum And More",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "Jun 04",
       "t": "I Rebranded, Saylor Is Selling Bitcoin, Jensen Huang Is Cool, Tulip King Interview, Zcash's Exploit, The War That Never Ended - Threadguy: June 3rd, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "ZEC",
-          "L",
-          "red",
-          "-20.4%",
-          "We got a uh oil barrel in the background, and we're long Marvell, we're long Marvell and Zcash pair trade short BTC.",
-          "",
-          185,
-          "19292412"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-0.2%",
-          "And so I'm gonna be honest, if you believe in Bitcoin, it's probably not a terrible time to buy some spot to start nibbl",
-          "",
-          600,
-          "19292412"
-        ],
-        [
-          "HYPE",
-          "S",
-          "green",
-          "+26.2%",
-          "I wanted exposure to some uh some AI, so obviously I didn't sell, but man, the hyper liquid after hours are hyperliquid ",
-          "",
-          1201,
-          "19292412"
-        ],
-        [
-          "GOOGL",
-          "L",
-          "open",
-          "",
-          "I bought some on a shorted on Google Dilution News.",
-          "",
-          1312,
-          "19292412"
-        ],
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "Is anyone long short NVIDIA right now?",
-          "",
-          1336,
-          "19292412"
-        ],
-        [
-          "TSLA",
-          "S",
-          "open",
-          "",
-          "I was pretty convicted in like a Tesla short, but I never took it because I don't I don't short sell.",
-          "",
-          2302,
-          "19292412"
-        ],
-        [
-          "PANW",
-          "L",
-          "open",
-          "",
-          "Anyways, uh, the last thing I had related to stocks is Palo Alto Networks price analyst target updates, analyst price ta",
-          "",
-          2429,
-          "19292412"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 03",
       "t": "Stocks Are Insane, Jensen Bullposts MRVL, Pokemon Gacha Is Winning, YouTubers Run Hollywood, Bitcoin Is Cooked - Threadguy: June 2nd, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-0.2%",
-          "I know buying just Bitcoin kind of sucks, but I have absolutely no interest in allocating and paying attention to altcoi",
-          "",
-          345,
-          "19290047"
-        ],
-        [
-          "PLTR",
-          "S",
-          "open",
-          "",
-          "He also tried shorting Palantir and posting on X to get people to short with him.",
-          "",
-          1755,
-          "19290047"
-        ],
-        [
-          "AMC",
-          "L",
-          "open",
-          "",
-          "Second, who in the stream is long AMC?",
-          "",
-          2014,
-          "19290047"
-        ],
-        [
-          "SNAP",
-          "L",
-          "open",
-          "",
-          "And so an obvious takeaway from this is like, okay, Google gets 80 billion dollars snap call to spend on CapEx build out",
-          "",
-          2415,
-          "19290047"
-        ],
-        [
-          "PA",
-          "S",
-          "open",
-          "",
-          "Do you get more psychological follow-through on puking PA if Sailor sells $500 million with the big really unclear?",
-          "",
-          2721,
-          "19290047"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jun 02",
       "t": "Saylor Sold His Bitcoin, GLP-1s vs Sugar Slop, Software Melt-Up, AGI Is Already Here, Pokemon Card Bubble, Trump Stock Pump - Threadguy: June 2nd, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "MSTR",
-          "S",
-          "open",
-          "",
-          "You know, I I genuinely am sad about Michael Saylor selling, okay?",
-          "",
-          38,
-          "19279810"
-        ],
-        [
-          "BTC",
-          "S",
-          "green",
-          "+0.2%",
-          "That's been my intro for like over a year, and then he comes out, and not only does he sell, but he sells like 30 bitcoi",
-          "",
-          72,
-          "19279810"
-        ],
-        [
-          "HYPE",
-          "S",
-          "green",
-          "+26.2%",
-          "The craziest part about the Michael Saylor selling Bitcoin is that hyperliquid's like $74.",
-          "",
-          93,
-          "19279810"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Born to long the AI bottleneck trade, forced to talk about oil in World War III.",
-          "",
-          806,
-          "19279810"
-        ],
-        [
-          "NVDA",
-          "S",
-          "open",
-          "",
-          "Nvidia puts in a monster candle, sick ATH retest up six percent today.",
-          "",
-          954,
-          "19279810"
-        ],
-        [
-          "AMC",
-          "L",
-          "open",
-          "",
-          "I'm buying AMC.",
-          "",
-          1176,
-          "19279810"
-        ],
-        [
-          "ZEC",
-          "L",
-          "red",
-          "-20.4%",
-          "Threadguy is along a little bit of Zcash, a lot of bit of VBV, and a lot of bit more of Hyper Liquid.",
-          "",
-          1225,
-          "19279810"
-        ],
-        [
-          "XPL",
-          "L",
-          "open",
-          "",
-          "Bear chain, XPL Pump is up three percent on news that rhino is long, which is crazy.",
-          "",
-          1255,
-          "19279810"
-        ],
-        [
-          "AGI",
-          "L",
-          "open",
-          "",
-          "And I had always envisioned it in my head that there would be like a moment where they would hold up a sign and say, we ",
-          "",
-          1951,
-          "19279810"
-        ],
-        [
-          "PLTR",
-          "L",
-          "open",
-          "",
-          "This is part of the reason, by the way, I'm long Palantir.",
-          "",
-          2050,
-          "19279810"
-        ],
-        [
-          "CRCL",
-          "L",
-          "open",
-          "",
-          "I mean, this circle is where he said go buy uh you could have bought the clothes of go buy a Dell, and you're up 94% on ",
-          "",
-          2176,
-          "19279810"
-        ],
-        [
-          "TKO",
-          "L",
-          "open",
-          "",
-          "Outside of that, this is well, Trump bought a $50,000 uh worth of stock in the TKO, uh TKO group holdings.",
-          "",
-          2237,
-          "19279810"
-        ],
-        [
-          "UFC",
-          "S",
-          "open",
-          "",
-          "Um, shortly before we're heavily promoting a UFC event at the White House.",
-          "",
-          2246,
-          "19279810"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 30",
       "t": "Hyperliquid Is Cooking, The SAAS Rotation Is Here, Oil Bulls Are Cooked, Returning To My Zcash Trade, AI Is Getting Wild - Threadguy: May 29th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "IGV",
-          "S",
-          "open",
-          "",
-          "All these things are correlated to the downside, but the IGV is up 6.25%, and it's printing some gnarly charts that we'r",
-          "",
-          416,
-          "19265999"
-        ],
-        [
-          "VTC",
-          "L",
-          "open",
-          "",
-          "Is anyone brave enough to long VTC right now?",
-          "",
-          449,
-          "19265999"
-        ],
-        [
-          "ETH",
-          "L",
-          "red",
-          "-7.4%",
-          "Like, if you ever bought an ETH, I still recommend people to go not touch these because you're relying so heavily on the",
-          "",
-          570,
-          "19265999"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "You you LARP as an oil bull, you get the the barrel, you go long, you make some money, you follow the trend, you don't f",
-          "",
-          901,
-          "19265999"
-        ],
-        [
-          "PLTR",
-          "L",
-          "open",
-          "",
-          "I remember when he beefed with the Met over Palantir, all the profitable investors and traders were buying uh like energ",
-          "",
-          1145,
-          "19265999"
-        ],
-        [
-          "CFTC",
-          "S",
-          "open",
-          "",
-          "Number one is Mike Selling comes out and says, in my first public remarks, as the CFTC chairman, I made it clear the age",
-          "",
-          1254,
-          "19265999"
-        ],
-        [
-          "HYPE",
-          "L",
-          "red",
-          "-19.4%",
-          "Equivocable for hyperliquid, and you had a bunch of time to long.",
-          "",
-          1320,
-          "19265999"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 28",
       "t": "Crypto is Moving Past Bitcoin - Syncracry Capital Interview",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "HYPE",
-          "L",
-          "red",
-          "-19.4%",
-          "Crypto sentiment, I feel like has been a discussion for a while, but it's and I always say like it's the lowest or it's ",
-          "",
-          49,
-          "19257124"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-13.4%",
-          "There's a couple spots, and then Bitcoin is just chudding along, and everybody is just rage quitting.",
-          "",
-          76,
-          "19257124"
-        ],
-        [
-          "ETH",
-          "L",
-          "red",
-          "-7.4%",
-          "And so speaking of holding things long term, I might be misquoting you on this, but I feel like you guys have gone easie",
-          "",
-          1341,
-          "19257124"
-        ],
-        [
-          "SOL",
-          "L",
-          "red",
-          "-8.1%",
-          "And who knows, maybe in the long term, you actually do get something that starts to resemble more of a Solana, where it ",
-          "",
-          1722,
-          "19257124"
-        ],
-        [
-          "SNAP",
-          "L",
-          "open",
-          "",
-          "They bought like 3% of Snapchat.",
-          "",
-          3350,
-          "19257124"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 28",
       "t": "Robinhood's Trump Accounts, DELL Is Insane, Tesla x SpaceX Merger, Running The Saylor Entry, Series H - Threadguy: May 28th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "AUM",
-          "L",
-          "open",
-          "",
-          "I think they had like 20 billion AUM and they were long, like three, four billion dollars.",
-          "",
-          152,
-          "19257121"
-        ],
-        [
-          "QQQ",
-          "S",
-          "open",
-          "",
-          "Um, the cost be closes down half a percent, the Russell up half, QQQ up almost a full percent, the semi-index up a perce",
-          "",
-          545,
-          "19257121"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-13.4%",
-          "They bought a thousand bitcoin today, but I don't know enough about this to have a real take.",
-          "",
-          715,
-          "19257121"
-        ],
-        [
-          "PLTR",
-          "L",
-          "open",
-          "",
-          "Long Palantir till I die in from 134.",
-          "",
-          768,
-          "19257121"
-        ],
-        [
-          "QT",
-          "L",
-          "open",
-          "",
-          "The company operates across four primary segments just holding into QT IPOs, aerospace building automation.",
-          "",
-          1523,
-          "19257121"
-        ],
-        [
-          "HYPE",
-          "L",
-          "red",
-          "-19.4%",
-          "And so you basically held hyperliquid, longed Zcash, or you are ready to get carried out.",
-          "",
-          1844,
-          "19257121"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 27",
       "t": "JD Vance Is Getting Cooked, Will Quantum K*LL Bitcoin, Too Many Top Signals, Crypto Is In Trouble - Threadguy: May 27th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "AMD",
-          "S",
-          "open",
-          "",
-          "Like, let's sell AMD, and I was like, I'm I put my f he just paused it, fucking foot down.",
-          "",
-          377,
-          "19251632"
-        ],
-        [
-          "META",
-          "L",
-          "open",
-          "",
-          "I almost bought this today, but then I'm like, I don't even know anything about meta.",
-          "",
-          1416,
-          "19251632"
-        ],
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "Reb with Strategy is a closed-end uh fund that holds stakes in robotics companies, uh, typically private.",
-          "",
-          1664,
-          "19251632"
-        ],
-        [
-          "MNAV",
-          "L",
-          "open",
-          "",
-          "There's been a lot of anthropic sort of holding companies that have got super popular, and then eventually retail's like",
-          "",
-          1825,
-          "19251632"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 27",
       "t": "How AGI Might Break Crypto Forever... - Nic Carter",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "Reblist Strategy is a closed-end uh fund that holds stakes in robotics companies, uh, typically private.",
-          "",
-          104,
-          "19251604"
-        ],
-        [
-          "MNF",
-          "L",
-          "open",
-          "",
-          "There's been a lot of anthropic sort of holding companies that have got super popular, and then eventually retail's like",
-          "",
-          286,
-          "19251604"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-15.7%",
-          "The longer Bitcoin puts it off, Bitcoin hasn't made any real progress in the last six months.",
-          "",
-          3001,
-          "19251604"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 26",
       "t": "The Uber Debate, My Huge Crypto Mistake, Ferrari's New EV, Anthropic Signs The Pope, LLMs VS Reddit - Threadguy: May 26th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-15.7%",
-          "I I uh it's gotten to the point where I have Bitcoin spot bitcoin that I never sell that I'm even like what I I'm I'm si",
-          "",
-          674,
-          "19246160"
-        ],
-        [
-          "COIN",
-          "L",
-          "open",
-          "",
-          "And so it's a weird spot where partially you get, you know, maybe you get the crypto premium that once existed where thi",
-          "",
-          755,
-          "19246160"
-        ],
-        [
-          "HYPE",
-          "L",
-          "red",
-          "-7.6%",
-          "I would obviously rather have it over hold it over Coinbase, but there is some hype tailwinds you gotta worry about on t",
-          "",
-          766,
-          "19246160"
-        ],
-        [
-          "AAPL",
-          "S",
-          "open",
-          "",
-          "The car with an Apple logo on it, priced at 100k, would sell extremely well.",
-          "",
-          1782,
-          "19246160"
-        ],
-        [
-          "TSLA",
-          "S",
-          "open",
-          "",
-          "You gotta get away from Tesla shorts.",
-          "",
-          1856,
-          "19246160"
-        ],
-        [
-          "SAS",
-          "S",
-          "open",
-          "",
-          "And if the SAS sell off a broader rotation out of anything semis gets worse, then I would gladly welcome better prices.",
-          "",
-          2199,
-          "19246160"
-        ],
-        [
-          "GPT",
-          "L",
-          "open",
-          "",
-          "And so then you can say like 40% of chat GPT sources are from Reddit, but in theory, doesn't that crush the flywheel if ",
-          "",
-          2277,
-          "19246160"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 15",
       "t": "Leopold Is About To Reveal It, Semiconductor Bloodbath, MegaETH Is The Worst Crypto Chart Ever, AP Swatch Resale Frenzy, Hyperliquid > Robinhood - Threadguy: May 15th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "AP",
-          "L",
-          "open",
-          "",
-          "I went to the swatch store on Monday and I walked in and I said to the lady working at the front desk, I was like, hey, ",
-          "",
-          212,
-          "19186229"
-        ],
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "And so I once again ask, why would you hold hood in the big two six?",
-          "",
-          650,
-          "19186229"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-21.1%",
-          "Okay, they bought 173 Bitcoin, nothing burger, and then souls, which we've added to this for no particular reason, is th",
-          "",
-          799,
-          "19186229"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "It was another game of who wants to hold risk into the weekend while the Iran war is still going on, while bonds are fuc",
-          "",
-          1055,
-          "19186229"
-        ],
-        [
-          "MU",
-          "L",
-          "open",
-          "",
-          "But there are some late longs that need to get tested for sure, especially in some of these like micron and intels.",
-          "",
-          1087,
-          "19186229"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "May 15",
+      "t": "An Unfiltered Conversation with Chris Camillo",
+      "g": "",
+      "llmv": 0,
+      "calls": []
+    },
+    {
+      "d": "May 15",
+      "t": "An Unfiltered Conversation with Airmass",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "May 15",
       "t": "My AP Swatch Investment Failed, Cerebras IPO, Airmass Interview, The Secret To Trading Is Trade Less, Xi and Trump - Threadguy: May 14th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "His name is Michael Saylor, and he has bought 9,000 Bitcoin today.",
-          "",
-          423,
-          "19186169"
-        ],
-        [
-          "ZEC",
-          "L",
-          "red",
-          "-11.5%",
-          "Problem with Zcash is everyone just holds it on perps.",
-          "",
-          450,
-          "19186169"
-        ],
-        [
-          "NVDA",
-          "S",
-          "open",
-          "",
-          "The two biggest announcements are one, Nvidia is selling H-100s to China, which has already been announced.",
-          "",
-          888,
-          "19186169"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-21.1%",
-          "Still holding every Bitcoin I bought from 1k all the way up to 120k.",
-          "",
-          1526,
-          "19186169"
-        ],
-        [
-          "MU",
-          "L",
-          "open",
-          "",
-          "And the day you tweeted this, I marked the chart with the air mass line on Micron, which I might be off here, but assumi",
-          "",
-          1537,
-          "19186169"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "May 15",
+      "t": "Trump Is In China, My AP Swatch Preorder, Chris Camillo Interview, Crypto Traders Will Dominate Stocks, AP Swatch - Threadguy: May 13th, 2026",
+      "g": "",
+      "llmv": 0,
+      "calls": []
+    },
+    {
+      "d": "May 15",
+      "t": "IPO Season Is Here, eBay Says NO To Gamestop, The AP Swatch, My Courageous Trade, Trust Me Bro SPVs - Threadguy: May 12th, 2026",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "May 11",
       "t": "Normies BROKE The Stock Market, My ZEC Trade, Long vs Short Bitcoin, Bankless Interview, Roaring Kitty Hacked LIVE - Threadguy: May 11th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "MU",
-          "L",
-          "open",
-          "",
-          "401k, I don't know, I don't exactly know where it came from, but he had like 50, 60, 70k and has basically just been pun",
-          "",
-          247,
-          "19161384"
-        ],
-        [
-          "HYPE",
-          "S",
-          "red",
-          "-28.1%",
-          "Back to back in five minutes, Loracle, who is up, I don't know, 200 and something million dollars all time on hyperliqui",
-          "",
-          543,
-          "19161384"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-22.2%",
-          "And so I click into like a really tight, a really tight BTC long, like a tight stop loss.",
-          "",
-          590,
-          "19161384"
-        ],
-        [
-          "HOOD",
-          "S",
-          "open",
-          "",
-          "Local short sand disc Nebias put in a nice day up five, hood up five.",
-          "",
-          1135,
-          "19161384"
-        ],
-        [
-          "ZEC",
-          "S",
-          "green",
-          "+16.4%",
-          "In a way, it's been like a double-edged sword, my Zcash trade, because I hyper focused on one trade, one asset early in ",
-          "",
-          1494,
-          "19161384"
-        ],
-        [
-          "ETH",
-          "L",
-          "red",
-          "-21.0%",
-          "I can't write an article about the investment case for ETH because Tom because Tom Lee's buying it.",
-          "",
-          1896,
-          "19161384"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "May 11",
+      "t": "Why He Sold His CryptoPunk For ZCash.. - David Hoffman",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "May 08",
       "t": "Micron Is The Next Nvidia, Is STRC A Ponzi, Moving To NYC Is The Best Trade, My Bitcoin Thesis, Trading Is The World's Best Job - Threadguy: May 8th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "Long MSTR, short Zek.",
-          "",
-          522,
-          "19148492"
-        ],
-        [
-          "HYPE",
-          "L",
-          "green",
-          "+28.1%",
-          "Changing my lever position and hype to spot.",
-          "",
-          538,
-          "19148492"
-        ],
-        [
-          "SPOT",
-          "L",
-          "open",
-          "",
-          "SPOT comes in plus one, almost 1% on the day.",
-          "",
-          555,
-          "19148492"
-        ],
-        [
-          "BTC",
-          "S",
-          "green",
-          "+22.2%",
-          "Like you could dump individual names, but like to meaningfully dump Bitcoin down to 50k, there has to be like a new coho",
-          "",
-          751,
-          "19148492"
-        ],
-        [
-          "WTI",
-          "S",
-          "open",
-          "",
-          "We're not gonna spend much time on war and oil, but you fade it until you're forced out.",
-          "",
-          1515,
-          "19148492"
-        ],
-        [
-          "ETH",
-          "S",
-          "green",
-          "+21.0%",
-          "And then a 25x ETH short that he's actually up on.",
-          "",
-          2194,
-          "19148492"
-        ],
-        [
-          "AMZN",
-          "L",
-          "open",
-          "",
-          "10x Amazon Long is up 50k.",
-          "",
-          2238,
-          "19148492"
-        ],
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "10x metalong down 10, 20x NVIDIA, he is up 63k.",
-          "",
-          2240,
-          "19148492"
-        ],
-        [
-          "MU",
-          "S",
-          "open",
-          "",
-          "Like sell the house and buy micron type move.",
-          "",
-          2386,
-          "19148492"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 07",
       "t": "The Truth of Stock Trading, AI Bottlenecks, Hantavirus Exposed, Only 5 Coins Matter This Cycle, PNL is All That Matters - Threadguy: May 7th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "RR",
-          "L",
-          "open",
-          "",
-          "And because of that, I think that there's certain spots that I think like the RR, usually I would sell, but the RR from ",
-          "",
-          92,
-          "19144036"
-        ],
-        [
-          "SPX",
-          "S",
-          "open",
-          "",
-          "The Russell down 1.3, Cosby another green day plus 1.4%, SPX, same down 0.38.",
-          "",
-          262,
-          "19144036"
-        ],
-        [
-          "BTC",
-          "S",
-          "green",
-          "+21.5%",
-          "I'll short this over Bitcoin.",
-          "",
-          323,
-          "19144036"
-        ],
-        [
-          "HYPE",
-          "S",
-          "red",
-          "-27.8%",
-          "He's short hype against his population that's 3x the size.",
-          "",
-          372,
-          "19144036"
-        ],
-        [
-          "ZEC",
-          "L",
-          "red",
-          "-10.5%",
-          "Long 25 mil of Bitcoin, long 18 mil of Zcash.",
-          "",
-          392,
-          "19144036"
-        ],
-        [
-          "XPL",
-          "L",
-          "open",
-          "",
-          "Long 10 mil of taunt, two mil and near gold, chip, and XPL.",
-          "",
-          397,
-          "19144036"
-        ],
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "I said I was gonna long NVIDIA over 212, but I've just gotten really distracted, and also really long coins.",
-          "",
-          461,
-          "19144036"
-        ],
-        [
-          "SK",
-          "L",
-          "open",
-          "",
-          "So we go to semis, and then we're doing energy, and then we're doing photonics, and then we're doing memory, and then we",
-          "",
-          1162,
-          "19144036"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "May 07",
+      "t": "Tokenized Stocks, My Recent Trade Wins, Fake War Headlines, Robert Leshner Interview, $200M Crypto Hack - Threadguy: May 6th, 2026",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "May 07",
       "t": "The $200M KelpDAO Hack, DeFi's Trust Crisis & Bitcoin's Return - Robert Leshner",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "HYPE",
-          "L",
-          "green",
-          "+27.8%",
-          "My question for you, and you could get a little bit technical on this, is like if I'm long hints on a perps position on ",
-          "",
-          974,
-          "19139898"
-        ],
-        [
-          "UST",
-          "L",
-          "open",
-          "",
-          "Like, I I literally knew unintelligent people off of Wall Street that were like quitting their jobs to like launch like ",
-          "",
-          2068,
-          "19139898"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "May 05",
       "t": "The Only Coins You Should Buy, Fading World War 3, Korean Stocks Are Crazy, Rekt Mando on IQ, Momentum & Korean Stock Trading - Threadguy: May 4th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "ZEC",
-          "L",
-          "red",
-          "-10.5%",
-          "This looks insane, and I have gotten extraordinarily long on Zcash.",
-          "",
-          505,
-          "19126900"
-        ],
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "It's Robinhood's fault I didn't 2x spot on this.",
-          "",
-          622,
-          "19126900"
-        ],
-        [
-          "MSF",
-          "L",
-          "open",
-          "",
-          "You could maybe long MSF on IGV breakout.",
-          "",
-          660,
-          "19126900"
-        ],
-        [
-          "GME",
-          "L",
-          "open",
-          "",
-          "And so they basically would have to like triple the supply of just like dilute the ever-loving fuck out of GameStop to g",
-          "",
-          779,
-          "19126900"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Or you can fade every escalation announcement, you can fade every oil pump that the market has faded for the last two mo",
-          "",
-          1385,
-          "19126900"
-        ],
-        [
-          "IQ",
-          "L",
-          "open",
-          "",
-          "Like this was not a country that that was in a great spot, it has barely any natural resources, so doesn't really have g",
-          "",
-          1879,
-          "19126900"
-        ],
-        [
-          "CHIPS",
-          "L",
-          "open",
-          "",
-          "Well, geographically they kind of have to with where they are, they're not like Taiwan, but they they they do have to ki",
-          "",
-          2339,
-          "19126900"
-        ],
-        [
-          "MU",
-          "L",
-          "open",
-          "",
-          "In fact, I only really bought it on the memory trade when I started to see the kind of the move in Micron happen, and th",
-          "",
-          2494,
-          "19126900"
-        ],
-        [
-          "HSR",
-          "L",
-          "open",
-          "",
-          "We have accumulated 5% economic stake in eBay through derivatives and beneficial ownership of common stock and are filin",
-          "",
-          2831,
-          "19126900"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "May 05",
+      "t": "Explaining Korean Stocks and the AI Memory Trade - Rekt Mando",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "May 02",
       "t": "Spirit Airlines is GONE, Bitcoin Is Coming Back, BrokieTrades Interview, How I Started Trading, Running A Hedgefund - Threadguy: May 1st, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "ZEC",
-          "L",
-          "green",
-          "+28.0%",
-          "But the thing I fuck with the most that I hold right now is Zcash.",
-          "",
-          78,
-          "19112373"
-        ],
-        [
-          "JP",
-          "L",
-          "open",
-          "",
-          "Then he would buy the last lot, he would buy 200,000 shares at the end, rip long, or immediately flip it to like JP Morg",
-          "",
-          432,
-          "19112373"
-        ],
-        [
-          "BTC",
-          "S",
-          "green",
-          "+18.7%",
-          "I had a shower thought that I was gonna sell clip all my BTC into hyper liquid, so I got out of the shower.",
-          "",
-          694,
-          "19112373"
-        ],
-        [
-          "WTI",
-          "S",
-          "open",
-          "",
-          "And so let's see, short oil daily you would have gotten like two and a half percent down, but it got to as much as wow, ",
-          "",
-          756,
-          "19112373"
-        ],
-        [
-          "HYPE",
-          "S",
-          "red",
-          "-33.3%",
-          "And you can actually, and I actually think hyperliquid, this funding rate is mispriced on hyperliquid, such that you kno",
-          "",
-          1564,
-          "19112373"
-        ],
-        [
-          "RGC",
-          "S",
-          "open",
-          "",
-          "Um, but so anyways, to answer your question, I what I think like Trump will do is I think there will be a very short str",
-          "",
-          1681,
-          "19112373"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "May 02",
+      "t": "The College Student Who Broke Polymarket - BrokieTrades",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "Apr 30",
       "t": "Roblox Crashes -20%+, Apple Earnings Call, Crypto's Future, Elon's OpenAI Lawsuit, Banks & Ansem's New Show - Threadguy: April 30th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "ZEC",
-          "L",
-          "green",
-          "+28.0%",
-          "I did click a Zcash long.",
-          "",
-          639,
-          "19106394"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-18.7%",
-          "Uh, I think stoic savage is long bitcoin, which is interesting.",
-          "",
-          676,
-          "19106394"
-        ],
-        [
-          "ETH",
-          "L",
-          "red",
-          "-19.4%",
-          "What do you mean 930x ETH long?",
-          "",
-          1412,
-          "19106394"
-        ],
-        [
-          "AAPL",
-          "L",
-          "open",
-          "",
-          "I am incredibly optimistic about Apple's future, and I know we have the right team in place to deliver on the promise of",
-          "",
-          1548,
-          "19106394"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 29",
       "t": "Never Short Stocks, The Great Bear Trap, & Why Crypto is Weak - Tolks",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "CTA",
-          "L",
-          "open",
-          "",
-          "Oh man, um I think things, you know, as you can see with the bearishness and bullishness and what I wrote back in like A",
-          "",
-          138,
-          "19101546"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-16.3%",
-          "I longed Bitcoin, which is just like what I'm looking around, what I long.",
-          "",
-          388,
-          "19101546"
-        ],
-        [
-          "SOL",
-          "L",
-          "red",
-          "-9.7%",
-          "Like it did nothing for Solana and God forbid anybody's bidding Polygon, but uh it's those type of like announcements th",
-          "",
-          749,
-          "19101546"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "I I really should have I should have longed more oil and stuff.",
-          "",
-          1058,
-          "19101546"
-        ],
-        [
-          "IWM",
-          "L",
-          "open",
-          "",
-          "Um, but other than that, I started I was buying VIX calls uh pretty much all morning, and then some IWM puts.",
-          "",
-          1066,
-          "19101546"
-        ],
-        [
-          "ZEC",
-          "L",
-          "green",
-          "+47.5%",
-          "I know you were long Zcash for a while.",
-          "",
-          1179,
-          "19101546"
-        ],
-        [
-          "FTX",
-          "L",
-          "open",
-          "",
-          "Uh when the FTX lock soul was auctioned, I think a lot of it was bought around there.",
-          "",
-          1266,
-          "19101546"
-        ],
-        [
-          "RFK",
-          "S",
-          "open",
-          "",
-          "Maybe I'm wrong, but uh I think that way when like suggesting like when RFK makes an announcement of peptides and everyo",
-          "",
-          1552,
-          "19101546"
-        ],
-        [
-          "GOOGL",
-          "L",
-          "open",
-          "",
-          "Or you could have just been buying Google for the last year, every single red candle, buy, buy, buy, buy, buy, done noth",
-          "",
-          1617,
-          "19101546"
-        ],
-        [
-          "HYPE",
-          "L",
-          "green",
-          "+37.1%",
-          "And like I said, like I'm I'm I'm fine, you know, ever since the initial iron strikes, like I, you know, days here and t",
-          "",
-          1684,
-          "19101546"
-        ],
-        [
-          "CRCL",
-          "L",
-          "open",
-          "",
-          "It's also crazy, like the bears they do coming kind of bringing full circle, like being bearish in a long enough time fr",
-          "",
-          1758,
-          "19101546"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 29",
       "t": "Robinhood is COOKED, Biggest Earnings Day Ever, Oil is AMAZING, Tolks: Understanding the Market, Crypto & Gold - Threadguy: April 29th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "LLM",
-          "L",
-          "open",
-          "",
-          "I've been exposed to LLM so much for work and fun that now I can spot AI writing so easily and it just annoys me.",
-          "",
-          212,
-          "19100297"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Is anyone long oil right now?",
-          "",
-          431,
-          "19100297"
-        ],
-        [
-          "ZEC",
-          "L",
-          "green",
-          "+47.5%",
-          "I think Tolks was long Zcash into this and closed it.",
-          "",
-          519,
-          "19100297"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-16.3%",
-          "They bought 142 BTC today, which is nice.",
-          "",
-          601,
-          "19100297"
-        ],
-        [
-          "TLN",
-          "L",
-          "open",
-          "",
-          "This is this TLN name, is what Claude and OpenAI told me to long for Bloom Beta, which is up 25% today.",
-          "",
-          627,
-          "19100297"
-        ],
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "Five is the Serenity name that I tried along two days ago on Robinhood, but they don't fucking have it.",
-          "",
-          681,
-          "19100297"
-        ],
-        [
-          "QCOM",
-          "L",
-          "open",
-          "",
-          "I'm I'm interested in this this QCOM after the Open AI announcement.",
-          "",
-          1110,
-          "19100297"
-        ],
-        [
-          "UBER",
-          "L",
-          "open",
-          "",
-          "They hold a lot of Chipotle, they've hold a lot of meta, Amazon, Brookfield, Uber, QSR, Hilton.",
-          "",
-          1203,
-          "19100297"
-        ],
-        [
-          "CTA",
-          "L",
-          "open",
-          "",
-          "Oh man, um I think things, you know, as you can see with the bearishness and bullishness and what I wrote back in like A",
-          "",
-          1358,
-          "19100297"
-        ],
-        [
-          "HYPE",
-          "L",
-          "green",
-          "+37.1%",
-          "I mean, I don't really have much spot exposure outside of BTC hype and Zach.",
-          "",
-          1766,
-          "19100297"
-        ],
-        [
-          "LA",
-          "L",
-          "open",
-          "",
-          "And so I'm in this thing for the first day and we're whipping it around LA.",
-          "",
-          2026,
-          "19100297"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "Apr 29",
+      "t": "SpaceX is a RUGPULL!?, OpenAI Headline Panic, Bubble Boi's HUGE Intel Trade, Semiconductors, The Market is WRONG - Threadguy: April 29th, 2026",
+      "g": "",
+      "llmv": 0,
+      "calls": []
+    },
+    {
+      "d": "Apr 29",
+      "t": "Intel $1T Trade Thesis, Semiconductors & the AI Bubble - Bubble Boi",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "Apr 27",
       "t": "OpenAI Might K*LL Apple, Big Tech Destroys Crypto, Sleep Score = IQ, Hallucination Yield Meta - Threadguy: April 27th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "ETH",
-          "L",
-          "red",
-          "-18.4%",
-          "Is anyone long ETH?",
-          "",
-          713,
-          "19087483"
-        ],
-        [
-          "SNAP",
-          "L",
-          "open",
-          "",
-          "And Snap is just like the biggest diluter ever, and they've never I don't I don't I think Evan Spiegel's never bought ba",
-          "",
-          973,
-          "19087483"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-16.3%",
-          "My lighter take is that in most instances, highing buying high beta for the sake somebody came in here and said they wer",
-          "",
-          1462,
-          "19087483"
-        ],
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "The lighter takeaway is that buying high beta just because it's beta is never really a winning strategy, it's just not i",
-          "",
-          1472,
-          "19087483"
-        ],
-        [
-          "GPT",
-          "L",
-          "open",
-          "",
-          "How many people in the last month have asked Chat GPT about a trade as in like should I long this or what should I long?",
-          "",
-          1687,
-          "19087483"
-        ],
-        [
-          "HIMS",
-          "L",
-          "open",
-          "",
-          "It's like probably long HIMS, and so I ripped it.",
-          "",
-          1763,
-          "19087483"
-        ],
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "I asked it, um NVIDIA just broke ATH, what do I long?",
-          "",
-          1776,
-          "19087483"
-        ],
-        [
-          "INTC",
-          "L",
-          "open",
-          "",
-          "And so it then came back and was like long intel.",
-          "",
-          1792,
-          "19087483"
-        ],
-        [
-          "MU",
-          "L",
-          "open",
-          "",
-          "And so it told me to long Micron, and so I longed it NVIDIA, but I it's uh I don't know, it was like my first reaction w",
-          "",
-          1800,
-          "19087483"
-        ],
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "So Coca-Cola, Spotify is a big one, Visa is a big one, Bloom Energy is huge, Robinhood is huge.",
-          "",
-          1900,
-          "19087483"
-        ],
-        [
-          "MSFT",
-          "L",
-          "open",
-          "",
-          "MSFT falls 5% announced on the OpenAI license will now be non-exclusive and it will no longer pay revenue share to open ",
-          "",
-          2286,
-          "19087483"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 25",
       "t": "EasyEats - $30 HOOD Call, Polymarket Edge & Peptides",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "I'm like a massive Robin Hood holder.",
-          "",
-          19,
-          "19074079"
-        ],
-        [
-          "SOL",
-          "L",
-          "red",
-          "-11.9%",
-          "Like, I still have bags of Solana that I bought sub $20.",
-          "",
-          41,
-          "19074079"
-        ],
-        [
-          "HIMS",
-          "S",
-          "open",
-          "",
-          "Yeah, so Nova Nordisk has a partnership with HIMS, which allows them to sell WeGovi and Ozempic, uh white labeled.",
-          "",
-          342,
-          "19074079"
-        ],
-        [
-          "GLP",
-          "S",
-          "open",
-          "",
-          "Couldn't they just sell GLP uh or maybe they're not please?",
-          "",
-          385,
-          "19074079"
-        ],
-        [
-          "AAPL",
-          "L",
-          "open",
-          "",
-          "I'm long Apple.",
-          "",
-          726,
-          "19074079"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-17.5%",
-          "But I longed Bitcoin instead of like long yeah, it didn't even dump.",
-          "",
-          977,
-          "19074079"
-        ],
-        [
-          "HYPE",
-          "L",
-          "green",
-          "+33.8%",
-          "I have calls, shares, and long hyperliquid.",
-          "",
-          2372,
-          "19074079"
-        ],
-        [
-          "DHT",
-          "L",
-          "open",
-          "",
-          "DHT frontline and DHT is DHT holdings.",
-          "",
-          2436,
-          "19074079"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "Apr 24",
+      "t": "Stocks > Crypto, Meeting Hans Niemann IRL, Stock Market ATH, Bessent Bullposts AI, EasyEats Interview, Is Apple Going To Win? - Threadguy: April 24th, 2026",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "Apr 24",
       "t": "GoodAlexander & David Choi - USDAI, the Upcoming IPO Bubble & Cheap Chinese AI",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "And when Nvidia started talking about this whole sovereign AI thing, um, you know, what what you might just at a very hi",
-          "",
-          384,
-          "19069787"
-        ],
-        [
-          "GPU",
-          "L",
-          "open",
-          "",
-          "Because it's like, okay, do you really need to like buy your own GPU if like open AI is like the best thing in the world",
-          "",
-          576,
-          "19069787"
-        ],
-        [
-          "MSTR",
-          "S",
-          "open",
-          "",
-          "Like in the near term, that's great because it means Sailor is gonna keep issuing STRC, selling 11% yields to 75-year-ol",
-          "",
-          2256,
-          "19069787"
-        ],
-        [
-          "GME",
-          "S",
-          "open",
-          "",
-          "There are gonna be a lot of fundamental investors who get short squeezed on things like Avis, and you're gonna have a lo",
-          "",
-          2510,
-          "19069787"
-        ],
-        [
-          "SPCX",
-          "S",
-          "open",
-          "",
-          "So, so I think the thing that's like is exciting to someone like me is like, okay, like you're gonna monetize a lot of t",
-          "",
-          2554,
-          "19069787"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-17.5%",
-          "And now we all know how this ended on Solana, but there's a difference where our majors are, you know, BTC and and and C",
-          "",
-          2714,
-          "19069787"
-        ],
-        [
-          "JP",
-          "S",
-          "open",
-          "",
-          "So, so so JP Morgan will do like a you know some insane enterprise deal with cursor, or you know, cognition will sell li",
-          "",
-          2947,
-          "19069787"
-        ],
-        [
-          "META",
-          "L",
-          "open",
-          "",
-          "Alibaba stock is hated, everyone is balls long open AI and closed source tech because that was the current meta.",
-          "",
-          3776,
-          "19069787"
-        ],
-        [
-          "SBF",
-          "L",
-          "open",
-          "",
-          "Yeah, I mean that's that's that's the uh have you you're a physiologist you know based on our earlier conversation have ",
-          "",
-          3961,
-          "19069787"
-        ],
-        [
-          "GPT",
-          "L",
-          "open",
-          "",
-          "And I think we overindexed on the Sama hate really he's coming out of this looking kind of based Elon can't build a mode",
-          "",
-          4081,
-          "19069787"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 23",
       "t": "The FAKE Iran War Headline, AI Shrinkflation, China K*LLED Claude AI, GoodAlexander & David Choi, Exit Liquidity - Threadguy: April 23rd, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And so when the United States starts talking about we're gonna put a price cap on oil, I'm getting long risk.",
-          "",
-          336,
-          "19069179"
-        ],
-        [
-          "LARP",
-          "S",
-          "open",
-          "",
-          "It got this candle down on this fake ass, fade ass, whack ass, lie ass, LARP ass announcement.",
-          "",
-          773,
-          "19069179"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-17.5%",
-          "And so I'm I'm in a little BTC long baby though, baby, baby, baby.",
-          "",
-          784,
-          "19069179"
-        ],
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "And when Nvidia started talking about this whole sovereign AI thing, um, you know, what what you might just at a very hi",
-          "",
-          2005,
-          "19069179"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 22",
       "t": "TSLA Earnings Call, CAR's Short Squeeze is OVER, Oil And Stocks Are Ripping, Stocks Trade Like Crypto Now, Cobie Crypto Mindset - Threadguy: April 22nd, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "ETH",
-          "S",
-          "green",
-          "+19.2%",
-          "But ever I mean, every person on crypto Twitter came out to publicly post the ETH short.",
-          "",
-          761,
-          "19062558"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "He posted a mobile screenshot on his phone up $15 million on crude longs.",
-          "",
-          1296,
-          "19062558"
-        ],
-        [
-          "SRS",
-          "L",
-          "open",
-          "",
-          "Above 45, SRS's excess shares must be voted in proportion to the other shareholders.",
-          "",
-          1752,
-          "19062558"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "Apr 21",
+      "t": "Amazon K*LLS Hims, The Cobie Interview, Peptides & Clavicular, USA vs Iran Ceasefire..?, Trump is UNPREDICTABLE - Threadguy: April 21st, 2026",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "Apr 21",
       "t": "Cobie - The Future of Crypto, Capitalism & Society",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "MGMT",
-          "S",
-          "open",
-          "",
-          "I know this concept where um uh where like a like an art like an artist puts out an album that it's like really, really ",
-          "",
-          876,
-          "19056583"
-        ],
-        [
-          "ICO",
-          "L",
-          "open",
-          "",
-          "A lot of my like normie friends who tried to buy an ICO in 2017 and like mentally categorized all of crypto as a scam be",
-          "",
-          1594,
-          "19056583"
-        ],
-        [
-          "SOL",
-          "L",
-          "red",
-          "-11.0%",
-          "And the only other time that I feel like that's happened was briefly during AI season in 2024, where it obvious I mean i",
-          "",
-          1656,
-          "19056583"
-        ],
-        [
-          "WTI",
-          "S",
-          "open",
-          "",
-          "Like we saw how oil moved during this war, but we really saw how silver and how gold traded a couple months ago, and the",
-          "",
-          2493,
-          "19056583"
-        ],
-        [
-          "HYPE",
-          "S",
-          "red",
-          "-35.1%",
-          "Um and then occasionally you get one like hyperliquid, where people are actually bullish on it and then they don't want ",
-          "",
-          3088,
-          "19056583"
-        ],
-        [
-          "AAPL",
-          "L",
-          "open",
-          "",
-          "Oh, I I tell you what, I bought um my my monitors flickered the other day, so I bought two uh of the like like XDR Apple",
-          "",
-          4728,
-          "19056583"
-        ],
-        [
-          "FTX",
-          "S",
-          "open",
-          "",
-          "Like I am um uh I think that some reason over the last few years since FTX, and I think the the reason is probably like ",
-          "",
-          4819,
-          "19056583"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 20",
       "t": "Inside the $300M Crypto Hack - Tom Kysar",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "SOL",
-          "L",
-          "red",
-          "-11.0%",
-          "Is my long tail like bear Solana because I gotta do it.",
-          "",
-          1386,
-          "19049866"
-        ],
-        [
-          "HYPE",
-          "L",
-          "green",
-          "+35.1%",
-          "As of April 26, the hyperliquid bridge holds approximately 4.7 billion in TVO.",
-          "",
-          1918,
-          "19049866"
-        ],
-        [
-          "DVN",
-          "L",
-          "open",
-          "",
-          "Like, nothing, you know what will change now in practicality is uh like layer zero is no longer uh signing like one of o",
-          "",
-          2287,
-          "19049866"
-        ],
-        [
-          "FTX",
-          "L",
-          "open",
-          "",
-          "Like this would be something that would be like an FTX X event would have like X long lasting, you know, because like we",
-          "",
-          2431,
-          "19049866"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-15.8%",
-          "That's like, yeah, it's like this is like this is like like the second or third generation of most people is like you co",
-          "",
-          3356,
-          "19049866"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 20",
       "t": "The US vs IRAN War Gets WORSE, the $300M LayerZero Hack, Oil Trade, Tim Cook Retires, AI Stocks - Threadguy: April 20th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "JD",
-          "L",
-          "open",
-          "",
-          "We had a major escalation this weekend, and three minutes before market opened, JD Vance is like, I'm in Pakistan for ne",
-          "",
-          528,
-          "19049741"
-        ],
-        [
-          "ETH",
-          "S",
-          "green",
-          "+19.2%",
-          "I don't really know how, but it does 76.2, ETH 2330, despite every person on the planet Earth shorting.",
-          "",
-          601,
-          "19049741"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And so if you're long oil, short equities, this is obviously huge escalation announcement.",
-          "",
-          1221,
-          "19049741"
-        ],
-        [
-          "IRGC",
-          "L",
-          "open",
-          "",
-          "He was also linked to multi billion dollar embezzlement involving Yas Holding, a subsidiary of the IRGC.",
-          "",
-          1311,
-          "19049741"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-15.8%",
-          "I don't have any long-term bias, except for Bitcoin.",
-          "",
-          1338,
-          "19049741"
-        ],
-        [
-          "META",
-          "S",
-          "open",
-          "",
-          "Hymns when they actually start distributing meta and GHK in these peptides that our RFK is pushing through, it's gonna b",
-          "",
-          1728,
-          "19049741"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "Apr 17",
+      "t": "An Unfiltered Conversation with Hans Niemann",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "Apr 17",
       "t": "My Huge HIMS Trade, Hans Niemann Interview, The Market is Ripping, AI Slop, Chess is in Trouble, Trading Advice - Threadguy: April 17th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-14.9%",
-          "I wanted to slam Bitcoin longs so bad.",
-          "",
-          152,
-          "19034664"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And so what the long tail effects are the supply shock and oil is still relatively unclear to me.",
-          "",
-          519,
-          "19034664"
-        ],
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "Is anyone long MSTR is a thing I would not touch, but it looks fucking electric.",
-          "",
-          831,
-          "19034664"
-        ],
-        [
-          "PLTR",
-          "L",
-          "open",
-          "",
-          "Roblox flat circle down a percent and a half, and then the last thing I'm interested in is Palantir, which looks very ni",
-          "",
-          878,
-          "19034664"
-        ],
-        [
-          "PA",
-          "L",
-          "open",
-          "",
-          "And after the reopening of this trade in today's PA, it felt like a good spot to take profit on attention momentum.",
-          "",
-          952,
-          "19034664"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 16",
       "t": "The HIMS Thesis, Peptides, Mamdani vs Ken Griffin, Opus 4.7, SpaceX Is Buying Cybertrucks!? - Threadguy: April 16th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "BTC",
-          "S",
-          "green",
-          "+14.9%",
-          "I had to sell some Bitcoin, I had to move some stuff.",
-          "",
-          113,
-          "19029548"
-        ],
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "SpaceX was buying a ton of cyber trucks.",
-          "",
-          573,
-          "19029548"
-        ],
-        [
-          "FDA",
-          "S",
-          "open",
-          "",
-          "September 2023, the Biden FDA pushes a number of peptides into category two bulk drug substances that raise significant ",
-          "",
-          796,
-          "19029548"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "Apr 15",
+      "t": "Allbirds Is An AI COMPANY!? Taxes Are Killing Me, Pokemon Cards Are Cooked, HIMS Is Cooking, Amit Kukreja Interview - Threadguy: April 15th, 2026",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "Apr 15",
       "t": "Amit Kukreja - Palantir, Trading Crypto & Investing Advice",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "NVDA",
-          "L",
-          "open",
-          "",
-          "I've bought NVIDIA at 90, but a lot of people bought NVIDIA at 90 during the MC, right?",
-          "",
-          490,
-          "19024788"
-        ],
-        [
-          "GME",
-          "S",
-          "open",
-          "",
-          "They didn't let me sell my GameStop.",
-          "",
-          1674,
-          "19024788"
-        ],
-        [
-          "HYPE",
-          "L",
-          "green",
-          "+25.5%",
-          "Hyperliquid solved this one by making a billion dollars a year and putting all of their revenue back into buying the coi",
-          "",
-          2324,
-          "19024788"
-        ],
-        [
-          "RKLB",
-          "L",
-          "open",
-          "",
-          "Rocket Lab I bought, Oracle, I bought, but there are still moments where I could have bought more.",
-          "",
-          2771,
-          "19024788"
-        ],
-        [
-          "NFLX",
-          "L",
-          "open",
-          "",
-          "And I want to see how big it can get and and and where the industry ultimately starts to go over the long term as more p",
-          "",
-          3372,
-          "19024788"
-        ],
-        [
-          "JP",
-          "S",
-          "open",
-          "",
-          "You know, there's no shade to Calci or public or all these companies that sponsor people that are like CNBC is freaking ",
-          "",
-          3538,
-          "19024788"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 14",
       "t": "The 25 Year Old Trader That BEAT Wall Street, Watch Shopping, Gamblification of Everything, Market Close Analysis, The Saylor Method - Threadguy: April 14th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "DRC",
-          "L",
-          "open",
-          "",
-          "He's like, boy, I'm Frank Mueller, yeah, I'm Frank Mueller, and now I'm like on Frank Mueller looking for I bought a DRC",
-          "",
-          331,
-          "19018762"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-14.9%",
-          "Yesterday he bought 550 million dollars of Bitcoin in one day.",
-          "",
-          792,
-          "19018762"
-        ],
-        [
-          "DIS",
-          "S",
-          "open",
-          "",
-          "TMZ ran into Senator Lindsey Graham, who was on his way into Monday, office Monday at the Russell building, and asked ab",
-          "",
-          956,
-          "19018762"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 13",
       "t": "Trump's WEIRD Doordash Ad, Hims Conspiracy Theory, Art of the Deal, Stock Market is Bored of War, WLFI Drama - Threadguy: April 13th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Definitely not the guy who was long, multi-six figures of oil, and then let himself get stopped out right before a fucki",
-          "",
-          72,
-          "19011646"
-        ],
-        [
-          "MSTR",
-          "L",
-          "open",
-          "",
-          "I mean, look, the only profitable trading strategy in 2026 is just buying whatever Trump says to buy.",
-          "",
-          550,
-          "19011646"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-9.6%",
-          "According to the stretch dashboard, Sailor is on track to have bought five hundred and fifty million dollars worth of bi",
-          "",
-          701,
-          "19011646"
-        ],
-        [
-          "TSLA",
-          "L",
-          "open",
-          "",
-          "I swear on everything that I had a nightmare last night that I lost money longing Tesla.",
-          "",
-          789,
-          "19011646"
-        ],
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "Remember I bought Robin Hood calls with like the $50 in my Robin Hood account on uh they expired, bro.",
-          "",
-          944,
-          "19011646"
-        ],
-        [
-          "SNAP",
-          "L",
-          "open",
-          "",
-          "Um, but remember, this uh you could have bought this snap the day that that article was released.",
-          "",
-          952,
-          "19011646"
-        ],
-        [
-          "JD",
-          "S",
-          "open",
-          "",
-          "Um, a small one just because I never trade politics, just to see, which is short JD Vance winning the election.",
-          "",
-          1208,
-          "19011646"
-        ],
-        [
-          "FTT",
-          "S",
-          "open",
-          "",
-          "Scary quote for the same reason that Caroline Ellison says sell me all your FTT at $22 and fuck off.",
-          "",
-          1255,
-          "19011646"
-        ],
-        [
-          "CZ",
-          "L",
-          "open",
-          "",
-          "And so basically, the richest crypto person in the world, maybe other than CZ and a couple others, as far as I'm aware, ",
-          "",
-          2562,
-          "19011646"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 10",
       "t": "The Iran War is Resumed, Rory Johnston Interview, Oil Crisis is INSANE, Trump is going CRAZY? - Threadguy: April 9th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "Because Iran has been talking about a $2 million per dollar per ship toll, which sounds very steep, but is much more rea",
-          "",
-          1513,
-          "18996663"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "Apr 10",
+      "t": "Rory Johnston on the Iran War, Strait of Hormuz & Oil Crisis [FULL INTERVIEW]",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "Apr 08",
       "t": "Peter Schiff on Gold's Future, Bitcoin Crashing, & Iran War [FULL INTERVIEW]",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-9.6%",
-          "And I have to admit that your interview in October and the trade it came up with was short Bitcoin, long gold, I think l",
-          "",
-          82,
-          "18986035"
-        ],
-        [
-          "JP",
-          "L",
-          "open",
-          "",
-          "Um, someone in the chat has a question, which is like along the lines of do you think these hedge funds and trading firm",
-          "",
-          1876,
-          "18986035"
-        ]
-      ]
+      "calls": []
+    },
+    {
+      "d": "Apr 08",
+      "t": "Trump's Fake Ceasefire, Market Recap, Anthropics New AI Model, Iran Loves Bitcoin, Steriods Will Revive Sports - Threadguy: April 8th, 2026",
+      "g": "",
+      "llmv": 0,
+      "calls": []
     },
     {
       "d": "Apr 07",
       "t": "Trump's Biggest Threat Yet, Ceasefire, Market Manipulation EXPOSED, Peter Schiff Interivew, Why Gold is Up - Threadguy: April 7th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "ZEC",
-          "L",
-          "green",
-          "+53.2%",
-          "I as much as I would love to talk about crypto and how good my Zcash long looks, we have more important stuff to talk ab",
-          "",
-          41,
-          "18980417"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And then tomorrow we actually have a sneaker guest, Rory Johnston, who, if you know who this is, doesn't follow me, but ",
-          "",
-          68,
-          "18980417"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-9.6%",
-          "And I have to admit that your interview in October and the trade it came up with was short Bitcoin, long gold, I think l",
-          "",
-          566,
-          "18980417"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 06",
       "t": "Market Recap, Crypto is Coming BACK, Trump is Going Crazy, Citrini's New Article, Fashion is RUINED - Threadguy: April 6th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-9.6%",
-          "Peter Schiff, short Bitcoin, long gold.",
-          "",
-          245,
-          "18972893"
-        ],
-        [
-          "TSLA",
-          "S",
-          "open",
-          "",
-          "I think it was up three at one point, and then um Intel percent is test thread is Tesla's short megachurch alpha.",
-          "",
-          1129,
-          "18972893"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "I actually law quickly longed oil but then closed it almost right away because I felt like we dumped way too aggressivel",
-          "",
-          1713,
-          "18972893"
-        ],
-        [
-          "GPS",
-          "L",
-          "open",
-          "",
-          "Analyst number three decided against the counsel of an Omani border agent, the implicit counsel of God, and the extremel",
-          "",
-          2479,
-          "18972893"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 03",
       "t": "Peptides Are The New Pronouns, Drones & Planes In The US vs Iran War, Strait of Hormuz, Nike is COLLAPSING - Threadguy: April 3rd, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "RWR",
-          "L",
-          "open",
-          "",
-          "Wait wait wait wait wait wait what does it sound like RWR lock on sound oh my god oh my god So you're on a plane and you",
-          "",
-          1320,
-          "18960229"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "It's drone warfare and this is what it would look like bro yeah it's like uh we do a sir WDF what they want to get the p",
-          "",
-          1572,
-          "18960229"
-        ],
-        [
-          "MF",
-          "L",
-          "open",
-          "",
-          "Um the fall of Rome MF's don't even care about the NBA I agree it's like the start wait look at this tweet really quick ",
-          "",
-          2108,
-          "18960229"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 02",
       "t": "TBPN Acquired By OpenAI ($100M+), XPL's Disasterous Downfall, Critical Market Analysis, Trump's Speech Exposed The Truth, SpaceX IPO - Threadguy: April 2nd, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "SPX",
-          "S",
-          "open",
-          "",
-          "Dude, if I was a if I thought of myself as a sophisticated investor and I was trading indexes and trying to trade SPX an",
-          "",
-          418,
-          "18956168"
-        ],
-        [
-          "ZEC",
-          "S",
-          "red",
-          "-97.7%",
-          "By the way, this isn't a shot, but on the whole mega church thing, you probably could have started shorting Solana when ",
-          "",
-          696,
-          "18956168"
-        ],
-        [
-          "XPL",
-          "S",
-          "open",
-          "",
-          "A massive 210K XPL short position just opened at 0.1569.",
-          "",
-          1583,
-          "18956168"
-        ],
-        [
-          "TSLA",
-          "L",
-          "open",
-          "",
-          "You want to go along Elon, it's the only way to do it is to buy Tesla, and so you're down to pay some ridiculous premium",
-          "",
-          1713,
-          "18956168"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Apr 01",
       "t": "The $200M+ Crypto Heist, April Fools Sucks, They're Trying To Save Snapchat, Worshipping the Market gods, Artemis II Rocket Launch - Threadguy: April 1st, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "ETH",
-          "S",
-          "green",
-          "+11.0%",
-          "Whether it's like every time we we enter a position, we go short like a dollar of ETH on leverage, just to like say we s",
-          "",
-          384,
-          "18948023"
-        ],
-        [
-          "XPL",
-          "S",
-          "open",
-          "",
-          "Like, you know what it probably is is every time we enter a trade, we should short a dollar of XPL and say, I know you w",
-          "",
-          435,
-          "18948023"
-        ],
-        [
-          "PL",
-          "S",
-          "open",
-          "",
-          "One dollar of margin, PL short, every trade.",
-          "",
-          471,
-          "18948023"
-        ],
-        [
-          "TX",
-          "S",
-          "open",
-          "",
-          "Buy the cashback one, insta sell, DD, up quick buy, first TX new one, quick hundred force Alana, 300,000 views.",
-          "",
-          656,
-          "18948023"
-        ],
-        [
-          "IGV",
-          "S",
-          "open",
-          "",
-          "Um, Russell a percent, the Dow up half, he was 1.25, and IGV software ETF, the worst asset ever of all time, is piece of",
-          "",
-          1085,
-          "18948023"
-        ],
-        [
-          "SNAP",
-          "L",
-          "open",
-          "",
-          "Irenic or we manages $2.5 billion, and we have become a substantial shareholder in Snap.",
-          "",
-          1626,
-          "18948023"
-        ],
-        [
-          "COVID",
-          "S",
-          "open",
-          "",
-          "Go short the entire market, go on CNBC, start talking about why COVID is gonna ruin the world, cry to really commit to t",
-          "",
-          1798,
-          "18948023"
-        ],
-        [
-          "KKR",
-          "S",
-          "open",
-          "",
-          "Somehow found his way under the board of KKR while while continuing to sell his equity in a company that always misses e",
-          "",
-          2002,
-          "18948023"
-        ],
-        [
-          "HOOD",
-          "L",
-          "open",
-          "",
-          "And I have $124 on Robinhood, and so I bought options with low expiry.",
-          "",
-          2029,
-          "18948023"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 31",
       "t": "Andrew Yang Interview - Businessman, Lobbyist, 2020 Presidential Candidate",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "LA",
-          "L",
-          "open",
-          "",
-          "I am in New York, I'm from Virginia, and I just moved from LA.",
-          "",
-          611,
-          "18936276"
-        ],
-        [
-          "WTI",
-          "S",
-          "open",
-          "",
-          "Basically, like you know, you can manipulate oil price in the market, but eventually there's a shortage, there's a fucki",
-          "",
-          3281,
-          "18936276"
-        ],
-        [
-          "ATT",
-          "L",
-          "open",
-          "",
-          "By the way, since you guys are are finance types, um, Verizon uh is paying uh five and a half percent dividend, it's lik",
-          "",
-          3838,
-          "18936276"
-        ],
-        [
-          "AMZN",
-          "S",
-          "open",
-          "",
-          "I don't know, talking about how AI will never replace the film writers and they'll never film is too precious, and then ",
-          "",
-          4317,
-          "18936276"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 26",
       "t": "How To Trade In A Trump Market, Bitcoin Front-Ran The Market Crash, The Diminishing Law of TACOs, The Future of Tao (ft. Mark Jeffrey) - Threadguy: March 26th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And as bad as I want a long oil, and as as many times as I've been in this trade and made money from it, it's just it's ",
-          "",
-          897,
-          "18915505"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-3.6%",
-          "And the more I gained conviction on that, and having seen, you know, having bought my first Bitcoin on Mount Gox, you kn",
-          "",
-          1366,
-          "18915505"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 25",
       "t": "The First Time I Made a $100k Trade, War Updates, AI Bubble is OVER!?, Why Sora Shut Down, Taxes Are K*lling Me - Threadguy: March 25th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "SPCX",
-          "L",
-          "open",
-          "",
-          "In the last two months, I've longed Bitcoin, closed it, longed Tesla on the SpaceX IPO, closed it, longed Palantir becau",
-          "",
-          124,
-          "18909608"
-        ],
-        [
-          "UBER",
-          "S",
-          "open",
-          "",
-          "Cal Uber, and you don't sell a company and you don't be employee number like four move to say it doesn't hate you, first",
-          "",
-          338,
-          "18909608"
-        ],
-        [
-          "VCX",
-          "L",
-          "open",
-          "",
-          "So people are buying this fun VCX at these levels to buy anthropic at a 4.94 trillion dollar valuation.",
-          "",
-          1273,
-          "18909608"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 24",
       "t": "Why TAO is Pumping, TAO Founder Interview, Ceasefire News, How The Iran War Will End - Threadguy: March 24th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-10.0%",
-          "Like, and and uh and I hold the wisdom of the whole the whole industry, and not only that, but like if Ethereum is Ether",
-          "",
-          2181,
-          "18903787"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "This is why we stopped longing oil.",
-          "",
-          3850,
-          "18903787"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 23",
       "t": "The US vs Iran Memewar, Don't Bet Against Trump, Why I'm Long $TAO, BTC, AI Labs Are Getting Desperate - Threadguy: March 23rd, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "I'm a little bit tilted on these crude oil longs.",
-          "",
-          62,
-          "18897364"
-        ],
-        [
-          "BTC",
-          "S",
-          "green",
-          "+10.0%",
-          "Tesla goes up one, Bitcoin goes up five, Tesla goes down one, Bitcoin goes down five, and right now the market is going ",
-          "",
-          384,
-          "18897364"
-        ],
-        [
-          "ZEC",
-          "L",
-          "green",
-          "+116.9%",
-          "Zcash was a long hold.",
-          "",
-          1411,
-          "18897364"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 20",
       "t": "Why Everything's Dumping, Should You Short Oil, the Problem with 4D Chess, Why I Dropped Out - Threadguy: March 20th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "IGV",
-          "S",
-          "open",
-          "",
-          "Russell's down three percent, Q's down two, IGV down two, Nasdaq down 3.4, the Dow down another percent.",
-          "",
-          76,
-          "18882463"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And you guys know I'm I'm pretty I I have been on and off long crude, and I will not let that happen.",
-          "",
-          336,
-          "18882463"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 19",
       "t": "When Will The Iran War End, How To Be A Good Trader, My Accountant Loves Me? - Threadguy: March 19th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "It's just like just the like okay, similar to how when I was closing the oil long, because I'm like, there's just so man",
-          "",
-          372,
-          "18877671"
-        ],
-        [
-          "ZEC",
-          "L",
-          "green",
-          "+111.6%",
-          "You could really make up for a lot because you get handed opportunities like the Zcash, you get handed spots, and that's",
-          "",
-          1975,
-          "18877671"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 18",
       "t": "My NEW Oil Trade, How to Trade WW3, Trump is in Trouble, Oil's CRAZY Price Action, The Greatest Trade in History - Threadguy: March 18th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And maybe I have a little bit too much confidence after this oil long, but like I'm starting to feel pretty good about m",
-          "",
-          257,
-          "18872258"
-        ],
-        [
-          "IGV",
-          "S",
-          "open",
-          "",
-          "So spy clothes down 1.4, Russell down 1.7, Q is down 1.4, software ETF, IGV down 1.34.",
-          "",
-          455,
-          "18872258"
-        ],
-        [
-          "USS",
-          "L",
-          "open",
-          "",
-          "And by like get to a river, and so the first thing that's happening is that the USS Trip uh Tripoli, Tripoli, Tripoli, T",
-          "",
-          652,
-          "18872258"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 17",
       "t": "Trump Admin Resignations, Vanity Fair Covers Crypto, Stablecoins Will Save US Bonds, Citrini Was Right Again - Threadguy: March 17th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "XIV",
-          "L",
-          "open",
-          "",
-          "It's called Meditations, and then this came out, which is like US tech billionaire Peter Thiel is holding secret lecture",
-          "",
-          134,
-          "18865949"
-        ],
-        [
-          "QE",
-          "L",
-          "open",
-          "",
-          "Because instead of the government buying fucking bonds with a QE keeping rates down, yields down, expansion high, stable",
-          "",
-          1453,
-          "18865949"
-        ],
-        [
-          "BTC",
-          "L",
-          "red",
-          "-8.6%",
-          "All roads lead to crypto stablecoin issuers whopping long dated bonds to keep rates down, stimulate the United States ec",
-          "",
-          1685,
-          "18865949"
-        ],
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "And so, are you like are you long oil at at here?",
-          "",
-          2357,
-          "18865949"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Mar 16",
       "t": "Beating the Oil Market, Hyperliquid at $40, Iran War Update, Pok\u00e9mon Go is an AI Company? - Threadguy: March 16th, 2026",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "WTI",
-          "L",
-          "open",
-          "",
-          "This is an oil long, which is an essential resource to the United States of America, who is actively pushing the narrati",
-          "",
-          182,
-          "18859081"
-        ],
-        [
-          "PLTR",
-          "L",
-          "open",
-          "",
-          "And so I sold Palantir, I put my balls on the table, spot, then up to 2x and said, I'm gonna ride 2x and I will be able ",
-          "",
-          200,
-          "18859081"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Jan 15",
@@ -4881,18 +784,7 @@
       "t": "Murad - $10M+ Bitcoin Price Target Explained",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "BTC",
-          "L",
-          "red",
-          "-25.7%",
-          "In this in-depth conversation, ThreadGuy sits down with Murad to break down the future of crypto, meme coins, Bitcoin, m",
-          "",
-          0,
-          "18366624"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Dec 16",
@@ -4948,18 +840,7 @@
       "t": "Peter Schiff - Gold vs Bitcoin, Market Crashes, US Economy Crisis",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "BTC",
-          "S",
-          "green",
-          "+40.6%",
-          "Peter David Schiff is an American stockbroker, financial commentator, and radio personality. He co-founded Echelon Wealt",
-          "",
-          0,
-          "18060232"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Oct 22",
@@ -5078,18 +959,7 @@
       "t": "Kyle Samani - Forward Capital Board Chairman",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "SOL",
-          "L",
-          "red",
-          "-68.0%",
-          "Although our guest this week is a Managing Partner of a registered investment adviser, nothing in this podcast should be",
-          "",
-          0,
-          "17850600"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Sep 15",
@@ -5110,36 +980,14 @@
       "t": "Diogenes - Crypto Founder, Hedge Fund Manager",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "DAO",
-          "S",
-          "open",
-          "",
-          "My interview with Diogenes, Thiel fellow, Crypto founder and hedge fund manager.Diogenes got into crypto at a young age,",
-          "",
-          0,
-          "17818803"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Sep 11",
       "t": "Kyle Samani - Multicoin Co-Founder & Managing Partner",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "SOL",
-          "S",
-          "green",
-          "+68.7%",
-          "My interview with Kyle Samani, Co-founder and managing partner at Multicoin.\u00a0At Multicoin, Kyle Samani led Solana&apos;s",
-          "",
-          0,
-          "17820017"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Sep 10",
@@ -5167,18 +1015,7 @@
       "t": "James Zhang - Sharps Technologies Strategic Advisor",
       "g": "",
       "llmv": 0,
-      "calls": [
-        [
-          "SOL",
-          "L",
-          "red",
-          "-64.5%",
-          "My interview with James Zhang, strategic advisor of Sharps Technologies (STSS on NASDAQ).\u00a0James Zhang is the strategic a",
-          "",
-          0,
-          "17798286"
-        ]
-      ]
+      "calls": []
     },
     {
       "d": "Sep 05",
@@ -309475,10 +305312,10 @@
   },
   "stats": {
     "green_now": null,
-    "avg_ret": -1.9,
+    "avg_ret": null,
     "graded": 0,
-    "open": 429,
-    "shows": 116
+    "open": 0,
+    "shows": 146
   },
   "dispatch": [
     {
@@ -309602,25 +305439,6 @@
       "wklabel": "Week of July 20"
     }
   ],
-  "diag": {
-    "key_present": true,
-    "key_prefix": "sk-ant-api...",
-    "key_len": 108,
-    "llm_errors": [
-      "gemini 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features an",
-      "gemini 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features an",
-      "gemini 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features an",
-      "gemini 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features an",
-      "gemini 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features an",
-      "gemini 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features an",
-      "gemini 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features an",
-      "gemini 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features an"
-    ],
-    "gemini_quota_dead": false,
-    "classify_calls_used": 107,
-    "lexicon_built": 0,
-    "dispatch_built": 0
-  },
   "lexicon": [
     [
       "13F",
