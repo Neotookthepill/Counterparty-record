@@ -974,7 +974,7 @@ body.locked{overflow:hidden;height:100vh}
 
   <!-- TODAY -->
   <section class="view" id="view-today"><div class="wrap">
-    <div class="opener"><img class="mk" data-k="j" src="" alt="" role="presentation"><span class="kick">Read it</span><h2>Today</h2><p>The Daily Dispatch. Every show written down and graded, while the calls still matter.</p><div class="rule-c"></div></div>
+    <div class="opener"><img class="mk" data-k="j" src="" alt="" role="presentation"><span class="kick">Read it</span><h2>Today</h2><p>The Daily Dispatch. Selected shows written down and graded, while the calls still matter.</p><div class="rule-c"></div></div>
     <div class="disp-wrap">
       <article class="pcard edition" id="ed-main"></article>
       <aside class="disp-rail">
@@ -1069,7 +1069,7 @@ body.locked{overflow:hidden;height:100vh}
 
     <section class="view" id="view-tape" aria-label="The Tape">
       <div class="tape-view-inner">
-      <div class="cl-head"><span class="kick">The thing video cannot do</span><h2>The Tape</h2><p>Search every word spoken on the show, timestamped to the second. paste.trade tracks the money; The Record keeps the words.</p></div>
+      <div class="cl-head"><span class="kick">The thing video cannot do</span><h2>The Tape</h2><p>Search every word spoken on the show, timestamped to the second. The Record keeps the words, so nothing said on air is lost.</p></div>
       <div class="tape-search">
         <div class="ts-box"><input id="tape-q" type="text" placeholder="try AMC, fullport, Zcash, never diversify..." aria-label="search the tape"></div>
         <div class="ts-res" id="tape-res"></div>
@@ -1084,15 +1084,11 @@ body.locked{overflow:hidden;height:100vh}
 
     <div class="idx-hero">
       <div class="idx-big"><div class="v num g" id="r-wr"></div><div class="l">on the record, the calls kept to the second</div></div>
-      <div class="idx-note">We log the call, not the exit, so The Record does not score a P&amp;L. That is on purpose. The money lives on paste.trade, where the real round trips are tracked. What The Record does that nothing else does: it writes the calls down, timestamps it to the second, and makes the whole archive indexed. The accountability is that it is on the record and cannot be memory-holed. The chart in the Academy shows what the asset did next, as a lesson, not a verdict.</div>
+      <div class="idx-note">We log the call, not the exit, so The Record does not score a P&amp;L. That is on purpose. What The Record does that nothing else does: it writes the calls down, timestamps them to the second, and makes the whole archive searchable. The accountability is that it is on the record, permanently. The chart in the Academy shows what the asset did next, as a lesson, not a verdict.</div>
     </div>
     <div class="rec-stats" id="rec-stats"></div>
 
-    <div class="opener" style="padding:54px 0 22px"><span class="kick">Who's been on</span><h2 style="font-size:clamp(30px,4.4vw,48px)">The Guest List</h2><p>The voices of the pit, on the record. A living registry, growing with the archive.</p></div>
-    <table class="tbl">
-      <thead><tr><th>Voice</th><th class="r">Affiliation</th></tr></thead>
-      <tbody id="standings-body"></tbody>
-    </table>
+    
 
     <div class="opener" style="padding:54px 0 22px"><span class="kick">The full log</span><h2 style="font-size:clamp(30px,4.4vw,48px)">Every Call</h2><p>By show: the ticker, the direction, and the line he said. The archive that video cannot keep.</p></div>
     <div class="rec-tools" id="rec-tools">
@@ -1106,7 +1102,7 @@ body.locked{overflow:hidden;height:100vh}
   </div></section>
 
   <section class="view" id="view-desk"><div class="wrap">
-    <div class="opener"><img class="mk" data-k="j" src="" alt="" role="presentation"><span class="kick">The analysis</span><h2>The Desk</h2><p class="desk-hook">Fast markets. Real positions. Every thesis has a level that proves it wrong.</p><p>Degen and on-chain analysis across memecoins, perps and wallet flows, written with the thesis, catalyst and invalidation up front. Six positions I hold, each with what the setup teaches. My read, not advice.</p>
+    <div class="opener"><img class="mk" data-k="j" src="" alt="" role="presentation"><span class="kick">The analysis</span><h2>The Desk</h2><p class="desk-hook">Fast markets. Real positions. Every thesis has a level that proves it wrong.</p><p>Degen and on-chain analysis across memecoins, perps and wallet flows, written with the thesis, catalyst and invalidation up front. The positions I hold, each with what the setup teaches. My read, not advice.</p>
         <div class="analyst-card">
           <div class="ac-name">Kenny <span class="ac-handle"><a href="https://x.com/KtheQuant" target="_blank" rel="noopener">@KtheQuant</a></span></div>
           <div class="ac-role">Degen &amp; on-chain analyst &middot; editorial operator behind The Record</div>
@@ -1328,7 +1324,7 @@ function renderLatest(){
 function renderHome(){
   renderLatest();
   /* only write a number when the real data is loaded; never show 0 or a stale fallback */
-  var num=function(id,v){var e=document.getElementById(id); if(e && v && v>0) e.textContent=(v.toLocaleString?v.toLocaleString():v);};
+  var num=function(id,v){var e=document.getElementById(id); if(e && v && v>0) animateCount(e, v, 900);};
   num('h-tot',TAPE.length);
   num('h-lex',LEX?LEX.length:0);
   num('h-desk',(typeof DESK!=='undefined'?DESK.length:0));
@@ -1491,14 +1487,15 @@ function callRow(c){
 function renderRecord(){
   if(!FEED)return;
   var calls=allCalls().length;
-  var span=FEED.length?(FEED[FEED.length-1].d+' \u2192 '+FEED[0].d):'\u2014';
-  document.getElementById('r-wr').innerHTML=FEED.length+'<span class="pct"> shows</span>';
+  var span=FEED.length?(FEED[FEED.length-1].d+' 2025 \u2192 '+FEED[0].d+' 2026'):'\u2014';
+  (function(){ var rw=document.getElementById('r-wr'); if(rw){ rw.innerHTML='<span class="rwnum">0</span><span class="pct"> shows</span>'; animateCount(rw.querySelector('.rwnum'), FEED.length, 1000); } })();
   document.getElementById('rec-stats').innerHTML=
-    '<div class="c"><div class="n num">'+calls+'</div><div class="l">Moments on the tape</div></div>'+
-    '<div class="c"><div class="n g num">'+TAPE.length.toLocaleString()+'</div><div class="l">Lines you can search</div></div>'+
+    '<div class="c"><div class="n num" data-count="'+calls+'">0</div><div class="l">Moments on the tape</div></div>'+
+    '<div class="c"><div class="n g num" data-count="'+TAPE.length+'">0</div><div class="l">Lines you can search</div></div>'+
     '<div class="c"><div class="n num">'+span+'</div><div class="l">Span kept</div></div>'+
-    '<div class="c"><div class="n num">'+ranked().length+'</div><div class="l">Guests on the record</div></div>';
-  document.getElementById('standings-body').innerHTML=ranked().map(function(r){
+    '<div class="c"><div class="n num" data-count="'+calls+'">0</div><div class="l">Calls on the ledger</div></div>';
+  try{ armCounters(); }catch(e){}
+  var _sb=document.getElementById('standings-body'); if(_sb) _sb.innerHTML=ranked().map(function(r){
     return '<tr><td><div class="nm">'+r.nm+'</div></td>'+
       '<td class="r"><div class="ro">'+r.ro+'</div></td></tr>';
   }).join('');
@@ -1536,6 +1533,45 @@ function applyFilter(f){
 
 /* ---------- router ---------- */
 function esc(s){return (''+(s==null?'':s)).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+
+/* ---------- COUNT-UP ANIMATION ---------- */
+function animateCount(el, target, dur){
+  if(!el) return;
+  target = +target || 0;
+  if(target<=0){ el.textContent='0'; return; }
+  dur = dur || 900;
+  var start = null;
+  var startVal = 0;
+  function ease(t){ return 1-Math.pow(1-t,3); } /* easeOutCubic: fast then slows */
+  function frame(ts){
+    if(!start) start = ts;
+    var p = Math.min((ts-start)/dur, 1);
+    var val = Math.round(startVal + (target-startVal)*ease(p));
+    el.textContent = val.toLocaleString();
+    if(p<1) requestAnimationFrame(frame);
+    else el.textContent = target.toLocaleString();
+  }
+  requestAnimationFrame(frame);
+}
+/* animate any element that carries a data-count target when it scrolls into view */
+function armCounters(){
+  var els = document.querySelectorAll('[data-count]');
+  if(!('IntersectionObserver' in window)){
+    els.forEach(function(e){ animateCount(e, e.getAttribute('data-count')); });
+    return;
+  }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting && !en.target.__counted){
+        en.target.__counted = true;
+        animateCount(en.target, en.target.getAttribute('data-count'));
+        io.unobserve(en.target);
+      }
+    });
+  }, {threshold:0.4});
+  els.forEach(function(e){ io.observe(e); });
+}
+
 function sanitizeData(){
   /* Third-party text (transcripts, feed titles, LLM output) is escaped once at the
      data level, so every innerHTML render downstream is inert by construction. */
@@ -1642,6 +1678,7 @@ function hydrate(d){
   if(d.charts){ CALLS.forEach(function(c){ if(d.charts[c.tk]&&d.charts[c.tk].length) c.series=d.charts[c.tk]; }); }
   if(d.plans){ CALLS.forEach(function(c){ var p=d.plans[c.tk]; if(p){ if(p.entry!=null)c.entry=p.entry; if(p.stop!=null)c.invalid=p.stop; if(p.target!=null)c.targets=[['target',p.target]]; c.spoken=true; } }); }
   sanitizeData();
+try{ if(typeof armCounters==='function') armCounters(); }catch(e){}
   /* re-render in place; keeps whatever view the reader is on */
   renderHome();renderToday();renderClass();renderRecord();renderWriting();
 }
