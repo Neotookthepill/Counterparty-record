@@ -276,6 +276,140 @@ def rank_calls(calls, sents):
     return sorted(calls, key=lambda c: c.get("score", 0), reverse=True)
 
 
+
+# ---------- SPEAKER ATTRIBUTION (stage 3 of the engine: attribute or abstain, never guess) ----------
+import re as _re_attr
+HOST = "Threadguy"
+# words that look like a name in "Name - topic" titles but are not guests
+_TITLE_NOISE = {"BACK","THE","LIVE","INSIDE","SELLING","LEOPOLD","BUBBLE","ANTI","FLOOD"}
+
+def guest_from_title(title):
+    """Extract a guest name from an episode title like 'TraderMayne - ...' or 'Arthur Hayes - ...'."""
+    if not title: return None
+    m = _re_attr.match(r"^([A-Z][A-Za-z]+(?:\s[A-Z][a-z]+)?)\s+[-\u2013:]\s+", title)
+    if m:
+        name = m.group(1)
+        if name.upper() not in _TITLE_NOISE and len(name) > 2:
+            return name
+    return None
+
+def attribute_call(call, ep_title):
+    """Attach a speaker to a call. Guest episode -> guest or ambiguous; solo -> host.
+    Rule from the engine: never guess. If a guest episode can't pin the speaker, mark ambiguous."""
+    guest = guest_from_title(ep_title)
+    q = (call.get("quote") or "").lower()
+    if guest:
+        # first-person position language in a guest episode most likely belongs to the guest,
+        # but we cannot be certain the host isn't speaking. Mark as the guest only when the
+        # quote is clearly a personal position; otherwise ambiguous (never silently host).
+        if any(w in q for w in ("i bought","i sold","i'm long","i am long","i'm short","i longed","i shorted","my position","i hold","i'm holding")):
+            call["who"] = guest
+        else:
+            call["who"] = None            # unresolved -> not shown as host, flagged
+            call["who_note"] = "guest episode, speaker unresolved"
+    else:
+        call["who"] = HOST                # solo show: the host is the speaker
+    return call
+
+# ---------- STATEMENT TAXONOMY (stage 4: one honest type, never inflate) ----------
+RETRO_WORDS = ("i called","i said","i told you","called the","nailed","i predicted","back then","i was saying")
+PROB_WORDS  = ("odds","probability","percent chance","% chance","priced at","implied")
+SCENARIO_WORDS = ("if bitcoin","if we get","imagine if","with bitcoin at","in a world where","scenario")
+
+def classify_statement(call):
+    """Assign an honest statement type. Only a full call (level+dir+first-person) is scorable."""
+    q = (call.get("quote") or "").lower()
+    has_level = bool(call.get("secs") is not None and call.get("levels"))  # a stated numeric level
+    first_person = any(w in q for w in ("i bought","i sold","i'm long","i am long","i'm short","i longed","i shorted","i hold","i'm holding","i added","i trimmed"))
+    if any(w in q for w in RETRO_WORDS):
+        call["stype"] = "retrospective_claim"; call["stypeLabel"] = "Retrospective claim"
+    elif any(w in q for w in PROB_WORDS):
+        call["stype"] = "probability_view"; call["stypeLabel"] = "Probability view"
+    elif any(w in q for w in SCENARIO_WORDS):
+        call["stype"] = "scenario"; call["stypeLabel"] = "Scenario"
+    elif first_person:
+        call["stype"] = "disclosed_position"; call["stypeLabel"] = "Disclosed position"
+    elif call.get("dir") in ("L","S"):
+        call["stype"] = "prediction"; call["stypeLabel"] = "A prediction"
+    else:
+        call["stype"] = "observation"; call["stypeLabel"] = "Observation"
+    return call
+
+
+
+# ---------- ASSET DOSSIERS (the memory of a conviction, recomputed each run) ----------
+def compute_dossiers(feed, tape):
+    """Per-asset dossier: call count, long/short ratio, first/last stance, monthly attention,
+    direction flips, and for BTC the on-air price context (prices as spoken during market opens).
+    Doctrine: only what the data proves. Prices come from the tape itself, never invented."""
+    import statistics as _st
+    from collections import defaultdict as _dd, Counter as _Ct
+    from datetime import datetime as _dt, timedelta as _td
+    _M={'Jan':1,'Feb':2,'Mar':3,'Apr':4,'May':5,'Jun':6,'Jul':7,'Aug':8,'Sep':9,'Oct':10,'Nov':11,'Dec':12}
+    def _rd(ds):
+        try:
+            mo,da=ds.split(); m=_M[mo]; y=2025 if m>=9 else 2026
+            return _dt(y,m,int(da))
+        except Exception: return None
+    # BTC on-air marks from the tape
+    _series={}
+    for row in tape:
+        txt=row[1]; low=txt.lower(); date=row[5] if len(row)>5 else ''
+        if ('bitcoin' not in low and 'btc' not in low) or not date: continue
+        if re.search(r'(to|goes to|hit|hits|target|if bitcoin|imagine)\s+\$?\d', low): continue
+        m=re.search(r'bitcoin\s+(?:is\s+|at\s+)?(\d{2,3})(?:\.(\d))?\b(?!\s*%)', low) or re.search(r'(\d{2,3})(?:\.(\d))?\s+on\s+btc', low)
+        if m:
+            v=int(m.group(1))+(int(m.group(2))/10 if m.group(2) else 0)
+            if 40<=v<=150: _series.setdefault(date,[]).append(v)
+    marks={d0:round(_st.median(v),1) for d0,v in _series.items() if _rd(d0)}
+    marks_sorted=sorted(marks.items(), key=lambda kv:_rd(kv[0]))
+    def _after(rd,mn,mx):
+        lo,hi=rd+_td(days=mn),rd+_td(days=mx); best=None
+        for d0,p in marks_sorted:
+            md=_rd(d0)
+            if lo<=md<=hi and (best is None or md<_rd(best[0])): best=(d0,p)
+        return best
+    def _at(rd):
+        for d0,p in reversed(marks_sorted):
+            md=_rd(d0)
+            if _td(0)<=rd-md<=_td(days=3): return (d0,p)
+        return None
+    by_tk=_dd(list)
+    for f in feed:
+        rd=_rd(f.get('d',''))
+        if not rd: continue
+        for c in f.get('calls',[]):
+            by_tk[c['tk']].append({'date':f['d'],'rd':rd,'dir':c['dir'],'quote':(c.get('quote') or '')[:140],
+                                   'secs':c.get('secs'),'epid':c.get('epid'),'who':c.get('who')})
+    out={}
+    for tk,calls in by_tk.items():
+        if len(calls)<3: continue
+        calls.sort(key=lambda c:c['rd'])
+        longs=sum(1 for c in calls if c['dir']=='L')
+        monthly=_Ct(c['date'].split()[0] for c in calls)
+        flips=[]
+        for i in range(1,len(calls)):
+            if calls[i]['dir']!=calls[i-1]['dir']:
+                flips.append({'date':calls[i]['date'],'from':calls[i-1]['dir'],'to':calls[i]['dir'],
+                              'quote':calls[i]['quote'][:110],'epid':calls[i]['epid'],'secs':calls[i]['secs']})
+        ds={'tk':tk,'n':len(calls),'longs':longs,'shorts':len(calls)-longs,
+            'first':{k:calls[0][k] for k in ('date','quote','dir','epid','secs','who')},
+            'last':{k:calls[-1][k] for k in ('date','quote','dir','epid','secs','who')},
+            'monthly':[[m,monthly[m]] for m in ['Sep','Oct','Nov','Dec','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug'] if monthly.get(m)],
+            'flips':flips[:6]}
+        if tk=='BTC' and marks_sorted:
+            ctx=[]
+            for c in calls:
+                a=_at(c['rd']); b=_after(c['rd'],5,45)
+                if a and b and a[0]!=b[0]:
+                    ctx.append({'date':c['date'],'dir':c['dir'],'at':a[1],'later':b[1],'laterDate':b[0],
+                                'chg':round((b[1]-a[1])/a[1]*100,1)})
+            ds['priceCtx']=ctx
+            ds['priceNote']='Prices as spoken on air during market opens. Context, not a verdict.'
+        out[tk]=ds
+    return out
+
+
 def extract_calls_llm(title, desc, sents):
     """Higher quality: ask Claude to read the transcript and return strict JSON calls."""
     import anthropic  # pip install anthropic
