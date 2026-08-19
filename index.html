@@ -862,6 +862,7 @@ body.locked{overflow:hidden;height:100vh}
 a.call-row:hover{background:rgba(202,173,108,.06)}
 .call-listen{font-family:"IBM Plex Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--brass);margin-left:auto;opacity:0;transition:opacity .15s}
 a.call-row:hover .call-listen{opacity:1}
+.search-count{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--brass);padding:0 0 20px;opacity:.85}
 </style></head><body>
 <div id="intro" role="button" tabindex="0" aria-label="Enter The Record">
   <div class="i-eyebrow">The Record</div>
@@ -1106,14 +1107,13 @@ a.call-row:hover .call-listen{opacity:1}
   </div></section>
 
   <section class="view" id="view-desk"><div class="wrap">
-    <div class="opener"><img class="mk" data-k="j" src="" alt="" role="presentation"><span class="kick">The analysis</span><h2>The Desk</h2><p class="desk-hook">Fast markets. Real positions. Every thesis has a level that proves it wrong.</p><p>Degen and on-chain analysis across memecoins, perps and wallet flows, written with the thesis, catalyst and invalidation up front. The positions I hold, each with what the setup teaches. My read, not advice.</p>
+    <div class="opener"><img class="mk" data-k="j" src="" alt="" role="presentation"><span class="kick">The analysis</span><h2>The Desk</h2><p class="desk-hook">Where the read gets written down.</p><p>Pure technical analysis on the majors: large-cap crypto, equities, and select memecoins. Every call framed with its thesis, its catalyst, and the level that proves it wrong. The plan is simple: bring the same discipline to the show that The Record brings to the archive.</p>
         <div class="analyst-card">
           <div class="ac-name">Kenny <span class="ac-handle"><a href="https://x.com/KtheQuant" target="_blank" rel="noopener">@KtheQuant</a></span></div>
           <div class="ac-role">Degen &amp; on-chain analyst &middot; editorial operator behind The Record</div>
-          <p class="ac-bio">Five years across crypto, equities and commodities. I built The Record's pipeline, write the Dispatch for each edition, curate its 93-term Lexicon from the tape, and maintain the standing book below. Before the show: the research. During: the read. After: the memory.</p>
+          <p class="ac-bio">Five years across crypto, equities and commodities. I built The Record's pipeline, write the Dispatch for each edition, and curate its 93-term Lexicon from the tape. Before the show: the research. During: the read. After: the memory.</p>
         </div><div class="rule-c"></div></div>
-    <div class="desk-note">The Desk is written by Kenny (@KtheQuant). I hold every name on this page. These are my own reads, written to be argued with, not investment advice. The level that invalidates each thesis is stated up front, because a call without an exit is just a vibe. <span class="desk-by">Kenny &middot; @KtheQuant</span></div>
-    <div id="desk-body"></div>
+    <div class="desk-note">The Desk is written by Kenny (@KtheQuant). Reads are framed to be argued with, not taken as investment advice. The level that invalidates each thesis comes first, because a call without an exit is just a vibe. <span class="desk-by">Kenny &middot; @KtheQuant</span></div>
   </div></section>
 
   <div class="wrap"><div class="foot">
@@ -1129,39 +1129,7 @@ var EPB="https://www.buzzsprout.com/2535072/episodes/";
 function tapeLink(ep,secs){ if((''+ep).indexOf('yt:')===0){return 'https://www.youtube.com/watch?v='+ep.slice(3)+(secs?('&t='+secs+'s'):'');} return EPB+ep+(secs?('?t='+secs):'');}
 function pnl(v){return (v>=0?'+':'')+v.toFixed(2)+'%';}
 
-var DESK=[
-{tk:'BB',name:'BlackBerry',sector:'QNX \u00b7 physical AI \u00b7 software-defined vehicles',bias:'LONG',conviction:'High conviction',type:'levels',
- thesis:'Not a phone company. QNX is the real-time OS in 275M+ cars, with a royalty backlog near $950M already contracted. Alloy Kore moves them up the stack at 2.5 to 5x the license price, and QNX is the deterministic layer NVIDIA leans on for physical AI in robots and vehicles. A real turnaround underneath it: profitable, net cash, Rule of 40. I sold most of my crypto bag for this.',
- levels:[{k:'target',label:'Target',val:'17.5'},{k:'target',label:'Target',val:'13.5'},{k:'entry',label:'Breakout',val:'10'},{k:'invalidation',label:'Invalidation, weekly close',val:'8'}],
- catalyst:'Q1 FY27 earnings landed June 25, a clean beat and raise. Next: Alloy Kore general release this year, QNX guided around 15% growth.',
- teaches:'How a multi-year base breaks, and why the invalidation is a weekly close below 8, not an intraday wick. Close required, not touch.'},
-{tk:'MU',name:'Micron',sector:'HBM4 memory \u00b7 the only US maker',bias:'LONG',conviction:'Maximum conviction \u00b7 core',type:'levels',
- thesis:'The cheapest way to own the AI memory bottleneck. HBM4 is sold out, the PEG sits near 0.08, a forward PE around 6 against a market at 20. NVIDIA prioritizes their HBM4, the CHIPS Act backs the fabs, and SOCAMM lifts capacity per rack by an order of magnitude. This is the socle of my book.',
- levels:[{k:'target',label:'ATH reclaim',val:'1213'},{k:'entry',label:'Reload zone',val:'950'},{k:'invalidation',label:'Invalidation, weekly close',val:'850'}],
- catalyst:'Earnings landed July 1. The next markers: the post-print weekly close, and HBM4 supply headlines into the July cycle.',
- teaches:'Why a low PEG beats a low price: cheapness plus growth, not cheapness alone. And why you reload into a dip at support instead of chasing the rip.'},
-{tk:'AAOI',name:'Applied Optoelectronics',sector:'1.6T transceivers \u00b7 internal lasers, Texas',bias:'LONG',conviction:'Speculative \u00b7 smallest size',type:'levels',
- thesis:'The only US maker of 1.6T optical transceivers with its own lasers, built in Texas. Microsoft over $200M and Oracle $53M in confirmed orders. But it is my riskiest name and I size it that way: Citron is short with an $85 target, 81.9% of revenue sits in two customers, and a $500M ATM means dilution can land any quarter.',
- levels:[{k:'target',label:'Clean beat',val:'220'},{k:'entry',label:'Zone',val:'160'},{k:'invalidation',label:'Dilution print',val:'120'},{k:'invalidation',label:'Citron PT',val:'85'}],
- catalyst:'Every earnings is a binary. A clean beat with no new dilution runs it toward 220; a dilution print sends it to 120.',
- teaches:'Position sizing is the strategy. A high-reward name with a live short case and dilution risk gets the smallest ticket, not conviction size. Risk first, upside second.'},
-{tk:'HIMS',name:'Hims & Hers',sector:'DTC pharmacy \u00b7 FDA peptides \u00b7 short squeeze',bias:'LONG',conviction:'Medium \u00b7 momentum',type:'levels',
- thesis:'2.5M subscribers, revenue up 33%, and the FDA peptide path formalized. The kicker is a 34% short float into accelerating growth, the textbook setup for a squeeze. I run it with a hard stop, because squeeze theses fail fast when they fail.',
- levels:[{k:'target',label:'Squeeze',val:'48'},{k:'entry',label:'Zone',val:'30'},{k:'invalidation',label:'Stop',val:'28.5'}],
- catalyst:'Earnings and any FDA peptide headline. A short float that size is fuel in both directions.',
- teaches:'What a short squeeze actually is, and why you trade it with a stop. A high short float is a reason to be long and a reason to respect the exit.'},
-{tk:'DRAM',name:'Roundhill Memory ETF',sector:'The whole memory complex, one ticker',bias:'LONG',conviction:'Core \u00b7 thematic',type:'basket',
- thesis:'The clean way to own the entire memory shortage without buying foreign stocks one by one. One ticker holds Micron, Samsung, SK Hynix, SanDisk, Kioxia and the rest. With the shortage deepening, TSMC just pulled Winbond into its DRAM chain, I would rather own the whole complex than guess the single winner.',
- holdings:[{n:'Micron',p:24.6},{n:'Samsung',p:24.1},{n:'SK Hynix',p:23.1},{n:'SanDisk',p:4.9},{n:'Kioxia',p:4.9},{n:'Western Digital',p:4.8},{n:'Nanya',p:3.9},{n:'Winbond',p:2.4}],
- invalidation:'A cycle call, so the exit is a supply signal, not a price: the shortage resolves and oversupply returns.',
- catalyst:'The same memory cycle that drives MU, spread across every maker.',
- teaches:'When you are sure about a theme but not the single winner, an ETF buys the basket. You trade a little upside for not being wrong on the one name.'},
-{tk:'MSTR',name:'MicroStrategy',sector:'Bitcoin treasury \u00b7 leveraged BTC proxy',bias:'LONG',conviction:'Long \u00b7 BTC beta',type:'proxy',
- thesis:'The largest corporate Bitcoin treasury, so MSTR is leveraged exposure to BTC through its mNAV. The setup right now: it slipped to a discount to its own Bitcoin, mNAV under 1, and on June 29 Saylor answered with a Digital Credit Capital Framework, $1B common plus $1B preferred buybacks, a USD reserve covering roughly 26 months of dividends, and a shift to active capital management. You are buying the Bitcoin stack at a discount, with management now defending it. Honest note: the show has framed MSTR as a short before. This is my own, separate view.',
- invalidation:'No single level proves this one wrong. Bitcoin breaking structure does, or the NAV discount persisting despite the buybacks.',
- catalyst:'June 29: the new capital framework, $2B of buybacks, STRC dividend lifted to 12%, BTC monetization capped at $1.25B. Driven by Bitcoin and mNAV, not the software.',
- teaches:'mNAV: market cap against the value of the Bitcoin it holds. Above 1 is a premium, below 1 a discount. Knowing which tells you whether you are overpaying for the stack or buying it cheap.'},
-];
+var DESK=[];
 function levelMap(levels){
   var nums=levels.map(function(l){return parseFloat(l.val);});
   var mn=Math.min.apply(null,nums),mx=Math.max.apply(null,nums);
@@ -1512,15 +1480,37 @@ function renderRecord(){
   renderLog();
 }
 var REC_ALL=false, REC_CAP=10;
-var NAME2SYM={BITCOIN:'BTC',ETHEREUM:'ETH',ETHER:'ETH',SOLANA:'SOL',MICRON:'MU',MICROSTRATEGY:'MSTR',STRATEGY:'MSTR',ZCASH:'ZEC',HYPERLIQUID:'HYPE',PALANTIR:'PLTR',COINBASE:'COIN',NVIDIA:'NVDA',TESLA:'TSLA',AMAZON:'AMZN',ROBINHOOD:'HOOD',SPACEX:'SPCX',COREWEAVE:'CRWV',APPLE:'AAPL',GOOGLE:'GOOGL',ALPHABET:'GOOGL',OIL:'WTI',GOLD:'GC',SILVER:'SI',GAMESTOP:'GME',CIRCLE:'CRCL',SOFI:'SOFI'};
+var NAME2SYM={BITCOIN:'BTC',ETHEREUM:'ETH',ETHER:'ETH',SOLANA:'SOL',MICRON:'MU',MICROSTRATEGY:'MSTR',STRATEGY:'MSTR',ZCASH:'ZEC',HYPERLIQUID:'HYPE',PALANTIR:'PLTR',COINBASE:'COIN',NVIDIA:'NVDA',TESLA:'TSLA',AMAZON:'AMZN',ROBINHOOD:'HOOD',SPACEX:'SPCX',COREWEAVE:'CRWV',APPLE:'AAPL',GOOGLE:'GOOGL',ALPHABET:'GOOGL',OIL:'WTI',GOLD:'GC',SILVER:'SI',GAMESTOP:'GME',CIRCLE:'CRCL',SOFI:'SOFI',AMD:'AMD',ADVANCEDMICRO:'AMD',META:'META',FACEBOOK:'META',NETFLIX:'NFLX',MICROSOFT:'MSFT',UBER:'UBER',XRP:'XRP',RIPPLE:'XRP',INTEL:'INTC',ALIBABA:'BABA',BLACKBERRY:'BB',DISNEY:'DIS',MARVELL:'MRVL',QUALCOMM:'QCOM',ROCKETLAB:'RKLB',SNAPCHAT:'SNAP',SNAP:'SNAP',SPOTIFY:'SPOT',TAKETWO:'TTWO',IBM:'IBM',INTERACTIVEBROKERS:'IBKR',HIMS:'HIMS',DRAM:'DRAM',HBM:'HBM',FTX:'FTX',FTT:'FTT',AMC:'AMC',GAMESTOP:'GME',BROADCOM:'AVGO'};
 function renderLog(){
   var f=document.getElementById('rec-filter'); var q=(f&&f.value||'').trim().toUpperCase();
   var list=FEED;
-  if(q){ var sym=NAME2SYM[q]||q;
-    list=FEED.map(function(s){var cc=(s.calls||[]).filter(function(c){
-      var tk=(c.tk||'').toUpperCase(); var qt=(c.quote||'').toUpperCase();
-      return tk.indexOf(sym)>-1 || tk.indexOf(q)>-1 || qt.indexOf(q)>-1;
-    });return cc.length?{d:s.d,t:s.t,g:s.g,calls:cc}:null;}).filter(Boolean);
+  if(q){ var sym=NAME2SYM[q]||'';
+    var isTickerLike = q.length<=5 && q.indexOf(' ')<0;
+    /* is the query an exact ticker in our universe? then be strict. */
+    var qIsTicker = false;
+    for(var i=0;i<FEED.length && !qIsTicker;i++){ var cs=FEED[i].calls||[]; for(var j=0;j<cs.length;j++){ if((cs[j].tk||'').toUpperCase()===q){ qIsTicker=true; break; } } }
+    function callScore(c, showTitle){
+      var tk=(c.tk||'').toUpperCase(), qt=(c.quote||'').toUpperCase(), ti=(showTitle||'').toUpperCase();
+      /* exact ticker match: always the strongest */
+      if(tk===q) return 100;
+      /* mapped name -> ticker (micron -> MU): strong */
+      if(sym && tk===sym) return 95;
+      /* if the query itself is a known ticker, do NOT match on quote text (avoids MU matching "minting") */
+      if(qIsTicker) return 0;
+      /* ticker-like partial (MST -> MSTR) */
+      if(isTickerLike && tk.indexOf(q)===0) return 70;
+      /* free-text name search inside the quote (bitcoin, mania, etc.) */
+      if(!isTickerLike && qt.indexOf(q)>-1) return 55;
+      /* episode title match */
+      if(!isTickerLike && ti.indexOf(q)>-1) return 35;
+      return 0;
+    }
+    list=FEED.map(function(s){
+      var scored=(s.calls||[]).map(function(c){return {c:c, sc:callScore(c, s.t)};}).filter(function(x){return x.sc>0;});
+      if(!scored.length) return null;
+      scored.sort(function(a,b){return b.sc-a.sc;});
+      return {d:s.d,t:s.t,g:s.g,calls:scored.map(function(x){return x.c;})};
+    }).filter(Boolean);
   }
   var shown=(REC_ALL||q)?list:list.slice(0,REC_CAP);
   var body=shown.map(function(s){
@@ -1531,7 +1521,9 @@ function renderLog(){
   if(!q && list.length>REC_CAP){
     body+='<button class="rec-more" id="rec-more">'+(REC_ALL?'Show fewer':'Show all '+list.length+' shows')+'</button>';
   }
-  document.getElementById('record-body').innerHTML=body||'<div class="ts-empty">No call matches that ticker yet.</div>';
+  var totalFound=0; list.forEach(function(s){totalFound+=(s.calls||[]).length;});
+  var countBar = q ? '<div class="search-count">'+totalFound+' call'+(totalFound!==1?'s':'')+' matching \u201c'+q.toLowerCase()+'\u201d</div>' : '';
+  document.getElementById('record-body').innerHTML=(q?countBar:'')+(body||'<div class="ts-empty">No call matches \u201c'+(q||'').toLowerCase()+'\u201d. Try a ticker (MU, BTC) or a name (micron, bitcoin).</div>');
 }
 function applyFilter(f){
   document.querySelectorAll('#record-body .call').forEach(function(el){var show=true;
