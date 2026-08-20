@@ -196,8 +196,29 @@ def extract_calls_heuristic(sents):
         if not tickers:
             continue
         tk = tickers[0]
-        is_long = any(k in low for k in LONG_WORDS) and not any(k in low for k in TIME_LONG)
-        d = "L" if is_long else ("S" if any(k in low for k in SHORT_WORDS) else None)
+        # word-boundary matching so "no longer", "along", "belong" never trigger "long"
+        def _hit(words):
+            for k in words:
+                if ' ' in k or "'" in k:
+                    if k in low: return True
+                elif re.search(r'\b'+re.escape(k)+r'\b', low): return True
+            return False
+        # object guard: "bought my watch / his car / um my monitors" is not a position on the ticker
+        if re.search(r"\b(bought|buying|buy|sold|selling)\s+(?:(?:um|uh|like|my|his|her|their|our|a|an|the|some|new)\s+){1,4}(watch|watches|house|car|cars|monitor|monitors|phone|phones|ticket|tickets|dinner|shoes|jersey|jacket|gift|gifts|pack|packs|burger|coffee|clothes|furniture|chair|desk|keyboard)\b", low):
+            continue
+        is_long = _hit(LONG_WORDS) and not any(k in low for k in TIME_LONG)
+        d = "L" if is_long else ("S" if _hit(SHORT_WORDS) else None)
+        # proximity gate: direction word must sit within 8 tokens of the ticker or its name
+        if d:
+            words=low.split()
+            names=[tk.lower()]
+            nm=sym2name.get(tk,'').lower()
+            if nm: names.append(nm.split()[0])
+            tpos=[i for i,wd in enumerate(words) if any(n in wd for n in names)]
+            dws=LONG_WORDS if d=="L" else SHORT_WORDS
+            dpos=[i for i,wd in enumerate(words) if any((k.split()[0] in wd) for k in dws)]
+            if tpos and dpos and min(abs(a-b) for a in tpos for b in dpos)>8:
+                d=None
         if not d:
             continue
         q = sent.strip()
@@ -387,14 +408,21 @@ def compute_dossiers(feed, tape):
         calls.sort(key=lambda c:c['rd'])
         longs=sum(1 for c in calls if c['dir']=='L')
         monthly=_Ct(c['date'].split()[0] for c in calls)
+        _SP=[r"\bi'?m long\b",r"\bi am long\b",r"\bi'?m short\b",r"\bi am short\b",r"\bi bought\b",r"\bi sold\b",r"\bi longed\b",r"\bi shorted\b",r"\bi'?m buying\b",r"\bi'?m selling\b",r"\bi hold\b",r"\bi'?m holding\b",r"\bi added\b",r"\bi trimmed\b",r"\bi entered\b",r"\bmy (position|long|short|bag)\b",r"\bsell the house and buy\b",r"\bback up the truck\b",r"\bi'?d (buy|sell|long|short)\b"]
+        def _isst(q):
+            q=(q or '').lower()
+            return any(re.search(p,q) for p in _SP)
+        _stances=[c for c in calls if _isst(c['quote'])]
         flips=[]
-        for i in range(1,len(calls)):
-            if calls[i]['dir']!=calls[i-1]['dir']:
-                flips.append({'date':calls[i]['date'],'from':calls[i-1]['dir'],'to':calls[i]['dir'],
-                              'quote':calls[i]['quote'][:110],'epid':calls[i]['epid'],'secs':calls[i]['secs']})
+        for i in range(1,len(_stances)):
+            if _stances[i]['dir']!=_stances[i-1]['dir']:
+                flips.append({'date':_stances[i]['date'],'from':_stances[i-1]['dir'],'to':_stances[i]['dir'],
+                              'quote':_stances[i]['quote'][:110],'epid':_stances[i]['epid'],'secs':_stances[i]['secs']})
         ds={'tk':tk,'n':len(calls),'longs':longs,'shorts':len(calls)-longs,
             'first':{k:calls[0][k] for k in ('date','quote','dir','epid','secs','who')},
-            'last':{k:calls[-1][k] for k in ('date','quote','dir','epid','secs','who')},
+            'lastMention':{k:calls[-1][k] for k in ('date','quote','dir','epid','secs','who')},
+            'lastStance':({k:_stances[-1][k] for k in ('date','quote','dir','epid','secs','who')} if _stances else None),
+            'nStances':len(_stances),
             'monthly':[[m,monthly[m]] for m in ['Sep','Oct','Nov','Dec','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug'] if monthly.get(m)],
             'flips':flips[:6]}
         if tk=='BTC' and marks_sorted:
