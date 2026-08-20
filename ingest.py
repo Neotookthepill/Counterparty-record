@@ -179,46 +179,57 @@ NOT_TICKERS = {"TA","PFP","FUD","LP","TP","SP","AL","SL","PNL","ATH","CEO","CTO"
 # A sentence that negates the position is not a call.
 NEGATIONS = ("not long","not short","i'm not","i am not","no position","no positive exposure",
              "no exposure","wouldn't long","wouldn't short","can't long","can't short",
-             "never long","never short","not buying","not selling","don't own","do not own")
+             "never long","never short","not buying","not selling","don't own","do not own",
+             "never buy","never sell","never buying","never selling","would never",
+             "wouldn't buy","wouldn't sell","don't buy","doesn't buy","don't sell")
 # "long" as duration, not direction.
 TIME_LONG = ("how long","long time","long day","long story","for a long","too long","longer than",
-             "so long","as long as","all day long","long ago","long run","long-term relationship")
+             "so long","as long as","all day long","long ago","long run","long-term relationship","long term","short term","long-term","short-term")
 
 def extract_calls_heuristic(sents):
     """No-LLM fallback: find ticker (by pattern) + direction in a sentence, keep as a receipt."""
-    sym2name = {sym: name for name, sym in TICKERS.items()}
+    from collections import defaultdict as _dd_alias
+    sym2names = _dd_alias(list)
+    for _nm0, _sym0 in NAME2SYM.items():   # NAME2SYM is the superset (TICKERS + extra names)
+        sym2names[_sym0].append(_nm0)
     calls = []
     for t, sent in sents:
         low = " " + sent.lower() + " "
         if any(n in low for n in NEGATIONS):
             continue
+        if re.search(r"\b(bought|buying|buy|sold|selling)\s+(?:(?:um|uh|like|my|his|her|their|our|a|an|the|some|new)\s+){1,4}(watch|watches|house|car|cars|monitor|monitors|phone|phones|ticket|tickets|dinner|shoes|jersey|jacket|gift|gifts|pack|packs|burger|coffee|clothes|furniture|chair|desk|keyboard|lakers|nike)\b", low):
+            continue
         tickers = [x for x in detect_tickers(sent) if x not in NOT_TICKERS]
         if not tickers:
             continue
         tk = tickers[0]
-        # word-boundary matching so "no longer", "along", "belong" never trigger "long"
-        def _hit(words):
-            for k in words:
-                if ' ' in k or "'" in k:
-                    if k in low: return True
-                elif re.search(r'\b'+re.escape(k)+r'\b', low): return True
-            return False
-        # object guard: "bought my watch / his car / um my monitors" is not a position on the ticker
-        if re.search(r"\b(bought|buying|buy|sold|selling)\s+(?:(?:um|uh|like|my|his|her|their|our|a|an|the|some|new)\s+){1,4}(watch|watches|house|car|cars|monitor|monitors|phone|phones|ticket|tickets|dinner|shoes|jersey|jacket|gift|gifts|pack|packs|burger|coffee|clothes|furniture|chair|desk|keyboard)\b", low):
+        # ---------- ASSERTION TEMPLATES (structural detection, not keyword co-occurrence) ----------
+        # A call exists only if the speaker ASSERTS a position: first-person or imperative
+        # direction verb, with the ASSET inside the verb's object window (next 8 tokens).
+        d=None
+        _names=list(dict.fromkeys([tk.lower()]+[a.split()[0] for a in sym2names.get(tk,[]) if a]))
+        def _asset_in(window):
+            return any(n and n in ' '.join(window) for n in _names)
+        toks=low.split()
+        A_LONG=r"\b(?:i|we)\b(?:'m|'re| am| are| was| were)?(?:\s+\w+){0,3}?\s+(long|longed|buying|buy|bought|holding|hold|accumulating|adding|added)\b|^(?:buy|long|buying)\b|(?:i'?d |you should |we should |gotta )(buy|long)\b|\bmy .{0,14}\b(long|bag|position)\b|\b(long)\s+(?:some\s+|more\s+)?%%TK%%|\bsell the house and buy\s+%%TK%%"
+        A_SHORT=r"\b(?:i|we)\b(?:'m|'re| am| are| was| were)?(?:\s+\w+){0,3}?\s+(short|shorted|shorting|selling|sell|sold|fading|faded|trimming|trimmed)\b|^(?:sell|short|fade|shorting)\b|(?:i'?d |you should |we should |gotta )(sell|short|fade)\b|\bmy .{0,14}\bshort\b|\b(short)\s+(?:some\s+|more\s+)?%%TK%%"
+        _tkpat='(?:'+('|'.join(re.escape(n) for n in _names if n))+')'
+        _HEDGE_FILLER=("watching","thinking","considering","maybe","might","could","possibly","curious","wondering")
+        _CONDITIONAL=("if i were","if i was","if we were","if i'd","if i had","if we had")
+        if any(k in low for k in _CONDITIONAL):
             continue
-        is_long = _hit(LONG_WORDS) and not any(k in low for k in TIME_LONG)
-        d = "L" if is_long else ("S" if _hit(SHORT_WORDS) else None)
-        # proximity gate: direction word must sit within 8 tokens of the ticker or its name
-        if d:
-            words=low.split()
-            names=[tk.lower()]
-            nm=sym2name.get(tk,'').lower()
-            if nm: names.append(nm.split()[0])
-            tpos=[i for i,wd in enumerate(words) if any(n in wd for n in names)]
-            dws=LONG_WORDS if d=="L" else SHORT_WORDS
-            dpos=[i for i,wd in enumerate(words) if any((k.split()[0] in wd) for k in dws)]
-            if tpos and dpos and min(abs(a-b) for a in tpos for b in dpos)>8:
-                d=None
+        for pat,dd in ((A_LONG.replace('%%TK%%',_tkpat),'L'),(A_SHORT.replace('%%TK%%',_tkpat),'S')):
+            for m in re.finditer(pat, low):
+                if any(k in low for k in TIME_LONG) or any(k in low for k in NEGATIONS): break
+                if any(hw in m.group(0) for hw in _HEDGE_FILLER): continue
+                # object window: 8 tokens after the verb
+                start_tok=len(low[:m.end()].split())
+                window=toks[start_tok:start_tok+8]
+                # allow asset slightly BEFORE the verb too ("Micron, I bought it"): 4 tokens back
+                back=toks[max(0,start_tok-6):start_tok]
+                if _asset_in([m.group(0)]) or _asset_in(window) or (_asset_in(back) and ('it' in window[:3] or _asset_in(window))):
+                    d=dd; break
+            if d: break
         if not d:
             continue
         q = sent.strip()
@@ -237,7 +248,7 @@ def extract_calls_heuristic(sents):
         if c["tk"] in seen: continue
         seen.add(c["tk"]); uniq.append(c)
     for c in uniq:
-        c["levels"] = extract_levels(sents, sym2name.get(c["tk"], c["tk"].lower()))
+        c["levels"] = extract_levels(sents, (sym2names.get(c["tk"],[c["tk"].lower()])[0] if sym2names.get(c["tk"]) else c["tk"].lower()))
     return uniq
 
 
