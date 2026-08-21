@@ -169,7 +169,7 @@ a{color:inherit}
 .cl-tabs button[aria-current="true"]{color:var(--brass);border-bottom-color:var(--brass)}
 .cl-pane{display:none}
 .cl-pane.on{display:block;animation:fade .35s ease}
-.cl-head{margin:0 0 20px}
+.cl-head{margin:28px 0 20px}
 .cl-head .kick{display:block;margin-bottom:10px}
 .cl-head h2{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:clamp(28px,4vw,42px);color:var(--cream);margin:0 0 8px;line-height:1.02}
 .cl-head p{font-family:"Newsreader",serif;font-size:15px;color:var(--cream-2);margin:0;max-width:640px;line-height:1.5}
@@ -245,7 +245,7 @@ a{color:inherit}
 .chip[aria-pressed="true"]{background:var(--brass);color:var(--navy);border-color:var(--brass)}
 .show{border-top:1px solid var(--ln);padding:24px 0 8px}
 .show-h{display:flex;align-items:baseline;gap:14px;margin-bottom:4px}
-.show-h h3{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:23px;color:var(--cream);margin:0;flex:1;line-height:1.16}
+.show-h h3{font-family:"Cormorant Garamond",serif;font-style:italic;font-weight:500;font-size:16px;color:var(--cream-2);margin:0;flex:1;line-height:1.2}
 .show-h .when{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--cream-3);white-space:nowrap}
 .grp{font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass);margin:16px 0 2px}
 .call{display:flex;align-items:center;gap:14px;padding:11px 0;border-top:1px solid var(--ln-2);transition:background .14s,padding-left .14s,border-color .14s;margin:0 -10px;padding-left:10px;padding-right:10px;border-radius:4px}
@@ -919,7 +919,7 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
 .ds-thin{padding:14px 20px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
 .ds-thin .ds-tk{font-size:16px}
 .ds-thin-txt{font-family:"IBM Plex Mono",monospace;font-size:11.5px;letter-spacing:.03em;color:rgba(255,255,255,.55)}
-.show-from{display:block;font-family:"IBM Plex Mono",monospace;font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:rgba(255,255,255,.32);margin-bottom:3px}
+.show-from{display:block;font-family:"IBM Plex Mono",monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.12em;color:var(--brass);opacity:.75;margin-bottom:4px}
 .show-h h3{font-size:15px!important;font-weight:500!important;color:rgba(255,255,255,.55)!important;font-family:"Newsreader",serif;font-style:italic;line-height:1.35}
 .ds-ratio-cap{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.06em;color:rgba(255,255,255,.35);text-transform:none}
 .ac-honest{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.03em;color:rgba(255,255,255,.4);margin-top:10px}
@@ -961,6 +961,7 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
 .src-ic-link:hover{background:rgba(202,173,108,.1)}
 .src-ic-link:hover .src-ic{fill:var(--brass)}
 .ds-early{display:block;font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.06em;color:var(--brass);opacity:.75;margin:2px 0 0}
+#view-record .opener{padding-top:30px}
 </style></head><body>
 <div id="intro">
   <div class="i-eyebrow">The Record</div>
@@ -1134,14 +1135,9 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
     </section>
 
   <section class="view" id="view-class"><div class="wrap">
-    <div class="opener"><img class="mk" data-k="j" src="" alt="" role="presentation"><span class="kick">Learn it</span><h2>Academy</h2><p>Learn markets through the show's real moments. Take an actual call, read the chart the way the desk read it, and keep the lesson.</p><div class="rule-c"></div></div>
-
-    <div class="cl-tabs" id="cl-tabs">
-      <button data-pane="anatomy" aria-current="true">Anatomy of a call</button>
-    </div>
+    <div class="opener"><img class="mk" data-k="j" src="" alt="" role="presentation"><span class="kick">Learn it</span><h2>Academy</h2><p>Take an actual call, read the chart the way the desk read it, and keep the lesson. Four calls, rebuilt as lessons: the source moment, the setup, and what price did next. The charts are editorial reconstructions made to teach the read, not to infer an exit or score a P&amp;L.</p><div class="rule-c"></div></div>
 
     <div class="cl-pane on" id="cl-anatomy">
-      <div class="cl-head"><span class="kick">Case studies from the show</span><h2>Anatomy of a Call</h2><p>Four calls from the show, rebuilt as lessons. See the source moment, the setup the desk was watching, and what price did next. The charts are editorial reconstructions made to teach the read, not to infer an exit or score a P&amp;L.</p></div>
       <div class="ac-wrap">
         <div class="ac-tabs" id="ac-tabs"></div>
         <div class="ac-body">
