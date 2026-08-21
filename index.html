@@ -957,6 +957,9 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
 @media(max-width:900px){.flow-pillars.assets-grid{flex-wrap:wrap}.source-sq{width:100%;padding:10px 0}}
 .own-essays{display:flex;align-items:baseline;gap:12px;margin:56px 0 4px;padding-top:22px;border-top:1px solid rgba(255,255,255,.07)}
 .own-essays-empty{font-family:"Newsreader",serif;font-style:italic;font-size:13px;color:rgba(255,255,255,.4)}
+.src-ic-link{display:inline-flex;padding:2px;border-radius:3px;transition:background .15s}
+.src-ic-link:hover{background:rgba(202,173,108,.1)}
+.src-ic-link:hover .src-ic{fill:var(--brass)}
 </style></head><body>
 <div id="intro">
   <div class="i-eyebrow">The Record</div>
@@ -1015,8 +1018,12 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
             <span class="source-sq-k" id="src-k">Weekdays</span>
             <span class="source-sq-name">Threadguy</span>
             <div class="source-sq-icons">
-              <svg viewBox="0 0 24 24" class="src-ic"><path d="M4 2 2 6v14h6v2h4l2-2h4l4-4V2H4zm16 12-3 3h-4l-2 2v-2H7V4h13v10z"/><path d="M14.5 7h2v5h-2zM9.5 7h2v5h-2z"/></svg>
-              <svg viewBox="0 0 24 24" class="src-ic"><path d="M18.9 2H22l-7.6 8.7L23 22h-6.9l-5.4-6.9L4.4 22H1.3l8.1-9.3L1 2h7l4.9 6.4L18.9 2zm-1.2 18h1.9L7.3 4h-2l12.4 16z"/></svg>
+              <a href="https://twitch.tv/threadguy" target="_blank" rel="noopener" aria-label="Threadguy on Twitch" class="src-ic-link">
+                <svg viewBox="0 0 24 24" class="src-ic"><path d="M4 2 2 6v14h6v2h4l2-2h4l4-4V2H4zm16 12-3 3h-4l-2 2v-2H7V4h13v10z"/><path d="M14.5 7h2v5h-2zM9.5 7h2v5h-2z"/></svg>
+              </a>
+              <a href="https://x.com/counterpartytv" target="_blank" rel="noopener" aria-label="Counterparty on X" class="src-ic-link">
+                <svg viewBox="0 0 24 24" class="src-ic"><path d="M18.9 2H22l-7.6 8.7L23 22h-6.9l-5.4-6.9L4.4 22H1.3l8.1-9.3L1 2h7l4.9 6.4L18.9 2zm-1.2 18h1.9L7.3 4h-2l12.4 16z"/></svg>
+              </a>
             </div>
           </div>
 
@@ -1579,7 +1586,7 @@ function renderWriting(){
   list.innerHTML=WRITING.length?WRITING.map(function(w,i){
     var sub=(w.body&&w.body[0])?String(w.body[0]).split('. ').slice(0,1)[0]+'.':'';
     return '<div class="wr-row" data-wi="'+i+'"><div class="wr-main"><h3>'+w.title+'</h3><p class="wr-sub">'+sub+'</p><div class="wr-meta">'+w.author+' &middot; '+w.date+' &middot; '+w.read+'</div></div><span class="wr-read">READ</span></div>';
-  }).join(''):'<div class="lex-empty" style="display:block">First essays land here soon.</div>';
+  }).join(''):'';
 }
 function openArticle(i){
   var w=WRITING[i]; if(!w)return;
