@@ -955,13 +955,15 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
 .source-sq-icons{display:flex;gap:8px;margin-top:2px}
 .src-ic{width:15px;height:15px;fill:rgba(255,255,255,.4)}
 @media(max-width:900px){.flow-pillars.assets-grid{flex-wrap:wrap}.source-sq{width:100%;padding:10px 0}}
+.own-essays{display:flex;align-items:baseline;gap:12px;margin:56px 0 4px;padding-top:22px;border-top:1px solid rgba(255,255,255,.07)}
+.own-essays-empty{font-family:"Newsreader",serif;font-style:italic;font-size:13px;color:rgba(255,255,255,.4)}
 </style></head><body>
-<div id="intro" role="button" tabindex="0" aria-label="Enter The Record">
+<div id="intro">
   <div class="i-eyebrow">The Record</div>
   <div class="hero-mark"><img class="relief-hero" data-k="j" src="" alt="Counterparty"></div>
   <img class="intro-word" data-k="wc" src="" alt="Counterparty">
   <div class="intro-rule"></div>
-  <div class="intro-tag">What gets indexed here does not disappear.</div>
+  <div class="intro-tag">Said once. Kept on the record.</div>
   <div class="intro-live" id="fs-top"><span class="dot" id="live-dot"></span><span id="live-label">Live</span><span class="sep">&middot;</span>Mon-Fri<span class="sep">&middot;</span>8:30 ET</div>
   <button class="intro-enter" id="enter">Enter the Record</button>
   
@@ -1094,20 +1096,11 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
     <section class="view" id="view-writing" aria-label="Writing">
       <div class="wrap" style="padding-top:96px;padding-bottom:80px">
         <div class="sec-head">
-          <span class="kick">Essays from the desk</span>
-          <h2>Writing</h2>
-          <p class="sec-lede">Original research and longer arguments, signed and dated.</p>
+          <span class="kick">From the team</span>
+          <h2>Also worth your time</h2>
+          <p class="sec-lede">Writing from the people who make the show. Hosted on counterparty.tv, linked here, not reproduced.</p>
         </div>
-        <div class="wr-list" id="wr-list"></div>
-        <article class="wr-article" id="wr-article" hidden></article>
-
-        <div class="fromteam">
-          <div class="sec-head" style="margin-top:64px">
-            <span class="kick">From the team</span>
-            <h3 style="font-family:'Newsreader',serif;font-size:clamp(22px,2.6vw,28px);color:var(--cream);margin:6px 0 6px">Also worth your time</h3>
-            <p class="sec-lede">Writing from the people who make the show. Hosted on counterparty.tv, linked here, not reproduced.</p>
-          </div>
-          <div class="ft-list">
+        <div class="ft-list">
             <a class="ft-row" href="https://www.counterparty.tv/post?slug=how-to-be-good-at-crypto" target="_blank" rel="noopener">
               <div class="ft-main"><h4>How to Be Good at Crypto</h4><p>Tulip's case for building real edge: read widely outside crypto, write to sharpen your thinking, learn to query on-chain data, and trade across more than one market.</p></div>
               <div class="ft-meta">Tulip &middot; Jul 7, 2026 &middot; counterparty.tv &#8599;</div>
@@ -1122,6 +1115,13 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
             </a>
           </div>
         </div>
+
+        <div class="own-essays">
+          <span class="kick">Essays from the desk</span>
+          <span class="own-essays-empty">First essays land here soon.</span>
+        </div>
+        <div class="wr-list" id="wr-list"></div>
+        <article class="wr-article" id="wr-article" hidden></article>
       </div>
     </section>
 
@@ -1130,9 +1130,6 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
 
     <div class="cl-tabs" id="cl-tabs">
       <button data-pane="anatomy" aria-current="true">Anatomy of a call</button>
-      
-      <button data-pane="archetypes">Archetypes</button>
-      
     </div>
 
     <div class="cl-pane on" id="cl-anatomy">
@@ -1231,7 +1228,7 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
   </div></section>
 
   <section class="view" id="view-desk"><div class="wrap">
-    <div class="opener"><img class="mk" data-k="j" src="" alt="" role="presentation"><span class="kick">The analysis</span><h2>The Desk</h2><p class="desk-hook">Where the read gets written down.</p><p>Pure technical analysis on the majors: large-cap crypto, equities, and select memecoins. Every call framed with its thesis, its catalyst, and the level that proves it wrong. The plan is simple: bring the same discipline to the show that The Record brings to the archive.</p>
+    <div class="opener"><img class="mk" data-k="j" src="" alt="" role="presentation"><span class="kick">The analysis</span><h2>The Desk</h2><p class="desk-hook">Where the read gets written down.</p><p>Technical reads on majors and select memecoins. Thesis, catalyst, invalidation level, every time.</p>
         <div class="analyst-card">
           <div class="ac-name">Kenny <span class="ac-handle"><a href="https://x.com/KtheQuant" target="_blank" rel="noopener">@KtheQuant</a></span></div>
           <div class="ac-role">Degen &amp; on-chain analyst &middot; editorial operator behind The Record</div>
@@ -1882,13 +1879,24 @@ function renderSubtabs(v){
     return '<button class="subtab'+(pair[0]===v?' on':'')+'" data-view="'+pair[0]+'">'+pair[1]+'</button>';
   }).join('');
 }
-function show(v){
+function show(v, _skipPush){
   var door=doorFor(v);
   document.querySelectorAll('#nav button').forEach(function(b){b.setAttribute('aria-current',(door&&b.dataset.door===door)?'true':'false');});
   document.querySelectorAll('.view').forEach(function(s){s.classList.toggle('on',s.id==='view-'+v);});
   renderSubtabs(v);
   window.scrollTo({top:0,behavior:'smooth'});
+  /* real browser history: back/forward moves between sections, links are shareable */
+  if(!_skipPush){
+    try{
+      var newHash='#'+v;
+      if(location.hash!==newHash) history.pushState({view:v}, '', newHash);
+    }catch(e){}
+  }
 }
+window.addEventListener('popstate', function(e){
+  var v=(e.state && e.state.view) || (location.hash ? location.hash.slice(1) : 'home');
+  try{ show(v, true); }catch(err){}
+});
 document.getElementById('nav').addEventListener('click',function(e){var b=e.target.closest('button');if(b)show(b.dataset.view);});
 document.addEventListener('click',function(e){var t=e.target.closest('#subtabs .subtab');if(t)show(t.dataset.view);});
 document.getElementById('brand').addEventListener('click',function(){show('home');});
@@ -1930,9 +1938,8 @@ function replayIntro(){
   document.body.classList.add('locked'); document.body.classList.add('pre-enter');
   window.scrollTo({top:0});
 }
-document.getElementById('enter').addEventListener('click',function(e){e.stopPropagation();enterDesk();});
-intro.addEventListener('click',enterDesk);
-intro.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '||e.key==='Escape')enterDesk();});
+document.getElementById('enter').addEventListener('click',enterDesk);
+document.addEventListener('keydown',function(e){if(e.key==='Escape' && !leaving) enterDesk();});
 document.getElementById('replay').addEventListener('click',replayIntro);
 document.addEventListener('click',function(e){
   var fil=e.target.closest('.lex-fil'); if(fil){LEXFILTER=fil.getAttribute('data-cat');renderLexicon();return;}
