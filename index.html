@@ -641,7 +641,7 @@ body.locked{overflow:hidden;height:100vh}
 .flow-foot{text-align:center;margin-top:40px;font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.24em;text-transform:uppercase;color:var(--cream-3)}
 .ff-sep{margin:0 12px;color:var(--brass)}
 .m-kick{text-align:center;font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.28em;text-transform:uppercase;color:var(--brass);margin-bottom:34px}
-.m-h2{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:clamp(30px,4.4vw,58px);line-height:1.0;letter-spacing:-.02em;color:var(--cream);margin:0 0 18px}
+.m-h2{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:clamp(24px,2.8vw,34px);line-height:1.05;letter-spacing:-.01em;color:var(--cream);margin:0 0 12px}
 .m-p{font-family:"Newsreader",serif;font-size:clamp(15px,1.7vw,18px);line-height:1.55;color:var(--cream-2);margin:0;max-width:60ch}
 /* edition */
 
@@ -672,14 +672,14 @@ body.locked{overflow:hidden;height:100vh}
 .pn b{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:clamp(34px,4vw,50px);color:var(--cream);line-height:1}
 .pn span{font-family:"IBM Plex Mono",monospace;font-size:8px;letter-spacing:.12em;text-transform:uppercase;color:var(--cream-3);margin-top:10px}
 /* operator */
-.m-operator{padding:96px 0;display:grid;grid-template-columns:1.15fr .85fr;gap:7vw;align-items:center;border-top:1px solid var(--ln)}
+.m-operator{padding:52px 0;display:grid;grid-template-columns:1.15fr .85fr;gap:6vw;align-items:center;border-top:1px solid var(--ln)}
 
-.op-card{border:1px solid var(--ln);border-radius:8px;padding:40px;text-align:center}
+.op-card{border:1px solid var(--ln);border-radius:8px;padding:22px;text-align:center}
 .opc-tag{font-family:"IBM Plex Mono",monospace;font-size:8px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass);margin-bottom:22px}
-.opc-mk{width:54px;margin:0 auto 18px;opacity:.94}
-.opc-name{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:30px;color:var(--cream);margin:0}
+.opc-mk{width:34px;margin:0 auto 10px;opacity:.94}
+.opc-name{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:20px;color:var(--cream);margin:0}
 .opc-name span{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.06em;color:var(--brass);margin-left:8px}
-.opc-role{font-family:"Newsreader",serif;font-size:14px;color:var(--cream-2);margin:10px 0 26px}
+.opc-role{font-family:"Newsreader",serif;font-size:12.5px;color:var(--cream-2);margin:6px 0 16px}
 .opc-cta{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--cream);border-bottom:1px solid var(--brass-soft);padding-bottom:5px}
 /* cta */
 
@@ -733,10 +733,10 @@ body.locked{overflow:hidden;height:100vh}
 .pt-dossier{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--cream-3)}
 .pt-dossier b{color:var(--cream)}
 .m-operator{padding:70px 0}
-.m-sign{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:clamp(19px,2.4vw,26px);color:var(--cream-2);margin:22px 0 0;line-height:1.2}
+.m-sign{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:clamp(15px,1.6vw,18px);color:var(--cream-2);margin:14px 0 0;line-height:1.3}
 .opc-links{display:flex;gap:18px;align-items:center;justify-content:center;margin-top:8px}
 .opc-x{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.1em;color:var(--cream-3)}
-.m-legal{max-width:var(--maxw);margin:0 auto;padding:30px 24px 60px;font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--cream-3);border-top:1px solid var(--ln);text-align:center}
+.m-legal{max-width:var(--maxw);margin:0 auto;padding:22px 24px;font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--cream-3);border-top:1px solid var(--ln);text-align:center}
 
 
 /* The Record = matière première, visuellement dominant */
@@ -961,6 +961,14 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
 .src-ic-link:hover .src-ic{fill:var(--brass)}
 .ds-early{display:block;font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.06em;color:var(--brass);opacity:.75;margin:2px 0 0}
 #view-record .opener{padding-top:30px}
+.mh-cols{display:flex;justify-content:space-between;align-items:flex-start;gap:40px;flex-wrap:wrap}
+.mh-left{flex:1 1 480px;min-width:0}
+.mh-right{flex:0 0 auto;display:flex;flex-direction:column;gap:22px;padding-top:8px;border-left:1px solid var(--ln);padding-left:32px}
+.mh-stat{display:flex;flex-direction:column}
+.mh-stat b{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:36px;color:var(--cream);line-height:1}
+.mh-stat span{font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--cream-3);margin-top:6px;display:block}
+.mh-stat-range{font-style:italic;opacity:.7;font-size:9px;display:block;margin-top:2px;text-transform:none;letter-spacing:.02em}
+@media(max-width:820px){.mh-right{border-left:0;padding-left:0;border-top:1px solid var(--ln);padding-top:24px;flex-direction:row;flex-wrap:wrap;gap:28px}}
 </style></head><body>
 <div id="intro">
   <div class="i-eyebrow">The Record</div>
@@ -995,9 +1003,18 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
 
     <!-- MOVEMENT 1: the front (present first, then the system) -->
     <div class="wrap m-hero" data-act="01 / The front">
-      <div class="mh-label">Built from the Threadguy stream</div>
-      <h1 class="mh-title">The show ends.<br>The intelligence keeps working.</h1>
-      <p class="mh-sub">37,946 lines searchable. Every recorded call, sourced.</p>
+      <div class="mh-cols">
+        <div class="mh-left">
+          <div class="mh-label">Built from the Threadguy stream</div>
+          <h1 class="mh-title">The show ends.<br>The intelligence keeps working.</h1>
+          <p class="mh-sub">37,946 lines searchable. Every recorded call, sourced.</p>
+        </div>
+        <div class="mh-right">
+          <div class="mh-stat"><b id="pn-shows">&middot;&middot;</b><span>Shows indexed<br><i class="mh-stat-range">Sep 2025 &ndash; Aug 2026</i></span></div>
+          <div class="mh-stat"><b id="pn-lines">&middot;&middot;</b><span>Lines indexed</span></div>
+          <div class="mh-stat"><b id="pn-lex">&middot;&middot;</b><span>Concepts connected</span></div>
+        </div>
+      </div>
 
       <a class="latest" id="latest-block" href="javascript:void(0)" onclick="show('record')">
         <div class="latest-top">
@@ -1015,6 +1032,9 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
         <div class="assets-label">One show, three doors</div>
         <div class="flow-pillars assets-grid">
           <div class="source-sq" id="src-sq">
+            <div class="fp-top" style="width:100%;justify-content:flex-start">
+              <span class="fp-no">00</span><span class="fp-tag">Source</span>
+            </div>
             <span class="source-sq-dot" id="src-dot"></span>
             <span class="source-sq-k" id="src-k">Weekdays</span>
             <span class="source-sq-name">Threadguy</span>
@@ -1049,11 +1069,6 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
 
     <!-- MOVEMENT 3: proof + thesis trail -->
     <div class="wrap m-proof" data-act="03 / The proof">
-      <div class="proof-nums">
-        <div class="pn"><b id="pn-shows">&middot;&middot;</b><span>Shows indexed<br><i class="pn-range">Sep 2025 &ndash; Aug 2026</i></span></div>
-        <div class="pn"><b id="pn-lines">&middot;&middot;</b><span>Lines indexed</span></div>
-        <div class="pn"><b id="pn-lex">&middot;&middot;</b><span>Concepts connected</span></div>
-      </div>
       <div class="proof-trail">
         <div class="pt-head">
           <span class="pt-tag">One thesis, traced</span>
@@ -1065,26 +1080,7 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
     </div>
 
     <!-- MOVEMENT 4: the operator (Kenny) + signature -->
-    <div class="wrap m-operator" data-act="04 / The operator">
-      <div>
-        <div class="m-kick" style="text-align:left">The operator</div>
-        <h2 class="m-h2">Built and operated by Kenny.</h2>
-        <p class="m-p">Degen and on-chain analysis, editorial systems, and the permanent layer behind The Record.</p>
-        <p class="m-sign">The show is live once. The Record keeps it working.</p>
-      </div>
-      <aside class="op-card">
-        <div class="opc-tag">The desk &middot; by Kenny</div>
-        <img class="opc-mk" data-k="j" src="" alt="" role="presentation">
-        <h3 class="opc-name">Kenny <span>@KtheQuant</span></h3>
-        <p class="opc-role">Degen &amp; on-chain analyst, editorial operator behind The Record.</p>
-        <div class="opc-links">
-          <a class="opc-cta" onclick="show('desk')" href="javascript:void(0)">Enter the Desk &rarr;</a>
-          <a class="opc-x" href="https://x.com/KtheQuant" target="_blank" rel="noopener">@KtheQuant</a>
-        </div>
-      </aside>
-    </div>
-
-    <div class="wrap m-legal">Independent proof of concept, built for Counterparty.<span class="legal-sep">&middot;</span><a class="replay-link" onclick="replayIntro()" href="javascript:void(0)">Replay the intro</a></div>
+    <div class="wrap m-legal">Built and operated by <a class="opc-x" href="https://x.com/KtheQuant" target="_blank" rel="noopener">Kenny</a><span class="legal-sep">&middot;</span>Independent proof of concept, built for Counterparty.<span class="legal-sep">&middot;</span><a class="replay-link" onclick="replayIntro()" href="javascript:void(0)">Replay the intro</a></div>
 
   </section>
 
@@ -1758,7 +1754,9 @@ var REC_ALL=false, REC_CAP=10;
 var NAME2SYM={BITCOIN:'BTC',ETHEREUM:'ETH',ETHER:'ETH',SOLANA:'SOL',MICRON:'MU',MICROSTRATEGY:'MSTR',STRATEGY:'MSTR',ZCASH:'ZEC',HYPERLIQUID:'HYPE',PALANTIR:'PLTR',COINBASE:'COIN',NVIDIA:'NVDA',TESLA:'TSLA',AMAZON:'AMZN',ROBINHOOD:'HOOD',SPACEX:'SPCX',COREWEAVE:'CRWV',APPLE:'AAPL',GOOGLE:'GOOGL',ALPHABET:'GOOGL',OIL:'WTI',GOLD:'GC',SILVER:'SI',GAMESTOP:'GME',CIRCLE:'CRCL',SOFI:'SOFI',AMD:'AMD',ADVANCEDMICRO:'AMD',META:'META',FACEBOOK:'META',NETFLIX:'NFLX',MICROSOFT:'MSFT',UBER:'UBER',XRP:'XRP',RIPPLE:'XRP',INTEL:'INTC',ALIBABA:'BABA',BLACKBERRY:'BB',DISNEY:'DIS',MARVELL:'MRVL',QUALCOMM:'QCOM',ROCKETLAB:'RKLB',SNAPCHAT:'SNAP',SNAP:'SNAP',SPOTIFY:'SPOT',TAKETWO:'TTWO',IBM:'IBM',INTERACTIVEBROKERS:'IBKR',HIMS:'HIMS',DRAM:'DRAM',HBM:'HBM',FTX:'FTX',FTT:'FTT',AMC:'AMC',GAMESTOP:'GME',BROADCOM:'AVGO'};
 function renderLog(){
   var f=document.getElementById('rec-filter'); var q=(f&&f.value||'').trim().toUpperCase();
-  var list=FEED;
+  /* The Ledger's own promise is "only the calls": never show an episode header with
+     nothing underneath it, whether browsing All or filtering. */
+  var list=FEED.filter(function(s){return (s.calls||[]).length>0;});
   if(q){ var sym=NAME2SYM[q]||'';
     var isTickerLike = q.length<=5 && q.indexOf(' ')<0;
     /* is the query an exact ticker in our universe? then be strict. */
@@ -1821,6 +1819,11 @@ function applyFilter(f){
     else if(f==='pos')show=el.dataset.st==='pos';
     else if(f==='read')show=el.dataset.st==='read';
     el.style.display=show?'':'none';});
+  /* never leave an episode header standing with every one of its calls hidden underneath */
+  document.querySelectorAll('#record-body .show').forEach(function(sh){
+    var anyVisible=[].slice.call(sh.querySelectorAll('.call')).some(function(c){return c.style.display!=='none';});
+    sh.style.display=anyVisible?'':'none';
+  });
   document.querySelectorAll('#record-body .show').forEach(function(sh){
     var any=Array.prototype.some.call(sh.querySelectorAll('.call'),function(c){return c.style.display!=='none';});
     sh.style.display=any?'':'none';});
