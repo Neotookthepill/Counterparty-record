@@ -938,6 +938,23 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
 .ft-meta{font-family:"IBM Plex Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--brass);white-space:nowrap;flex-shrink:0}
 @media(max-width:640px){.ft-row{flex-direction:column;gap:8px}}
 .call-dir.dir-neutral{color:rgba(255,255,255,.42)!important;background:rgba(255,255,255,.05)!important}
+.source-card{display:flex;align-items:center;gap:10px;justify-content:center;flex-wrap:wrap;text-decoration:none;color:inherit;padding:10px 18px;margin:0 0 18px;border:1px solid rgba(202,173,108,.18);border-radius:5px;background:rgba(202,173,108,.03);transition:background .15s}
+.source-card:hover{background:rgba(202,173,108,.07)}
+.source-dot{width:6px;height:6px;border-radius:50%;background:#7fd1a8}
+.source-txt{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.02em;color:rgba(255,255,255,.65)}
+.source-txt b{color:var(--cream);font-weight:600}
+.source-go{font-family:"IBM Plex Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--brass)}
+.flow-pillars.assets-grid{display:flex;align-items:stretch}
+.source-sq{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:6px;width:118px;flex-shrink:0;padding:8px 18px 8px 0}
+.source-sq-dot{width:7px;height:7px;border-radius:50%;background:#e08a8a;box-shadow:0 0 0 3px rgba(224,138,138,.18)}
+.is-live-sq .source-sq-dot{background:#7fd1a8;box-shadow:0 0 0 3px rgba(127,209,168,.2);animation:srcPulse 1.8s ease-in-out infinite}
+@keyframes srcPulse{0%,100%{box-shadow:0 0 0 3px rgba(127,209,168,.2)}50%{box-shadow:0 0 0 5px rgba(127,209,168,.05)}}
+.source-sq-k{font-family:"IBM Plex Mono",monospace;font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--brass)}
+.is-live-sq .source-sq-k{color:#7fd1a8}
+.source-sq-name{font-family:"Newsreader",serif;font-size:14px;color:var(--cream);line-height:1.2}
+.source-sq-icons{display:flex;gap:8px;margin-top:2px}
+.src-ic{width:15px;height:15px;fill:rgba(255,255,255,.4)}
+@media(max-width:900px){.flow-pillars.assets-grid{flex-wrap:wrap}.source-sq{width:100%;padding:10px 0}}
 </style></head><body>
 <div id="intro" role="button" tabindex="0" aria-label="Enter The Record">
   <div class="i-eyebrow">The Record</div>
@@ -978,7 +995,7 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
 
       <a class="latest" id="latest-block" href="javascript:void(0)" onclick="show('record')">
         <div class="latest-top">
-          <span class="latest-tag"><span class="latest-dot"></span>Latest BTC moment</span>
+          <span class="latest-tag"><span class="latest-dot"></span><span id="latest-kicker">What&#39;s hot right now</span></span>
           <span class="latest-date" id="latest-date">Aug 10 &middot; 9:33</span>
         </div>
         <div class="latest-read" id="latest-read">BTC tests $64.8K as Strategy pressures support.</div>
@@ -991,6 +1008,16 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
       <div class="assets">
         <div class="assets-label">One show, three doors</div>
         <div class="flow-pillars assets-grid">
+          <div class="source-sq" id="src-sq">
+            <span class="source-sq-dot" id="src-dot"></span>
+            <span class="source-sq-k" id="src-k">Weekdays</span>
+            <span class="source-sq-name">Threadguy</span>
+            <div class="source-sq-icons">
+              <svg viewBox="0 0 24 24" class="src-ic"><path d="M4 2 2 6v14h6v2h4l2-2h4l4-4V2H4zm16 12-3 3h-4l-2 2v-2H7V4h13v10z"/><path d="M14.5 7h2v5h-2zM9.5 7h2v5h-2z"/></svg>
+              <svg viewBox="0 0 24 24" class="src-ic"><path d="M18.9 2H22l-7.6 8.7L23 22h-6.9l-5.4-6.9L4.4 22H1.3l8.1-9.3L1 2h7l4.9 6.4L18.9 2zm-1.2 18h1.9L7.3 4h-2l12.4 16z"/></svg>
+            </div>
+          </div>
+
           <a class="fp-pil fp-primary" onclick="show('record')" href="javascript:void(0)">
             <div class="fp-top"><span class="fp-no">01</span><span class="fp-tag">Memory</span></div>
             <h3 class="fp-name">The Record</h3>
@@ -1366,6 +1393,13 @@ function updateLiveStatus(){
   top.classList.remove('is-live','is-offline');
   if(live){ top.classList.add('is-live'); lbl.textContent='Live'; if(dot) dot.style.display=''; }
   else{ top.classList.add('is-offline'); lbl.textContent='Weekdays'; if(dot) dot.style.display='none'; }
+
+  /* same real-time check drives the small home square next to The Record */
+  var sq=document.getElementById('src-sq'), sqk=document.getElementById('src-k');
+  if(sq && sqk){
+    sq.classList.toggle('is-live-sq', live);
+    sqk.textContent = live ? 'Live now' : 'Weekdays';
+  }
 }
 
 
@@ -1378,22 +1412,57 @@ function _realDate(ds){
   var y=(m>=9)?2025:2026;
   return new Date(y,m-1,parseInt(p[1]||'1',10)).getTime();
 }
-function latestMoment(){
-  /* an explicit editorial pick always wins; otherwise compute the truly most recent BTC line */
+function hotMoment(){
+  /* an explicit editorial pick always wins */
   if(EDITORIAL_READS.length) return EDITORIAL_READS[0];
-  var btc=TAPE.filter(function(t){return t[0]==='BTC'&&t[1].length>40&&t[1].length<140;});
-  if(!btc.length) return null;
-  btc=btc.slice().sort(function(a,b){return _realDate(b[5])-_realDate(a[5]);});
-  var t=btc[0];
-  return {date:t[5], ts:t[2], tk:'BTC', read:t[1], raw:t[1]};
+  if(!FEED || !FEED.length) return null;
+
+  var lastTs=0;
+  FEED.forEach(function(f){ var d=_realDate(f.d); if(d>lastTs) lastTs=d; });
+
+  /* Heat per asset: every call contributes, weighted by recency (20-day half-life) and its own
+     conviction score, plus a bonus for repetition (mentions). This answers "what is the show
+     actually talking about right now", not just "what was the last thing said". */
+  var heat={}, byTk={};
+  FEED.forEach(function(f){
+    var age=(lastTs-_realDate(f.d))/86400000; // days ago
+    var decay=Math.pow(0.5, age/20);
+    (f.calls||[]).forEach(function(c){
+      var w=decay*((c.score||40)+((c.mentions||1)-1)*8);
+      heat[c.tk]=(heat[c.tk]||0)+w;
+      (byTk[c.tk]=byTk[c.tk]||[]).push({c:c, f:f, age:age});
+    });
+  });
+  var tickers=Object.keys(heat);
+  if(!tickers.length) return null;
+  tickers.sort(function(a,b){ return heat[b]-heat[a]; });
+  var hotTk=tickers[0];
+
+  /* Within the hottest asset, pick the single strongest call: its own score, repetition,
+     a real declared position outranks a market read, mild recency as a final tiebreaker. */
+  var cands=byTk[hotTk];
+  cands.sort(function(a,b){
+    function sig(x){
+      var s=(x.c.score||40) + ((x.c.mentions||1)-1)*10;
+      if(x.c.stype==='disclosed_position') s+=25;
+      s -= x.age*0.3;
+      return s;
+    }
+    return sig(b)-sig(a);
+  });
+  var top=cands[0], c=top.c, f=top.f;
+  var who=(c.who && c.who!=='Threadguy') ? (c.who+' \u00b7 ') : '';
+  return {date:f.d, ts:c.ts, tk:hotTk, read:who+c.quote, raw:c.quote, epid:c.epid, secs:c.secs,
+          isPosition:(c.stype==='disclosed_position')};
 }
 function renderLatest(){
-  var m=latestMoment(); if(!m) return;
+  var m=hotMoment(); if(!m) return;
   var rd=document.getElementById('latest-read'); if(rd) rd.textContent=m.read;
-  var dt=document.getElementById('latest-date'); if(dt) dt.textContent=m.date+' \u00b7 '+m.ts;
-  /* count today's BTC moments for the sub line */
+  var dt=document.getElementById('latest-date'); if(dt) dt.textContent=m.date+(m.ts?' \u00b7 '+m.ts:'');
+  var kk=document.getElementById('latest-kicker');
+  if(kk) kk.textContent=m.tk+' \u00b7 most discussed right now';
   var sub=document.getElementById('latest-sub');
-  if(sub) sub.textContent='Added to the BTC dossier';
+  if(sub) sub.textContent=(m.isPosition?'A declared position in the ':'A market read in the ')+m.tk+' dossier';
 }
 
 function renderHome(){
@@ -1788,7 +1857,7 @@ function sanitizeData(){
   FEED=FEED.map(function(f){return {d:esc(f.d),t:esc(f.t),g:esc(f.g),llmv:f.llmv,calls:(f.calls||[]).map(function(c){
     if(Array.isArray(c)){ return c.map(function(x,i){return (typeof x==='string')?esc(x):x;}); }
     /* object-form call: escape string fields */
-    return {tk:esc(c.tk),dir:esc(c.dir),quote:esc(c.quote),ts:esc(c.ts),secs:c.secs,score:c.score,levels:c.levels,epid:c.epid,who:c.who?esc(c.who):null,stypeLabel:c.stypeLabel?esc(c.stypeLabel):null};
+    return {tk:esc(c.tk),dir:esc(c.dir),quote:esc(c.quote),ts:esc(c.ts),secs:c.secs,score:c.score,levels:c.levels,epid:c.epid,who:c.who?esc(c.who):null,stypeLabel:c.stypeLabel?esc(c.stypeLabel):null,stype:c.stype||null,mentions:c.mentions||1};
   })};});
   LEX=LEX.map(function(t){return t.map(esc);});
   VOICES=VOICES.map(function(v){return v.map(esc);});
