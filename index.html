@@ -1209,13 +1209,13 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
 
     <div class="idx-hero">
       <div class="idx-big"><div class="v num g" id="r-wr"></div><div class="l">on the record, the calls kept to the second</div></div>
-      <div class="idx-note">We log the call, not the exit, so The Record does not score a P&amp;L. That is on purpose. What The Record does that nothing else does: it writes the calls down, timestamps them to the second, and makes the indexed archive searchable. The accountability is that it is on the record, permanently. The chart in the Academy shows what the asset did next, as a lesson, not a verdict.</div>
+      <div class="idx-note">We record what was said, when it was said, and where to hear it. No reconstructed exits. No P&amp;L.</div>
     </div>
     <div class="rec-stats" id="rec-stats"></div>
 
     
 
-    <div class="opener" style="padding:54px 0 22px"><span class="kick">The full log</span><h2 style="font-size:clamp(30px,4.4vw,48px)">Every Call</h2><p>Not the conversation, just the calls: the ticker, the direction, and the exact line as it was said. <span id="ledger-cta-n">&middot;&middot;</span> calls, each one a click from its audio moment.</p><p class="xlink">Want the full conversation around a call? <a href="#" class="goto" data-goto="tape">Open The Tape &rarr;</a></p></div>
+    <div class="opener" style="padding:54px 0 22px"><span class="kick">The full log</span><h2 style="font-size:clamp(30px,4.4vw,48px)">The Complete Ledger</h2><p>Positions, market reads, and retrospective claims, kept apart. The ticker, the direction, and the exact line as it was said. <span id="ledger-cta-n">&middot;&middot;</span> calls, each one a click from its audio moment.</p><p class="xlink">Want the full conversation around a call? <a href="#" class="goto" data-goto="tape">Open The Tape &rarr;</a></p></div>
     <div class="rec-tools" id="rec-tools">
       <span class="lab">Filter</span>
       <button class="chip" data-f="all" aria-pressed="true">All</button>
@@ -1500,7 +1500,7 @@ function blockHTML(b){
 function renderEdition(id){
   var e=DISPATCH.find(function(x){return x.id===id;})||DISPATCH[0];
   document.getElementById('ed-main').innerHTML=
-    '<div class="ed-line"><span>The Daily Dispatch</span><span>'+e.date+'</span><span>'+e.read+' read</span><span class="g">Grade '+e.grade+'</span></div>'+
+    '<div class="ed-line"><span>The Daily Dispatch</span><span>'+e.date+'</span><span>'+e.read+' read</span><span class="g" title="Editorial grade: signal quality and clarity of the show, not a market call">Grade '+e.grade+'</span></div>'+
     '<h1 class="ed-head">'+e.head+'</h1>'+
     '<p class="ed-stand">'+e.stand+'</p>'+
     '<div class="ed-body">'+e.body.map(blockHTML).join('')+'</div>';
@@ -1620,7 +1620,7 @@ function tapeSearch(q){
   var qRe=new RegExp('\\b'+qEsc+'\\b','i');   /* full word boundary both sides: "MU" no longer matches "much"/"music" */
   var rows=TAPE.filter(function(t){ return qRe.test(t[0]) || qRe.test(t[1]) || qRe.test(t[5]); });
   var res=document.getElementById('tape-res');
-  if(!rows.length){ res.innerHTML='<div class="ts-empty">No moment matches that yet. The live archive runs across every episode.</div>'; return; }
+  if(!rows.length){ res.innerHTML='<div class="ts-empty">No moment matches this indexed archive yet. Try a different word or ticker.</div>'; return; }
   res.innerHTML=rows.slice(0,25).map(function(t){
     var tk=t[0]?'<span class="ts-tk">'+t[0]+'</span>':'<span class="ts-tk ts-na">show</span>';
     return '<a class="ts-row" href="'+tapeLink(t[3],t[4])+'" target="_blank" rel="noopener">'+
@@ -1885,7 +1885,7 @@ function sanitizeData(){
 }
 var DOORS={
   today:{label:'Dispatches',views:[['today','Past editions']]},
-  record:{label:'The Record',views:[['tape','The Tape &middot; every word'],['record','The Ledger &middot; only the calls']]},
+  record:{label:'The Record',views:[['tape','The Tape &middot; every word'],['record','The Ledger &middot; positions and reads']]},
   academy:{label:'Academy',views:[['class','Anatomy'],['lexicon','Lexicon']]},
   desk:{label:'The Desk',views:[['desk','Positions'],['writing','Writing']]}
 };
