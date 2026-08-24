@@ -607,6 +607,10 @@ body.locked{overflow:hidden;height:100vh}
 .fs-name{font-family:"Instrument Serif",serif;font-weight:400;font-size:19px;letter-spacing:.04em;text-transform:uppercase;color:var(--cream);line-height:1.12}
 .flow-arrow{flex:0 0 auto;display:flex;align-items:center;padding:0 20px;color:var(--brass);font-size:22px}
 .flow-pillars{flex:1;display:grid;grid-template-columns:1fr 1fr 1fr}
+.flow-pillars.assets-grid{align-items:stretch}
+.flow-pillars.assets-grid>.src-card{display:flex;flex-direction:column}
+.flow-pillars.assets-grid>.src-card .src-card-body{flex:1;display:flex;flex-direction:column;justify-content:center}
+.flow-pillars.assets-grid>.src-connect{align-self:center}
 .fp-pil{padding:8px 26px;border-left:1px solid var(--ln);text-decoration:none;display:flex;flex-direction:column;justify-content:center;transition:background .18s}
 .fp-pil:first-child{border-left:0}
 .fp-pil:hover{background:rgba(239,233,218,.03)}
@@ -620,6 +624,8 @@ body.locked{overflow:hidden;height:100vh}
 .ff-sep{margin:0 12px;color:var(--brass)}
 @media(max-width:900px){
   .mh-cols{grid-template-columns:1fr}
+  .assets-grid{grid-template-columns:1fr;margin-top:24px}
+  .assets-grid>.src-connect{display:none}
   .flow-pillars.assets-grid{grid-template-columns:1fr;margin-top:24px}
   .src-card{width:210px;margin:0 auto}
   .outputs-wrap{grid-template-columns:1fr}
@@ -629,6 +635,8 @@ body.locked{overflow:hidden;height:100vh}
 
 /* ===== HOME NARRATIVE (scroll movements) ===== */
 .m-hero{padding:5vh 4vw 0;min-height:calc(100vh - 86px);box-sizing:border-box}
+/* le mouvement qui porte les trois portes n'a pas besoin de remplir l'ecran: sur un grand ecran la hauteur minimale creait un vide sous le bloc */
+.m-hero:has(.assets){min-height:0;padding-bottom:0}
 .mh-label{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.26em;text-transform:uppercase;color:var(--cream-3);margin-bottom:30px}
 .mh-title{font-family:"Instrument Serif",serif;font-weight:400;font-size:clamp(62px,6vw,94px);line-height:.79;letter-spacing:-.045em;color:var(--cream);text-transform:uppercase;margin:0;max-width:15ch}
 .mh-sub{font-family:"Instrument Serif",serif;font-size:16px;color:var(--cream-2);margin:0 0 22px;max-width:370px;line-height:1.5}
@@ -737,7 +745,7 @@ body.locked{overflow:hidden;height:100vh}
 
 
 /* proof + trail fusionnés (4 mouvements) */
-.m-proof{padding:80px 0 70px}
+.m-proof{padding:44px 0 70px}
 .proof-trail{margin-top:48px;border-top:1px solid var(--ln)}
 .pt-head{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:10px;padding:20px 0 8px}
 .pt-tag{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.22em;text-transform:uppercase;color:var(--brass)}
@@ -843,8 +851,8 @@ body.locked{overflow:hidden;height:100vh}
 /* diagramme compact */
 .assets{border-top:1px solid var(--ln);padding-top:20px}
 .assets-label{font-family:"IBM Plex Mono",monospace;font-size:8px;letter-spacing:.2em;text-transform:uppercase;color:var(--cream-3);margin-bottom:14px}
-.outputs-wrap{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ln);border-left:1px solid var(--ln)}
-.outputs-wrap .fp-pil{height:300px;padding:26px;border:0;border-right:1px solid var(--ln);border-bottom:1px solid var(--ln);border-radius:0;background:transparent;color:var(--cream);text-decoration:none;display:flex;cursor:pointer;transition:background .2s,color .2s;outline-offset:-2px}
+.outputs-wrap{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ln);border-left:1px solid var(--ln);box-sizing:border-box}
+.outputs-wrap .fp-pil{min-height:300px;padding:26px;border:0;border-right:1px solid var(--ln);border-bottom:1px solid var(--ln);border-radius:0;background:transparent;color:var(--cream);text-decoration:none;display:flex;cursor:pointer;transition:background .2s,color .2s;outline-offset:-2px}
 .outputs-wrap .fp-pil:hover,.outputs-wrap .fp-pil.active{background:var(--cream);color:var(--ink)}
 .outputs-wrap .fp-pil:focus-visible{outline:2px solid var(--brass)}
 .fp-verb{font-family:"Instrument Serif",serif;font-size:12px;color:var(--cream-2);margin-top:6px}
@@ -954,7 +962,8 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
 .source-txt{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.02em;color:rgba(255,255,255,.65)}
 .source-txt b{color:var(--cream);font-weight:600}
 .source-go{font-family:"IBM Plex Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--brass)}
-.flow-pillars.assets-grid{display:grid;grid-template-columns:205px 100px 1fr;align-items:center;margin-top:4vh}
+.flow-pillars.assets-grid{display:grid;grid-template-columns:minmax(0,0.86fr) 80px minmax(0,2.3fr);align-items:stretch;margin-top:4vh}
+@media(max-width:900px){.flow-pillars.assets-grid{grid-template-columns:1fr}.assets-grid>.src-connect{display:none}.outputs-wrap{grid-template-columns:1fr}.outputs-wrap .fp-pil{min-height:150px}}
 .source-sq{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:6px;width:118px;flex-shrink:0;padding:8px 18px 8px 0}
 .source-sq-dot{width:7px;height:7px;border-radius:50%;background:#e08a8a;box-shadow:0 0 0 3px rgba(224,138,138,.18)}
 .is-live-sq .source-sq-dot{background:#7fd1a8;box-shadow:0 0 0 3px rgba(127,209,168,.2);animation:srcPulse 1.8s ease-in-out infinite}
@@ -1170,7 +1179,7 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
       <p class="mc-sub">The show runs weekdays. Every meaningful call can live beyond the morning.</p>
       <div class="mc-ctas">
         <a href="https://twitch.tv/threadguy" target="_blank" rel="noopener" class="mc-cta">Watch the show &nearr;</a>
-        <a onclick="show(\'record\')" href="javascript:void(0)" class="mc-cta">Explore The Record &rarr;</a>
+        <a href="#" class="goto mc-cta" data-goto="record">Explore The Record &rarr;</a>
       </div>
     </div>
 
