@@ -619,6 +619,11 @@ body.locked{overflow:hidden;height:100vh}
 .fp-pil:hover{background:rgba(239,233,218,.03)}
 .fp-top{display:flex;align-items:baseline;gap:10px;margin-bottom:14px}
 .fp-no{font-family:"Instrument Serif",serif;font-size:22px;color:var(--brass);line-height:1}
+.fp-sub{margin-top:18px;padding-top:14px;border-top:1px solid var(--ln-2);font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.fp-sub .goto{color:var(--cream);opacity:.72;cursor:pointer;border-bottom:1px solid transparent;transition:.15s}
+.fp-sub .goto:hover{opacity:1;color:var(--brass);border-bottom-color:var(--brass-soft)}
+.fp-sub s{text-decoration:none;color:var(--brass);opacity:.5}
+.fp-pil{cursor:pointer}
 .fp-tag{font-family:"IBM Plex Mono",monospace;font-size:8px;letter-spacing:.18em;text-transform:uppercase;color:var(--cream-3)}
 .fp-name{font-family:"Instrument Serif",serif;font-weight:400;font-size:clamp(28px,3.8vw,46px);color:var(--cream);margin:0 0 12px;line-height:1;text-transform:uppercase;letter-spacing:.01em}
 .fp-meta{font-family:"Instrument Serif",serif;font-size:12.5px;line-height:1.4;color:var(--cream-2);border-top:1px solid var(--ln-2);padding-top:12px}
@@ -741,9 +746,12 @@ body.locked{overflow:hidden;height:100vh}
 
 /* ---------- sous-onglets (intercalaires de porte) ---------- */
 .subtabs{max-width:var(--maxw);margin:0 auto;padding:0 24px;display:flex;gap:2px;border-bottom:1px solid var(--ln);position:sticky;top:86px;z-index:40;background:var(--navy)}
-.subtab{background:none;border:0;border-bottom:2px solid transparent;color:var(--cream-2);font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;padding:14px 18px;cursor:pointer;transition:.15s;margin-bottom:-1px}
-.subtab:hover{color:var(--cream)}
-.subtab.on{color:var(--brass);border-bottom-color:var(--brass)}
+.subtab{background:none;border:0;border-bottom:2px solid transparent;color:var(--cream);opacity:.62;font-family:"IBM Plex Mono",monospace;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;padding:15px 20px;cursor:pointer;transition:.15s;margin-bottom:-1px}
+.subtabs-k{display:flex;align-items:center;padding-right:18px;margin-right:6px;border-right:1px solid var(--ln);font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.22em;text-transform:uppercase;color:var(--cream-3)}
+.subtab:not(.on)::after{content:"";display:block;height:1px;background:var(--brass-soft);margin-top:5px;opacity:0;transition:.15s}
+.subtab:not(.on):hover::after{opacity:1}
+.subtab:hover{opacity:1}
+.subtab.on{color:var(--brass);opacity:1;border-bottom-color:var(--brass)}
 @media(max-width:640px){.subtabs{padding:0 16px;overflow-x:auto;scrollbar-width:none}.subtabs::-webkit-scrollbar{display:none}}
 
 
@@ -866,6 +874,11 @@ body.locked{overflow:hidden;height:100vh}
 .outputs-wrap .fp-pil:hover .fp-tag,.outputs-wrap .fp-pil.active .fp-tag{color:#6b6858}
 .outputs-wrap .fp-pil:hover .fp-name,.outputs-wrap .fp-pil.active .fp-name{color:var(--ink)}
 .outputs-wrap .fp-pil:hover .fp-verb,.outputs-wrap .fp-pil.active .fp-verb{color:#3a3d52}
+/* fond creme au survol ou a l'etat actif: les sous-liens doivent passer en encre */
+.fp-pil:hover .fp-sub,.fp-pil.active .fp-sub{border-top-color:rgba(17,17,40,.14)}
+.fp-pil:hover .fp-sub .goto,.fp-pil.active .fp-sub .goto{color:var(--ink);opacity:.7}
+.fp-pil:hover .fp-sub .goto:hover,.fp-pil.active .fp-sub .goto:hover{color:#8a6d2f;opacity:1;border-bottom-color:rgba(138,109,47,.5)}
+.fp-pil:hover .fp-sub s,.fp-pil.active .fp-sub s{color:#8a6d2f;opacity:.55}
 @media(max-width:720px){.outputs-wrap{grid-template-columns:1fr}.outputs-wrap .fp-pil{border-right:0;border-top:1px solid var(--ln);height:150px}.outputs-wrap .fp-pil:first-child{border-top:0}}
 
 .trail-cta{display:inline-block;margin-top:18px;font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--brass);border-bottom:1px solid var(--brass-soft);padding-bottom:4px}
@@ -1121,21 +1134,24 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
           <div class="src-connect" aria-hidden="true"></div>
 
           <div class="outputs-wrap">
-            <a class="fp-pil fp-primary" onclick="show('record')" href="javascript:void(0)">
+            <div class="fp-pil fp-primary goto" data-goto="record" role="link" tabindex="0">
               <div class="fp-top"><span class="fp-no">01</span><span class="fp-tag">Memory</span></div>
               <h3 class="fp-name">The Record</h3>
               <div class="fp-verb">Search the show</div>
-            </a>
-            <a class="fp-pil" onclick="show('class')" href="javascript:void(0)">
+              <div class="fp-sub"><span class="goto" data-goto="tape" role="link" tabindex="0">The Tape</span><s>/</s><span class="goto" data-goto="record" role="link" tabindex="0">The Ledger</span></div>
+            </div>
+            <div class="fp-pil goto" data-goto="class" role="link" tabindex="0">
               <div class="fp-top"><span class="fp-no">02</span><span class="fp-tag">Understanding</span></div>
               <h3 class="fp-name">Academy</h3>
               <div class="fp-verb">Learn from it</div>
-            </a>
-            <a class="fp-pil" onclick="show('desk')" href="javascript:void(0)">
+              <div class="fp-sub"><span class="goto" data-goto="class" role="link" tabindex="0">Anatomy</span><s>/</s><span class="goto" data-goto="lexicon" role="link" tabindex="0">Lexicon</span></div>
+            </div>
+            <div class="fp-pil goto" data-goto="desk" role="link" tabindex="0">
               <div class="fp-top"><span class="fp-no">03</span><span class="fp-tag">Edge</span></div>
               <h3 class="fp-name">The Desk</h3>
               <div class="fp-verb">Follow the thesis</div>
-            </a>
+              <div class="fp-sub"><span class="goto" data-goto="desk" role="link" tabindex="0">Positions</span><s>/</s><span class="goto" data-goto="writing" role="link" tabindex="0">Writing</span></div>
+            </div>
           </div>
         </div>
       </div>
@@ -2159,7 +2175,9 @@ function renderSubtabs(v){
   if(!host)return;
   if(!grp||grp.views.length<2){host.innerHTML='';host.style.display='none';return;}
   host.style.display='';
-  host.innerHTML=grp.views.map(function(pair){
+  /* On nomme la section et on montre les autres vues comme des destinations,
+     pas comme un filet discret: sinon on ne voit pas qu'il y a autre chose. */
+  host.innerHTML='<span class="subtabs-k">'+grp.label+'</span>'+grp.views.map(function(pair){
     return '<button class="subtab'+(pair[0]===v?' on':'')+'" data-view="'+pair[0]+'">'+pair[1]+'</button>';
   }).join('');
 }
