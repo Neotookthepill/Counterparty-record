@@ -46,8 +46,8 @@ a{color:inherit}
 .nav .live .d{display:none}
 @keyframes lp{0%,100%{box-shadow:0 0 0 0 rgba(207,90,74,.5)}50%{box-shadow:0 0 0 5px rgba(207,90,74,0)}}
 
-.view{display:none;animation:fade .22s ease;scroll-margin-top:80px}
-.view.on{display:block}
+.view{display:none !important;animation:fade .22s ease;scroll-margin-top:80px}
+.view.on{display:block !important;position:relative;z-index:1;background:var(--navy)}
 @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 
 /* ---------- section opener (shared) ---------- */
