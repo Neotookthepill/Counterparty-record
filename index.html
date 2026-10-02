@@ -2422,31 +2422,19 @@ var intro=document.getElementById('intro');
 var leaving=false;
 var introCloseTimer=0;
 var introStarted=false;
-
 function startIntro(){
   if(introStarted)return;
   introStarted=true;
   requestAnimationFrame(function(){intro.classList.add('intro-play');});
-  introCloseTimer=setTimeout(function(){
-    if(!leaving) enterDesk();
-  }, 3100);
 }
-
-if(sessionStorage.getItem('cp-intro-seen')){
-  enterDesk();
-} else {
-  var introImages=Array.prototype.slice.call(intro.querySelectorAll('img'));
-  Promise.all(introImages.map(function(img){
-    if(img.complete)return Promise.resolve();
-    return new Promise(function(resolve){
-      img.addEventListener('load',resolve,{once:true});
-      img.addEventListener('error',resolve,{once:true});
-    });
-  })).then(startIntro);
-  setTimeout(startIntro,700);
-}
+var introImages=Array.prototype.slice.call(intro.querySelectorAll('img'));
+Promise.all(introImages.map(function(img){
+  if(img.complete)return Promise.resolve();
+  return new Promise(function(resolve){img.addEventListener('load',resolve,{once:true});img.addEventListener('error',resolve,{once:true});});
+})).then(startIntro);
+setTimeout(startIntro,700);
 function enterDesk(){
-  if(leaving)return; leaving=true;sessionStorage.setItem('cp-intro-seen','1');
+  if(leaving)return; leaving=true;
   clearTimeout(introCloseTimer);
   document.body.classList.remove('pre-enter');   /* interface settles from scale 1.035 -> 1, fades in */
   intro.classList.add('gone');                    /* intro scales up, blurs, fades out */
