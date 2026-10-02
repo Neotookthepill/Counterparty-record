@@ -1059,6 +1059,33 @@ a.ds-flip:hover{background:rgba(202,173,108,.05)}
 .src-card-mk{width:34px;margin:0 0 8px;opacity:.94}
 .src-card-name{font-family:"Instrument Serif",serif;font-weight:400;font-size:15px;line-height:1.1;color:var(--cream);margin:0 0 4px;text-transform:uppercase;letter-spacing:.02em}
 .src-card-sub{font-family:"Instrument Serif",serif;font-size:9px;color:var(--cream-3);margin:0 0 8px}
+.src-card-name{font-family:"Instrument Serif",serif;font-weight:400;font-size:15px;line-height:1.1;color:var(--cream);margin:0 0 4px;text-transform:uppercase;letter-spacing:.02em}
+.src-card-sub{font-family:"Instrument Serif",serif;font-size:9px;color:var(--cream-3);margin:0 0 8px}
+/* FIX: archive scroll bleed */
+.view:not(.on){
+  display:none !important;
+  visibility:hidden !important;
+  pointer-events:none !important;
+  height:0 !important;
+  overflow:hidden !important;
+}
+#view-archive.on,
+#view-archive{
+  isolation:isolate;
+  background:#111128;
+  min-height:100vh;
+  position:relative;
+  z-index:10;
+}
+#view-archive .arch-right,
+#view-archive .archive-main,
+#view-archive .arch-list,
+#view-archive aside + *,
+#view-archive .split-right{
+  background:#ffffff !important;
+  isolation:isolate;
+  min-height:100vh;
+}
 </style><style id="counterparty-upgrade">/* Counterparty — refinement of the published composition. */
 :root{--cream-2:#c7c5d2;--cream-3:#aaa9be;--header-height:86px}
 body{background:#111128}
