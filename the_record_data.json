@@ -1,6 +1,45 @@
 {
   "feed": [
     {
+      "d": "Oct 04",
+      "date_iso": "2026-10-04",
+      "t": "Nike is a Chud Company, PewDiePie vs OpenAI, and Onchain Coins Make a Comeback",
+      "source_url": "https://podcasts.apple.com/us/podcast/nike-is-a-chud-company-pewdiepie-vs-openai-and/id1838089406?i=1000792953584",
+      "episode_id": "apple:1000792953584",
+      "reviewed": 0,
+      "processing_status": "needs processing",
+      "calls": [],
+      "statements": [],
+      "g": "",
+      "llmv": 0
+    },
+    {
+      "d": "Oct 03",
+      "date_iso": "2026-10-03",
+      "t": "America's AI is Dope, San Francisco Real Estate Bubble, and Issa the Cooker Cooks",
+      "source_url": "https://podcasts.apple.com/us/podcast/americas-ai-is-dope-san-francisco-real-estate-bubble/id1838089406?i=1000792714689",
+      "episode_id": "apple:1000792714689",
+      "reviewed": 0,
+      "processing_status": "needs processing",
+      "calls": [],
+      "statements": [],
+      "g": "",
+      "llmv": 0
+    },
+    {
+      "d": "Oct 03",
+      "date_iso": "2026-10-03",
+      "t": "Trump's AI Dinner, MetaMask Night Terrors, Anguilla is Winning the AI Boom",
+      "source_url": "https://podcasts.apple.com/us/podcast/trumps-ai-dinner-metamask-night-terrors-anguilla-is/id1838089406?i=1000792714690",
+      "episode_id": "apple:1000792714690",
+      "reviewed": 0,
+      "processing_status": "needs processing",
+      "calls": [],
+      "statements": [],
+      "g": "",
+      "llmv": 0
+    },
+    {
       "d": "Sep 30",
       "date_iso": "2026-09-30",
       "t": "kel - The Full Zcash Thesis, Building Conviction, and Going Against the Crowd",
@@ -10,7 +49,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19890668",
       "transcript_sha256": "2da26316a31db61daaaa273ab3f3bdd4feca318defdb767ecc606c1dbdb2f016",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19890668",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 29",
@@ -22,7 +63,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19885350",
       "transcript_sha256": "2d4a857e67226141cc3af8e028b8919829ba0edc8aedd52ef493260b63415370",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19885350",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 28",
@@ -34,7 +77,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19878773",
       "transcript_sha256": "15e0c224c4704628aaacb65615ac048e67c1e01722e8d6564e3098f4eedc29ee",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19878773",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 26",
@@ -46,7 +91,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19866601",
       "transcript_sha256": "e53edcfb7f7efe36741e6608487264d28c5c7a6c8c66aacfa6f697148f1533d9",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19866601",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 25",
@@ -58,7 +105,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19862466",
       "transcript_sha256": "dc79f70932bc3487873972250574f88ead29cc7d9440b1eea010783725b9bc1b",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19862466",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 24",
@@ -70,7 +119,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19861886",
       "transcript_sha256": "a97d02bea7279da80a155aa635540d66aba93f2ceebddc94c6e6242a3dcc52fd",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19861886",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 24",
@@ -82,7 +133,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19859002",
       "transcript_sha256": "be0fc7c134d2db92692196ecf3dd3ab8be33df810450aed3cb71f1d7774cca8a",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19859002",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 24",
@@ -94,7 +147,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19858997",
       "transcript_sha256": "a3e034f014de4426c9dbfa7303bcf483f820a42d85573519e872a23e68a7d94d",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19858997",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 23",
@@ -106,7 +161,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19854553",
       "transcript_sha256": "c0e60eb8759d1e7f87ce1a018402ae57dd8a3de03b3a9743c083e4b1684641fd",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19854553",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 21",
@@ -118,7 +175,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19843551",
       "transcript_sha256": "4b7a85961fdd3e908f94ae4fe92383033f9ee22a560d96234f7b9a022a96feb9",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19843551",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 18",
@@ -130,7 +189,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19829657",
       "transcript_sha256": "19e697e871448bf6dce1f55c91b30d834a8574879449257e6e296f433bd2d449",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19829657",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 18",
@@ -142,7 +203,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19825854",
       "transcript_sha256": "86c0f3e54fa3a6afefe12eb4df0aa67650795ad243c336500bb9b5c47e8ab928",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19825854",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 17",
@@ -154,7 +217,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19823044",
       "transcript_sha256": "159adfc463428e47b735d1d0f3d0f14a5e6db280cee6506fd286016c6c18443e",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19823044",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 16",
@@ -166,7 +231,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19815212",
       "transcript_sha256": "a05a9f34a2b0973f466ded44c03190518b558300458c2cce1c8d7818095e2998",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19815212",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 15",
@@ -178,7 +245,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19808102",
       "transcript_sha256": "5c0b0875791e9cd0b61bf42e59db76279ee695df819188699dd5147dad1d0b3c",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19808102",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 12",
@@ -190,7 +259,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19793407",
       "transcript_sha256": "89e40e98b7138162bd5b5c942fb64c0c313b457435b61cd8b5a93872362b96b6",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19793407",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 11",
@@ -202,7 +273,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19793406",
       "transcript_sha256": "b086f5b43f70282f020cbf9a81adcfd09a2f9c9525fb1b049a7c7483e120eb07",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19793406",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 10",
@@ -214,7 +287,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19789047",
       "transcript_sha256": "482ea193848c4dff58bc8d400b3c47f215cceb7347e741d6b4f26c64701777bd",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19789047",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 09",
@@ -226,7 +301,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19782304",
       "transcript_sha256": "495db9dc36b7d7d4d2eabc9adb2d3507ad0e68ba0c96bc0d97d34d30923eeff7",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19782304",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 09",
@@ -238,7 +315,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19782298",
       "transcript_sha256": "ddb88a78a6adde80072ca74a628286e61cd7b1c70ebc39c258198d351baf50ef",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19782298",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 03",
@@ -250,7 +329,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19746521",
       "transcript_sha256": "88f038483d6255d2944f1dab3ef9f2fe33b79c1d151399667b3fea723018d8ba",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19746521",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 03",
@@ -262,7 +343,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19746518",
       "transcript_sha256": "a4ba9e89ea789ce5d3b4b3f1e79bea0edb8ebdd3da54001e160dbc03db8fb2a3",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19746518",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 02",
@@ -274,7 +357,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19744303",
       "transcript_sha256": "5e9f7c1e1fee6bd9c2cbf3f28ca8c1d275454d778d434a3eede0b0b1f2aed337",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19744303",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 02",
@@ -286,7 +371,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19744302",
       "transcript_sha256": "d1c4caa0f456be04809a395de153c1a93e84d9a93a3b91e3aff0b7d49f467870",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19744302",
+      "processing_status": "processed"
     },
     {
       "d": "Sep 02",
@@ -298,7 +385,9 @@
       "source_url": "https://www.buzzsprout.com/2535072/episodes/19744299",
       "transcript_sha256": "b836b9ccf2934d19bbfb225374ac598fcd58b80b55e90f86ceb902a2219e62ce",
       "calls": [],
-      "statements": []
+      "statements": [],
+      "episode_id": "19744299",
+      "processing_status": "processed"
     },
     {
       "d": "Aug 22",
@@ -306,7 +395,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Aug 21",
@@ -314,7 +404,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Aug 21",
@@ -322,7 +413,8 @@
       "g": "Alex Good",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Aug 21",
@@ -330,7 +422,8 @@
       "g": "Felix Jauvin",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Aug 19",
@@ -338,7 +431,8 @@
       "g": "Max Bittker",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Aug 14",
@@ -346,7 +440,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Aug 14",
@@ -354,7 +449,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Aug 14",
@@ -362,7 +458,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Aug 14",
@@ -370,7 +467,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Aug 14",
@@ -378,7 +476,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Aug 10",
@@ -386,7 +485,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Aug 09",
@@ -394,7 +494,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Aug 09",
@@ -402,7 +503,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Aug 09",
@@ -410,7 +512,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Aug 09",
@@ -418,7 +521,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Aug 09",
@@ -426,7 +530,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jul 28",
@@ -434,7 +539,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jul 24",
@@ -442,7 +548,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jul 24",
@@ -450,7 +557,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jul 23",
@@ -458,7 +566,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jul 23",
@@ -466,7 +575,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jul 22",
@@ -474,7 +584,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jul 21",
@@ -482,7 +593,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jul 20",
@@ -490,7 +602,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jul 20",
@@ -498,7 +611,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jul 20",
@@ -506,7 +620,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jul 13",
@@ -514,7 +629,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jul 09",
@@ -522,7 +638,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jul 08",
@@ -530,7 +647,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jul 07",
@@ -538,7 +656,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 28",
@@ -546,7 +665,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 28",
@@ -554,7 +674,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 24",
@@ -562,7 +683,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 24",
@@ -570,7 +692,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 21",
@@ -578,7 +701,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 19",
@@ -586,7 +710,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 19",
@@ -594,7 +719,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 17",
@@ -602,7 +728,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 17",
@@ -610,7 +737,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 13",
@@ -618,7 +746,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 12",
@@ -626,7 +755,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 12",
@@ -634,7 +764,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 10",
@@ -642,7 +773,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 10",
@@ -650,7 +782,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 09",
@@ -658,7 +791,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 09",
@@ -666,7 +800,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 04",
@@ -674,7 +809,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 04",
@@ -682,7 +818,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 03",
@@ -690,7 +827,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jun 02",
@@ -698,7 +836,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 30",
@@ -706,7 +845,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 28",
@@ -714,7 +854,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 28",
@@ -722,7 +863,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 27",
@@ -730,7 +872,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 27",
@@ -738,7 +881,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 26",
@@ -746,7 +890,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 15",
@@ -754,7 +899,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 15",
@@ -762,7 +908,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 15",
@@ -770,7 +917,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 15",
@@ -778,7 +926,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 15",
@@ -786,7 +935,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 15",
@@ -794,7 +944,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 11",
@@ -802,7 +953,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 11",
@@ -810,7 +962,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 08",
@@ -818,7 +971,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 07",
@@ -826,7 +980,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 07",
@@ -834,7 +989,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 07",
@@ -842,7 +998,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 05",
@@ -850,7 +1007,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 05",
@@ -858,7 +1016,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 02",
@@ -866,7 +1025,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "May 02",
@@ -874,7 +1034,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 30",
@@ -882,7 +1043,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 29",
@@ -890,7 +1052,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 29",
@@ -898,7 +1061,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 29",
@@ -906,7 +1070,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 29",
@@ -914,7 +1079,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 27",
@@ -922,7 +1088,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 25",
@@ -930,7 +1097,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 24",
@@ -938,7 +1106,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 24",
@@ -946,7 +1115,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 23",
@@ -954,7 +1124,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 22",
@@ -962,7 +1133,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 21",
@@ -970,7 +1142,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 21",
@@ -978,7 +1151,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 20",
@@ -986,7 +1160,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 20",
@@ -994,7 +1169,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 17",
@@ -1002,7 +1178,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 17",
@@ -1010,7 +1187,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 16",
@@ -1018,7 +1196,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 15",
@@ -1026,7 +1205,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 15",
@@ -1034,7 +1214,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 14",
@@ -1042,7 +1223,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 13",
@@ -1050,7 +1232,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 10",
@@ -1058,7 +1241,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 10",
@@ -1066,7 +1250,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 08",
@@ -1074,7 +1259,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 08",
@@ -1082,7 +1268,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 07",
@@ -1090,7 +1277,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 06",
@@ -1098,7 +1286,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 03",
@@ -1106,7 +1295,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 02",
@@ -1114,7 +1304,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Apr 01",
@@ -1122,7 +1313,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Mar 31",
@@ -1130,7 +1322,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Mar 26",
@@ -1138,7 +1331,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Mar 25",
@@ -1146,7 +1340,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Mar 24",
@@ -1154,7 +1349,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Mar 23",
@@ -1162,7 +1358,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Mar 20",
@@ -1170,7 +1367,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Mar 19",
@@ -1178,7 +1376,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Mar 18",
@@ -1186,7 +1385,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Mar 17",
@@ -1194,7 +1394,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Mar 16",
@@ -1202,7 +1403,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Jan 15",
@@ -1210,7 +1412,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Dec 17",
@@ -1218,7 +1421,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Dec 17",
@@ -1226,7 +1430,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Dec 16",
@@ -1234,7 +1439,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Dec 16",
@@ -1242,7 +1448,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Nov 15",
@@ -1250,7 +1457,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Nov 14",
@@ -1258,7 +1466,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Nov 13",
@@ -1266,7 +1475,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Nov 12",
@@ -1274,7 +1484,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Nov 11",
@@ -1282,7 +1493,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Nov 01",
@@ -1290,7 +1502,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Oct 22",
@@ -1298,7 +1511,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Oct 22",
@@ -1306,7 +1520,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Oct 19",
@@ -1314,7 +1529,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Oct 16",
@@ -1322,7 +1538,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Oct 10",
@@ -1330,7 +1547,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Oct 09",
@@ -1338,7 +1556,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Oct 09",
@@ -1346,7 +1565,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Oct 08",
@@ -1354,7 +1574,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Oct 07",
@@ -1362,7 +1583,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Oct 07",
@@ -1370,7 +1592,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Sep 26",
@@ -1378,7 +1601,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Sep 26",
@@ -1386,7 +1610,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Sep 23",
@@ -1394,7 +1619,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Sep 20",
@@ -1402,7 +1628,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Sep 19",
@@ -1410,7 +1637,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Sep 19",
@@ -1418,7 +1646,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Sep 19",
@@ -1426,7 +1655,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Sep 15",
@@ -1434,7 +1664,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Sep 15",
@@ -1442,7 +1673,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Sep 15",
@@ -1450,7 +1682,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Sep 12",
@@ -1458,7 +1691,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Sep 11",
@@ -1466,7 +1700,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Sep 10",
@@ -1474,7 +1709,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Sep 08",
@@ -1482,7 +1718,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Sep 07",
@@ -1490,7 +1727,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Sep 06",
@@ -1498,7 +1736,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     },
     {
       "d": "Sep 05",
@@ -1506,7 +1745,8 @@
       "g": "",
       "llmv": 0,
       "calls": [],
-      "statements": []
+      "statements": [],
+      "processing_status": "indexed"
     }
   ],
   "tape": [
@@ -390195,7 +390435,7 @@
     ]
   },
   "counts": {
-    "episodes": 176,
+    "episodes": 179,
     "transcript_lines": 48202,
     "reviewed_statements": 126,
     "assets": 14,
@@ -406649,7 +406889,7 @@
     "legacy_calls": 130,
     "legacy_calls_held_for_review": 10,
     "radar_candidates": 1504,
-    "episodes": 176,
+    "episodes": 179,
     "segments": 48202,
     "policy": {
       "source_modified": false,
@@ -406658,6 +406898,7 @@
       "record_projection": "strict_v2_record_plus_auto_aligned_legacy"
     },
     "auto_promoted_legacy": 106,
-    "strict_failures_remaining": 10
+    "strict_failures_remaining": 10,
+    "new_unprocessed_episodes": 3
   }
 }
