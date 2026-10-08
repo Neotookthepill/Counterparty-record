@@ -25,6 +25,9 @@ Counterparty is a source-linked record layer:
 - 179 preserved episodes
 - 48,202 timestamped transcript lines
 - 126 public source-linked statements
+- 20 strict-reviewed public records
+- 106 legacy-aligned records carried forward from the preserved archive
+- 3 newest episodes pending processing
 - 14 tracked dossiers
 - 93 legacy reference terms
 
@@ -33,4 +36,5 @@ Counterparty is a source-linked record layer:
 This is not investment advice and it is not an official Counterparty product.
 The product should be judged as a source-linked media/intelligence proof of concept, not as a trading scoreboard.
 
-The strict V2 processing logic lives in `data/pipeline/v2/`. Avoid using legacy ingestion scripts to publish public data unless the output is reviewed again.
+Transcripts are automatic and should be checked before any record is promoted as strictly reviewed.
+Avoid using legacy ingestion scripts to publish public data unless the output is reviewed again.
