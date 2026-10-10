@@ -10,6 +10,10 @@ This package is a static site snapshot. Upload the contents of this folder toget
 
 Do not upload local backup files or older duplicate folders.
 
+## Why it exists
+
+Threadguy jumps from crypto to AI, macro, markets and internet culture in real time. Counterparty keeps the important calls, quotes and context clear after the stream moves on.
+
 ## What this build is
 
 Counterparty is a source-linked record layer:
