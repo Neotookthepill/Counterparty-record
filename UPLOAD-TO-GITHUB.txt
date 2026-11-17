@@ -1,0 +1,5 @@
+Upload the contents of this folder to the repository root and choose to replace matching files.
+
+Keep the existing netlify.toml and og.png files. Do not upload backup JSON files or raw transcript dumps.
+
+This conservative snapshot holds four additional records from Calls until their subject, ticker, or numeric wording is confirmed from audio. The statement records remain preserved in the archive data.

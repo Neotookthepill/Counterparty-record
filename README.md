@@ -1,44 +1,20 @@
-# Counterparty — The Record
+# Counterparty · The Record
 
 Independent, unofficial proof-of-concept archive for Counterparty / The Threadguy Stream.
 
-This package is a static site snapshot. Upload the contents of this folder together:
+Upload the contents of this folder to the repository root together: `index.html`, `the_record_data.json`, `record_tape.js`, and `assets/`. Keep the existing `netlify.toml` and `og.png` files in the repository.
 
-- `index.html`
-- `the_record_data.json`
-- `assets/`
+The 57,679-line transcript index loads only when Record is opened. Latest and Calls use data baked into the page.
 
-Do not upload local backup files or older duplicate folders.
+## Data status
 
-## Why it exists
+- 206 archive entries: 201 Buzzsprout episodes plus 5 preserved YouTube-only entries. The 30 newest Buzzsprout transcripts through Nov 14 are indexed; their calls remain under review
+- 57,679 timestamped transcript lines, including 9,477 lines from 30 recent episodes. The transcript is automatic, and clipped legacy lines are marked
+- 126 preserved statement records: 23 V2 strict pipeline records and 103 legacy-aligned records. Calls currently shows 16 available strict records and 93 available legacy records; legacy entries require a human spot-check and appear only when requested
+- 17 statements are held from Calls pending source, subject, or transcript review
+- 4 Academy studies remain under review; none is presented as a completed lesson
+- 93 market-language terms; 84 have an automatic transcript match, while 9 have no matched source and are marked accordingly
 
-Threadguy jumps from crypto to AI, macro, markets and internet culture in real time. Counterparty keeps the important calls, quotes and context clear after the stream moves on.
+A pipeline pass is not the same as listening to every recording. Transcript matching does not establish speaker identity, subject, direction, or whether a statement represents the speaker’s own position. This package does not claim that all records have been individually audio-verified.
 
-## What this build is
-
-Counterparty is a source-linked record layer:
-
-- Latest: newest reviewed signal
-- Calls: reviewed position, outlook, and commentary statements
-- Record: chronological proof/context
-- Academy: reference and learning material
-- Archive: preserved episode history
-
-## Data status in this snapshot
-
-- 179 preserved episodes
-- 48,202 timestamped transcript lines
-- 126 public source-linked statements
-- 20 strict-reviewed public records
-- 106 legacy-aligned records carried forward from the preserved archive
-- 3 newest episodes pending processing
-- 14 tracked dossiers
-- 93 legacy reference terms
-
-## Important
-
-This is not investment advice and it is not an official Counterparty product.
-The product should be judged as a source-linked media/intelligence proof of concept, not as a trading scoreboard.
-
-Transcripts are automatic and should be checked before any record is promoted as strictly reviewed.
-Avoid using legacy ingestion scripts to publish public data unless the output is reviewed again.
+This is not investment advice and is not an official Counterparty product.
